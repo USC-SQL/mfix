@@ -29,7 +29,7 @@ public class SetupCloudRunnable implements Runnable
 		# $3 -> subject path
 		# $4 -> MFPR object json path
 		# #5 -> MFPR jar path*/
-		String cmd = runInstanceFile + " " + Constants.KEY_PAIR_PATH + " " + instancePublicDNS + " " + new File(MFix.getFilepath()).getParent() + "/" + " " + MFPRJsonFilepath + " " + Constants.MFPR_JAR_PATH;
+		String cmd = runInstanceFile + " " + Constants.KEY_PAIR_PATH + " " + instancePublicDNS + " " + new File(MFix.getFilepath()).getParent() + "/" + " " + MFPRJsonFilepath + " " + Constants.MFIX_JAR_PATH;
 		System.out.println("**** OUTPUT FROM INSTANCE " + instancePublicDNS + " for setup ****");
 		final Process p = Runtime.getRuntime().exec(cmd);
 

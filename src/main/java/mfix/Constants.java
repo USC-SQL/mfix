@@ -124,7 +124,7 @@ public class Constants {
 	// AMAZON CLOUD PARAMETERS
 	public static String KEY_PAIR_PATH = "";	// enter amazon public keypair
     public static String AWS_SCRIPTS_FOLDER_PATH = "src/main/resources";
-    public static String MFPR_JAR_PATH = "";	// enter jar file absolute path
+    public static String MFIX_JAR_PATH = "src/main/resources/mfix.jar";
     
     // segmentation
     public static final double SEGMENT_TERMINATE_THRESHOLD = 4;

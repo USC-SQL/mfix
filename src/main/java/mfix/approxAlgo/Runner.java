@@ -153,7 +153,7 @@ public class Runner {
 		// create fixed test page
 		String originalFile = MFix.getFilepath();
 		new File(MFix.getFilepath())
-				.renameTo(new File(new File(MFix.getFilepath()).getParent() + File.separatorChar + "index-" + Math.round(chromosome.getFitnessFunctionObj().getUsabilityScore()) + "-" + new File(MFix.getOutputFolderPath()).getName() + ".html"));
+				.renameTo(new File(new File(MFix.getFilepath()).getParent() + File.separatorChar + "index-fixed-" + Math.round(chromosome.getFitnessFunctionObj().getUsabilityScore()) + "-" + new File(MFix.getOutputFolderPath()).getName() + ".html"));
 		new File(MFix.getCopiedFilepath()).renameTo(new File(originalFile));
 
 		WebDriverSingleton.closeBrowser();
