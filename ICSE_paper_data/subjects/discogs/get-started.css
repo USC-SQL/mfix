@@ -1,0 +1,48 @@
+/* Code tidied up by ScrapBook */
+.gs_container_inner, .gs_container_columns { max-width: 1232px; min-width: 952px; height: 100%; margin: 0px auto; padding: 0px 28px; clear: both; }
+@media (min-width: 0px) and (max-width: 600px) {
+}
+div.gs_album_hero { position: relative; height: 380px; overflow: hidden; }
+div.gs_album_hero a { color: rgb(77, 210, 255); }
+.gs_container_column, .gs_album_hero_content, #gs_track { margin: 0px auto; position: relative; z-index: 2; }
+.gs_container { position: relative; width: 100%; background: rgb(15, 15, 30) none repeat scroll 0% 0%; color: white; overflow: hidden; }
+.gs_container h1, .gs_container h2 { color: white; margin: 0px 0px 12px; max-width: none; font-size: 36px; line-height: 42px; }
+.gs_container p { font-size: 16px; line-height: 20px; margin: 0px auto 24px; }
+.gs_container a { color: white; }
+.gs_container_columns { overflow: hidden; margin: 0px auto; padding: 0px; }
+.gs_container_column { position: relative; float: left; width: 33.3333%; padding: 48px 28px 28px; box-sizing: border-box; }
+.gs_container_column.wide { width: 66.6666%; }
+.gs_album_covers_bg { background: transparent url("album-covers.jpg") repeat scroll center 170px; opacity: 0.2; }
+.gs_album_covers_bg .album_cover { position: absolute; width: 75px; height: 0px; transition: height 0.3s ease 0s; }
+.gs_album_covers_bg .album_cover.loaded { height: 75px; }
+div#gs_homepage_hero.gs_album_hero { background: rgb(0, 0, 0) none repeat scroll 0% 0%; min-height: 380px; height: auto; }
+@media (min-width: 0px) and (max-width: 600px) {
+}
+@media (min-width: 0px) and (max-width: 600px) {
+}
+#gs_homepage_hero .gs_container_column.wide { padding-top: 92px; }
+.homepage-registration { padding-bottom: 48px; }
+.homepage-registration input[type="text"], .homepage-registration input[type="password"], .homepage-registration .button, .homepage-registration .gs_cta { width: 100%; font-size: 18px; line-height: 32px; height: 39px; padding: 2px 7px; box-sizing: border-box; }
+.homepage-registration input[type="text"], .homepage-registration input[type="password"] { border: medium none; background: white none repeat scroll 0% 0%; box-shadow: none; margin-bottom: 4px; }
+.homepage-registration input[type="text"]:focus, .homepage-registration input[type="password"]:focus { background: rgb(205, 242, 255) none repeat scroll 0% 0%; }
+.homepage-registration select { width: 100%; border-width: 10px 14px 10px 7px; border-style: solid; border-color: white; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: white none repeat scroll 0% 0%; border-radius: 2px; margin-bottom: 4px; color: rgb(182, 180, 175); }
+.homepage-registration .password-toggle { position: relative; display: block; padding-right: 40px; }
+.homepage-registration .password-toggle input { border-radius: 2px 0px 0px 2px; }
+.homepage-registration .password-toggle i { position: absolute; right: 0px; top: 0px; z-index: 1; padding: 0px 12px; height: 39px; line-height: 39px; font-size: 16px; color: rgb(89, 89, 89); background: white none repeat scroll 0% 0%; margin-top: 0px; border-radius: 0px 2px 2px 0px; cursor: pointer; }
+.homepage-registration #heard-from-container input { display: none; }
+.homepage-registration .user-agreements { overflow: hidden; display: block; line-height: 18px; margin-bottom: 4px; }
+.homepage-registration .user-agreements input { float: left; font-size: 36px; height: auto; margin: 11px 7px 11px 1px; }
+.homepage-registration .social-login { float: left; width: 49%; font-size: 14px; line-height: 28px; height: 36px; }
+.homepage-registration .social-login.first { margin-right: 2%; }
+.homepage-registration h4 { clear: both; margin: 0px; padding: 7px 0px; text-align: center; }
+.homepage-registration #social_divider { clear: both; padding: 7px 0px; margin: 0px; }
+.homepage-registration .input-validation-wrapper { position: relative; }
+.homepage-registration .input-validation-wrapper input[type="text"] { border: 3px solid white; transition: all 0.2s ease 0s; }
+.homepage-registration .input-validation-wrapper input[type="text"]:focus { border-color: rgb(205, 242, 255); }
+.homepage-registration .input-validation-message { margin: -4px 0px 4px; width: 100%; font-size: 12px; line-height: 17px; border: medium none; height: auto; max-height: 0px; padding: 0px; box-sizing: border-box; transition: all 0.2s ease-in-out 0s, max-height 0.5s ease-in-out 0s; }
+@media (min-width: 0px) and (max-width: 1220px) {
+  .homepage-registration .social-login { float: none; width: 100%; margin: 0px; }
+  .homepage-registration .social-login.first { margin-bottom: 4px; }
+}
+@media (min-width: 0px) and (max-width: 600px) {
+}

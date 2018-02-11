@@ -1,0 +1,141 @@
+/* Code tidied up by ScrapBook */
+.clear { clear: both; }
+img { border: medium none; text-decoration: none; }
+.left { float: left; }
+.last { border: medium none ! important; }
+:active { outline: 0px none; }
+input.text { font-size: 12px; width: 220px; }
+a:link { color: rgb(16, 50, 201); text-decoration: none; }
+a:visited { color: rgb(43, 137, 254); text-decoration: none; }
+a[href]:hover { color: rgb(16, 50, 201); text-decoration: underline; }
+.more { padding-right: 18px; background: transparent url("generic-arrow.png") no-repeat scroll right center; white-space: normal; }
+h1, h2, h3, h4, h5 { font-weight: 900; }
+h2 { font-size: 18px; }
+body { font-family: "Open Sans",sans-serif; font-size: 13px; margin: 0px; background-color: rgb(255, 255, 255); }
+form { margin: 0px; padding: 0px; }
+#page { padding: 0px; background-color: rgb(255, 255, 255); width: auto; margin: 0px; position: relative; }
+#mobile-header { display: none; }
+#topnav { border-bottom: 1px solid rgb(0, 0, 0); position: relative; margin-bottom: 30px; }
+.topnav-inner-wrap { width: 970px; margin: 0px auto; position: relative; }
+#topnav #wordmark { float: left; }
+#links-utility { width: inherit; margin-top: 0px; margin-bottom: 10px; overflow: hidden; float: right; }
+.topnav-links { float: right; margin-top: 0px; font-size: 14px; }
+.topnav-links li { list-style-type: none; float: left; position: relative; color: rgb(102, 102, 102); padding-top: 2px; }
+.topnav-links__list-country { margin-left: 7px; }
+.topnav-links__list-country a { padding-left: 5px; }
+.topnav-links__list-account { margin-left: 30px; }
+.topnav-links__list-cart { margin-left: 44px; margin-right: 24px; }
+.topnav-links li a, .topnav-links li a:hover { line-height: 28px; color: rgb(136, 136, 136); }
+.topnav-links__account, .topnav-links__cart { padding-right: 10px; position: relative; }
+#links-site { clear: both; padding-top: 15px; width: 970px; overflow: hidden; margin-top: 10px; }
+#links-site ul { list-style-type: none; margin: 0px; padding: 22px 0px 0px; float: left; clear: both; }
+#links-site ul li { float: left; font-family: "Open Sans",sans-serif; font-size: 18.19px; margin: 0px; padding: 0px; font-weight: 300; }
+#links-site ul li:first-child a { border-left: 0px none; margin-left: 0px; padding-left: 0px; }
+#links-site ul li a { border-left: 2px solid rgb(210, 41, 56); line-height: 17px; }
+#links-site ul li a, #links-site ul li a:visited { display: block; text-decoration: none; color: rgb(0, 0, 0); padding-left: 19px; margin-left: 19px; border-left: 2px solid rgb(210, 41, 56); }
+#links-site ul li a:hover { text-decoration: underline; color: rgb(210, 41, 56); }
+#links-site ul li:first-child a { padding-left: 0px; }
+.search-form { float: right; width: 425px; font-family: "Open Sans",sans-serif; margin: 9px 0px 13px; }
+.search-form fieldset { border: 0px none; padding: 0px; }
+.search-form-text { border-radius: 6px; border: 0px none; background-color: rgb(206, 206, 206); padding: 8px 12px; width: 358px; margin: 3px 7px 0px 0px; float: left; font-family: "Open Sans",sans-serif; color: gray; font-size: 14px; }
+.search-form-submit { border: 0px none; text-indent: -9999px; background-color: transparent; cursor: pointer; text-transform: capitalize; float: right; }
+.gradient-bar { background-color: rgb(223, 88, 22); background-image: linear-gradient(90deg, rgb(229, 108, 8) 51%, rgb(211, 43, 55) 79%); height: 24px; position: relative; top: 69px; }
+.clearfix::after { visibility: hidden; display: block; content: ""; clear: both; height: 0px; }
+.hidden { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+.icon { background: transparent url("sprite-map-wiley.gif") no-repeat scroll 0% 0%; }
+.icon__account { background-position: -322px -82px; width: 14px; height: 26px; float: right; position: absolute; top: -4px; margin-left: 9px; }
+.icon__cart { background-position: -350px -82px; width: 25px; height: 27px; float: right; position: absolute; top: -6px; margin-left: 9px; }
+.icon__search { background-position: -329px -119px; width: 28px; height: 31px; margin-top: 5px; }
+.featured-slide { font-family: "Open Sans",sans-serif; padding: 17px 30px 0px; width: 660px; position: relative; height: 130px; }
+@media not all {
+}
+#content { padding: 0px; position: relative; width: 970px; margin: 30px auto; }
+#homepage #sidebar { margin-right: 15px; border-right: 2px dotted rgb(156, 156, 156); }
+#sidebar { float: left; margin: 0px; width: 227px; }
+#homepage-resources { margin-bottom: 0px; width: 726px; float: left; }
+#homepage-links { padding-top: 10px; }
+#homepage-links ul { list-style-type: none; padding: 0px; text-align: center; margin: 0px auto; }
+#homepage-links ul li { margin: 25px 32px 45px; font-size: 17.22px; font-weight: bold; text-align: center; width: 70px; height: 72px; display: inline-block; position: relative; background-image: url("sprite-map-wiley.gif"); background-repeat: no-repeat; }
+#homepage-links ul li a { position: absolute; }
+#homepage-links ul li a, #homepage-links ul li a:visited { display: block; height: 27px; padding-top: 86px; color: rgb(88, 89, 91); text-decoration: none; }
+#homepage-links ul li a:hover { text-decoration: underline; }
+.resource-students { background-position: -3px -3px; }
+.resource-students a { right: -5%; }
+.resource-authors { background-position: -78px -3px; }
+.resource-authors a { right: 0px; }
+.resource-instructors { background-position: -154px -3px; }
+.resource-instructors a { right: -8%; }
+.resource-librarians { background-position: -230px -3px; }
+.resource-librarians a { right: -12%; }
+.resource-societies { background-position: -305px -3px; }
+.resource-societies a { right: -4%; }
+.resource-conferences { background-position: -3px -77px; }
+.resource-conferences a { right: -26%; }
+.resource-booksellers { background-position: -78px -78px; }
+.resource-booksellers a { right: -20%; }
+.resource-corporate { background-position: -155px -78px; }
+.resource-corporate a { right: -27%; }
+#homepage-features { width: 467px; float: left; }
+#homepage-news { font-size: 13px; color: rgb(136, 136, 136); }
+#homepage-news h4 { margin: 0px 0px 2px; font-size: 19.75px; font-family: "Open Sans",sans-serif; font-weight: normal; }
+#homepage-news h4 a, #homepage-news h4 a:visited { color: rgb(88, 89, 91); text-decoration: none; font-weight: 600; }
+#homepage-news h4 a:hover { text-decoration: underline; }
+#homepage-news ul { list-style-type: none; margin: 0px; padding: 0px; }
+#homepage-news ul li { border-top: 1px solid rgb(219, 219, 219); padding: 24px 3px; }
+#homepage-news ul li:first-child { border-top: 0px none; }
+#homepage-news ul .last { border-top: 1px solid rgb(219, 219, 219) ! important; border-bottom: 1px solid rgb(219, 219, 219) ! important; margin-bottom: 25px; }
+#homepage-news ul li .homepage-news-image { float: left; width: 90px; }
+#homepage-news ul li .homepage-news-content { width: 345px; float: left; margin-left: 13px; padding: 5px 0px; font-size: 11.5px; }
+#homepage-rightbar { float: right; padding-left: 17px; width: 214px; border-left: 2px dotted gray; }
+#homepage-brands { font-size: 13px; color: rgb(136, 136, 136); }
+#homepage-brands ul { list-style-type: none; margin: 0px; padding: 0px; }
+#homepage-brands ul li { border-top: 1px solid rgb(219, 219, 219); padding: 10px 0px; }
+#homepage-brands ul li:first-child { border-top: 0px none; }
+#homepage-brands a.more, #homepage-brands a.more:visited { font-family: "Open Sans",sans-serif; font-size: 12px; font-weight: 900; color: rgb(16, 50, 201); }
+.homepage-heading { margin: 0px 0px 0px 3px; padding: 7px 0px 4px; color: rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); font-weight: 600; }
+.homepage-heading--resources { border-bottom: 2px solid rgb(210, 41, 56); padding-top: 0px; }
+div.subjectsbox { margin: 33px 0px 15px; padding: 0px 20px 0px 0px; width: 211px; }
+#homepage div.subjectsbox { margin-top: 0px; }
+div.subjectsbox h2 { margin: 0px 0px 16px; padding: 0px 0px 4px; font-size: 18px; color: rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); font-weight: 600; }
+ul.subjects-hoverlist { font-size: 14px; font-weight: bold; margin: 0px; padding: 10px 0px 0px; }
+ul.subjects-hoverlist li { border-bottom: 1px solid rgb(229, 229, 229); list-style: outside none none; margin: 0px; }
+ul.subjects-hoverlist li.first { border-top: 1px solid rgb(217, 217, 217); }
+ul.subjects-hoverlist li a { color: rgb(0, 0, 0); display: block; padding: 5px 0px 3px; text-decoration: none; }
+ul.subjects-hoverlist li a:visited { color: rgb(0, 0, 0); text-decoration: none; }
+ul.subjects-hoverlist li a:hover { background: rgb(255, 255, 255) none repeat scroll 0px 0px; color: rgb(16, 50, 201); text-decoration: underline; }
+#footer { text-transform: uppercase; margin-top: 20px; background: transparent url("wiley-footer-dots-transp.png") repeat-x scroll center bottom; position: relative; min-width: 980px; border-top: 2px solid rgb(210, 41, 56); padding-top: 30px; }
+#footer h2 { font-size: 11px; font-weight: 700; }
+#footer ul { padding-left: 0px; margin-right: 13px; }
+#footer ul li { list-style-type: none; margin-bottom: 10px; font-size: 11px; }
+.topnav a, #footer a { color: rgb(0, 0, 0); }
+.footer__inner-wrap { width: 970px; margin: 0px auto; padding: 0px 10px; overflow: hidden; position: relative; }
+.footer-links { float: left; }
+.footer-links ul { margin-left: 0px; }
+.footer__col1 ul { width: 300px; }
+.footer__col1 li { width: 50%; float: left; }
+.footer__col2 { margin-right: 40px; margin-left: -10px; }
+.footer__col3 { margin-right: 40px; margin-left: -10px; }
+.footer__copyright { clear: both; float: left; text-transform: none; font-size: 13px; }
+.footer__copyright a { color: rgb(0, 0, 0); }
+.footer__copyright, .footer__logo { margin-top: 45px; }
+.footer__logo { background-image: url("wiley-wordmark.png"); width: 120px; height: 25px; margin-right: 50px; position: absolute; right: 0px; bottom: 0px; }
+.footer__bg-image-side { background: transparent url("wiley-footer-semi-circle-transp.png") no-repeat scroll 0% 0%; position: absolute; right: 0px; width: 295px; height: 90px; bottom: -18px; }
+#homepage #footer { border-top: 0px none; margin-top: 0px; }
+.mailing-list { font-size: 13px; }
+#homepage .mailing-list input.text { width: 300px; padding-top: 2px; padding-bottom: 2px; }
+.mailing-list input.text { color: rgb(153, 153, 153); font-size: 12px; height: 28px; margin: 0px; padding: 1px 40px 1px 6px; width: 125px; border-radius: 6px; border: 0px none; }
+.mailing-list .submit { margin: 5px 0px 3px -32px; border: 0px none; background-color: transparent; font-size: 11px; font-weight: 900; color: transparent; text-transform: uppercase; padding: 5px 9px; box-shadow: none; background-image: url("sign-up-form-arrow-transp.png"); width: 25px; height: 20px; cursor: pointer; text-indent: -9999em; }
+.homepage-sign-up-container { float: none; background-color: rgb(0, 162, 167); background-image: linear-gradient(90deg, rgb(0, 162, 167) 30%, rgb(29, 93, 87) 79%); }
+.homepage-sign-up-inner-wrap { margin: 0px auto; width: 970px; }
+.homepage-sign-up-wrap { width: auto; background-color: transparent; overflow: hidden; padding: 15px 18px 15px 40px; }
+.homepage-sign-up-head-container { float: left; }
+.homepage-sign-up-head-container h2 { font-size: 28px; color: rgb(255, 255, 255); margin: 10px 0px; font-weight: 100; }
+.homepage-sign-up-form-container { float: right; margin-right: 20px; margin-top: -5px; }
+.homepage-signup-hidden { text-indent: -9999px; }
+.homepage-bottom-fb { background-color: rgb(244, 244, 244); min-height: 226px; padding: 18px 16px 16px 21px; width: 323px; float: left; }
+.homepage-bottom-fb.compact h4 { color: rgb(0, 0, 0); font-size: 14px; font-weight: 500; text-transform: uppercase; margin: 0px; }
+.homepage-bottom-fb.compact p { font-style: italic; font-weight: 600; font-size: 41px; margin-top: 0px; margin-bottom: 47px; }
+.homepage-bottom-fb a, .homepage-bottom-fb a:visited { font-size: 18px; font-weight: 400; }
+.homepage-bottom-fb a, .homepage-bottom-fb a:hover { background: transparent url("banner-right-arrow.gif") no-repeat scroll right center; white-space: normal; padding-right: 24px; color: rgb(0, 0, 0); }
+.homepage-bottom-fb a:hover { text-decoration: underline; }
+.homepage-bottom-banner { float: left; clear: left; margin-top: 15px; width: 720px; }

@@ -1,0 +1,8 @@
+/* Code tidied up by ScrapBook */
+#wwa { margin-left: auto; margin-right: auto; position: relative; }
+.wwabox { width: 15px; border: 1px solid black; margin-right: 2px; float: left; }
+#wwa li { list-style-type: none; margin: 0.5em 0.5em 0px -3.4em; font-size: 10px; text-align: left; }
+#wwaleft { width: 195px; float: left; height: auto; margin: 0px; padding: 0px; }
+#wwacenter_l { width: 195px; height: auto; float: left; margin: 0px; padding: 0px; }
+#wwacenter_r { width: 195px; height: auto; float: left; margin: 0px; padding: 0px; }
+#wwaright { width: 195px; height: auto; float: left; margin: 0px; padding: 0px; }

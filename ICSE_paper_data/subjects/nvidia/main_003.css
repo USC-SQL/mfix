@@ -1,0 +1,5 @@
+/* Code tidied up by ScrapBook */
+#rateThisPage-button, #rateThisPageFooter-button { float: right; font-size: 11px; color: rgb(118, 185, 0); cursor: pointer; transition: color 0.3s ease 0s; }
+#leftBar #rateThisPage-button { float: none; }
+#rateThisPage-button:hover, #rateThisPageFooter-button:hover { color: rgb(0, 0, 0); }
+.rateThisPage-icon { margin-right: 3px; }

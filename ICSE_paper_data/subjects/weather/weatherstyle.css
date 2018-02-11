@@ -1,0 +1,84 @@
+/* Code tidied up by ScrapBook */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font: inherit; vertical-align: baseline; }
+body { line-height: 1; }
+ol, ul { list-style: outside none none; }
+body { background: rgb(197, 229, 245) url("bg.png") repeat-y scroll center center; font: 10pt Arial,Helvetica,Geneva,sans-serif; }
+p { font-family: Arial,Helvetica,Geneva,sans-serif; }
+.header { width: 100%; margin: 0px; height: 60px; background: rgb(197, 229, 245) url("bg.png") repeat scroll center center; }
+.header-content { width: 990px; margin: 0px auto; height: 60px; overflow: visible; }
+.header-noaa { float: left; margin-left: -636px; width: 60px; height: 60px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; opacity: 0; }
+.header-nws { float: left; margin-left: 10px; }
+.header-doc { float: right; }
+.header-shadow { width: 100%; height: 10px; background: rgb(197, 229, 245) url("bg.png") repeat-x scroll center center; overflow: visible; }
+.header-shadow-content { margin: 0px auto; width: 990px; height: 10px; background: transparent url("head_shadow.png") repeat scroll center center; }
+.center { width: 100%; background: rgb(197, 229, 245) url("bg.png") repeat-y scroll center center; overflow: visible; }
+.content { width: 960px; margin-right: auto; margin-left: auto; }
+.center-content { width: 960px; margin-right: auto; margin-left: auto; overflow: hidden; }
+.full-width-bordertop { width: 100%; clear: none; float: left; border-top: 1px solid rgb(148, 198, 239); margin: 0px; }
+.div-full { width: 100%; float: left; }
+.div-half { width: 50% ! important; float: left; }
+.full-width-first { width: 940px; clear: none; margin: 0px; padding-right: 10px; padding-left: 10px; float: left; }
+.one-third-first { width: 300px; clear: none; margin: 0px; padding-right: 10px; padding-left: 10px; float: left; }
+.one-half-first { width: 440px; clear: none; margin: 0px; padding-right: 10px; padding-left: 10px; float: left; }
+.one-sixth-first { width: 140px; clear: none; margin: 0px; padding-right: 10px; padding-left: 10px; float: left; }
+.five-sixth-first { width: 780px; clear: none; margin: 0px; padding-right: 10px; padding-left: 10px; float: left; }
+.one-third-last { width: 300px; margin: 0px; padding-right: 10px; padding-left: 10px; float: right; }
+.one-half-last { width: 440px; margin: 0px; padding-right: 10px; padding-left: 10px; float: right; }
+.five-sixth-last { width: 780px; margin: 0px; padding-right: 10px; padding-left: 10px; float: right; }
+.txt-rt { text-align: right; float: right; }
+.nopad { padding: 0px; }
+.feature-block { padding-top: 10px; border-top: 1px dotted rgb(148, 198, 239); }
+.feature-block img { border: 1px solid rgb(204, 204, 204); padding: 2px; }
+.feature-block a:link, .feature a:visited { color: rgb(23, 99, 171); }
+.feature-block a:hover { color: rgb(0, 163, 227); }
+p.feature { color: rgb(23, 99, 171); font-weight: bold; text-transform: uppercase; font-size: 13pt; }
+.myforecast-current { color: rgb(0, 0, 0); font-size: 8pt; }
+.footer { width: 100%; background: rgb(197, 229, 245) url("bg_footer.png") repeat-y scroll center center; visibility: visible; overflow: visible; }
+.footer * { font: 8pt "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif; }
+.footer-content, .footer-legal-content {  }
+.footer-content { width: 960px; padding-left: 15px; padding-right: 15px; margin-left: auto; margin-right: auto; overflow: hidden; line-height: 16px; border-top: 4px double rgb(23, 99, 171); border-bottom: 4px double rgb(23, 99, 171); }
+.footer-column { width: 140px; padding: 30px 10px; margin: 0px; float: left; font: 8pt/1.5em "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif; color: rgb(23, 99, 171); }
+.footer-column-head, .footer-column-head a:link, .footer-column-head a:visited { text-transform: uppercase; color: rgb(237, 122, 8) ! important; font: bold 9pt "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif ! important; height: auto ! important; margin-bottom: 0px ! important; }
+.footer-column a:link, .footer-column a:visited { color: rgb(23, 99, 171); text-decoration: none; }
+.footer-column a:hover { text-decoration: underline; }
+.footer-legal { background: rgb(197, 229, 245) url("bg.png") repeat-y scroll center center; width: 100%; visibility: visible; overflow: hidden; padding-bottom: 10px; }
+.footer-legal * { font: 8pt "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif; }
+.footer-legal a:link { text-decoration: none; }
+.footer-legal a:hover { text-decoration: underline; }
+.footer-legal-content { width: 960px; margin-left: auto; margin-right: auto; overflow: hidden; line-height: 16px; padding-top: 15px; }
+.topnav { width: 100%; height: 30px; border-bottom: 1px solid rgb(148, 198, 239); padding-left: 10px; margin-bottom: 10px; }
+ul#topnav { margin: 0px; padding: 0px; float: left; width: 100%; list-style: outside none none; font-size: 8pt; }
+ul#topnav li { float: left; margin: 0px; padding: 0px; position: relative; }
+ul#topnav li a { float: left; text-indent: -9999px; height: 44px; }
+ul#topnav li:hover a, ul#topnav li a:hover { background-position: left bottom; }
+ul#topnav { margin: 0px; padding: 0px; float: left; width: 100%; list-style: outside none none; font-size: 1.1em; }
+ul#topnav li { float: left; margin: 0px; padding: 0px; position: relative; }
+ul#topnav li a { float: left; text-indent: -9999px; height: 40px; }
+ul#topnav li:hover a, ul#topnav li a:hover { background-position: left bottom; }
+ul#topnav li .sub ul.no-links li { width: 100%; border-bottom: medium none; }
+ul#topnav li .sub { position: absolute; top: 30px; left: -19px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 15px; float: left; box-shadow: 0px 2px 5px rgb(68, 68, 68); display: none; z-index: 1000; font-size: 9pt; font-weight: bold; border-top: 3px solid rgb(236, 122, 8); border-bottom: 3px solid rgb(236, 122, 8); }
+ul#topnav li .sub ul { list-style: outside none none; margin: 0px; padding: 0px; width: 150px; float: left; }
+ul#topnav .sub ul li { width: 95%; color: rgb(0, 51, 102); border-bottom: 1px dotted rgb(187, 187, 187); }
+ul#topnav .sub ul li a { float: none; text-indent: 0px; height: auto; padding: 5px 5px 7px; display: block; text-decoration: none; color: rgb(0, 51, 102); }
+ul#topnav .sub ul li a:hover { color: rgb(236, 122, 8); }
+ul#topnav li.last .sub { margin-left: -106px; }
+ul#topnav .topMenuNavList { color: rgb(16, 64, 112); font-weight: bold; letter-spacing: -0.04em; margin: 5px 0px 0px; padding-right: 47px; width: auto; font-size: 10pt; }
+ul#topnav .last {  }
+ul#topnav .last .topMenuNavList { padding-right: 10px ! important; }
+ul#topnav .home a { color: rgb(16, 64, 112); text-indent: 0px; text-decoration: none; height: auto; }
+ul#topnav .section-link a { text-indent: 0px; height: auto; }
+ul#topnav .section-link a:link, ul#topnav .section-link a:visited { color: rgb(16, 64, 112); text-decoration: none; }
+ul#topnav .section-link a:hover, ul#topnav .home a:hover { color: rgb(236, 122, 8); }
+.communication-links { margin: 10px 0px; padding-left: 0px; }
+.communication-links a:link { text-decoration: none; }
+.communication-links a:hover { text-decoration: underline; }
+.communication-links a { margin-left: 25px; }
+.communication-links a:first-child { margin-left: 0px; }
+.communication-links img { margin-bottom: -3px; }
+#site-search input#query { font: 8pt Tahoma,sans-serif; width: 95px; margin-bottom: 5px; }
+#site-search .search-scope { font-weight: normal; }
+#forecast-lookup {  }
+#forecast-lookup label { font: bold 8pt "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif; color: rgb(85, 85, 85); }
+#forecast-lookup input[type="submit"] { width: 35px; }
+#topnews {  }
+#topnews h1 { font-weight: bold; font-size: 13pt; }

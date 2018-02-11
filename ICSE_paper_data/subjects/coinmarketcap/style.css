@@ -1,0 +1,17 @@
+/* Code tidied up by ScrapBook */
+body { margin: 0px; padding: 0px; text-rendering: geometricprecision; font-family: "Rubik",Helvetica,arial,sans-serif; font-weight: 200; }
+.container { width: 728px; height: 90px; background-color: rgb(255, 255, 255); }
+.container > div { display: inline-block; vertical-align: middle; margin-top: 16px; }
+.logo { width: 95px; height: 17.6px; margin-left: 23.8px; }
+.qvolta-logo { width: 95px; height: 17.6px; }
+.line { width: 1px; height: 58px; background: transparent linear-gradient(to bottom, rgb(2, 198, 192), rgb(31, 82, 186)) repeat scroll 0% 0%; margin-left: 23.8px; margin-right: 24.3px; }
+.line-2 { margin-left: 13.5px; margin-right: 12.9px; }
+.text-block { width: 331.7px; height: 28px; z-index: 0; }
+.text { width: 331.7px; height: 28px; font-size: 24px; font-style: normal; font-stretch: normal; line-height: normal; letter-spacing: normal; color: rgb(0, 0, 0); text-transform: uppercase; top: 32px; }
+.text-2 { width: 331.7px; height: 56px; font-family: Rubik; font-size: 24px; font-style: normal; font-stretch: normal; line-height: normal; letter-spacing: normal; color: rgb(0, 0, 0); text-transform: uppercase; top: 16px; }
+.text-2 span { color: rgb(255, 149, 0); }
+.text .text-style { color: rgb(3, 161, 5); }
+.button { width: 170px; height: 38px; border-radius: 100px; background-color: rgb(3, 161, 5); font-size: 14px; text-align: center; color: rgb(255, 255, 255); cursor: pointer; }
+.button:hover { background-color: rgb(1, 169, 4); }
+.button > span { margin-top: 12px; display: block; }
+.text, .text-2 { position: absolute; left: 176px; }

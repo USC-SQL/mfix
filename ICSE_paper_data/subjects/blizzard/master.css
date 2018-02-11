@@ -1,0 +1,182 @@
+/* Code tidied up by ScrapBook */
+@import url("flashtext.css");
+@import url("fonts.css");
+a { outline: medium none; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0px; }
+fieldset, img { border: 0px none; }
+ol, ul { list-style: outside none none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+html { height: 100%; }
+body { height: 100%; background-color: rgb(1, 14, 22); margin: 0px; padding: 0px; font-family: Arial,Helvetica,sans-serif; color: white; }
+a { color: rgb(1, 178, 241); text-decoration: none; }
+a:hover { color: rgb(255, 255, 255); }
+.right { float: right; }
+.left { float: left; }
+.clear { clear: both; display: block; }
+.frontpagearea { width: 100%; height: 867px; background: transparent url("newsareabg.gif") repeat-x scroll center 500px; }
+.frontpagecenter { width: 100%; height: 867px; background: transparent url("newsarea.jpg") no-repeat scroll center 500px; min-width: 980px; }
+.frontpageheader { width: 100%; height: 570px; z-index: 100; min-width: 980px; margin: 0px auto; }
+.frontpageheader .static-banners { height: 500px; position: relative; }
+.frontpageheader .static-banner { background-repeat: no-repeat; background-position: 50% 0px; height: 500px; width: 100%; position: absolute; top: 0px; }
+.frontpageheader .static-banner .inner-banner { width: 872px; height: 500px; margin: 0px auto; position: relative; }
+.frontpageheader .static-banner .inner-banner a { display: block; width: 130px; height: 30px; position: absolute; top: 410px; }
+.frontpageheader .static-banner-buttons { width: 990px; height: 68px; margin: 0px auto; position: relative; }
+.frontpageheader .static-banner-buttons-wrapper { width: 464px; float: right; height: 68px; overflow: hidden; }
+.frontpageheader .static-banner-buttons-wrapper #button-row { height: 68px; transition: margin-left 500ms ease-out 0s; }
+.frontpageheader .static-button-frame { height: 68px; width: 10px; position: absolute; top: 0px; background: transparent url("logobar-top.png") no-repeat scroll 0px 0px; }
+.frontpageheader .static-button-frame.left-frame { right: 455px; background-position: 0px 0px; }
+.frontpageheader .static-button-frame.right-frame { right: 0px; background-position: -454px 0px; }
+.frontpageheader .static-banner-button { display: block; width: 116px; height: 68px; float: left; background: transparent url("logobar-button-bg.png") no-repeat scroll 0% 0%; }
+.frontpageheader .static-banner-button:hover { background-position: 0px -69px; }
+.frontpageheader .static-banner-button span { display: block; width: 116px; height: 68px; background-repeat: no-repeat; background-position: 50% 50%; }
+.frontpageheader .static-banner-button.active-banner-button { background-position: 0px -138px; }
+.frontpageheader .static-banner-arrow { display: block; background: transparent url("arrows.png") no-repeat scroll 0% 0%; width: 52px; height: 92px; position: absolute; top: 204px; }
+.frontpageheader .static-banner-arrow.arrow-left { left: 0px; }
+.frontpageheader .static-banner-arrow.arrow-left:hover { background-position: 0px 100%; }
+.frontpageheader .static-banner-arrow.arrow-right { right: 0px; background-position: 100% 0px; }
+.frontpageheader .static-banner-arrow.arrow-right:hover { background-position: 100% 100%; }
+#screenViewer { font-family: Calibri,Arial; position: relative; margin: 0px auto; width: 800px; height: 600px; background-position: 50% 50%; background-color: rgb(0, 0, 0); z-index: 115; }
+#screenViewer #viewerTitle { font-size: 11px; position: absolute; top: -21px; z-index: 1; padding-left: 15px; }
+#screenViewer #viewerContent { width: 800px; height: 600px; }
+#screenViewer .topBorder, #screenViewer .bottomBorder { position: absolute; background-repeat: repeat-x; }
+#screenViewer .rightBorder, #screenViewer .leftBorder { position: absolute; background-repeat: repeat-y; }
+#screenViewer .topLeft, #screenViewer .topRight, #screenViewer .bottomLeft, #screenViewer .bottomRight, #screenViewer .topDeco { position: absolute; background-repeat: no-repeat; }
+#screenViewer a#pageLeft { width: 23px; height: 23px; display: none; background-repeat: no-repeat; bottom: -29px; }
+#screenViewer a#pageRight { width: 23px; height: 23px; display: none; background-repeat: no-repeat; position: absolute; bottom: -29px; right: 0px; }
+#screenViewer #viewerCopyLink { position: relative; display: none; background-color: rgb(2, 40, 61); border-bottom: 1px solid rgb(1, 32, 49); width: 100%; height: 28px; background-image: url("lightbox-b.gif"); }
+#screenViewer #viewerDescImage { position: relative; display: none; background-color: rgb(2, 40, 61); border-bottom: 1px solid rgb(1, 32, 49); width: 100%; background-image: url("lightbox-b2.gif"); font-size: 12px; }
+#screenViewer .topBorder { top: -43px; left: 0px; width: 100%; height: 43px; background-image: url("lightbox-t.gif"); }
+#screenViewer .rightBorder { top: 0px; right: -6px; width: 6px; height: 100%; background-image: url("lightbox-r.gif"); }
+#screenViewer .bottomBorder { bottom: -37px; left: 0px; width: 100%; height: 37px; background-image: url("lightbox-b.gif"); }
+#screenViewer .leftBorder { top: 0px; left: -6px; width: 6px; height: 100%; background-image: url("lightbox-l.gif"); }
+#screenViewer .topLeft { top: -43px; left: -6px; width: 255px; height: 43px; background-image: url("lightbox-tl.png"); }
+#screenViewer .topRight { top: -43px; right: -6px; width: 254px; height: 112px; background-image: url("lightbox-tr.png"); }
+#screenViewer .bottomLeft { bottom: -37px; left: -6px; width: 145px; height: 37px; background-image: url("lightbox-bl.png"); }
+#screenViewer .bottomRight { bottom: -37px; right: -6px; width: 145px; height: 37px; background-image: url("lightbox-br.png"); }
+#screenViewer a.close { position: absolute; z-index: 116; top: -37px; right: 3px; width: 30px; height: 30px; background-image: url("lightbox-close.gif"); }
+#screenViewer a#pageLeft, #screenViewer a#pageRight { position: absolute; bottom: -31px; width: 25px; height: 25px; }
+#screenViewer a#pageLeft { background-image: url("lightbox-arrowleft.gif"); }
+#screenViewer a#pageRight { background-image: url("lightbox-arrowright.gif"); }
+#screenViewer a.close:hover, #screenViewer a#pageLeft:hover, #screenViewer a#pageRight:hover { background-position: 0px bottom; }
+#screenViewer div#loadingAnimation { background-repeat: no-repeat; background-image: url("ajax-loader.gif"); width: 16px; height: 16px; position: absolute; top: -20px; right: 40px; }
+.navigation { position: relative; width: 992px; height: 132px; z-index: 110; margin: 0px auto; }
+.navigation .bg { position: absolute; width: 992px; height: 132px; background: transparent url("nav-bg.png") no-repeat scroll 0% 0%; }
+.navigation .bar { width: 762px; height: 83px; position: absolute; top: 43px; left: 217px; }
+.navigation .bar a { height: 83px; display: block; float: left; background-repeat: no-repeat; position: relative; }
+.navigation .bar .navgames { width: 152px; background-position: 0px 0px; }
+.navigation .bar .navgames:hover { background-position: 0px -83px; }
+.navigation .bar .navcompany { width: 153px; background-position: -152px 0px; }
+.navigation .bar .navcompany:hover { background-position: -152px -83px; }
+.navigation .bar .navcommunity { width: 152px; background-position: -305px 0px; }
+.navigation .bar .navcommunity:hover { background-position: -305px -83px; }
+.navigation .bar .navsupport { width: 153px; background-position: -457px 0px; }
+.navigation .bar .navsupport:hover { background-position: -457px -83px; }
+.navigation .bar .navstore { width: 152px; background-position: -610px 0px; }
+.navigation .bar .navstore:hover { background-position: -610px -83px; }
+.navigation .blizzlink { width: 200px; height: 105px; background-color: transparent; opacity: 0.5; position: absolute; top: 15px; left: 12px; display: block; }
+.navigation .bar a span { color: rgb(255, 255, 255); position: absolute; right: 12px; bottom: 10px; font-size: 13px; font-family: MuseoSans-500,"Century Gothic"; }
+.navigation-holder-frontpage { height: 132px; position: relative; top: -555px; }
+#languageChoice { height: 60px; background: rgb(2, 12, 21) url("language-choice-bg.jpg") no-repeat scroll center bottom; }
+#languageChoice .position { position: relative; width: 979px; margin: 0px auto; font: 12px/1.3em Arial; }
+#languageChoice a.linkto-otherlanguage { position: absolute; top: 12px; left: 0px; cursor: pointer; display: block; background-color: transparent; padding: 3px 14px 4px 4px; }
+#languageChoice a.linkto-otherlanguage:hover { background-color: rgb(23, 59, 79); }
+#languageChoice a.linkto-otherlanguage .iconglobal { float: left; background: transparent url("language-choice-globe.gif") no-repeat scroll 0px 0px; width: 30px; height: 31px; margin-right: 14px; }
+#languageChoice a.linkto-otherlanguage:hover .iconglobal { background-position: 0px -31px; }
+#languageChoice a.linkto-otherlanguage p { margin-top: 3px; color: rgb(153, 206, 224); display: inline; }
+#languageChoice a.linkto-otherlanguage:hover p, #languageChoice a.linkto-otherlanguage:hover span { color: rgb(255, 255, 255); }
+#languageChoice a.linkto-otherlanguage span { display: block; color: rgb(1, 178, 241); }
+#languageChoice .closebar { position: absolute; top: 9px; right: 0px; display: block; cursor: pointer; background-color: transparent; }
+#languageChoice .closebar a { position: relative; display: block; padding: 10px 48px 11px 19px; line-height: 21px; color: rgb(1, 178, 241); }
+#languageChoice .closebar a:hover { background-color: rgb(23, 59, 79); color: rgb(255, 255, 255); }
+#languageChoice .closebar a .icon-close { position: absolute; right: 10px; cursor: pointer; background: transparent url("language-choice-close.gif") no-repeat scroll 0px 0px; width: 27px; height: 21px; }
+#languageChoice .closebar a:hover .icon-close { background-position: 0px -21px; }
+.centercontainer { width: 981px; top: -130px; position: relative; margin: 0px auto; }
+.newscontainer { width: 495px; height: 325px; position: absolute; z-index: 120; margin: -45px 0px 0px; padding: 7px 0px 0px; }
+.newsheader { width: 495px; height: 34px; overflow: hidden; }
+.newsheader .rssicon a { width: 40px; height: 34px; background: transparent url("icon-rss.gif") no-repeat scroll 0% 0%; display: block; position: relative; float: right; padding: 0px 1px 0px 0px; }
+.newsheader .rssicon a:hover { background-position: 0px -34px; }
+.newsheader .latestnews { height: 25px; width: 300px; background-color: transparent; background-image: url("latestnews.png"); background-attachment: scroll; background-clip: border-box; background-origin: padding-box; background-size: auto auto; background-repeat: no-repeat ! important; background-position: left top; position: absolute; top: 12px; left: 10px; }
+.newsheader .viewallnews { height: 18px; width: 200px; position: relative; top: 11px; text-align: right; font-size: 11px; float: right; padding: 0px 10px 0px 0px; }
+.sliderbox { width: 495px; height: 375px; overflow: hidden; }
+.sliderbox dt { height: 32px; cursor: pointer; background-image: url("newsclosedbg.gif"); background-repeat: no-repeat; background-color: rgb(51, 51, 51); }
+.sliderbox .open { font-size: 13px; background: transparent url("newsopenbgtop.gif") no-repeat scroll 0px 0px; color: rgb(1, 178, 241); cursor: default; }
+.sliderbox .title { font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif; font-size: 13px; color: rgb(1, 178, 241); padding: 0px 0px 0px 40px; line-height: 30px; display: inline-block; text-overflow: ellipsis; width: 360px; height: 30px; white-space: nowrap; overflow: hidden; }
+.sliderbox .date { font-family: Arial,Helvetica,sans-serif; font-size: 10px; color: rgb(54, 106, 128); float: right; display: block; padding: 10px 15px 0px 0px; }
+.sliderbox dt:hover span { color: rgb(255, 255, 255); }
+.sliderbox .open:hover span { color: rgb(1, 178, 241); }
+.sliderbox .open:hover .date { color: rgb(54, 106, 128); }
+.sliderbox dd { overflow: hidden; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(173, 217, 232); height: 160px; padding: 0px; margin: 0px; background-image: url("newsopenbgmid.jpg"); background-repeat: no-repeat; position: relative; }
+.sliderbox .text { padding: 0px 40px 35px; font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif; font-size: 11px; color: rgb(153, 206, 224); }
+.sliderbox .text .readmoreline { text-transform: uppercase; padding: 12px 0px 0px; display: block; }
+.sliderbox .text .readmoreline .arrow { width: 14px; height: 14px; background: transparent url("readmore.gif") no-repeat scroll left top; display: block; float: left; margin: 1px 8px 0px 0px; font-size: 0px; line-height: 0px; }
+.sliderbox .text .readmoreline:hover .arrow { background-position: left bottom; }
+.sliderbox .text .readmoreline:hover { text-decoration: none; }
+.newsarchive .thumb, .sliderbox .thumb { width: 113px; height: 125px; display: block; float: right; background-repeat: no-repeat; overflow: hidden; }
+.sliderbox .thumb { margin: 5px 15px 10px 20px; cursor: pointer; }
+.text a:hover { text-decoration: underline; }
+.footercontainer { background-image: url("footerbg.gif"); background-repeat: no-repeat; background-position: center top; background-color: rgb(1, 14, 22); width: 100%; height: 190px; padding: 155px 0px 0px; }
+.footer { clear: both; margin: 0px auto; width: 980px; }
+.footer .logo-blizzard { width: 108px; height: 58px; background-image: url("logo-blizzard.gif"); background-repeat: no-repeat; display: block; padding-bottom: 30px; margin: auto; }
+.footer .footercontents { width: 100%; clear: none; height: 60px; }
+.footer .footercontents .footercontents_int { color: rgb(255, 255, 255); font-size: 11px; text-align: center; }
+.footer .footercontents .languagetitle { color: rgb(52, 73, 86); font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif; line-height: 14px; padding: 0px 12px 0px 0px; }
+.footer .footercontents .spacer { color: rgb(1, 40, 57); font-size: 13px; padding: 0px 5px; }
+.footer .footercontents .links { font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif; line-height: 14px; display: inline; }
+.footer .footercontents .dark { color: rgb(52, 73, 86); font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif; line-height: 14px; margin: 0px; }
+.footer .footercontents .lang-select { position: relative; display: inline-block; padding: 0px 5px 0px 0px; }
+.footer .footercontents .language { cursor: pointer; }
+.footer .footercontents .language .langarrow, .langbox .bottom .lang .currentlanguage .langarrow { display: inline-block; width: 12px; height: 14px; background: transparent url("arrow_blue.png") no-repeat scroll left top; line-height: 14px; vertical-align: top; }
+.footer .footercontents .language:hover .langarrow, .langbox .bottom .lang .currentlanguage:hover .langarrow { display: inline-block; width: 12px; height: 14px; background: transparent url("arrow_white.png") no-repeat scroll left top; line-height: 14px; vertical-align: top; }
+.footer .ratings { margin: 55px auto 45px; clear: both; width: 980px; border-top: 1px solid rgb(28, 42, 52); padding: 20px 0px; }
+.footer .ratings .clear { width: 100%; height: 1px; clear: both; }
+.footer .ratings .esrb-footer { width: 116px; height: 127px; background: transparent url("rating-esrb-pendingtomature.gif") no-repeat scroll left top; display: block; float: right; margin: 0px; }
+.footer .ratings .truste-link { float: right; padding: 0px 10px; }
+.footer .ratings .main-footer-facebook a { padding: 2px 10px 10px; width: 31px; height: 31px; background-image: url("facebook-social.png"); }
+.footer .ratings .main-footer-twitter a { padding: 2px 10px 10px; width: 31px; height: 31px; background-image: url("twitter-social.png"); }
+.footer .ratings .main-footer-youtube a { padding: 2px 10px 10px; width: 31px; height: 31px; background-image: url("youtube-social.png"); }
+.footer .ratings .main-footer-glassdoor a { padding: 2px 10px; width: 31px; height: 31px; background-image: url("glassdoor.png"); }
+.footer .ratings .block7 { width: 250px; margin: 0px; float: left; }
+.footer .ratings .socialnetworking { padding: 0px; margin: 0px; }
+.footer .ratings .socialnetworking li { display: inline-block; }
+.footer .ratings .socialnetworking li a { display: block; background-position: 0px 0px; background-repeat: no-repeat; height: 34px; width: 2px; }
+.footer .ratings .ratings-title { color: rgb(52, 73, 86); font-size: 11px; position: relative; bottom: 5px; padding-right: 5px; display: inline-block; font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif; }
+.langbox .bottom .lang .currentlanguage { width: 100px; height: 20px; display: block; font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif; font-size: 11px; background: transparent url("langbox-current-box.gif") no-repeat scroll left top; cursor: pointer; position: relative; margin: 11px 0px 0px; }
+.langbox .bottom .lang .currentlanguage:hover { background-position: left bottom; color: rgb(255, 255, 255); }
+.footer .footercontents .language .languageitem { display: inline-block; }
+.langbox .bottom .lang .currentlanguage .languageitem { display: inline-block; margin: 0px 0px 0px 6px; padding: 2px 0px 0px; }
+.langbox .bottom .lang .currentlanguage .langarrow { margin: 1px 0px 0px; }
+.langbox { width: 476px; position: absolute; bottom: -28px; left: -32px; display: none; z-index: 120; text-align: left; }
+.langbox .top { width: 476px; height: 23px; background: transparent url("langbox-top.png") repeat scroll 0% 0%; }
+.langbox .middle { height: 148px; overflow: hidden; background: transparent none repeat scroll 0% 0%; }
+.langbox .middle .left { width: 13px; height: 100%; float: left; background: transparent url("langbox-shadow-left.png") repeat-y scroll left top; }
+.langbox .middle .content { background: rgb(0, 26, 36) url("langbox-bg.jpg") no-repeat scroll left top; width: 450px; height: 100%; float: left; }
+.langbox .middle .content .regions {  }
+.langbox .middle .content .regions .regionus { width: 180px; float: left; }
+.langbox .middle .content .regions .regioneu { width: 140px; float: left; }
+.langbox .middle .content .regions .regioncn { width: 130px; float: left; }
+.langbox .middle .content .regions .regiontitle { font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif; font-size: 11px; color: rgb(255, 255, 255); margin: -2px 0px 0px 17px; }
+.langbox .middle .content .regions .languages { font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif; font-size: 11px; margin: 20px 0px 0px 17px; line-height: 16px; }
+.langbox .middle .right { width: 13px; height: 100%; float: right; background: transparent url("langbox-shadow-right.png") repeat-y scroll left top; }
+.langbox .bottom { width: 476px; height: 55px; padding: 0px; margin: 0px; }
+.langbox .bottom .left { width: 26px; height: 55px; background: transparent url("langbox-bottom-1.png") no-repeat scroll left top; float: left; }
+.langbox .bottom .right { width: 26px; height: 55px; background: transparent url("langbox-bottom-5.png") no-repeat scroll left top; float: right; }
+.langbox .bottom .lang { width: 100px; height: 55px; background: transparent url("langbox-bottom-2.png") repeat-x scroll left top; float: left; }
+.langbox .bottom .middle { width: 26px; height: 55px; background: transparent url("langbox-bottom-3.png") no-repeat scroll left top; float: left; }
+.langbox .bottom .stretch { width: 298px; height: 55px; background: transparent url("langbox-bottom-4.png") repeat-x scroll left top; float: right; }
+.spotlight1 { width: 232px; height: 273px; position: absolute; top: 21px; left: 517px; background-color: transparent; display: block; }
+.spotlight1:hover { background-position: 0px -273px; }
+.spotlight2 { width: 232px; height: 273px; position: absolute; top: 21px; left: 758px; background-color: transparent; display: block; }
+.spotlight2:hover { background-position: 0px -273px; }
+.divcenter { position: absolute; width: 100%; height: 1px; top: 56px; z-index: 112; margin: 0px auto; }
+#blackout { background-color: rgb(0, 0, 0); opacity: 0.6; position: fixed; top: 0px; left: 0px; z-index: 111; width: 100%; height: 100%; display: none; }
+.navigation .shop-subnav { float: right; width: 442px; height: 321px; position: absolute; top: 126px; right: 5px; display: none; }
+.navigation .shop-subnav a { float: left; height: 321px; }
+.navigation .shop-subnav a.bg-left { background: transparent url("shop-subnav-left.png") no-repeat scroll 0px 0px; width: 221px; }
+.navigation .shop-subnav a.bg-right { background: transparent url("shop-subnav-right.png") no-repeat scroll 0px 0px; width: 221px; }
+.navigation .shop-subnav a h2 { color: rgb(0, 171, 232); font-size: 20px; margin: 160px 24px 6px; font-family: MuseoSans-500,"Century Gothic"; }
+.navigation .shop-subnav a div { color: rgb(153, 206, 224); margin: 0px 24px; font-size: 14px; line-height: 1.25em; }
+.navigation .shop-subnav a:hover h2 { color: rgb(255, 255, 255); }
+.navigation .shop-subnav a.bg-left:hover { background-position: 0px -321px; }
+.navigation .shop-subnav a.bg-right:hover { background-position: 0px -321px; }
+@media not all {
+}

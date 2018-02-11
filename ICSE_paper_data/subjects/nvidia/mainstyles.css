@@ -1,0 +1,100 @@
+/* Code tidied up by ScrapBook */
+html { background: transparent none repeat scroll 0% 0%; -moz-text-size-adjust: none; }
+body { background: rgb(255, 255, 255) url("background_gradient.gif") repeat-x scroll 0% 0%; font-family: "Trebuchet MS",Arial,Helvetica,sans-serif; font-size: 13px; line-height: 18px; margin-top: 20px; }
+.mainBody { float: left; width: 980px; }
+#box { width: 980px; margin: auto; background-color: rgb(255, 255, 255); }
+#newsTicker { height: 35px; background: transparent url("newsticker_background.jpg") repeat scroll 0% 0%; position: relative; top: -120px; z-index: 5; }
+#subFeatures { width: 980px; background-color: rgb(255, 255, 255); position: relative; top: -120px; }
+#footer { position: relative; top: -115px; width: 940px; margin: 20px auto 0px ! important; }
+h2, h4 { font-size: 14px; color: rgb(118, 185, 0); font-weight: bold; text-transform: uppercase; }
+h3 { background-image: url("bg_silverbar_2009.gif"); background-repeat: repeat-x; border-left: 1px solid rgb(208, 208, 208); border-right: 1px solid rgb(208, 208, 208); font-size: 12px; font-weight: bold; height: 21px; padding-left: 10px; padding-top: 5px; text-transform: uppercase; width: auto; }
+input, label {  }
+a { color: rgb(118, 185, 0); text-decoration: underline; }
+a:hover { color: rgb(51, 51, 51); }
+b, strong { font-weight: bold; }
+i, em, address, blockquote { font-style: italic; }
+.clear { clear: both; }
+#footer a { color: rgb(158, 158, 158); }
+#footer a:hover { color: rgb(118, 185, 0); }
+.button { height: 24px; padding: 0px ! important; }
+.button a, .button a:hover { text-decoration: none; }
+@font-face {
+  font-family: "DINWebPro-Black";
+  src: url("DINWebPro-Black.eot");
+}
+@font-face {
+  font-family: "DINWebPro-Black";
+  src: url("DINWebPro-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "DINWebPro-BlackIta";
+  src: url("DINWebPro-BlackIta.eot");
+}
+@font-face {
+  font-family: "DINWebPro-BlackIta";
+  src: url("DINWebPro-BlackIta.woff") format("woff");
+}
+@font-face {
+  font-family: "DINWebPro-Bold";
+  src: url("DINWebPro-Bold.eot");
+}
+@font-face {
+  font-family: "DINWebPro-Bold";
+  src: url("DINWebPro-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "DINWebPro-BoldIta";
+  src: url("DINWebPro-BoldIta.eot");
+}
+@font-face {
+  font-family: "DINWebPro-BoldIta";
+  src: url("DINWebPro-BoldIta.woff") format("woff");
+}
+@font-face {
+  font-family: "DINWebPro-Light";
+  src: url("DINWebPro-Light.eot");
+}
+@font-face {
+  font-family: "DINWebPro-Light";
+  src: url("DINWebPro-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "DINWebPro-LightIta";
+  src: url("DINWebPro-LightIta.eot");
+}
+@font-face {
+  font-family: "DINWebPro-LightIta";
+  src: url("DINWebPro-LightIta.woff") format("woff");
+}
+@font-face {
+  font-family: "DINWebPro-Medium";
+  src: url("DINWebPro-Medium.eot");
+}
+@font-face {
+  font-family: "DINWebPro-Medium";
+  src: url("DINWebPro-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "DINWebPro-MediumIta";
+  src: url("DINWebPro-MediumIta.eot");
+}
+@font-face {
+  font-family: "DINWebPro-MediumIta";
+  src: url("DINWebPro-MediumIta.woff") format("woff");
+}
+@font-face {
+  font-family: "DINWebPro";
+  src: url("DINWebPro.eot");
+}
+@font-face {
+  font-family: "DINWebPro";
+  src: url("DINWebPro_002.woff") format("woff");
+}
+@font-face {
+  font-family: "DINWebPro-Ita";
+  src: url("DINWebPro-Ita.eot");
+}
+@font-face {
+  font-family: "DINWebPro-Ita";
+  src: url("DINWebPro-Ita.woff") format("woff");
+}

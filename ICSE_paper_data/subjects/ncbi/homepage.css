@@ -1,0 +1,12 @@
+/* Code tidied up by ScrapBook */
+.home_page { overflow: auto; background-color: rgb(255, 255, 255); }
+.ui-ncbiclearbutton-wrap { width: 64% ! important; }
+.ui-ncbiclearbutton-wrap input { width: 100% ! important; }
+.home_page img.gray-light { opacity: 0.3; }
+.home_page .action_bar p { text-align: left; height: 3.5em; }
+.home_page .action_bar:hover { cursor: pointer; }
+.home_page .action_bar div.col { padding: 0px 1em 5em; height: 16em; text-align: center; }
+.home_page .action_bar div.four_col, .home_page .action_bar div.last { border-width: 1px; border-style: solid; border-color: transparent; margin: 0px; }
+.home_page section.action_bar div.col:hover { border-color: rgb(204, 204, 204); }
+.home_page .action_bar a { text-decoration: none; }
+.home_page .action_bar a h2 { color: rgb(152, 87, 53) ! important; }

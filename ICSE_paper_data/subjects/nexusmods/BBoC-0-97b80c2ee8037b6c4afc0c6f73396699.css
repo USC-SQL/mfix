@@ -1,0 +1,40 @@
+/* Code tidied up by ScrapBook */
+html { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); }
+html, body { font-family: "Trebuchet MS",Helvetica,sans-serif; background: rgb(64, 64, 64) url("bg.jpg") no-repeat fixed center top; }
+a { text-decoration: none; outline: medium none; color: rgb(227, 168, 83); cursor: pointer ! important; }
+#subnav .subnav a:hover { color: rgb(250, 164, 49); text-decoration: none; }
+#top { position: relative; height: 115px; background: transparent url("imagemap.png") repeat-x scroll 0px 0px; padding-bottom: 10px; z-index: 11; }
+#top .sub-bar { float: right; text-align: right; width: 600px; height: 37px; margin-top: 13px; font-size: 12px; padding: 0px 4px 5px 19px; }
+#top .sub-bar .nmm, #top .sub-bar .search, #top .sub-bar .messages, #top .sub-bar .notifications, #top .sub-bar .account { display: inline-block; height: 19px; padding: 0px 16px 0px 10px; border-right: 1px dotted rgb(134, 134, 134); }
+#top .sub-bar div img { vertical-align: top; }
+#top .sub-bar .account { background-color: rgb(49, 49, 49); border: 0px none; padding: 0px 0px 0px 10px; }
+#top .sub-bar .account img { vertical-align: -6px; }
+#top-inner { background: transparent url("imagemap.png") repeat-x scroll 0px 0px; }
+.downarrow { vertical-align: middle ! important; }
+#nav .item { display: inline-block; height: 23px; color: rgb(255, 255, 255); font-size: 0.75em; text-transform: uppercase; font-weight: bold; text-decoration: none; background: transparent url("imagemap.png") no-repeat scroll 0px -300px; padding-left: 12px; }
+#nav .item .inner { display: block; overflow: hidden; line-height: 24px; padding-right: 12px; background: transparent url("imagemap.png") repeat scroll right -300px; }
+#nav .item .subnav-arrow { float: right; width: 15px; height: 23px; background: transparent url("imagemap.png") no-repeat scroll -600px -300px; margin: 0px -4px 0px 5px; }
+#nav .network { padding: 11px 0px 0px 8px; margin-top: 1px; }
+#nav .network .item { background-position: 0px -405px; text-transform: none; font-weight: normal; }
+#nav .network .item .inner { background-position: right -405px; }
+#nav .network .item:hover strong { color: rgb(230, 230, 230); }
+#nav .network .item:hover .inner { color: rgb(230, 230, 230); }
+#nav .network .subnav-arrow { background-position: -600px -405px; }
+#nav .network .item:hover .subnav-arrow { background-position: -617px -405px; }
+#nav .network .item strong { color: rgb(250, 164, 49); }
+#footer { background-color: rgb(49, 49, 49); }
+#footer a.top { position: absolute; background: transparent url("imagemap.png") no-repeat scroll -730px -147px; top: 0px; right: 0px; padding: 0px 0px 0px 8px; margin: 8px 0px 0px; }
+#footer .footer-content .facebook, #footer .footer-content .twitter, #footer .footer-content .steam { background: transparent url("icons.png") no-repeat scroll 0% 0%; padding-left: 19px; }
+#footer .footer-content .facebook { background-position: 0px -20px; }
+#footer .footer-content .steam { background-position: 0px -40px; }
+#footer .footer-content .twitter { background-position: 0px 0px; }
+#logo { float: left; display: block; width: 250px; height: 49px; background: transparent url("imagemap.png") no-repeat scroll 0px -147px; margin-top: 54px; }
+.block-list .image .image-overlay p { position: absolute; left: 0px; bottom: 0px; background: rgb(250, 164, 49) none repeat scroll 0% 0%; width: 168px; height: 25px; font-size: 11px; line-height: 27px; margin-bottom: 0px; padding: 0px 5px; overflow: hidden; color: rgb(0, 0, 0); }
+.block-list .image .image-overlay { position: absolute; display: none; width: 178px; height: 106px; background: transparent url("image-hover.png") repeat scroll 0% 0%; border: 1px solid rgb(250, 164, 49); z-index: 5; }
+.block-list .image .stats .downloads { float: right; background: transparent url("icons.png") no-repeat scroll -760px -294px; padding-left: 20px; padding-right: 8px; }
+.block-list .image .stats .likes { float: right; background: transparent url("icons.png") no-repeat scroll -760px -175px; padding-left: 18px; }
+.block-list .image .stats-overlay { position: absolute; left: 0px; bottom: 0px; height: 25px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; display: block; width: 180px; z-index: 2; opacity: 0.75; }
+.border-bottom { border-bottom: 1px solid rgb(64, 64, 64); padding-bottom: 5px; margin-bottom: 5px; overflow: hidden; }
+.buttons a span { color: rgb(255, 255, 255); display: block; overflow: hidden; line-height: 24px; padding-right: 12px; background: transparent url("imagemap.png") repeat scroll right -300px; }
+.buttons a { display: inline-block; height: 23px; color: rgb(255, 255, 255); font-size: 12px; text-transform: uppercase; font-weight: bold; text-decoration: none; background: transparent url("imagemap.png") repeat scroll 0px -300px; padding-left: 12px; margin: 0px; cursor: pointer; }
+.feed-more { margin: 15px 6px 25px; border-top: 1px solid rgb(0, 0, 0); padding-top: 10px; font-size: 13px; clear: both; }

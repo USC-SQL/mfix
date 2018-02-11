@@ -1,0 +1,26 @@
+/* Code tidied up by ScrapBook */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+html { font-family: sans-serif; }
+body { margin: 0px; }
+a { background: transparent none repeat scroll 0% 0%; }
+a:focus { outline: thin dotted; }
+a:active, a:hover { outline: 0px none; }
+b, strong { font-weight: bold; }
+img { border: 0px none; }
+button, input, select, textarea { font-family: inherit; font-size: 100%; margin: 0px; }
+button, input { line-height: normal; }
+button, select { text-transform: none; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+table { border-collapse: collapse; border-spacing: 0px; }
+td { empty-cells: show; }
+.container { position: relative; width: 992px; margin-left: auto; margin-right: auto; padding-left: 22px; }
+.row { width: 100%; }
+.row::before, .row::after { display: table; content: ""; }
+.row::after { clear: both; }
+@media (min-width: 569px) and (max-width: 768px) {
+  .logo-wrapper { width: 359px ! important; }
+  .user-tools { width: 360px ! important; padding-right: 20px; float: left ! important; }
+}
+@media (min-width: 769px) {
+}

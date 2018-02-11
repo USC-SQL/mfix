@@ -1,0 +1,564 @@
+/* Code tidied up by ScrapBook */
+body { font-size: 11px; margin: 0px; padding: 0px; background: white none repeat scroll 0% 0%; color: rgb(101, 101, 101); }
+body, div#mc h2.tournament, form input, form select, form textarea { font-family: Tahoma,"Geneva CE","Lucida Sans",Arial,Helvetica,sans-serif; }
+h1, h2, h3, h4, h5, h6 { margin: 5px 5px 5px 0px; }
+h1 { font-size: 130%; }
+table { font-size: 100%; }
+a { color: rgb(101, 101, 101); }
+a:hover { text-decoration: none; }
+ul { margin: 10px; padding: 0px; }
+span.blink { background: transparent url("icons-anim.2.gif") no-repeat scroll -31px 0px; }
+div.cleaner, hr.cleaner { clear: both; visibility: hidden; margin: 0px; padding: 0px; border: medium none; height: 0px; }
+body { padding: 0px; background: rgb(34, 34, 34) none repeat scroll 0% 0%; }
+h1, h2, h3, h4, h5, h6 { margin: 5px 5px 5px 0px; }
+h1 { font-size: 130%; }
+a { text-decoration: none; color: rgb(101, 101, 101); }
+.cleaner { line-height: 0; height: 0px; font-size: 0px; clear: both; }
+div.spacer10 { line-height: 10px; height: 10px; font-size: 0px; }
+div.container { width: 990px; margin: 10px auto 0px; }
+div.container > div { padding: 0px 5px; }
+body > div.container > div.content { background-color: rgb(255, 255, 255); position: relative; padding-bottom: 5px; border-bottom-left-radius: 16px; border-bottom-right-radius: 16px; }
+div#tc { width: 810px; padding-top: 10px; position: relative; }
+div#lc { float: left; width: 140px; min-height: 1000px; }
+div#rc-top, div#rc-top-zero { width: 160px; float: right; margin-top: 10px; }
+div#rccontent { width: 100%; position: relative; }
+div#mc { float: right; width: 660px; margin-left: 10px; }
+div#mc ul { margin: 0px 0px 13px 20px; list-style-type: disc; }
+.l-brd { border-bottom: 1px solid rgb(188, 190, 174) ! important; }
+.hidden { display: none; }
+a#logo, a#logo span { display: block; position: absolute; top: 30px; left: 20px; width: 239px; height: 37px; cursor: pointer; }
+a#logo span { top: 0px; left: 0px; }
+.project-logo { background: transparent url("flashscore_com.2.png") no-repeat scroll 0px 0px; }
+#project-debug { display: none; position: absolute; width: 100px; }
+#header { width: 980px; }
+#header > .top { background: transparent url("links-1.png") no-repeat scroll 0px 0px; height: 30px; position: relative; margin: 6px -5px 0px; padding: 0px 5px; }
+#header > .content { background: rgb(255, 255, 255) url("links-2.jpg") no-repeat scroll 0px 0px; height: 134px; position: relative; margin: 0px -5px; padding: 0px 5px; }
+.soccer #header > .content { background-image: url("soccer-2.jpg"); }
+.soccer #header > .top { background-image: url("soccer-1.png"); }
+#header h1, #header span.header-links { color: rgb(176, 176, 176); font-size: 11px; font-weight: normal; position: absolute; top: -3px; left: 10px; margin: 0px; padding: 0px; }
+#header div#info { color: rgb(255, 255, 255); margin: 0px; padding: 0px; font-size: 10px; position: absolute; top: 65px; left: 68px; }
+#menu { position: absolute; top: 100px; left: 0px; background: rgb(52, 52, 52) url("bg-menu.png") repeat-x scroll 0px 0px; margin: 0px 5px; }
+#menu ul { height: 29px; line-height: 29px; margin: 0px; padding: 0px; width: 980px; }
+#menu li { display: block; float: left; position: relative; list-style: outside none none; margin: 0px -1px 0px 0px; padding: 0px; border-left: 1px solid rgb(133, 133, 133); border-right: 1px solid rgb(133, 133, 133); height: 100%; }
+#menu li a { display: block; float: left; height: 100%; text-decoration: none; text-transform: uppercase; color: rgb(255, 255, 255); padding-left: 8px; padding-right: 10px; font-weight: bold; font-size: 96%; }
+.os-linux #menu li a { font-size: 95%; }
+#menu li a:hover { text-decoration: underline; }
+.sport-icon { vertical-align: middle; display: inline-block; width: 20px; height: 20px; margin: 0px 3px 0px 0px; background: transparent url("icon-sprite-fs.20.png") no-repeat scroll -1px -1px; }
+.sport-icon.soccer { background-position: -1px -484px; }
+.sport-icon.hockey { background-position: -1px -400px; }
+.sport-icon.tennis { background-position: -1px -505px; }
+.sport-icon.basketball { background-position: -1px -169px; }
+.sport-icon.handball { background-position: -1px -379px; }
+.sport-icon.volleyball { background-position: -1px -547px; }
+.sport-icon.baseball { background-position: -1px -148px; }
+.sport-icon.american-football { background-position: -1px -43px; }
+.sport-icon.rugby-union { background-position: -1px -463px; }
+.sport-icon.minority { background-position: -1px -22px; }
+.sport-icon.aussie-rules { background-position: -1px -64px; }
+.sport-icon.badminton { background-position: -1px -85px; }
+.sport-icon.bandy { background-position: -1px -127px; }
+.sport-icon.beach-volleyball { background-position: -1px -211px; }
+.sport-icon.boxing { background-position: -1px -232px; }
+.sport-icon.floorball { background-position: -1px -316px; }
+.sport-icon.futsal { background-position: -1px -337px; }
+.sport-icon.cricket { background-position: -1px -253px; }
+.sport-icon.mma { background-position: -1px -526px; }
+.sport-icon.beach-soccer { background-position: -1px -190px; }
+.sport-icon.field-hockey { background-position: -1px -295px; }
+.sport-icon.rugby-league { background-position: -1px -442px; }
+.sport-icon.snooker { background-position: -1px -106px; }
+.sport-icon.table-tennis { background-position: -1px -421px; }
+.sport-icon.darts { background-position: -1px -274px; }
+.sport-icon.water-polo { background-position: -1px -568px; }
+.sport-icon.netball { background-position: -1px -589px; }
+.sport-icon.golf { background-position: -1px -610px; }
+.sport-icon.pesapallo { background-position: -1px -631px; }
+.sport-icon.motorsport { background-position: -1px -652px; }
+.sport-icon.cycling { background-position: -1px -715px; }
+.sport-icon.esports { background-position: -1px -736px; }
+.sport-icon.horse-racing { background-position: -1px -757px; }
+.sport-icon.winter-sports, .sport-icon.winter-sports-ski-jumping, .sport-icon.winter-sports-alpine-skiing, .sport-icon.winter-sports-cross-country, .sport-icon.winter-sports-biathlon { background-position: -1px -778px; }
+.sport-icon.kabaddi { background-position: -1px -799px; }
+#menu div.menu-border { line-height: 4px; height: 4px; font-size: 0px; border-top: 1px solid rgb(133, 133, 133); border-bottom: 0px solid rgb(101, 101, 101); background-color: rgb(0, 64, 125); }
+#menu div.menu-border { background-color: rgb(0, 64, 125); }
+.soccer #menu div.menu-border { background-color: rgb(1, 103, 0); }
+#menu li.active { height: 30px; }
+#menu li.soccer-active, #menu li.soccer:hover { background-position: 0px -50px; background-color: rgb(1, 103, 0); }
+#menu li.hockey-active, #menu li.hockey:hover { background-position: 0px -100px; background-color: rgb(0, 64, 125); }
+#menu li.tennis-active, #menu li.tennis:hover { background-position: 0px -150px; background-color: rgb(191, 154, 23); }
+#menu li.basketball-active, #menu li.basketball:hover { background-position: 0px -200px; background-color: rgb(104, 0, 0); }
+#menu li.motorsport-active, #menu li.motorsport:hover { background-position: 0px -200px; background-color: rgb(104, 0, 0); }
+#menu li.baseball-active, #menu li.baseball:hover { background-position: 0px -250px; background-color: rgb(0, 103, 102); }
+#menu li.american-football-active, #menu li.american-football:hover { background-position: 0px -300px; background-color: rgb(142, 99, 64); }
+#menu li.golf-active, #menu li.golf:hover { background-position: 0px -50px; background-color: rgb(1, 103, 0); }
+#menu li.horse-racing-active, #menu li.horse-racing:hover { background-position: 0px -50px; background-color: rgb(1, 103, 0); }
+#menu li.minority-active, #menu li.minority:hover { background-position: 0px -100px; }
+#menu .minority li a:hover { background-color: rgb(0, 64, 125); }
+#menu li.minority-active, #menu li.handball-active, #menu li.bandy-active, #menu li.rugby-union-active, #menu li.floorball-active, #menu li.futsal-active, #menu li.aussie-rules-active, #menu li.volleyball-active, #menu li.rugby-league-active, #menu li.cricket-active, #menu li.darts-active, #menu li.snooker-active, #menu li.boxing-active, #menu li.beach-volleyball-active, #menu li.badminton-active, #menu li.kabaddi-active, #menu li.water-polo-active, #menu li.field-hockey-active, #menu li.table-tennis-active, #menu li.beach-soccer-active, #menu li.winter-sports-active, #menu li.winter-sports-biathlon-active, #menu li.winter-sports-ski-jumping-active, #menu li.winter-sports-alpine-skiing-active, #menu li.winter-sports-cross-country-active, #menu li.mma-active, #menu li.netball-active, #menu li.pesapallo-active, #menu li.odds-active, #menu li.home-active, #menu li.minority:hover, #menu li.handball:hover, #menu li.bandy:hover, #menu li.rugby-union:hover, #menu li.floorball:hover, #menu li.futsal:hover, #menu li.aussie-rules:hover, #menu li.volleyball:hover, #menu li.rugby-league:hover, #menu li.cricket:hover, #menu li.darts:hover, #menu li.snooker:hover, #menu li.boxing:hover, #menu li.beach-volleyball:hover, #menu li.winter-sports:hover, #menu li.winter-sports-biathlon:hover, #menu li.winter-sports-ski-jumping:hover, #menu li.winter-sports-alpine-skiing:hover, #menu li.winter-sports-cross-country:hover, #menu li.badminton:hover, #menu li.kabaddi:hover, #menu li.water-polo:hover, #menu li.field-hockey:hover, #menu li.table-tennis:hover, #menu li.beach-soccer:hover, #menu li.mma:hover, #menu li.netball:hover, #menu li.pesapallo:hover, #menu li.odds:hover, #menu li.home:hover, #menu li.search:hover { background-position: 0px -100px; background-color: rgb(0, 64, 125); }
+#menu .menu-border { background: rgb(102, 168, 215) none repeat scroll 0% 0%; }
+.soccer #menu .menu-border { background: rgb(64, 155, 132) none repeat scroll 0% 0%; }
+li.rd { background: rgb(234, 247, 231) url("icon-raquo.gif") no-repeat scroll 124px 8px; }
+ul.country-list a { color: rgb(169, 179, 166); }
+ul.country-list a span { color: rgb(101, 101, 101); }
+ul.menu li { background-color: rgb(230, 244, 248); }
+.soccer ul.country-list li { background-color: rgb(234, 247, 231); }
+ul.menu ul.submenu { margin: 0px; }
+.flag { width: 16px; display: inline-block; margin: 0px 8px 0px 0px; height: 13px; vertical-align: text-top; }
+ul.menu ul.submenu li { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-top: medium none; }
+ul.menu ul.submenu li a { border-bottom: 1px dashed rgb(188, 190, 174); }
+ul.menu ul.submenu li.last a { border-bottom: medium none; }
+div.mbox { margin-bottom: 10px; border-bottom: 1px solid rgb(101, 101, 101); }
+div.mbox0px { border-bottom: 1px solid rgb(101, 101, 101); }
+ul.menu { margin: 0px; padding: 0px; }
+ul.menu li { list-style: outside none none; border-top: 1px solid rgb(188, 190, 174); display: block; min-height: 19px; }
+ul.menu li.head, #timezone h2 { font-weight: normal; font-size: 100%; text-align: left; color: rgb(255, 255, 255); background: rgb(101, 101, 101) none repeat scroll 0% 0%; padding: 0px 0px 0px 10px; border-top: 1px solid rgb(188, 190, 174); height: auto; line-height: 21px; margin: 0px; }
+ul.menu a, ul.series li > span.no-series { margin: 0px; line-height: 13px; padding: 3px 10px; display: block; color: rgb(101, 101, 101); height: 100%; }
+ul.menu a span { right: 11px; top: 2px; color: rgb(194, 200, 192); }
+ul.menu a span.elink { padding-right: 10px; text-align: left; color: rgb(101, 101, 101); background: transparent url("status2.gif") no-repeat scroll 100% -444px; }
+ul.menu a:hover { color: rgb(103, 168, 216); text-decoration: underline; }
+ul.menu a:hover span.elink { text-decoration: none ! important; background-position: 100% -498px; }
+.soccer ul.menu a:hover { color: rgb(2, 122, 92); }
+ul.partner li { background: rgb(240, 240, 240) none repeat scroll 0% 0%; }
+ul.partner li a:hover { color: rgb(101, 101, 101) ! important; }
+ul.partner li.rd, ul.partner li.rrd { background-image: url("icon-raquo.gif"); background-repeat: no-repeat; background-position: 124px 8px; }
+#e-content { clear: both; border-top: 3px solid rgb(101, 101, 101); background-color: rgb(240, 240, 240); border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; padding-bottom: 10px; }
+div.page-block { text-align: left; margin: 10px 10px 0px; }
+div.page-block a { text-decoration: underline; }
+div.page-block a:hover { text-decoration: none; }
+@media screen and (max-device-width: 640px) {
+  body { -moz-text-size-adjust: none; }
+}
+ul.menu li.head, #timezone h2 { background: rgb(52, 52, 52) url("bg-label.gif") repeat-x scroll center top; }
+#menu li { background: rgb(52, 52, 52) url("bg-menu.png") repeat-x scroll 0px 0px; }
+#menu li a {  }
+.scrolling-banner-wrap { width: 160px; text-align: center; float: left; margin-bottom: 10px; }
+.scrolling-mobile-version-wrap.static-position, .scrolling-banner-wrap.static-position { position: static; }
+#box-under-content-wrapper { width: 658px; height: 51px; margin-top: -70px; }
+div#lc { position: relative; }
+#footer { width: 980px; padding: 10px 5px 0px; color: rgb(239, 239, 239); line-height: 15px; position: relative; background-color: rgb(34, 34, 34); }
+#footer > div { border: 0px solid red; }
+#footer a { text-decoration: none; color: rgb(239, 239, 239); }
+#footer a:hover { text-decoration: underline; }
+#footer .footer-label { padding: 5px 10px; margin-bottom: 5px; background-color: rgb(51, 51, 51); font-weight: bold; text-transform: uppercase; }
+#footer .footer-social-buttons { padding-left: 10px; margin-top: 10px; margin-bottom: 10px; }
+#footer .footer-social-buttons a { display: block; float: left; background: transparent url("icon-sprite-fs.20.png") no-repeat scroll 0px 0px; margin-right: 5px; opacity: 0.85; width: 32px; height: 32px; border-radius: 3px; }
+#footer .footer-social-buttons a.facebook { background-position: -22px -1px; }
+#footer .footer-social-buttons a.twitter { background-position: -22px -34px; }
+#footer .footer-social-buttons a.google-plus { background-position: -22px -67px; }
+#footer .footer-social-buttons a:hover { opacity: 1; }
+#footer .footer-mobile-buttons { padding-left: 10px; margin-top: 10px; margin-bottom: 5px; }
+#footer .footer-mobile-buttons a { display: block; float: left; background: transparent url("icon-sprite-fs.20.png") no-repeat scroll 0px 0px; margin-right: 10px; opacity: 0.85; width: 150px; height: 49px; border-radius: 5px; }
+#footer .footer-mobile-buttons a.app-store { background-position: -98px -1px; }
+#footer .footer-mobile-buttons a.google-play { background-position: -98px -51px; }
+#footer .footer-mobile-buttons a:hover { opacity: 1; }
+#footer #footer-copyright { padding: 5px 10px; margin-top: 5px; margin-bottom: 5px; }
+#footer .footer-left-spacer { margin-left: 10px; }
+#footer ul { list-style: outside none none; padding-left: 10px; margin: 0px; }
+#footer ul.footer-sport { float: left; width: 121px; margin-bottom: 5px; }
+#footer ul.footer-sport.last { width: 117px; }
+#menu .minority .content a { text-transform: uppercase; }
+#menu ul#menumin { z-index: 100; position: absolute; left: -169px; top: 29px; height: auto; display: none; padding: 0px 0px 1px; width: 337px; background: rgb(133, 133, 133) none repeat scroll 0% 0%; border-bottom: 4px solid rgb(0, 64, 125); box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); }
+#menu #menumin li { position: relative; border-width: 1px medium medium; border-style: solid none none; border-color: rgb(133, 133, 133) currentcolor currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; width: 168px; background: rgb(55, 55, 55) none repeat scroll 0% 0%; height: 29px; display: block; margin: 0px; }
+#menumin li.rt { margin: 0px 0px 0px 1px; float: right; }
+#menu #menumin li a { display: block; border: medium none; float: none; position: relative; }
+.soccer #menu ul#menumin { border-bottom-color: rgb(1, 103, 0); }
+.adsenvelope { margin: 0px auto; padding-bottom: 10px; position: relative; }
+.adsenvelope iframe, .adsenvelope div { width: 100%; height: 100%; }
+.ban_envelope { margin: 0px auto; padding-bottom: 10px; position: relative; }
+.adstextpad { padding-bottom: 20px ! important; }
+.adstextvpad { padding-right: 12px ! important; padding-bottom: 0px; margin-left: 0px; float: left; }
+.adsclear { clear: both; font-size: 1px; line-height: 1px; height: 1px; }
+#lc .adsenvelope, #lc .ban_envelope { margin: 0px auto; }
+.banx-content_bottom { margin-top: 10px; }
+.adsgraphhori { position: absolute; width: 100%; height: 10px ! important; margin-top: 3px; text-align: center; left: 0px; }
+.adsghori { width: 100%; height: 100%; background: transparent url("icon-adverth.png") no-repeat scroll 50% 0px; }
+.adsgraphvert { position: absolute; top: 0px; right: 0px; width: 10px ! important; }
+.adsgvert { width: 100%; height: 100%; background: transparent url("icon-advertv.png") no-repeat scroll 0px 50%; }
+#timezone, #langcomb { position: relative; margin-right: auto; width: 100%; margin-bottom: 10px; border: medium none; }
+#timezone .menu, #langcomb .menu { width: 100%; }
+#timezone .menu li.actual { margin: 0px; padding: 0px; font-size: 100%; font-weight: normal; line-height: 19px; cursor: pointer; }
+#timezone .menu li.actual span { padding: 0px 0px 0px 16px; background: transparent url("cal-dart.2.gif") no-repeat scroll 4px 60%; }
+#timezone .menu li.actual span:hover { text-decoration: underline; }
+#timezone .menu li.actual, #langcomb .menu .li.actual { border: 1px solid rgb(189, 189, 173); background-color: rgb(240, 240, 240); color: rgb(101, 101, 101); cursor: pointer; }
+#timezone ul#tzcontent, #langcomb ul#langcontent { position: absolute; left: -1px; top: 20px; display: none; margin: 0px; padding: 0px; width: 100%; z-index: 2; border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor rgb(188, 190, 174) rgb(188, 190, 174); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: rgb(240, 240, 240) none repeat scroll 0% 0%; }
+#timezone ul#tzcontent { left: 0px; width: 138px; top: 40px; border-top: 1px solid rgb(188, 190, 174); box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); }
+#timezone ul#tzcontent li, #langcomb ul#tzcontent li { display: block; width: 100%; height: 19px; background: white none repeat scroll 0% 0%; margin: 0px; padding: 0px; border: medium none; }
+#timezone ul#tzcontent li { border-bottom: 1px solid rgb(188, 190, 174); }
+#timezone ul#tzcontent li.even, #langcomb ul#langcontent li.even { background: rgb(239, 239, 239) none repeat scroll 0% 0%; }
+#timezone a, #langcomb a { display: block; color: rgb(176, 176, 176); padding: 0px 0px 0px 16px; line-height: 19px; }
+#timezone ul#tzcontent a:hover { background: rgb(255, 204, 153) url("cal-dart.2.gif") no-repeat scroll -194px 50%; text-decoration: underline; color: rgb(101, 101, 101) ! important; }
+#timezone ul#tzcontent a.tzdefault, #langcomb ul#langcontent li a.langdefault { color: rgb(101, 101, 101); }
+#timezone ul#tzcontent a.tzdefault { background-color: rgb(230, 244, 248); }
+.soccer #timezone ul#tzcontent a.tzdefault { background-color: rgb(234, 247, 231); }
+#timezone ul#tzcontent a.active, #langcomb ul#langcontent li a.active { color: white ! important; background-color: rgb(0, 64, 125); }
+.soccer #timezone ul#tzcontent a.active { background-color: rgb(1, 103, 0); }
+#timezone ul#tzcontent a.active:hover { background-image: url("cal-dart-white.1.gif"); }
+#timezone ul#tzcontent { top: 42px; border-bottom: medium none; }
+#fsbody > #fscon > .fs-table > .table-main tr.league.primary-top, .my-leagues .head, ul.menu.my-leagues li.head, .fs-table .odds-content tr.league.primary-top { background: transparent linear-gradient(to bottom, rgb(116, 20, 20) 30%, rgb(90, 14, 14) 100%) repeat scroll 0% 0%; }
+.toggleMyLeague { display: inline-block; vertical-align: text-top; height: 15px; width: 15px; margin-left: 5px; margin-right: 5px; cursor: pointer; background: transparent url("my-leagues-sprite.1.png") repeat scroll 0% 0%; transition-property: opacity; transition-duration: 0.5s; }
+.toggleMyLeague, .fs-table .toggleMyLeague.active, .menu ul .toggleMyLeague.active { opacity: 0.5; }
+.fs-table .toggleMyLeague, .menu ul .toggleMyLeague, #my-leagues-list .toggleMyLeague.active { opacity: 0.3; }
+.toggleMyLeague:hover, .fs-table .toggleMyLeague:hover, .menu ul .toggleMyLeague:hover, #my-leagues-list .toggleMyLeague.active:hover, .my-leagues .head .toggleMyLeague, #my-leagues-list .myLeagueInfo .toggleMyLeague { opacity: 1; }
+.my-leagues .head .toggleMyLeague, #my-leagues-list .myLeagueInfo .toggleMyLeague { margin-left: 0px; margin-right: 0px; cursor: default; position: static; }
+.my-leagues .head .toggleMyLeague { margin-right: 5px; }
+#my-leagues-list .toggleMyLeague.active { background-position: 4px -78px; }
+#my-leagues-list li.banner { background-color: white; padding-top: 10px; min-height: 0px; margin: 0px; }
+#my-leagues-list li.banner.empty-banner { padding: 0px; border: 0px none; }
+#my-leagues-list li.banner.last-item-banner { margin-bottom: -11px; }
+#my-leagues-list li.banner.empty-banner.last-item-banner { margin-bottom: 0px; }
+.menu.country-list ul li, .menu ul li { position: relative; }
+.menu ul .toggleMyLeague { position: absolute; right: 0px; top: 3px; height: 13px; width: 13px; background-position: 0px -59px; }
+.menu ul .toggleMyLeague.active { background-position: 0px -99px; }
+.toggleMyLeague.active, .my-leagues .head .toggleMyLeague { margin-left: 6px; background-position: 0px -99px; }
+#fsbody > #fscon > .fs-table > .table-main .toggleMyLeague.active, #fsbody > #fscon > .fs-table > .table-main .my-leagues .head .toggleMyLeague, .fs-table .odds-content .toggleMyLeague.active, .menu > .head > .toggleMyLeague { background-position: 0px -40px; margin-left: 5px; }
+.menu > .head > .toggleMyLeague { margin-left: 0px; }
+.fs-table tr.team.primary-top, ul.menu.my-teams li.head, .my-teams .head { background: transparent linear-gradient(to bottom, rgb(116, 20, 20) 30%, rgb(90, 14, 14) 100%) repeat scroll 0% 0%; }
+.toggleMyTeam { display: inline-block; vertical-align: text-top; height: 15px; width: 15px; margin-left: 5px; margin-right: 5px; cursor: pointer; background: transparent url("my-leagues-sprite.1.png") repeat scroll 0% 0%; transition-property: opacity; transition-duration: 0.5s; }
+.toggleMyTeam, .fs-table .toggleMyTeam.active, .menu ul .toggleMyTeam.active { opacity: 0.5; }
+.fs-table .toggleMyTeam, .menu ul .toggleMyTeam, #my-teams-list .toggleMyTeam.active { opacity: 0.3; }
+.toggleMyTeam:hover, .fs-table .toggleMyTeam:hover, .menu ul .toggleMyTeam:hover, #my-teams-list .toggleMyTeam.active:hover, .my-teams .head .toggleMyTeam, #my-teams-list .myTeamInfo .toggleMyTeam { opacity: 1; }
+.toggleMyTeam.active, .my-teams .head .toggleMyTeam { background-position: 0px -40px; }
+#my-teams-list .myTeamInfo { padding: 3px 10px; }
+.my-teams .head .toggleMyTeam, #my-teams-list .myTeamInfo .toggleMyTeam { margin-left: 0px; margin-right: 0px; cursor: default; position: static; }
+.my-teams .head .toggleMyTeam { margin-right: 5px; }
+.menu.country-list ul li, .menu ul li { position: relative; }
+.menu ul .toggleMyTeam { position: absolute; right: 0px; top: 3px; height: 13px; width: 13px; background-position: 0px -59px; }
+.buttons .lsid-rounded-box { float: left; margin-right: 10px; max-width: 140px; cursor: pointer; text-align: center; font-weight: bold; white-space: nowrap; }
+.buttons .lsid-rounded-box:hover { text-decoration: underline; }
+.lsid-rounded-box { margin-bottom: 3px; padding: 1px 8px 2px; line-height: 19px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25); border: 1px solid rgb(85, 0, 0); background: transparent linear-gradient(to bottom, rgb(212, 0, 0) 0%, rgb(148, 0, 0) 100%) repeat scroll 0% 0%; color: rgb(255, 255, 255); text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); overflow: hidden; text-overflow: ellipsis; }
+#signIn.lsid-rounded-box, #registration.lsid-rounded-box { max-width: 192px; margin-bottom: 8px; }
+.lsid-rounded-box.black { border-color: rgb(34, 34, 34); background: transparent linear-gradient(to bottom, rgb(70, 69, 70) 0%, rgb(30, 25, 31) 100%) repeat scroll 0% 0%; }
+.lsid-rounded-box.blue { border-color: rgb(0, 46, 85); background: transparent linear-gradient(to bottom, rgb(66, 98, 167) 0%, rgb(40, 59, 112) 100%) repeat scroll 0% 0%; }
+#signInFB.lsid-rounded-box, #signInGoogle.lsid-rounded-box, #signInTwitter.lsid-rounded-box { max-width: none; width: 192px; margin-bottom: 8px; text-align: left; }
+.signInFB .icon, .signInGoogle .icon, .signInTwitter .icon, #signInFB .icon, #signInGoogle .icon, #signInTwitter .icon { margin: -5px 8px -5px -8px; display: inline-block; width: 25px; height: 24px; line-height: 24px; vertical-align: text-top; background: transparent url("icons-lsid-social.2.png") no-repeat scroll -1px -1px; }
+#fscon .ifmenu #ifmenu-livescore-settings { width: 27px; height: 23px; border-bottom: 1px solid rgb(188, 190, 174); background: transparent url("settings2.png") no-repeat scroll 50% 0px; cursor: pointer; }
+#control-panel #signIn, #control-panel #registration { margin-bottom: auto; margin-top: 6px; height: 23px; line-height: 23px; }
+#control-panel #registration { margin-right: 0px; }
+div#control-panel-bg { height: 40px; position: relative; z-index: 888; }
+div#control-panel { width: 100%; top: 0px; left: 0px; z-index: 900; box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5); border-top: 1px solid rgb(82, 82, 82); border-bottom: 1px solid rgb(0, 0, 0); background: transparent linear-gradient(to bottom, rgb(102, 102, 102) 0%, rgb(52, 52, 52) 100%) repeat scroll 0% 0%; }
+div#control-panel #lsid { float: left; }
+div#control-panel #lsid #signInFB { visibility: hidden; }
+div#control-panel-content { width: 990px; height: 40px; margin: 0px auto; }
+div#control-panel-left { float: left; margin-left: -5px; }
+div#control-panel-right { float: right; margin-right: 7px; }
+div#control-panel-left { float: left; margin-right: -13px; }
+span.control-panel-icon, span.control-panel-icon-2 { float: left; margin-top: 5px; margin-left: 10px; border-radius: 5px; padding: 0px; background-color: rgb(34, 34, 34); }
+span.control-panel-icon:hover, span.control-panel-icon-2:hover { opacity: 0.75; }
+a.control-panel-icon-search, a.control-panel-icon-setting, a.control-panel-icon-android, a.control-panel-icon-apple, a.control-panel-icon-social { height: 100%; display: block; background: transparent url("icon-search_32x32.png") no-repeat scroll -1px -1px; }
+a.control-panel-icon-setting { background: transparent url("icon-setting_32x32.png") no-repeat scroll -1px -1px; }
+a.control-panel-icon-android { background: transparent url("icon-android_color_32x32.png") no-repeat scroll 0px -3px; }
+a.control-panel-icon-apple { background: transparent url("icon-apple_32x32.png") no-repeat scroll 0px -3px; }
+span.control-panel-icon-last { margin-right: 10px; }
+body.v3 span.control-panel-icon, body.v3 span.control-panel-icon-2 { margin-top: 4px; background: transparent linear-gradient(to bottom, rgb(70, 69, 70) 0%, rgb(30, 25, 31) 100%) repeat scroll 0px 0px; border: 1px solid rgb(34, 34, 34); box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15); border-radius: 3px; width: 30px; height: 30px; }
+body.v3 span.control-panel-icon:hover, body.v3 span.control-panel-icon-2:hover { opacity: 1; background: transparent linear-gradient(to bottom, rgb(80, 80, 80) 0%, rgb(34, 34, 34) 100%) repeat scroll 0px 0px; }
+body.v3 span.control-panel-icon-2 { margin-top: 5px; width: auto; height: 28px; }
+body.v3 span.control-panel-icon-2 a { padding-left: 32px; padding-right: 10px; font-weight: bold; color: rgb(255, 255, 255); line-height: 27px; text-decoration: none; }
+body.v3 span.control-panel-icon-2 a:hover { text-decoration: underline; }
+body.light-bg-1 div#control-panel { background: transparent linear-gradient(to bottom, rgb(125, 125, 125) 0%, rgb(82, 82, 82) 100%) repeat scroll 0% 0%; }
+.flag { background-image: url("flag-list.29.png"); background-repeat: no-repeat; background-position: 0px 20px; }
+.fl_145 { background-position: 0px 0px ! important; }
+.fl_62 { background-position: 0px -120px ! important; }
+.fl_77 { background-position: 0px -144px ! important; }
+.fl_98 { background-position: 0px -168px ! important; }
+.fl_171 { background-position: 0px -312px ! important; }
+.fl_181 { background-position: 0px -336px ! important; }
+.fl_22 { background-position: 0px -408px ! important; }
+.fl_128 { background-position: 0px -432px ! important; }
+.fl_200 { background-position: 0px -456px ! important; }
+.fl_198 { background-position: 0px -480px ! important; }
+.fl_116 { background-position: 0px -600px ! important; }
+.fl_81 { background-position: 0px -624px ! important; }
+.fl_154 { background-position: 0px -648px ! important; }
+.fl_172 { background-position: 0px -720px ! important; }
+.fl_182 { background-position: 0px -745px ! important; }
+.fl_170 { background-position: 0px -792px ! important; }
+.fl_39 { background-position: 0px -816px ! important; }
+.fl_153 { background-position: 0px -3169px ! important; }
+.fl_100 { background-position: 0px -864px ! important; }
+.fl_76 { background-position: 0px -936px ! important; }
+.fl_92 { background-position: 0px -960px ! important; }
+.fl_110 { background-position: 0px -1008px ! important; }
+.fl_139 { background-position: 0px -1032px ! important; }
+.fl_158 { background-position: 0px -1080px ! important; }
+.fl_199 { background-position: 0px -1104px ! important; }
+.fl_176 { background-position: 0px -1128px ! important; }
+.fl_24 { background-position: 0px -1176px ! important; }
+.fl_1, .fl_2, .fl_3, .fl_4, .fl_5, .fl_6, .fl_7, .fl_8, .fl_290, .fl_292, .fl_453, .fl_450, .fl_451 { background-position: 0px -1200px ! important; }
+.fl_53 { background-position: 0px -1344px ! important; }
+.fl_52 { background-position: 0px -1392px ! important; }
+.fl_118 { background-position: 0px -1464px ! important; }
+.fl_73 { background-position: 0px -1512px ! important; }
+.fl_231 { background-position: 0px -1728px ! important; }
+.fl_94 { background-position: 0px -1800px ! important; }
+.fl_103 { background-position: 0px -1872px ! important; }
+.fl_183 { background-position: 0px -2040px ! important; }
+.fl_36 { background-position: 0px -2232px ! important; }
+.fl_133 { background-position: 0px -2376px ! important; }
+.fl_190 { background-position: 0px -2472px ! important; }
+.fl_205 { background-position: 0px -2520px ! important; }
+.fl_93 { background-position: 0px -2832px ! important; }
+.fl_228 { background-position: 0px -2856px ! important; }
+.fl_29 { background-position: 0px -3504px ! important; }
+.fl_141 { background-position: 0px -5040px ! important; }
+.preload { position: absolute; top: 100px; left: 50%; margin-left: -11ex; z-index: 100; text-align: center; background: rgb(255, 255, 255) none repeat scroll 0% 0%; width: 22ex; height: 46px; line-height: 46px; opacity: 0.8; }
+.preload span { display: block; padding-left: 40px; background: transparent url("ajax-loader-hockey.gif") no-repeat scroll 15% center; }
+.soccer .preload span { background-image: url("ajax-loader-soccer.gif"); }
+.tooltip { clear: both; position: absolute; display: none; max-width: 400px; }
+.tooltip span { display: block; color: rgb(101, 101, 101); margin: 0px; padding: 10px 0px 0px 10px; white-space: nowrap; position: relative; z-index: 10; }
+.tooltip div { position: absolute; background-repeat: no-repeat; }
+.tooltip-lt { width: 5px; height: 100%; left: -5px; top: 0px; }
+.tooltip-rt { width: 14px; height: 100%; right: -14px; top: 0px; }
+.tooltip-lb { width: 5px; height: 6px; left: -5px; bottom: -6px; }
+.tooltip-ct { width: 100%; height: 100%; left: 0px; top: 0px; z-index: 9; }
+.tooltip-cb { width: 100%; height: 6px; left: 0px; bottom: -6px; }
+.tooltip-rb { width: 14px; height: 6px; right: -14px; bottom: -6px; }
+.tooltip-ct { background-position: -41px 0px; }
+.tooltip-lt { background-position: -31px 0px; }
+.tooltip-rt { background-position: -435px 0px; }
+.tooltip-lb { background-position: -31px bottom; }
+.tooltip-cb { background-position: center bottom; }
+.tooltip-rb { background-position: -435px bottom; }
+.tooltip { position: absolute; background-color: rgb(34, 34, 34); border-radius: 5px; border: 2px solid rgb(254, 254, 254); box-shadow: 0px 1px 5px rgb(0, 0, 0); color: rgb(255, 255, 255); padding: 4px 0px 4px 4px; }
+.tooltip::before { border-style: solid; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-color: rgb(34, 34, 34) transparent; border-width: 0px 5px 5px; top: -5px; content: ""; left: auto; right: 6px; position: absolute; z-index: 99; }
+.tooltip::after { border-style: solid; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-color: rgb(254, 254, 254) transparent; border-width: 0px 8px 8px; top: -8px; content: ""; right: 3px; left: auto; position: absolute; }
+.tooltip span { color: rgb(255, 255, 255); white-space: nowrap; display: block; padding-left: 4px; padding-top: 1px; padding-bottom: 1px; margin-right: 1px; }
+.tooltip div { display: none; }
+.fs-table tr.league { color: white; background: rgb(101, 101, 101) none repeat scroll 0% 0%; }
+.fs-table tr.league td { border-width: 1px medium; border-style: solid none; border-color: rgb(188, 190, 174) currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; text-align: left; }
+.fs-table .league .icons, .fs-table .odds .league .icons { display: block; position: absolute; width: 13px; height: 19px; line-height: 19px; right: auto; left: 5px; top: 0px; text-align: center; margin: 0px auto; }
+.fs-table tbody td.icons:first-child { border-right: medium none; border-left: 1px solid rgb(224, 224, 224); }
+.fs-table .league .icons.left, .fs-table .odds .league .icons.left { position: absolute; left: 0px; top: 0px; display: block; padding: 0px 6px; }
+.fs-table div.icons, .fs-table span.icons { position: relative; display: block; margin: 0px auto; vertical-align: top; line-height: 19px; height: 19px; }
+.fs-table tr.league .stats-link, .fs-table tr.league .sport { position: absolute; right: 10px; cursor: pointer; }
+.fs-table tr.league .stats-link span { color: rgb(255, 255, 255); text-decoration: underline; bottom: 1px; position: relative; }
+.fs-table .tomyg, .fs-table .tomyga, .fs-table .tomygai { width: 13px; height: 13px; line-height: 13px; cursor: pointer; display: inline-block; vertical-align: text-top; background-repeat: no-repeat; margin-top: 1px; }
+.fs-table tbody .tomyg, .fs-table tbody .tomyga, .fs-table tbody .tomygai { margin-top: 0px; }
+.fs-table tr.league td .country { margin-left: 10px; }
+.fs-table tr.league td .country.left { margin-left: 4px; }
+.stats-link span:hover { text-decoration: none ! important; }
+.fs-table tr.league { height: 21px; line-height: 21px; }
+.fs-table .tomyg, .fs-table .tomyga, .fs-table .tomygai { margin-top: 2px; }
+div.box_over_content, div.box_over_content div { line-height: 14px; }
+.fs-table .tomyg, .fs-table .tomyga, .fs-table .tomygai { background-image: url("checkbox.1.gif"); }
+.fs-table .tomyg { background-position: 0px 0px; }
+.fs-table .tomyg:hover { background-position: 0px -20px; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+#fsbody { width: 610px; }
+#fscon { position: relative; }
+#fsbody .copyright { text-align: right; padding: 3px 10px 0px; position: relative; line-height: 1.2; }
+.fs-table { margin-top: 0px; }
+.fs-table .bold { font-weight: bold; }
+.fs-table .aet, .fs-table .subincident { color: rgb(101, 101, 101); font-weight: normal; }
+.fs-table table { border-spacing: 0px; clear: both; table-layout: fixed; background: white none repeat scroll 0% 0%; position: relative; }
+.fs-table .table-line-bottom { border-top: 1px solid rgb(101, 101, 101); font-size: 1px; line-height: 1px; height: 0px; }
+.fs-table tr { height: 19px; line-height: 19px; }
+.fs-table td { text-align: center; padding: 0px; border-top: 0px none; border-bottom: 0px none; border-right: 1px solid rgb(224, 224, 224); }
+.fs-table table.golf.no-duel tbody td, .fs-table table.soccer tbody td, .fs-table table.motorsport-auto-racing.no-duel tbody td, .fs-table table.motorsport-moto-racing.no-duel tbody td, .fs-table table.motorsport.no-duel tbody td, .fs-table table.cycling.no-duel tbody td, .fs-table table.horse-racing tbody td, .fs-table table.winter-sports-alpine-skiing tbody td, .fs-table table.winter-sports-ski-jumping tbody td, .fs-table table.winter-sports-cross-country tbody td, .fs-table table.winter-sports-biathlon tbody td, .fs-table .odds td { border-top: 1px solid rgb(224, 224, 224); }
+.fs-table .tr-first:nth-child(1) td, .fs-table table.soccer .tr-first:nth-child(1) td, .fs-table table.golf.no-duel .tr-first:nth-child(1) td { border-top: 0px none; }
+.fs-table td.time, .fs-table td.team-rank { border-left: 1px solid rgb(224, 224, 224); }
+.fs-table td.part-top, .fs-table td.part-bottom { color: rgb(176, 176, 176); }
+.fs-table td.team-home, .fs-table td.team-rank, .fs-table td.part-bottom, .fs-table td.player, .fs-table td.score-home { border-bottom: 1px solid rgb(224, 224, 224); }
+.fs-table table.golf.no-duel td.team-home, .fs-table table.soccer td.team-home, .fs-table .odds td { border-bottom: medium none; }
+.fs-table tr.even { background: rgb(240, 240, 240) none repeat scroll 0% 0%; }
+.fs-table span.dw-icon, .stats-table span.dw-icon { background: transparent url("icons-iframe.9.png") no-repeat scroll -702px -3px; padding-left: 5px; margin: 0px 6px; }
+.fs-table span.dw-icon:hover, .stats-table span.dw-icon:hover { background-position: -734px -3px; }
+.fs-table td span.padl { text-align: left; display: block; padding-left: 10px; }
+.fs-table td span.padr { text-align: right; display: block; padding-right: 10px; }
+.fs-table td.icons, .fs-table td.comparison, .dw-icon, .fs-table td.best-of, .fs-table td.acronym { cursor: default; }
+.fs-table .icons .icon0 { left: 5px; }
+.fs-table .icons .icon1 { left: 20px; }
+.fs-table .icons .icon2 { left: 35px; }
+.fs-table .icons .info, .fs-table .icons .tv, .fs-table .icons .video, .fs-table .icons .video-blink, .fs-table .icons .slive, .fs-table .icons .clive, .fs-table .icons .shirt, .fs-table .icons .comparison, .fs-table .icons .league-info, .fs-table .icons .display-league, .fs-table .icons .hide-league, .fs-table .icons .tennis-serve, .fs-table .icons .badminton-serve, .fs-table .icons .volleyball-serve, .fs-table .icons .beach-volleyball-serve, .fs-table .icons .cricket-serve, .fs-table .icons .cricket-serve-opposite, .fs-table .icons .darts-serve, .fs-table .icons .baseball-serve, .fs-table .icons .baseball-serve-opposite, .fs-table .icons .pesapallo-serve, .fs-table .icons .pesapallo-serve-opposite, .fs-table .icons .american-football-serve { position: absolute; z-index: 1; width: 12px; height: 16px; line-height: 16px; background: transparent url("icons-iframe.9.png") no-repeat scroll 0px 50%; }
+.fs-table .icons .tv { background-position: -32px 100%; cursor: pointer; }
+.fs-table .icons .shirt { background-position: -126px 100%; cursor: pointer; width: 15px; }
+.fs-table .icons .shirt:hover { background-position: -477px 100%; width: 15px; }
+.fs-table span.rhcard, .fs-table span.racard { background: transparent url("card-red.gif") no-repeat scroll 0px 50%; }
+.fs-table span.rhcard { background-position: 100% 50%; }
+.fs-table span.rhcard1, .fs-table span.racard1 { padding-left: 10px; }
+.fs-table span.rhcard2, .fs-table span.racard2 { padding-left: 19px; }
+.fs-table .flag, #fsmenu .flag { width: 16px; display: inline-block; margin: 0px 10px 0px 0px; height: 13px; vertical-align: text-top; }
+.fs-table .playing, .fs-table .playing a { color: rgb(204, 0, 0); }
+.fs-table .time-playing { color: rgb(176, 176, 176); }
+.fs-table td.timer { line-height: 1.4; }
+.fs-table td.timer span.final_result_only { color: rgb(176, 176, 176); cursor: default; }
+.fs-table td.timer span.final_result_only:hover { color: rgb(0, 0, 0); }
+.fs-table .canceled { text-decoration: line-through; }
+#fsi { position: relative; display: none; background: white none repeat scroll 0% 0%; padding-top: 1px; }
+@media screen and (max-device-width: 640px) {
+  body { -moz-text-size-adjust: none; }
+}
+.fs-table tr.league { background: rgb(52, 52, 52) url("bg-label.gif") repeat-x scroll center top; }
+.table-main {  }
+.fs-table .icons .info:hover { background-position: -542px 50%; }
+.fs-table .icons .tv { background-position: -32px 50%; }
+.fs-table .icons .tv:hover { background-position: -510px 50%; }
+.fs-table .icons .live-centre, .fs-table .icons .live-centre-active { position: absolute; z-index: 1; width: 36px; height: 17px; line-height: 17px; background: transparent url("icons-iframe-2.4.gif") no-repeat scroll 0px 100%; left: 5px; }
+.fs-table .icons .live-centre-active { background-position: -50px 100%; }
+#fs_overlay { position: absolute; background: transparent none repeat scroll 0% 0%; display: none; width: 100%; height: 100%; min-height: 500px; top: 0px; left: 0px; z-index: 1000; }
+.fs-table .cell_ib span.icons { float: left; margin-left: 5px; }
+#fsbody { width: 660px; }
+.soccer .ifmenu { border-color: rgb(1, 103, 0); }
+#sync-indicator { position: absolute; right: 0px; top: 8px; width: 6px; height: 6px; background-repeat: no-repeat; }
+#sync-indicator span { display: block; width: 100%; height: 100%; background: transparent url("status2.gif") no-repeat scroll 0% 0%; }
+#sync-indicator .push { background-position: 0px -300px; }
+.ifmenu { position: relative; clear: both; margin: 0px; height: 20px; border-bottom: 1px solid rgb(188, 190, 174); }
+.ifmenu li { list-style: outside none none; float: left; border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(188, 190, 174) rgb(188, 190, 174) currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; margin-right: 10px; height: 19px; background-color: rgb(156, 156, 156); }
+.ifmenu a, .ifmenu strong, .ifmenu .single-nav { display: block; position: relative; padding: 0px 10px; line-height: 19px; text-decoration: none ! important; }
+.ifmenu a { cursor: pointer; }
+.ifmenu a:hover, #detail .ifmenu a:hover { text-decoration: underline ! important; }
+.ifmenu li.selected, .ifmenu .selected { background-color: rgb(0, 64, 125); }
+.soccer .ifmenu .selected { background-color: rgb(1, 103, 0); }
+.ifmenu .ifmenu-live a { color: rgb(204, 0, 0); }
+.ifmenu .selected a, .ifmenu a.selected { color: white; }
+.ifmenu #ifmenu-calendar, .ifmenu #ifmenu-odds-format { position: absolute; right: 0px; top: 0px; border-bottom: medium none; width: 110px; font-size: inherit; margin: 0px; }
+.ifmenu #ifmenu-calendar .h2, .ifmenu #ifmenu-odds-format .h2 { margin: 0px; padding: 0px; font-size: 100%; font-weight: normal; line-height: 19px; cursor: pointer; }
+.ifmenu #ifmenu-calendar .h2 a, .ifmenu #ifmenu-odds-format .h2 a { padding: 0px 0px 0px 16px; background: transparent url("cal-dart.2.gif") no-repeat scroll 4px 60%; }
+.ifmenu .ifmenu-custom a #mygames-count { display: inline; float: none; background: transparent none repeat scroll 0% 0%; }
+div#mc ul.ifmenu { margin: 0px; }
+.ifmenu { height: 24px; border-bottom: 4px solid rgb(0, 64, 125); }
+.soccer .ifmenu { border-color: rgb(1, 103, 0); }
+.ifmenu li, .ifmenu #ifmenu-calendar span.day { height: 23px; border-width: medium medium 1px; border-style: none none solid; border-color: currentcolor currentcolor rgb(188, 190, 174); background-image: url("bg-bookmark.2.gif"); background-position: 0px -800px; background-repeat: no-repeat; margin-right: 1px; }
+.ifmenu li.ifmenu-custom a { white-space: nowrap; }
+.ifmenu li span { display: block; background-image: url("bg-bookmark.2.gif"); height: 100%; }
+.ifmenu li a, .ifmenu li strong, .ifmenu li .single-nav { font-weight: normal; color: rgb(255, 255, 255); line-height: 23px; height: 23px; padding-top: 0px; }
+.ifmenu .selected, .ifmenu #ifmenu-calendar .today { height: 24px; background-repeat: no-repeat; background-position: 0px -200px; border-bottom: 0px none; }
+.soccer .ifmenu .selected { background-position: 0px -100px; }
+.ifmenu .selected span { background-position: 100% -250px; }
+.soccer .ifmenu .selected span { background-position: 100% -150px; }
+.ifmenu .ifmenu-live a { color: rgb(255, 255, 255); }
+.ifmenu #ifmenu-calendar { border-bottom: 1px solid rgb(188, 190, 174); }
+.ifmenu #ifmenu-calendar .h2 a { padding-left: 20px ! important; background: transparent url("cal-dart.2.gif") no-repeat scroll 7px 60%; }
+.ifmenu li { background-position: 0px -800px; }
+.ifmenu li span { background-position: 100% -850px; }
+.ifmenu #ifmenu-calendar { border-bottom: 0px none; height: 24px; }
+.ifmenu #ifmenu-calendar { background-position: 0px -200px; }
+.soccer .ifmenu #ifmenu-calendar { background-position: 0px -100px; }
+.ifmenu #ifmenu-calendar span.today { background-position: -3px -200px; }
+.soccer .ifmenu #ifmenu-calendar span.today { background-position: -3px -100px; }
+.ifmenu #ifmenu-calendar .h2 a { background: transparent url("cal-dart-white.1.gif") no-repeat scroll 7px 60%; }
+.ifmenu #ifmenu-calendar { background: transparent none repeat scroll 0% 0%; }
+.ifmenu #ifmenu-calendar span.day { display: block; float: left; height: 23px; line-height: 23px; margin: 0px; padding: 0px; }
+.ifmenu #ifmenu-calendar span.yesterday, .ifmenu #ifmenu-calendar span.tomorrow { width: 15px; background-position: 0px -800px; border-color: rgb(188, 190, 174); cursor: pointer; }
+.ifmenu #ifmenu-calendar span.yesterday { border-right-width: 1px; border-right-style: solid; }
+.ifmenu #ifmenu-calendar span.tomorrow { background-position: -3px -800px; border-left-width: 1px; border-left-style: solid; float: right; }
+.ifmenu #ifmenu-calendar span.tomorrow .inner { background-position: right -850px; }
+.ifmenu #ifmenu-calendar span.today { height: 24px; }
+.ifmenu #ifmenu-calendar span.today, .ifmenu #ifmenu-calendar span.h2 { border-bottom: medium none; width: 78px; }
+.ifmenu #ifmenu-calendar span.h2 { background: transparent none repeat scroll 0% 0%; }
+.ifmenu #ifmenu-calendar .arrow { background-repeat: no-repeat; background-image: url("cal-dart.2.gif"); }
+.ifmenu #ifmenu-calendar .yesterday .arrow { background-position: -398px 9px; }
+.ifmenu #ifmenu-calendar .tomorrow .arrow { background-position: -195px 9px; }
+#scroll-to-top { padding: 0px; position: absolute; left: 50%; bottom: 10px; z-index: 1105; }
+#scroll-to-top span { cursor: pointer; display: block; background: rgb(119, 119, 119) url("icon-top.png") no-repeat scroll 50% 30%; min-width: 45px; height: 20px; color: rgb(255, 255, 255); padding: 35px 5px 0px; white-space: nowrap; text-align: center; position: fixed; bottom: 10px; border-radius: 10px; box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2) inset; }
+#scroll-to-top span:hover { text-decoration: underline; }
+#scroll-to-top { margin-left: 505px; }
+#scroll-to-top span:hover { background-color: rgb(0, 64, 125); }
+.soccer #scroll-to-top span:hover { background-color: rgb(1, 103, 0); }
+form { margin: 0px; padding: 0px; }
+.fs-table tr.league td { color: rgb(255, 255, 255); }
+@media �screen {
+}
+@font-face {
+  font-family: "PFDinDisplayPro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("PFDinDisplayPro-Normal.woff");
+}
+@font-face {
+  font-family: "PFDinDisplayPro";
+  font-style: normal;
+  font-weight: 100;
+  src: url("PFDinDisplayPro-Tiny.woff");
+}
+@font-face {
+  font-family: "PFDinDisplayPro";
+  font-style: normal;
+  font-weight: bold;
+  src: url("PFDinDisplayPro-Bold.woff");
+}
+.icon { display: inline-block; position: relative; border: 0px none; }
+#cookie-law { background: rgba(41, 44, 46, 0.9) none repeat scroll 0px 0px; bottom: 0px; color: rgb(255, 255, 255); font-size: 11px; position: fixed; width: 100%; z-index: 1100; }
+#cookie-law #cookie-law-content { padding: 10px; text-align: center; }
+#cookie-law #cookie-law-content strong { font-weight: bold; }
+#cookie-law #cookie-law-content a { color: rgb(255, 255, 255); text-decoration: underline; }
+#cookie-law #cookie-law-content a:hover { text-decoration: none; }
+#cookie-law #cookie-law-content span.button { background: rgb(255, 204, 0) none repeat scroll 0px 0px; color: rgb(0, 0, 0); border-radius: 3px; cursor: pointer; font-size: 11px; padding: 2px 10px; display: inline-block; font-weight: bold; text-decoration: underline; }
+#cookie-law #cookie-law-content span.button:hover { text-decoration: none; }
+#cookie-law #cookie-law-content div { display: inline-block; text-align: left; }
+@font-face {
+  font-family: "PFDinDisplayPro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("PFDinDisplayPro-Normal.woff");
+}
+@font-face {
+  font-family: "PFDinDisplayPro";
+  font-style: normal;
+  font-weight: 100;
+  src: url("PFDinDisplayPro-Tiny.woff");
+}
+@font-face {
+  font-family: "PFDinDisplayPro";
+  font-style: normal;
+  font-weight: bold;
+  src: url("PFDinDisplayPro-Bold.woff");
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@font-face {
+  font-family: "PFDinDisplayPro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("PFDinDisplayPro-Normal.woff");
+}
+@font-face {
+  font-family: "PFDinDisplayPro";
+  font-style: normal;
+  font-weight: 100;
+  src: url("PFDinDisplayPro-Tiny.woff");
+}
+@font-face {
+  font-family: "PFDinDisplayPro";
+  font-style: normal;
+  font-weight: bold;
+  src: url("PFDinDisplayPro-Bold.woff");
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 1010px) {
+}
+@media only screen and (max-width: 642px) {
+}

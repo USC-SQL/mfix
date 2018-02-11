@@ -1,0 +1,11 @@
+/* Code tidied up by ScrapBook */
+* { background: transparent none repeat scroll 0% 0% ! important; color: black ! important; text-shadow: none ! important; }
+a, a:visited { text-decoration: underline; }
+a[href]::after { content: " (" attr(href) ")"; }
+a[href^="javascript:"]::after, a[href^="JavaScript:"]::after, a[href^="#"]::after { content: ""; }
+tr, img { page-break-inside: avoid; }
+img { max-width: 100% ! important; }
+@page { margin: 0.5cm; }
+p, h2, h3 {  }
+h2, h3 { page-break-after: avoid; }
+#skip, #header, #breadcrumb, #pageNavAndTools, noscript, #footer, #banner, #promosAndTools, .previousAndNext, .resultControls, .paginationFilter, .subSectionHeading select, .subSectionHeading label, .headingCont select, .access input, .articleCategory a, #toggleAddInfo { display: none; }

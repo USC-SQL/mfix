@@ -1,0 +1,9 @@
+/* Code tidied up by ScrapBook */
+body { font-family: Arial,Helvetica,sans-serif; font-size: 12pt; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+a:link, a:visited { color: rgb(0, 0, 0) ! important; text-decoration: underline ! important; }
+table { width: 100%; }
+#page { width: auto; margin: 0px; background: transparent none repeat scroll 0% 0%; }
+#content { width: auto; margin: 0px; padding: 0px; }
+#top-nav, #sidebar, #sidebar-right, #link-container, .search-form, .section-navigation, .feature-social, .promo-area, #footer .footer-links, #footer .footer-links-sm, #footer-right, #footer .left, #footer .rss-signup, #footer .corp-links, .google-preview_launcher, .slider .prev, .slider .next, .slider ul li, .product-main-links, div.productDetail-blowupImage, #upsell, .title-text-bottom, .productDetail-misc, .productDetail-misc-top, .productDetail-misc-bottom, .productDetail-purchaseOrder, .product-cartIcon, .product-cartLink, .login, #pr_search_form, .press-release_media { display: none ! important; }
+#breadcrumb, #breadcrumb div, .feature.box, .more, .productDetail-format { background: transparent none repeat scroll 0% 0% ! important; }
+#footer { background: transparent none repeat scroll 0% 0%; text-align: center; min-height: auto; padding: 10px 0px; }

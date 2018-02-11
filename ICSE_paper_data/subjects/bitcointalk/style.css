@@ -1,0 +1,57 @@
+/* Code tidied up by ScrapBook */
+a:link { color: rgb(71, 108, 142); text-decoration: none; }
+a:visited { color: rgb(71, 108, 142); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.nav, .nav:link, .nav:visited { color: rgb(0, 0, 0); text-decoration: none; }
+a.nav:hover { color: rgb(0, 0, 0); text-decoration: underline; }
+table { empty-cells: show; }
+body, td, th, tr { color: rgb(0, 0, 0); font-size: 13px; font-family: verdana,sans-serif; }
+body { background-color: rgb(229, 229, 232); margin: 0px; padding: 12px 30px 4px; font: 13px verdana,helvetica,sans-serif; }
+input, textarea, button { color: rgb(0, 0, 0); font-family: verdana,sans-serif; }
+input, button { font-size: 90%; }
+a img { border: 0px none; }
+.windowbg, #preview_body { color: rgb(0, 0, 0); background-color: rgb(236, 237, 243); }
+.windowbg2 { color: rgb(0, 0, 0); background-color: rgb(246, 246, 246); }
+.windowbg3 { color: rgb(0, 0, 0); background-color: rgb(224, 225, 232); }
+.titlebg, tr.titlebg th, tr.titlebg td, .titlebg2, tr.titlebg2 th, tr.titlebg2 td { color: black; font-style: normal; background: rgb(233, 240, 246) url("titlebg.jpg") repeat-x scroll 0% 0%; border-bottom: 1px solid rgb(155, 174, 191); border-top: 1px solid rgb(255, 255, 255); padding-left: 10px; padding-right: 10px; }
+.titlebg, .titlebg a:link, .titlebg a:visited { font-weight: bold; color: black; font-style: normal; }
+.titlebg2 a:link, .titlebg2 a:visited { color: black; font-style: normal; text-decoration: underline; }
+.titlebg2 a:hover { text-decoration: underline; }
+.catbg, tr.catbg td, .catbg3, tr.catbg3 td { background: rgb(136, 166, 192) url("catbg.jpg") repeat-x scroll 0% 0%; color: rgb(255, 255, 255); padding-left: 10px; padding-right: 10px; }
+.catbg, .catbg2, .catbg3 { border-bottom: 1px solid rgb(55, 85, 118); }
+.catbg, .catbg2 { font-weight: bold; }
+.catbg a:link, .catbg a:visited, .catbg2 a:link, .catbg2 a:visited { color: white; text-decoration: none; }
+.catbg a:hover, .catbg2 a:hover, .catbg3 a:hover { color: rgb(224, 224, 255); }
+.bordercolor { background-color: rgb(173, 173, 173); padding: 0px; }
+.tborder { padding: 1px; border: 1px solid rgb(105, 105, 105); background-color: rgb(255, 255, 255); }
+.smalltext { font-size: x-small; font-family: verdana,sans-serif; }
+.middletext { font-size: 90%; }
+#ajax_in_progress { background: rgb(50, 205, 50) none repeat scroll 0% 0%; color: white; text-align: center; font-weight: bold; font-size: 18pt; padding: 3px; width: 100%; position: fixed; top: 0px; left: 0px; }
+.maintab_first, .maintab_back, .maintab_last, .maintab_active_first, .maintab_active_back, .maintab_active_last { color: white; text-transform: uppercase; vertical-align: top; }
+.maintab_back, .maintab_active_back { color: white; text-decoration: none; font-size: 9px; vertical-align: top; padding: 2px 6px 6px; font-family: tahoma,sans-serif; }
+.maintab_first { background: transparent url("maintab_first.gif") no-repeat scroll left bottom; width: 10px; }
+.maintab_back { background: transparent url("maintab_back.gif") repeat-x scroll left bottom; }
+.maintab_last { background: transparent url("maintab_last.gif") no-repeat scroll left bottom; width: 8px; }
+.maintab_active_first { background: transparent url("maintab_active_first.gif") no-repeat scroll left bottom; width: 6px; }
+.maintab_active_back { background: transparent url("maintab_active_back.gif") repeat-x scroll left bottom; }
+.maintab_active_last { background: transparent url("maintab_active_last.gif") no-repeat scroll left bottom; width: 8px; }
+.maintab_back a:link, .maintab_back a:visited, .maintab_active_back a:link, .maintab_active_back a:visited { color: white; text-decoration: none; }
+.maintab_back a:hover, .maintab_active_back a:hover { color: rgb(224, 224, 255); text-decoration: none; }
+.nav { font-size: 13px; font-weight: normal; }
+div.nav b:last-child a { font-weight: bold; text-decoration: none; cursor: default; }
+.smalltext { font-size: 11px; }
+div div.tborder table.bordercolor td.windowbg { vertical-align: middle; }
+div.tborder table.bordercolor td.windowbg[width="6%"] + td + td + td.windowbg2[width="22%"] { min-width: 230px; }
+@font-face {
+  font-family: "ChopinScript";
+  font-style: normal;
+  font-weight: normal;
+  src: url("ChopinScript.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BTC";
+  font-style: normal;
+  font-weight: normal;
+  src: url("BTC.ttf") format("truetype");
+}
+a.ul[href^="https://bitcointalk.org/"]:hover { color: green ! important; }

@@ -1,0 +1,131 @@
+/* Code tidied up by ScrapBook */
+@media screen {
+  #content-topo-homes { float: left; margin-right: 15px; }
+  #content-core-topo { margin-bottom: -1px; margin-top: 20px; }
+  .menu-home-a .menu-lista-1 img { margin-right: 10px; float: left; margin-top: 3px; }
+  .menu-texto, .menu-texto:hover { display: table-cell; }
+  .menu-home-a .menu-lista-1, .menu-lista-2, .menu-lista-3 { list-style: outside none none; }
+  #content-homes-a .menu-home-a { margin-left: 0px; position: relative; cursor: pointer; }
+  #content-homes-a li.menu-lista-1 { width: 200px; border-top: 1px solid rgb(221, 221, 221); padding: 8px 0px; margin-bottom: 0px; position: relative; }
+  #content-homes-a .menu-lista-1:last-child { border-bottom: 1px solid rgb(221, 221, 221); }
+  .content-homes-a-2 { top: 0px; background: rgb(238, 238, 238) none repeat scroll 0% 0%; width: 260px; position: absolute; display: none; z-index: 99; border-bottom: 2px solid rgb(255, 204, 51); float: left; margin-left: 5px; left: 195px; min-height: 285px; }
+  .menu-coluna-2, .menu-coluna-1 { width: 520px ! important; }
+  .menu-coluna-3 { width: 780px ! important; }
+  .menu-home-a-2 { float: left; }
+  .menu-home-a .menu-lista-1:hover { background-color: rgb(238, 238, 238); }
+  .menu-home-a-3 .menu-lista-3 a { font-size: 13px; }
+  .menu-home-a .menu-lista-1:hover img { margin-left: 10px; }
+  #content .menu-home-a .menu-lista-1 a:hover { color: rgb(51, 102, 153) ! important; }
+  #content .menu-home-a .menu-lista-1 a:visited { border-bottom: medium none; }
+  .menu-lista-1:hover .content-homes-a-2 { display: inline-block ! important; }
+  .content-homes-a-2 .menu-home-a-2 a { padding: 10px; }
+  .content-homes-a-2 .menu-home-a-2 a { display: block; }
+  .content-homes-a-2 li.menu-lista-2 { margin-left: 15px; width: 220px; margin-bottom: 0px; margin-right: 15px; }
+  .content-homes-a-2 li.menu-lista-2:first-child { margin-top: 15px; }
+  .content-homes-a-2 .menu-lista-2 a { border: medium none; color: rgb(102, 102, 102); }
+  .menu-home-a-2 li:hover > a { background: rgb(204, 204, 204) none repeat scroll 0% 0%; }
+  .content-homes-a-2 li.menu-lista-2:hover a { color: rgb(51, 102, 153) ! important; }
+  .menu-home-a-2 .menu-lista-2 .item-lista-2 { color: rgb(102, 102, 102); font-weight: bold; font-size: 13px; }
+  .content-homes-a-3 { margin-left: 15px; }
+  .menu-home-a-3 .menu-lista-3 { margin-top: 0px ! important; }
+  .itens-principais-servicos { list-style: outside none none; float: left; width: 150px; height: 110px; }
+  .itens-principais-servicos img { width: 100%; }
+  .itens-principais-servicos img:hover { border-bottom: 3px solid rgb(204, 204, 204); }
+  #content-principais-servicos { float: left; width: 720px; margin-right: 0px; margin-left: 0px; margin-top: 35px; }
+  #content-core-mid { padding-top: 1px; }
+  #content-principais-servicos li.itens-principais-servicos { margin-bottom: 15px ! important; margin-right: 30px; background: rgb(240, 240, 242) none repeat scroll 0% 0%; }
+  #content-principais-servicos li.itens-principais-servicos:last-child { margin-right: 0px; }
+  #content-noticias .lista-noticias { list-style: outside none none; }
+  .titulo { margin-bottom: 6px; font-size: 1.25em; color: rgb(68, 68, 68); font-family: "Helvetica Neue",Arial,Liberation Sans,FreeSans,sans-serif; font-weight: bold; line-height: 1.5em; }
+  #content-noticias .lista-noticias .item-noticia { margin-bottom: 7px; }
+  #content-noticias .lista-noticias .item-noticia:last-child { margin-bottom: 0px; }
+  #content-noticias .titulo {  }
+  #content-noticias { margin-bottom: 18px; margin-top: -8px; width: 240px; float: left; }
+  #content-noticias .item-noticia .noticia-titulo, #content-avisos .item-aviso a { font-size: 13px; color: rgb(51, 102, 153); }
+  #content-noticias .item-noticia .noticia-titulo:hover, #content-avisos .item-aviso a:hover { font-size: 13px; color: rgb(205, 133, 0) ! important; text-decoration: underline; }
+  #content-noticias .item-noticia .noticia-titulo:visited, #content-avisos .item-aviso a:visited { font-size: 13px; text-decoration: underline; color: rgb(155, 192, 205); }
+  #content-noticias .item-noticia .noticia-data-hora { font-size: 12px; color: rgb(102, 102, 102); }
+  #content-noticias .item-noticia .noticia-data-hora:hover { text-decoration: underline; color: rgb(102, 102, 102) ! important; }
+  #content-avisos .lista-avisos { list-style: outside none none; margin: 7px 0px; }
+  #content-avisos .lista-avisos .item-aviso { line-height: 1.2em; }
+  #content-avisos { width: 240px; float: left; }
+  #content-noticias div.mais, #content-avisos div.mais { padding: 10px 10px 0px 0px; }
+  #content-noticias div.mais a, #content-avisos div.mais a { background: transparent url("icon-bullet-2.png") no-repeat scroll 0px center; padding-left: 20px; }
+  #content-avisos .titulo {  }
+  #busca-acesso-rapido span, #rastreamento-obj span {  }
+  #content-feed-blog { width: 460px; height: 300px; background: rgb(233, 233, 233) none repeat scroll 0% 0%; float: left; }
+  #content-feed-blog #img-feed-blog, #content-feed-blog .conteudo-feed-blog { margin-left: 20px; margin-right: 20px; }
+  #content-feed-blog #img-feed-blog { margin-bottom: 20px; margin-top: 20px; }
+  #content-feed-blog #img-feed-blog img { width: 120px; height: 50px; }
+  #content-feed-blog .lista-feed-blog { list-style: outside none none; }
+  #content-feed-blog .item-feed-blog .feed-data-hora { font-size: 12px; color: rgb(102, 102, 102); }
+  #content-feed-blog .item-feed-blog .feed-data-hora:hover { text-decoration: underline; color: rgb(102, 102, 102) ! important; }
+  #content-feed-blog .item-feed-blog .titulo-feed-blog { font-size: 13px; color: rgb(51, 102, 153); }
+  #content-feed-blog .item-feed-blog .titulo-feed-blog:hover { text-decoration: underline; color: rgb(205, 133, 0) ! important; }
+  #content-feed-blog .item-feed-blog .titulo-feed-blog:visited { color: rgb(155, 192, 205); }
+  #content-feed-blog .item-feed-blog { margin-bottom: 8px; }
+  #content-destaque .content-lista-destaque .lista-destaque { list-style: outside none none; }
+  #content-destaque { width: 960px; background: rgb(233, 233, 233) none repeat scroll 0% 0%; position: relative; height: auto; margin-left: 0px; margin-top: 25px; margin-bottom: 40px; }
+  .content-lista-destaque, .content-lista-destaque li { width: 985px; overflow: hidden; }
+  .content-lista-destaque .conteudo-destaques { display: block; float: left; width: 160px; height: 120px; margin-top: 2px; margin-right: 30px; }
+  .conteudo-destaques:first-child { margin-left: 20px; }
+  .conteudo-destaques:last-child { margin-right: 20px; }
+  .content-lista-destaque .conteudo-destaques img { width: 100%; height: 100%; }
+  .conteudo-destaques a.desc-destaque { color: rgb(102, 102, 102) ! important; font-size: 13px; }
+  #titulo-destaque { float: left; margin-top: 10px; margin-bottom: 15px; }
+  @-moz-document url-prefix("") {
+  #content-homes-a li.menu-lista-1 { padding: 7.5px 0px; }
+  #content-noticias { margin-top: 0px; }
+}
+  #titulo-destaque span { left: 0px; margin-left: 21px; font-size: 18px; color: rgb(0, 102, 153); font-weight: bold; }
+  .conteudo-destaques:hover img { box-shadow: 0px 0px 0px 2px rgb(24, 116, 205); }
+  #content-destaque .conteudo-destaques:hover a { font-size: 13px; color: rgb(205, 133, 0) ! important; text-decoration: underline; font-weight: bold; }
+  .clearfix { float: none; clear: both; }
+  #content-destaque .conteudo-destaques:visited a { font-weight: bold; color: rgb(155, 192, 205) ! important; }
+  #content-banner { float: left; margin-right: 30px; }
+  #content-banner .lista-banner, #content-banner .itens-banner { margin: 0px; padding: 0px; list-style: outside none none; }
+  #content-banner, #content-banner .itens-banner { width: 475px ! important; height: 295px; overflow: hidden; }
+  .shadow { position: relative; }
+  .shadow::before, .shadow::after { z-index: -1; position: absolute; content: ""; bottom: 20px; left: 10px; width: 50%; top: 90%; max-width: 300px; background: rgb(255, 255, 255) none repeat scroll 0px 0px; box-shadow: 0px 10px 10px rgb(119, 119, 119); transform: rotate(-3deg); }
+  .shadow::after { transform: rotate(3deg); right: 10px; left: auto; }
+  #nextBtn { left: 660px; position: absolute; top: 127px; text-indent: -8000px; }
+  a#nextBtn { background: transparent url("seta_banner_direita.png") no-repeat scroll 0px 0px; display: block; position: absolute; width: 30px; height: 30px; }
+  #prevBtn { position: absolute; top: 127px; left: 215px; text-indent: -8000px; }
+  a#prevBtn { background: transparent url("seta_banner_esquerda.png") no-repeat scroll 0px 0px; display: block; position: absolute; width: 30px; height: 30px; }
+  #nextBtn-destaque { position: absolute; right: 0px; top: 0px; margin-top: 110px; text-indent: -8000px; }
+  #prevBtn-destaque { position: absolute; top: 0px; margin-top: 110px; text-indent: -8000px; }
+  a#nextBtn-destaque { display: block; position: absolute; width: 30px; height: 35px; background: transparent url("seta_banner_direita.png") no-repeat scroll 0px 0px; }
+  a#prevBtn-destaque { display: block; position: absolute; width: 30px; height: 35px; background: transparent url("seta_banner_esquerda.png") no-repeat scroll 0px 0px; }
+  #content-core-bot { margin-top: 10px; }
+  #content-redes-sociais { background: rgb(255, 255, 255) none repeat scroll 0px 0px; border: 2px solid rgb(233, 233, 233); float: left; height: 300px; margin-right: 36px; width: 460px; }
+  #busca-acesso-rapido form::before, #busca-acesso-rapido form::after, #rastreamento-obj form::before, #rastreamento-obj form::after { content: ""; display: table; }
+  #busca-acesso-rapido form::after, #rastreamento-obj form::after { clear: both; }
+  .acesso-busca { overflow: hidden; border: 1px solid rgb(204, 204, 204); width: 230px; margin-top: 5px; margin-bottom: 23px; height: 20px; padding-left: 5px; float: left; }
+  #precos-prazos .titulo-acesso { margin-bottom: 5px; }
+  .acesso-busca-submit:hover { background: transparent url("icon_lupa-azul.png") no-repeat scroll center center; }
+  .acesso-busca-submit { background: transparent url("icon_lupa.png") no-repeat scroll center center; border: medium none; color: transparent; margin-left: -25px; width: 20px; overflow: visible; position: relative; float: right; cursor: pointer; margin-top: 8px; margin-right: 5px; }
+  #rastreamento-obj span, #busca-acesso-rapido span { color: rgb(51, 51, 51); }
+  #content-acesso-rapido .titulo-acesso { font-size: 16px; color: rgb(64, 64, 64); font-weight: bold; }
+  #content-acesso-rapido .select-precos-prazos > span { font-size: 12px; color: rgb(175, 175, 175); margin-left: 5px; }
+  #content-acesso-rapido #precos-prazos .first-span { color: rgb(102, 102, 102); display: block; }
+  #content-acesso-rapido { width: 240px; float: left; margin-top: -5px; }
+  #precos-prazos .select-precos-prazos { width: 238px; background: rgb(255, 255, 255) url("icon_seta-cinza.png") no-repeat scroll 222px center; position: relative; height: 18px; border: 1px solid rgb(204, 204, 204); padding-top: 2px; }
+  #precos-prazos { position: relative; }
+  #precos-prazos .lista-precos-prazos { display: none; }
+  #precos-prazos .content-itens-precos-prazos { list-style: outside none none; }
+  #precos-prazos .first-span { background: rgb(239, 239, 239) none repeat scroll 0px 0px; line-height: 1em; margin: 10px 10px 20px; padding: 5px; font-size: 10px; }
+  #precos-prazos .lista-precos-prazos { background: rgb(255, 255, 255) none repeat scroll 0px 0px; border: 1px solid rgb(204, 204, 204); left: 0px; position: absolute; width: 238px; z-index: 1; }
+  .content-itens-precos-prazos { margin-bottom: 6px; }
+  #precos-prazos .lista-precos-prazos .itens-precos-prazos:hover a { font-weight: bold; color: rgb(51, 51, 51) ! important; }
+  #precos-prazos .lista-precos-prazos .itens-precos-prazos:hover { background: transparent url("icon_seta_direita_azul.png") no-repeat scroll 0px center; }
+  #precos-prazos .lista-precos-prazos .itens-precos-prazos { background: transparent url("icon_seta_direita_cinza.png") no-repeat scroll 0px center; margin-bottom: 5px; margin-left: 10px; margin-right: 10px; line-height: 1.5em; }
+  #precos-prazos .lista-precos-prazos .itens-precos-prazos .box-precos-prazos { margin-left: 20px; }
+  #precos-prazos .lista-precos-prazos .itens-precos-prazos:last-child { margin-bottom: 20px; }
+  #precos-prazos .lista-precos-prazos .itens-precos-prazos.last-item { margin-bottom: 20px; }
+  #precos-prazos .itens-precos-prazos a { font-size: 12px; color: rgb(51, 51, 51); }
+  #precos-prazos #content-precos-prazos { cursor: pointer; }
+  @-moz-document url-prefix("") {
+  #titulo-destaque { float: none; margin-top: 0px; padding-top: 10px; }
+  #list-barra-acessibilidade .list-style-global li:last-child { border: medium none; }
+}
+}

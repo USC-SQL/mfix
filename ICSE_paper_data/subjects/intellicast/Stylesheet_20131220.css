@@ -1,0 +1,32 @@
+/* Code tidied up by ScrapBook */
+#content *, #content *::before, #content *::after { box-sizing: content-box; }
+#content td, #content p, #content li, #content input, #content select, #content textarea { font: 11px/1.2em "Segoeu UI",Tahoma,Verdana,Arial,Helvetica,sans-serif; color: rgb(56, 62, 73); }
+#content table, #content img { border: medium none; }
+#content td { empty-cells: show; padding: 0px; }
+#content a, #content a:visited, #content a:active { color: rgb(0, 142, 184); text-decoration: none; }
+#content a:hover { text-decoration: underline; }
+#content { margin: 0px auto; padding: 10px 0px 0px 22px ! important; font: 11px/1.2em Tahoma,Verdana,Arial,Helvetica,sans-serif; color: rgb(56, 62, 73); }
+#content #focus div.Chrome { border: medium none; font-family: "Segoe UI",Tahoma,sans-serif; font-size: 12px; }
+#content #hurricaneTrack { line-height: 25px; background: rgb(155, 0, 0) url("chrome_alert.gif") repeat-x scroll 0% 0%; height: 25px; border-top: 1px solid rgb(56, 62, 73); border-left: 1px solid rgb(56, 62, 73); border-right: 1px solid rgb(56, 62, 73); padding: 0px 10px; }
+#content .Alert, #content a.Alert { color: rgb(153, 0, 0); }
+#content .Container { background-color: rgb(227, 230, 234); clear: both; margin-bottom: 10px; }
+#content .Chrome { line-height: 25px; background: rgb(56, 62, 73) none repeat scroll 0% 0%; height: 27px; color: white; padding: 0px 10px; }
+#content .Title { float: left; font-family: "Segoe UI",Tahoma,sans-serif; font-size: 12px; font-weight: normal; }
+#content .Fine { font-size: 10px; }
+#content .Content { padding: 10px; }
+#content .Thumbnail { height: 75px; width: 100px; }
+#content ul.LinkList, #content ul.LinkList li { margin: 0px; padding: 0px; list-style-type: square; color: rgb(0, 142, 184); }
+#content .FloatLeft { float: left; }
+#content .FontWhite { color: rgb(255, 255, 255); }
+#content .Related { width: 100%; }
+#content .Related td { padding: 1px 10px; }
+#content .Related img.Thumbnail { width: 100px; height: 75px; }
+#content .RelatedContainer { text-align: center; padding: 4px; }
+#content .RelatedTop { margin-top: 9px; }
+#content .Related a { display: block; padding: 2px; border: 1px solid rgb(227, 230, 234); }
+#content .Related a:hover { background-color: rgb(243, 247, 253); border: 1px solid rgb(187, 216, 251); text-decoration: none; }
+#content .Bold { font-weight: bold; }
+#content .Bold { font-size: 11px; font-weight: bold; }
+#content .Tab { height: 20px; font-family: Verdana; text-align: center; padding-top: 1px; }
+#content .Tab a, #content .Tab a:hover { display: block; width: 100%; line-height: 20px; color: rgb(56, 62, 73); text-decoration: none; }
+#content .TabSpacer { background: transparent url("tab_spacer.gif") repeat scroll 0% 0%; }

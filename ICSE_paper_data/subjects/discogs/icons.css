@@ -1,0 +1,43 @@
+/* Code tidied up by ScrapBook */
+.icon { display: inline-block; font-family: "icomoon"; font-style: normal; font-weight: normal; line-height: 1; font-size-adjust: none; font-stretch: normal; font-feature-settings: normal; font-language-override: normal; font-kerning: auto; font-synthesis: weight style; font-variant: normal; font-size: inherit; margin-top: 0.15em; }
+@font-face {
+  font-family: "icomoon";
+  font-style: normal;
+  font-weight: normal;
+  src: url("icomoon.eot") format("embedded-opentype"), url("icomoon.ttf") format("truetype"), url("icomoon.woff") format("woff"), url("icomoon.svg") format("svg");
+}
+.icon-spin { animation: 2s linear 0s normal none infinite running icon-spin; }
+@keyframes icon-spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(359deg); }
+}
+@keyframes icon-spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(359deg); }
+}
+.icon-store::before { content: ""; }
+.icon-bars::before { content: ""; }
+.icon-collection::before { content: ""; }
+.icon-wantlist::before { content: ""; }
+.icon-search::before { content: ""; }
+.icon-th-large::before { content: ""; }
+.icon-cog::before { content: ""; }
+.icon-align-justify::before { content: ""; }
+.icon-list::before { content: ""; }
+.icon-chevron-left::before { content: ""; }
+.icon-chevron-right::before { content: ""; }
+.icon-question-circle::before { content: ""; }
+.icon-eye::before { content: ""; }
+.icon-chevron-up::before { content: ""; }
+.icon-chevron-down::before { content: ""; }
+.icon-facebook-square::before { content: ""; }
+.icon-twitter::before { content: ""; }
+.icon-facebook::before { content: ""; }
+.icon-globe::before { content: ""; }
+.icon-google-plus::before { content: ""; }
+.icon-caret-down::before { content: ""; }
+.icon-spinner::before { content: ""; }
+.icon-instagram::before { content: ""; }
+.icon-tumblr-square::before { content: ""; }
+.icon-soundcloud::before { content: ""; }
+.icon-mixcloud::before { content: ""; }

@@ -1,0 +1,68 @@
+/* Code tidied up by ScrapBook */
+@media screen {
+  #content ul { list-style-type: disc; margin-left: 2em; }
+  #content li, dl.portlet li, div.portletStaticText li { margin-bottom: 0.25em; line-height: 1.5em; display: list-item; }
+  dl.portalMessage, div.attention, div.caution, div.danger, div.error, div.hint, div.important, div.note, div.tip, div.warning { margin: 1em 0px; font-size: 80%; border: 1px solid rgb(153, 153, 102); background-color: rgb(255, 255, 227); clear: both; }
+  dl.portalMessage dt, div > .admonition-title { background-color: rgb(153, 153, 102); font-weight: bold; float: left; margin: 0px 0.5em 0px 0px; padding: 0.5em 0.75em; color: White; line-height: 1.25em; }
+  dl.portalMessage dd, div.attention > .last, div.caution > .last, div.danger > .last, div.error > .last, div.hint > .last, div.important > .last, div.note > .last, div.tip > .last, div.warning > .last { padding: 0.5em; margin: 0px; line-height: 1.25em; }
+  .hiddenStructure { display: block; background: transparent none repeat scroll 0% 0%; border: medium none; height: 0.1em; overflow: hidden; padding: 0px; margin: -0.1em 0px 0px -0.1em; width: 1px; }
+  #ajax-spinner { display: none; width: 20px; height: 20px; position: fixed; background-position: center center; top: 50%; left: 50%; margin-top: -10px; margin-left: -10px; }
+}
+@media screen {
+  body { font: 100% Arial,FreeSans,sans-serif; background: White none repeat scroll 0% 0%; color: Black; }
+  p {  }
+  a:link, a:visited { color: rgb(32, 92, 144); }
+  a:focus img { outline: thin dotted; }
+  dt { font-weight: bold; }
+  input { font-family: "Lucida Grande",Arial,FreeSans; }
+  #portal-globalnav { clear: both; font-size: 80%; background: rgb(221, 221, 221) none repeat scroll 0% 0%; margin: 0px 0px 1em; }
+  #portal-globalnav li {  }
+  #portal-globalnav li a { display: inline-block; padding: 0.5em 1em 1.8em; background: rgb(221, 221, 221) none repeat scroll 0% 0%; min-width: 6em; white-space: normal; border-right: 0.1em solid white; }
+  #portal-globalnav .selected a, #portal-globalnav a:hover { background: rgb(32, 92, 144) none repeat scroll 0% 0%; color: White; }
+  #portal-globalnav .selected a:hover { background: rgb(221, 221, 221) none repeat scroll 0% 0%; color: rgb(32, 92, 144); }
+  #portal-searchbox { float: right; text-align: left; clear: right; margin: 1.2em 0px; font-size: 80%; }
+  #portal-searchbox form { white-space: nowrap; }
+  #portal-searchbox label { font-weight: normal; }
+  #searchGadget { width: 13em; }
+  #searchGadget, .LSBox input.searchButton {  }
+  input.searchField { -moz-appearance: searchfield; }
+  #content { line-height: 1.5em; clear: both; font-size: 80%; margin: 1em 0.25em 2em; }
+  #content ul, #content ol {  }
+  #content a:link, dl.portlet a:link { color: rgb(32, 92, 144); border-bottom: 0.1em solid rgb(204, 204, 204); }
+  #content a:visited, dl.portlet a:visited { color: rgb(66, 117, 151); border-bottom: 0.1em solid rgb(204, 204, 204); }
+  #content a:hover, dl.portlet a:hover { color: rgb(117, 173, 10) ! important; }
+  #content a:target { background-color: rgb(255, 255, 187); }
+  #portal-footer { font-size: 75%; background: rgb(221, 221, 221) none repeat scroll 0% 0%; padding: 1em; margin: 1em 0px; line-height: 2em; }
+}
+@media screen {
+}
+@media screen {
+  div.row { float: left; width: 100%; display: block; position: relative; }
+}
+@media screen {
+}
+@media screen {
+}
+@media screen {
+}
+@media screen {
+  input[type="text"]:focus, input[type="password"]:focus, textarea:focus { background-color: rgb(255, 255, 224); }
+  label { font-weight: bold; }
+  #content label {  }
+}
+@media screen {
+}
+@media screen {
+}
+@media print {
+  body { font-family: "Helvetica Neue",Arial,FreeSans,sans-serif; }
+  a { text-decoration: none; border-bottom: 0.1em solid gray; color: black; }
+  div.top, #portal-logo, #portal-siteactions, .hiddenStructure, #portal-searchbox, #portal-globalnav, #portal-personaltools, #portal-breadcrumbs, #edit-bar, #portal-column-one, #portal-column-two, #portal-languageselector, .contentViews, .contentActions, .help, .legend, .portalMessage, .documentActions, .netscape4, #viewlet-below-content .reply, #viewlet-below-content .discussion, #kss-spinner, #review-history, #content-history, .listingBar, #portal-footer, #portal-colophon, .skipnav, #kss-spinner, #review-history, #content-history, .listingBar, .link-presentation, input.standalone, .overlay, .managePortletsFallback, .close, .link-parent, .draggingHook, #foldercontents-order-column, input.context, .visualNoPrint { display: none; }
+}
+@media handheld, screen and (max-device-width: 480px) {
+  #portal-top { font-size: 180%; }
+  #portal-globalnav li a { min-width: 3em ! important; padding: 0.5em 1.5em 1em 0.5em; }
+  #portal-searchbox { float: none ! important; margin: 1em 0px; text-align: center; }
+  #portal-searchbox input { font-size: 100% ! important; }
+  input, textarea { font-size: 140% ! important; }
+}

@@ -1,0 +1,39 @@
+/* Code tidied up by ScrapBook */
+body { background-color: rgb(255, 255, 255); margin: 0px; font-family: Arial,Helvetica,sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.1; }
+td, th, font, p, li, ul, ol, dl, dt, dd, blockquote { font-family: Arial,Helvetica,sans-serif; }
+.parsys td, ul, ol { font: 1.1em/1.4em Arial,Helvetica,sans-serif; }
+img { border-style: none; }
+H1 { font: bold 1.8em Arial,Helvetica,sans-serif; padding: 0px; margin: 0px; }
+P { margin: 10px 0px 0px 5px; }
+sup { font-size: 90%; vertical-align: super; }
+a:link, a:active { color: rgb(29, 82, 147); text-decoration: none; }
+a:visited { color: rgb(29, 82, 147); text-decoration: none; }
+a:hover { color: rgb(29, 82, 147); text-decoration: underline; }
+#headerInfo a:link, a:active { color: rgb(29, 82, 147); text-decoration: none; }
+#maincntnt a:link, a:active { color: rgb(29, 82, 147); text-decoration: none; }
+#maincntnt_lftmid a:link, a:active { color: rgb(29, 82, 147); text-decoration: none; }
+#dialog { background: white none repeat scroll 0px 0px; border: 1px solid gray; display: none; font: 1em Arial,Verdana; height: 475px; overflow: hidden; padding: 0px; position: fixed; width: 761px; z-index: 10000; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; }
+.clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+#wrapper { margin: 0px auto; height: auto; min-width: 1010px; }
+#three_column, #two_column, #one_column, #services + table, #comm_layout, #wrapper, #SAHeader > table { width: 100%; }
+body.not_china #heroContent, body.china #heroContent, .chinafooter .chinaFooter-cntr, #chinaCategories-cntr, #servicesTools, .imagecarousel #promoCarousel-cntr, #newsUpcoming .newsUpcoming-cntr, .chinasocialsharing.chinasocial #cn_controls, #filter, #centerBlank { width: 1010px ! important; margin: 0px auto ! important; }
+#centerBlank { padding-left: 200px; }
+.clearfix::after { content: ""; display: table; clear: both; }
+@keyframes cssload-shift {
+0% { left: -36px; opacity: 1; background-color: rgb(165, 205, 80); }
+10% { left: 0px; opacity: 1; background-color: rgb(235, 60, 150); }
+90% { left: 60px; opacity: 1; background-color: rgb(255, 200, 50); }
+100% { left: 96px; opacity: 1; background-color: rgb(45, 190, 205); }
+}
+@keyframes cssload-shift {
+0% { left: -36px; opacity: 1; background-color: rgb(165, 205, 80); }
+10% { left: 0px; opacity: 1; background-color: rgb(235, 60, 150); }
+90% { left: 60px; opacity: 1; background-color: rgb(255, 200, 50); }
+100% { left: 96px; opacity: 1; background-color: rgb(45, 190, 205); }
+}
+@keyframes cssload-shift {
+0% { left: -36px; opacity: 1; background-color: rgb(165, 205, 80); }
+10% { left: 0px; opacity: 1; background-color: rgb(235, 60, 150); }
+90% { left: 60px; opacity: 1; background-color: rgb(255, 200, 50); }
+100% { left: 96px; opacity: 1; background-color: rgb(45, 190, 205); }
+}

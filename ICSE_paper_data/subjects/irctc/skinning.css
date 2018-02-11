@@ -1,0 +1,10 @@
+/* Code tidied up by ScrapBook */
+input, select, textarea, button, keygen, isindex, legend, a { font-size: 11px; font-family: Arial,Verdana,sans-serif; color: rgb(0, 0, 0); }
+hr { border-width: 1px; border-style: solid; border-color: rgb(190, 214, 248); }
+a { color: rgb(0, 120, 208); }
+a:hover { color: rgb(0, 144, 255); }
+a:visited { color: rgb(0, 144, 255); }
+input, select, textarea, button, keygen, isindex { border-width: 1px; border-color: rgb(190, 214, 248); color: rgb(0, 0, 0); }
+button, input[type="reset"], input[type="submit"], input[type="button"] { border-width: 1px; border-color: rgb(190, 214, 248); font-size: 11px; font-family: Arial,Verdana,sans-serif; color: rgb(0, 0, 0); background-repeat: repeat-x; background-position: left top; background-color: rgb(190, 214, 248); background-image: url("buttonBackgroundImage.png"); }
+button:hover, input[type="reset"]:hover, input[type="submit"]:hover, input[type="button"]:hover { background-position: left bottom; background-repeat: repeat-x; background-image: url("buttonHoverBackgroundImage.png"); }
+textarea, input[type="text"], input[type="password"], select { border-width: 1px; border-style: solid; border-color: rgb(190, 214, 248); font-size: 11px; font-family: Arial,Verdana,sans-serif; color: rgb(0, 0, 0); background-repeat: no-repeat; background-position: 1px 1px; background-color: rgb(255, 255, 255); background-image: url("inputBackgroundImage.png"); }

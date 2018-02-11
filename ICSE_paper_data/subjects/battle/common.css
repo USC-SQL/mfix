@@ -1,0 +1,12 @@
+/* Code tidied up by ScrapBook */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, em, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; }
+:focus { outline: 0px none; }
+button::-moz-focus-inner { padding: 0px; border: 0px none; }
+body, h1, h2, h3, h4, h5, h6, button, input, textarea, small, big { font-size: 100%; }
+html { height: 100%; width: 100%; }
+a { outline: medium none; text-decoration: none; }
+.clear { clear: both; display: block; margin: 0px; padding: 0px; }
+@media only screen and (max-width: 60em) {
+}
+.ui-tooltip { position: absolute; z-index: 9005; width: auto; height: auto; max-width: 300px; }
+.ui-tooltip .tooltip-content { width: auto; height: auto; }

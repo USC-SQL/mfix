@@ -1,0 +1,71 @@
+/* Code tidied up by ScrapBook */
+body { margin: 0px; padding: 0px; width: 100%; min-width: 960px; background: rgb(255, 255, 255) url("head_back.jpg") no-repeat scroll center top; font-family: Arial,Helvetica,Verdana,sans-serif; font-size: 13px; text-align: center; }
+#container { margin: auto; padding: 0px; width: 960px; height: auto; text-align: left; overflow: visible; }
+#header { float: left; width: 960px; height: 189px; padding: 0px; margin: 0px; border: medium none; position: relative; background: transparent url("head_wire.png") no-repeat scroll left top; z-index: 10; }
+#colmask { position: relative; clear: both; float: left; width: 100%; overflow: hidden; background: rgb(255, 255, 255) none repeat scroll 0% 0%; z-index: 5; }
+#colmid { float: left; width: 200%; position: relative; left: 200px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#colright { float: left; width: 100%; position: relative; left: 50%; margin-left: -450px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#col1wrap { float: right; width: 50%; position: relative; right: 100%; }
+#col1pad { margin: 0px 10px 0px 450px; overflow: hidden; }
+#col1 { width: 100%; overflow: hidden; }
+#col2 { float: left; width: 180px; position: relative; margin-left: -50%; left: 260px; overflow: hidden; }
+#col3 { float: left; width: 230px; position: relative; left: 10px; overflow: visible; }
+#footer { clear: both; float: left; width: 100%; margin: 10px 0px; border-top: 1px solid rgb(0, 0, 0); padding: 20px; text-align: center; }
+.ngeg { width: 100%; padding: 0px; float: left; }
+.ngag { width: 300px; padding: 0px; float: left; }
+.hbox { display: block; width: 460px; height: 185px; float: left; overflow: hidden; text-indent: 650px; }
+#ndalphabet { position: absolute; left: 473px; top: 8px; }
+#ndalphabet > a, #ndalphabet > span { display: block; float: left; font-size: 14px; font-weight: normal; font-family: Arial,Verdana,Tahoma; padding: 0px 4px; text-decoration: none; color: rgb(102, 0, 0); }
+#ndalphabet > span > a { display: inline; padding: 0px; color: rgb(102, 0, 0); }
+#ndnavigation { position: absolute; width: 457px; height: 66px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; left: 474px; top: 110px; z-index: 10; }
+#nholder { position: relative; width: 100%; height: auto; text-align: center; margin: 0px; padding: 0px; }
+#navbar { position: absolute; top: 10px; left: 20px; }
+#navbar a { margin: auto; display: block; float: left; font-size: 13px; font-weight: normal; font-family: Arial,Verdana,Tahoma; padding: 0px 7px; text-decoration: none; }
+#navbar a:link { color: rgb(45, 85, 13); }
+#navbar a:visited { color: rgb(45, 85, 13); }
+#navbar a:hover { color: rgb(243, 152, 57); }
+#navbar a:active { color: rgb(243, 152, 57); }
+#qajax { width: 350px; padding-left: 7px; padding-top: 1px; height: 22px; font-size: 17px; background: rgb(254, 253, 224) none repeat scroll 0% 0%; vertical-align: middle; border: 1px solid rgb(45, 85, 13); }
+#searchbtn { width: 30px; height: 24px; border: medium none; padding: 0px; margin: 0px 0px 0px 4px; background: rgb(255, 255, 255) url("search.gif") no-repeat scroll right top; vertical-align: middle; }
+#qsearch { width: 455px; height: auto; background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: absolute; top: 62px; left: 0px; display: none; border-left: 2px inset rgb(254, 253, 224); }
+#searchbox { margin-top: 30px; margin-left: 27px; margin-right: 20px; }
+#pdxf { width: 222px; height: auto; border-width: medium 1px medium medium; border-style: none solid none none; border-color: currentcolor rgb(72, 95, 36) currentcolor currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; margin-top: 10px; padding: 5px; float: left; }
+#ddxf { width: 192px; height: auto; border: medium none; margin-top: 10px; padding: 5px; float: left; }
+#statdiv { color: rgb(45, 85, 13); margin-bottom: 10px; }
+.picbo { border: 1px solid rgb(140, 167, 118); padding: 2px; margin-left: 5px; float: right; }
+.rcolor { color: rgb(214, 169, 120); }
+h2 { margin-top: 15px; margin-bottom: 5px; font-size: 15px; font-weight: bold; font-family: "Lucida Sans Unicode","Lucida Grande","Myriad pro",Skia,Optima,Arial,Thornburi,Verdana; color: rgb(204, 153, 102); }
+h3 { margin-top: 13px; margin-bottom: 4px; font-size: 13px; font-weight: bold; font-family: "Lucida Sans Unicode","Lucida Grande","Myriad pro",Skia,Optima,Arial,Verdana,Tahoma; color: rgb(32, 67, 3); }
+p { margin: 0.8em 0px; }
+a:link { color: rgb(29, 148, 0); background-color: transparent; text-decoration: none; }
+a:visited { color: rgb(65, 171, 39); background-color: transparent; text-decoration: none; }
+a:hover { color: rgb(255, 51, 51); background-color: transparent; text-decoration: underline; }
+a:active { color: rgb(255, 102, 51); background-color: transparent; text-decoration: underline; }
+.mmPic { padding: 2px; margin: 2px; border: 1px solid rgb(238, 238, 238); }
+.smallBlack { color: rgb(0, 0, 0); font-size: 11px; }
+.p0 { clear: both; margin: 0px; }
+.subTtl { background: transparent none repeat scroll 0% 0%; width: 100%; height: 35px; color: rgb(44, 118, 125); text-align: center; text-transform: uppercase; font-weight: bold; padding-top: 15px; font-family: "Lucida Sans Unicode","Lucida Grande","Myriad pro",Verdana,Tahoma,Arial; }
+.myrbroundbox { background: rgb(252, 250, 220) none repeat scroll 0% 0%; font-size: 11px; font-style: italic; padding: 5px; margin-top: 3px; margin-bottom: 3px; border: 1px solid rgb(140, 167, 118); border-radius: 8px; }
+.myrbroundbox a { text-decoration: none; color: rgb(0, 0, 0); }
+#myFragrantica { background: rgb(234, 254, 225) none repeat scroll 0% 0%; border: 1px solid rgb(45, 85, 13); color: rgb(45, 85, 13); padding: 5px; font-size: 13px; font-style: normal; }
+#myFragrantica a { color: green; }
+.cmanu { text-transform: uppercase; font-family: "Lucida Grande","Myriad pro",Verdana,Tahoma,Arial; }
+#subnav div { width: 88px; float: left; margin: 3px; border: medium none; background: transparent none repeat scroll 0% 0%; padding: 0px; }
+#subnav a { display: block; width: 100%; padding: 1px; margin: 0px; border-bottom: 1px solid rgb(238, 238, 238); font-size: 10px; text-align: center; }
+.none { display: none; }
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+.ui-widget { font-family: Arial,Tahoma,sans-serif; font-size: 13px; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid rgb(233, 205, 228); background: rgb(240, 214, 214) url("ui-bg_glass_100_f0d6d6_1x400.png") repeat-x scroll 50% 50%; font-weight: bold; color: rgb(163, 4, 54); }
+.ui-widget :active { outline: medium none; }
+.ui-icon { width: 16px; height: 16px; background-image: url("ui-icons_fd258b_256x240.png"); }
+.ui-state-default .ui-icon { background-image: url("ui-icons_fd258b_256x240.png"); }
+.ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { border-top-left-radius: 6px; }
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { border-top-right-radius: 6px; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { border-bottom-left-radius: 6px; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { border-bottom-right-radius: 6px; }
+.ui-button { display: inline-block; position: relative; padding: 0px; margin-right: 0.1em; text-decoration: none ! important; cursor: pointer; text-align: center; overflow: visible; }
+.ui-button .ui-button-text { display: block; line-height: 1.4; }
+.ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: 0.4em 1em 0.4em 2.1em; }
+.ui-button-icon-only .ui-icon, .ui-button-text-icon-primary .ui-icon, .ui-button-text-icon-secondary .ui-icon, .ui-button-text-icons .ui-icon, .ui-button-icons-only .ui-icon { position: absolute; top: 50%; margin-top: -8px; }
+.ui-button-text-icon-primary .ui-button-icon-primary, .ui-button-text-icons .ui-button-icon-primary, .ui-button-icons-only .ui-button-icon-primary { left: 0.5em; }

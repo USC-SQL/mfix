@@ -1,0 +1,86 @@
+/* Code tidied up by ScrapBook */
+@import url("reset.css");
+@import url("grid.css");
+@import url("band1.css");
+@import url("band2.css");
+@import url("band3.css");
+@import url("band4.css");
+@import url("band5.css");
+@import url("uniform.css");
+@import url("uniform.sentence.css");
+@import url("jquery-ui-1.8.16.custom.css");
+a { text-decoration: none; }
+a:link { color: rgb(51, 102, 153); }
+a:visited { color: rgb(51, 102, 153); }
+a:hover { color: rgb(255, 102, 51); }
+a:active { color: rgb(255, 102, 51); }
+a:focus { color: rgb(102, 102, 102); }
+a.skip { position: absolute; top: 0px; left: -999em; z-index: 10000; }
+a.skip:focus, a.skip:active { left: 0px; }
+body { background: rgb(238, 238, 238) url("bgBody.png") repeat-x scroll 0% 0%; color: rgb(0, 0, 0); font-size: 13px; }
+br {  }
+div {  }
+div.container_10 { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+div.band { position: relative; }
+form { margin: 15px 0px 0px; }
+h1 { color: rgb(102, 102, 102); font-size: 22px; }
+head {  }
+html {  }
+iframe { display: block; }
+img {  }
+input {  }
+input.texttype { border: 1px solid rgb(204, 204, 204); color: rgb(0, 0, 0); font-size: 13px; padding: 6px 4px; }
+html.mozilla input.texttype { padding: 7px 4px 6px; }
+input.texttype:-moz-placeholder { color: rgb(102, 102, 102); }
+input.submittype { background-color: rgb(255, 51, 0); background-image: -moz-linear-gradient(center top , rgb(251, 105, 68), rgb(255, 51, 0)); border: 0px none; color: rgb(255, 255, 255); cursor: pointer; font-size: 14px; font-weight: bold; padding: 7px 35px; }
+input.submittype:hover { background: rgb(255, 51, 0) none repeat scroll 0% 0%; filter: inherit; }
+label {  }
+li {  }
+link {  }
+meta {  }
+noscript {  }
+p { margin: 15px 0px 0px; }
+p.more { font-weight: bold; position: relative; padding-left: 20px; }
+p.more span { position: absolute; top: 5px; left: 10px; height: 8px; width: 4px; background: transparent url("spriteXY.png") no-repeat scroll -105px 0px; overflow: hidden; }
+ul.news + p.more { margin-top: 5px; }
+p.social { padding: 5px 0px 0px; }
+p + p.social { padding: 0px; }
+p.social a { width: 32px; height: 32px; text-indent: -999em; overflow: hidden; float: left; margin: 0px 17px 10px 0px; }
+p.movietitle { background: rgb(238, 238, 238) none repeat scroll 0% 0%; font-size: 11px; margin-top: 1px ! important; padding: 3px 10px; }
+div.home p.movietitle { background: transparent none repeat scroll 0% 0%; padding: 0px; }
+p.filingandpayment a { width: 180px; height: 30px; margin-bottom: 3px; display: block; }
+script {  }
+span {  }
+strong { font-weight: bold; }
+style {  }
+title {  }
+ul { margin: 15px 0px 0px; }
+ul li { list-style: outside none disc; margin: 0px 0px 0px 20px; }
+ul ul li { list-style: outside none circle; margin: 0px 0px 0px 20px; }
+ul ul { margin: 0px; }
+ul.links {  }
+ul.links li { list-style: outside none none; margin: 0px; padding: 2px 0px 2px 10px; position: relative; }
+ul.links span { position: absolute; top: 6px; left: 0px; height: 8px; width: 4px; background: transparent url("spriteXY.png") no-repeat scroll -105px 0px; overflow: hidden; }
+ul.news { margin: 0px; }
+ul.news li { list-style: outside none none; margin: 0px; padding: 5px 0px 5px 10px; border-bottom: 1px dashed rgb(204, 204, 204); }
+.clearfix::before, .clearfix::after { content: " "; display: block; overflow: hidden; visibility: hidden; width: 0px; height: 0px; }
+.clearfix::after { clear: both; }
+.clearfix {  }
+@media all and (orientation: portrait) {
+}
+@media all and (orientation: landscape) {
+}
+@media screen and (max-device-width: 480px) {
+}
+@media print {
+  div, body, html { background: transparent none repeat scroll 0% 0% ! important; box-shadow: none ! important; text-shadow: none ! important; filter: none ! important; }
+  a, a:visited { text-decoration: underline; }
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 {  }
+  div.container_10 { width: auto; }
+  div.navglobal, div.identityaction div.search, div.navmain, div.banner, div.anchor, div.navlocal, div.navlocal, div.module, div.datepicker a { display: none; }
+  #content div.module { display: block; }
+  input.submittype, input.texttype, div.selector { border: 1px solid rgb(204, 204, 204) ! important; }
+}
+.pubs .grid_1 { width: 90px; margin-left: 0px; margin-right: 0px; }

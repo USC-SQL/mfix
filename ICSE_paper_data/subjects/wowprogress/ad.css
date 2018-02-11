@@ -1,0 +1,25 @@
+/* Code tidied up by ScrapBook */
+html, ul, li, body, body * { vertical-align: baseline; border: 0px none; outline: 0px none; padding: 0px; margin: 0px; }
+*, *::before, *::after { box-sizing: border-box; -moz-user-select: none; }
+:focus { outline: medium none; }
+*::-moz-focus-inner { border: 0px none; }
+div { position: absolute; display: block; }
+.full { width: 728px; height: 90px; top: 0px; left: 0px; }
+#container { border: 1px solid black; overflow: hidden; background-color: black; }
+#bg { background: transparent url("bg@2x.jpg") no-repeat scroll 0px 0px / 728px 90px; will-change: transform; }
+#fade-from-black { background-color: black; }
+#logo { top: 6px; left: 536px; }
+#btn { cursor: pointer; background-color: rgba(0, 0, 0, 0.01); }
+#cta-btn { bottom: 10px; right: 14px; width: 102px; height: 30px; overflow: hidden; }
+#cta-backing { top: 0px; left: 0px; width: inherit; height: inherit; background-color: rgb(220, 55, 36); }
+#cta-txt { top: 7px; left: 16px; color: rgb(255, 255, 255); font: 500 14.2px "Roboto","Helvetica Neue",Helvetica,"Arial Black",arial,sans-serif; letter-spacing: 0px; }
+#cta-shine1 { background: transparent linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 44%, rgb(255, 255, 255) 45%, rgb(255, 255, 255) 55%, rgb(255, 255, 255) 56%, rgba(255, 255, 255, 0) 100%) repeat scroll 0% 0%; transform: rotate(-45deg); width: 113px; height: 62px; position: absolute; top: -10px; opacity: 0.6; }
+#cta-shine2 { background: transparent linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 44%, rgb(255, 255, 255) 45%, rgb(255, 255, 255) 55%, rgb(255, 255, 255) 56%, rgba(255, 255, 255, 0) 100%) repeat scroll 0% 0%; width: 71px; height: 39px; position: absolute; opacity: 0.7; }
+#cta-shine3 { background: transparent linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 44%, rgb(255, 255, 255) 45%, rgb(255, 255, 255) 55%, rgb(255, 255, 255) 56%, rgba(255, 255, 255, 0) 100%) repeat scroll 0% 0%; width: 300px; height: 39px; position: absolute; }
+.headline { font: 900 24px "Roboto","Helvetica Neue",Helvetica,"Arial Black",arial,sans-serif; color: rgb(255, 255, 255); letter-spacing: -0.2px; opacity: 0; }
+.subheadline { font: 400 18px "Roboto","Helvetica Neue",Helvetica,"Arial Black",arial,sans-serif; color: rgb(255, 255, 255); letter-spacing: -0.3px; opacity: 0; }
+.txt { white-space: nowrap; text-rendering: optimizelegibility; will-change: transform; transform: rotateZ(0.01deg); }
+.thicker { text-shadow: 0.1px 0px white; }
+#txt1a { top: 20px; left: 14px; }
+#txt2a { top: 49px; left: 14px; }
+#degree { top: 54px; right: 124px; font: 400 11.3px/1.3 "Roboto","Helvetica Neue",Helvetica,"Arial Black",arial,sans-serif; color: rgb(255, 255, 255); letter-spacing: 0.2px; text-align: left; opacity: 0.9; text-rendering: optimizelegibility; }

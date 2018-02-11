@@ -1,0 +1,111 @@
+/* Code tidied up by ScrapBook */
+* { margin: 0px; padding: 0px; border: 0px none; -moz-user-select: none; cursor: pointer; text-rendering: optimizespeed ! important; }
+#container { position: absolute; top: 0px; left: 0px; width: 300px; height: 250px; box-sizing: border-box; background-color: rgb(255, 255, 255); background-position: center center; border: 1px solid rgb(0, 0, 0); font-family: Arial,Helvetica,sans-serif; overflow: hidden; cursor: pointer; }
+#loading_dc { width: 100%; height: 100%; background-color: white; z-index: 1; }
+#loading_image_dc { position: absolute; left: 50%; margin-left: -15px; top: 50%; margin-top: -15px; }
+.award #dynYear, .award #dynSubCopy, .award #brochureContent, .brochure #dynYear, .brochure #dialog_txt, .brochure .dialog_box, .brochure #awardContent, .brochure #closeAward, .selector .dialog_box, .selector #brochureContent, .selector #awardContent, .multimodel #awardContent, .multimodel #dialog_close, .gallery #closeGallery, .gallery #awardContent, .galler #brochureContent, .gallery #dialog_box, .gallery #dialog_txt, .multimodel #cta2, .usp .dialog_box, .usp #tabContent { display: none; }
+#menu { position: absolute; height: 61px; width: 247px; }
+@-moz-document url-prefix("") {
+  .award #dialog_close { line-height: 13px; }
+}
+.hide { opacity: 0; }
+@keyframes myfirst {
+0% { opacity: 1; }
+25% { opacity: 0.5; }
+50% { opacity: 1; }
+75% { opacity: 0.5; }
+100% { opacity: 1; }
+}
+@keyframes myfirst {
+0% { opacity: 1; }
+25% { opacity: 0.5; }
+50% { opacity: 1; }
+75% { opacity: 0.5; }
+100% { opacity: 1; }
+}
+@keyframes myfirst {
+0% { opacity: 1; }
+25% { opacity: 0.5; }
+50% { opacity: 1; }
+75% { opacity: 0.5; }
+100% { opacity: 1; }
+}
+.gallery header { position: absolute; margin: 5px 10px 0px; font-weight: bold; }
+.gallery .hide { opacity: 1 ! important; }
+.gallery #logo { position: absolute; left: 9px; top: 0px; width: 49px; height: 61px; background-image: url("24191226_20140522114948083_logoUSP.jpg"); background-repeat: no-repeat; z-index: 15; }
+.gallery #logo_panel { position: absolute; top: 0px; left: 9px; width: 49px; height: 61px; z-index: 15; cursor: pointer; }
+.gallery #logo_on { position: absolute; left: -1px; top: 1px; width: 60px; height: 55px; background-image: url("24191226_20140522114919221_flicker300USP.png"); background-repeat: no-repeat; margin: 10px 0px 0px 10000px; }
+.gallery .cta .ctaTxt { position: absolute; left: 6px; font-size: 11px; color: rgb(255, 255, 255); width: 90px; margin-top: auto; margin-bottom: auto; z-index: 1; }
+.gallery #cta1 { left: 10px; }
+.gallery #cta2 { left: 132px; }
+.gallery .cta { position: absolute; left: 0px; right: 0px; top: 0px; overflow: hidden; background: rgb(191, 15, 53) none repeat scroll 0% 0%; width: 112px; height: 31px; }
+.gallery .cta::before { content: ""; position: absolute; left: 0px; right: 0px; top: 0px; overflow: hidden; background: rgb(191, 15, 53) none repeat scroll 0% 0%; width: 112px; height: 31px; opacity: 0; }
+.gallery .cta::after { content: ""; position: absolute; bottom: 8px; margin-top: auto; margin-bottom: auto; right: 5px; width: 8px; height: 14px; background-image: url("24191226_20140522114934591_icon_arrowUSP.jpg"); background-repeat: no-repeat; background-size: 8px 13px; }
+.gallery #menu { position: absolute; left: 25px; bottom: 8px; width: 298px; height: 31px; }
+.gallery #dynModelName { font-size: 17px; position: absolute; left: 54px; width: 154px; }
+.gallery #main_pic { position: absolute; left: 0px; }
+.gallery #dot_btn { height: 16px; position: absolute; left: 80px; top: 188px; z-index: 200; cursor: pointer; }
+.gallery #dot_btn ul li { width: 15px; height: 15px; margin-left: 10px; background-image: url("24191225_20141002105557378_dot_btn_.png"); background-repeat: no-repeat; float: left; }
+.gallery #dot_btn ul li.open { background-image: url("24191225_20141002105557379_open_btn_.png"); background-repeat: no-repeat; }
+.gallery .arr_btn { position: absolute; top: 285px; width: 24px; height: 38px; z-index: 200; }
+.gallery #arr_left { background-image: url("24191226_20140811141416430_arr_left.png"); background-repeat: no-repeat; left: 3px; cursor: pointer; top: 108px; }
+.gallery #arr_right { background-image: url("24191226_20140811141635508_arr_right.png"); background-repeat: no-repeat; right: 3px; cursor: pointer; top: 108px; }
+.gallery .pic { cursor: pointer; height: 117px; left: 31px; overflow: hidden; position: absolute; top: 65px; width: 239px; }
+.gallery ul, li { padding: 0px; margin: 0px; list-style: outside none none; }
+.gallery .pic li { float: left; width: 238px; height: 120px; }
+@keyframes pulse {
+0% { transform: scale(1); }
+100% { transform: scale(1.1); }
+}
+@keyframes pulse {
+0% { transform: scale(1); }
+100% { transform: scale(1.1); }
+}
+@keyframes pulse {
+0% { transform: scale(1); }
+100% { transform: scale(1.1); }
+}
+@keyframes blink {
+0% { opacity: 0.5; }
+100% { opacity: 1; }
+}
+* { padding: 0px; margin: 0px; -moz-user-select: none; cursor: pointer; text-rendering: optimizespeed ! important; image-rendering: auto; }
+@font-face {
+  font-family: "Nissan-BoldKerned";
+  src: url("NissanAG-BoldKerned.eot") format("eot"), url("NissanAG-BoldKerned.woff") format("woff"), url("NissanAG-BoldKerned.ttf") format("truetype");
+}
+sup { vertical-align: super; font-size: 8px; font-family: Arial,Helvetica,Verdana,sans-serif; font-weight: bolder; }
+.container-awards { font-family: "Nissan-BoldKerned",Arial,Helvetica,Verdana,sans-serif; position: absolute; width: 300px; height: 250px; box-sizing: border-box; border: 1px solid rgb(0, 0, 0); overflow: hidden; display: none; }
+.loading-awards { position: absolute; top: 0px; width: 300px; height: 250px; background-image: url("loading.gif"); background-color: rgb(255, 255, 255); background-position: center center; background-repeat: no-repeat; box-sizing: border-box; }
+.header-awards { display: block; }
+.logo-awards { display: inline-block; margin-left: 9px; width: 47px; height: 55px; background-image: url("300x250_v3.png"); overflow: hidden; }
+.logo-awards::after { content: ""; position: absolute; top: 0px; width: 47px; height: 55px; background-color: rgb(0, 0, 0); opacity: 0; }
+.glow { display: block; }
+.title-box { position: absolute; display: inline-block; width: 240px; height: 61px; }
+.content-awards-box { position: relative; display: block; margin-top: -5px; width: 298px; height: 125px; overflow: hidden; }
+.tab-box { display: inline-block; }
+@media not all {
+}
+.footer-awards { position: absolute; height: 45px; width: 298px; bottom: 0px; }
+.cta-awards { position: absolute; margin: auto; top: 5px; width: 110px; height: 32px; background-color: rgb(190, 0, 47); }
+.cta-awards:nth-child(1) { left: 32px; }
+.cta-awards:nth-child(2) { right: 32px; }
+.cta-awards::before { content: ""; position: absolute; margin: auto; top: 0px; bottom: 0px; right: 8px; width: 8px; height: 14px; background-image: url("icon_arrow.jpg"); background-size: 8px auto; }
+.cta-awards::after { content: ""; position: absolute; width: 110px; height: 32px; background-color: rgb(190, 0, 47); opacity: 0; }
+.cta-awards-text { position: absolute; margin-left: 8px; width: 95px; font-family: Arial,Helvetica,Verdana,sans-serif; font-size: 12px; color: rgb(255, 255, 255); font-weight: bolder; text-align: center; }
+.dialog-box { position: absolute; bottom: 0px; width: 298px; height: 125px; background: rgba(0, 0, 0, 0.75) none repeat scroll 0% 0%; transform: translateY(125px); }
+.dialog-content { position: absolute; top: 0px; width: 271px; height: 80px; overflow: auto; padding: 10px 15px 10px 10px; margin: 22px 0px; font-family: Arial,Helvetica,Verdana,sans-serif; font-size: 14px; color: rgb(255, 255, 255); font-weight: lighter; }
+.btn-close { position: absolute; width: 17px; height: 17px; top: 2px; right: 1px; background: transparent url("close.png") repeat scroll 0% 0%; }
+.hide { opacity: 0; }
+@keyframes pulse {
+0% { transform: scale(1); backface-visibility: hidden; }
+100% { transform: scale(1.15); backface-visibility: hidden; }
+}
+@keyframes blink {
+0% { opacity: 1; }
+100% { opacity: 0.5; }
+}
+@keyframes pulse {
+0% { transform: scale(1); }
+100% { transform: scale(1.15); }
+}

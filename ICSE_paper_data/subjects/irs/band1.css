@@ -1,0 +1,33 @@
+/* Code tidied up by ScrapBook */
+div {  }
+div.identityaction { font-size: 13px; height: 70px; }
+div.identity { width: 600px; height: 56px; overflow: hidden; position: absolute; top: 7px; left: 4px; }
+div.identity img { display: block; border: 10px solid rgb(255, 255, 255); }
+div.navglobal { position: absolute; top: 0px; right: 0px; z-index: 1000; }
+div.navglobal ul { margin: 0px; }
+div.navglobal li { border-left: 1px solid rgb(204, 204, 204); display: block; float: left; list-style: outside none none; margin: 0px; position: relative; }
+div.navglobal li:first-child { border-left: 1px solid rgb(255, 255, 255); }
+div.navglobal li.first-child { border-left: 1px solid rgb(255, 255, 255); }
+div.navglobal li:last-child { border-right: 1px solid rgb(255, 255, 255); }
+div.navglobal li.last-child { border-right: 1px solid rgb(255, 255, 255); }
+div.navglobal a, div.navglobal span.more { display: block; padding: 7px 8px 4px; position: relative; }
+div.navglobal span.more { color: rgb(51, 102, 153); background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding-right: 23px; position: relative; z-index: 10; }
+div.navglobal span.more span { background: transparent url("spriteXY.png") no-repeat scroll -119px 0px; width: 9px; height: 6px; position: absolute; top: 12px; right: 5px; overflow: hidden; }
+div.navglobal div {  }
+div.navglobal div.subnav { background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: absolute; padding: 0px 23px 10px 0px; top: 26px; right: -1px; width: 150px; border: 1px solid rgb(204, 204, 204); display: none; z-index: 9; }
+div.navglobal div.subnav a { padding: 0px; }
+div.navglobal div.subnav li { border: 0px none; float: none; }
+div.navglobal div.subnav ul { padding-top: 10px; }
+div.navglobal ul {  }
+div.navglobal ul.links {  }
+div.navglobal ul.links li { padding-left: 20px; }
+div.navglobal ul.links span { left: 10px; }
+div.search { position: absolute; top: 35px; right: 6px; }
+div.search label { display: none; }
+div.search form { margin: 0px; }
+div.search a { color: rgb(51, 102, 153) ! important; text-decoration: none ! important; margin: 0px 0px 0px 10px; vertical-align: middle; }
+div.search a:hover { color: rgb(102, 102, 102) ! important; text-decoration: underline ! important; }
+div.search input {  }
+div.search input.texttype { background: rgb(238, 238, 238) none repeat scroll 0px 0px; border: 1px solid rgb(204, 204, 204); margin-right: 25px; padding: 3px 0px 3px 3px ! important; width: 210px; }
+div.search input.submittype { background: transparent url("spriteXY.png") no-repeat scroll -113px -12px; border: 0px none; border-radius: 0px; box-shadow: none; display: block; filter: inherit; font-size: 1px; height: 15px; left: 220px; margin: 0px; overflow: hidden; padding: 0px; position: absolute; text-decoration: none; text-indent: -999em; top: 4px; width: 15px; }
+div.search div { float: left; }

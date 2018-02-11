@@ -1,0 +1,13 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "MuseoSans-500";
+  src: url("museo-sans.eot") format("embedded-opentype"), url("museo-sans.woff") format("woff"), url("museo-sans.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MuseoSans-300";
+  src: url("museo-sans-300.eot") format("embedded-opentype"), url("museo-sans-300.woff") format("woff"), url("museo-sans-300.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MuseoSans-700";
+  src: url("museo-sans-700.eot") format("embedded-opentype"), url("museo-sans-700.woff") format("woff"), url("museo-sans-700.ttf") format("truetype");
+}

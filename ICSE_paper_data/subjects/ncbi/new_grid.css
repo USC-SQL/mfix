@@ -1,0 +1,5 @@
+/* Code tidied up by ScrapBook */
+.grid { width: 100%; margin: 0px auto; max-width: 1200px; }
+.col { float: left; background-color: rgb(255, 255, 255); overflow: hidden; box-sizing: border-box; }
+.four_col { width: 33.3333%; }
+.twelve_col { width: 100%; }

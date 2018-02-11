@@ -1,0 +1,10 @@
+/* Code tidied up by ScrapBook */
+div {  }
+div.navmain { font-size: 16px; }
+div.navmain ul { float: left; margin: 0px; }
+div.navmain li { float: left; list-style: outside none none; margin: 0px 0px 0px 1px; white-space: nowrap; position: relative; }
+div.navmain li:first-child { margin-left: 0px; }
+div.navmain li.first-child { margin-left: 0px; }
+div.navmain li a { overflow: hidden; }
+div.navmain a { border: 1px solid transparent; color: rgb(51, 51, 51); display: block; padding: 7px 10px 4px; text-align: center; background-color: rgb(204, 204, 204); background-image: -moz-linear-gradient(center top , rgb(238, 236, 236), rgb(205, 205, 205)); }
+div.navmain div {  }

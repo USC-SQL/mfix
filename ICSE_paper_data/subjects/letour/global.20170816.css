@@ -1,0 +1,415 @@
+/* Code tidied up by ScrapBook */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: outside none none; }
+html {  }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0px none; }
+b, strong { font-weight: bold; }
+p, pre { margin: 1em 0px; }
+dl, menu, ol, ul { margin: 1em 0px; }
+menu, ol, ul { padding: 0px 0px 0px 40px; }
+nav ul, nav ol { list-style: outside none none; }
+img { border: 0px none; }
+form { margin: 0px; }
+button, input, select, textarea { font-size: 100%; margin: 0px; vertical-align: baseline; }
+button, input { line-height: normal; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+@font-face {
+  font-family: "FFDIN Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("DINWeb-CondBlack.eot") format("embedded-opentype"), url("DINWeb-CondBlack.woff") format("woff"), url("DINWeb-CondBlack.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FFDIN Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("DINWeb-CondBold.eot") format("embedded-opentype"), url("DINWeb-CondBold.woff") format("woff"), url("DINWeb-CondBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FFDIN Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("DINWeb-CondMedium.eot") format("embedded-opentype"), url("DINWeb-CondMedium.woff") format("woff"), url("DINWeb-CondMedium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FFDIN Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("DINWeb-Cond.eot") format("embedded-opentype"), url("DINWeb-Cond.woff") format("woff"), url("DINWeb-Cond.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIGIT";
+  font-style: normal;
+  font-weight: normal;
+  src: url("ds-digit-webfont.eot") format("embedded-opentype"), url("ds-digit-webfont.woff2") format("woff2"), url("ds-digit-webfont.woff") format("woff"), url("ds-digit-webfont.ttf") format("truetype"), url("ds-digit-webfont.svg") format("svg");
+}
+body { margin: 0px; padding: 0px; font-size: 0.6875em; font-family: Tahoma,Arial,sans-serif; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+h2 { font-family: "FFDIN Bold"; font-size: 40px; }
+h3 { font-family: "FFDIN Black"; font-size: 25px; }
+h4 { font-family: "FFDIN Black"; font-size: 24px; }
+h1.underline, h2.underline, h3.underline, h4.underline, h5.underline, h6.underline { overflow: visible; margin: 0px 0px 15px; padding: 0px 0px 10px; position: relative; }
+h1.underline::after, h2.underline::after, h3.underline::after, h4.underline::after, h5.underline::after, h6.underline::after { display: block; content: ""; width: 33px; border-bottom: 6px solid rgb(250, 187, 0); position: absolute; left: 0px; bottom: 0px; }
+a:link, a:visited { color: rgb(0, 0, 0); }
+a:hover, a:active { color: rgb(0, 0, 0); }
+a.js:active, a.js:focus { outline: medium none; }
+a, a *, .clickable { cursor: pointer; }
+.clear::before, .clear::after { content: " "; display: block; height: 0px; overflow: hidden; }
+.clear::after { clear: both; }
+.clear { clear: both; height: 0px; overflow: hidden; }
+.bg-right, .bg-left { position: relative; width: 100%; }
+.bg-right > .img, .bg-left > .img { display: none; position: fixed; z-index: -1; top: 0px; width: 50%; height: 100%; }
+html[habillage="1"][lang="us"] .bg-left > .img { display: block; background: transparent url("bg-habillage_GAUCHE-us.jpg") no-repeat scroll right 480px top 0px; left: 0px; z-index: 1; }
+html[habillage="1"][lang="us"] .bg-right > .img { display: block; background: transparent url("bg-habillage_DROITE-us.jpg") no-repeat scroll 480px 0px; right: 0px; z-index: 0; }
+#page { width: 960px; margin: 0px auto; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+html[habillage="1"] #page { position: relative; z-index: 2; }
+#popup .head a.close, .confidentialite a.close { display: block; position: absolute; right: 0px; z-index: 2; width: 17px; height: 16px; background: rgb(255, 255, 255) url("sprite_layout_all.png") no-repeat scroll 2px -1585px; margin: 14px 14px 0px 0px; border: 1px solid rgb(228, 226, 227); }
+#popup .head a.close:hover, .confidentialite a.close:hover { background-position: -22px -1585px; }
+#page a.button { display: inline-block; line-height: 27px; background: transparent url("sprite_button.png") repeat-x scroll 0px 0px; text-transform: uppercase; text-decoration: none; color: rgb(255, 255, 255); font-size: 10px; font-weight: bold; white-space: nowrap; }
+#page a.button span { display: block; line-height: 27px; }
+#page a.button .left { background: transparent url("sprite_button.png") no-repeat scroll left -27px; }
+#page a.button .right { background: transparent url("sprite_button.png") no-repeat scroll right -54px; }
+#page a.button .arrow { background: transparent url("sprite_button_arrow.png") no-repeat scroll 16px 0px; padding: 0px 12px 0px 30px; }
+#page a.button:hover, #page a.button.active { color: rgb(76, 76, 76); background-position: 0px -108px; }
+#page a.button:hover .left, #page a.button.active .left { background-position: left -135px; }
+#page a.button:hover .right, #page a.button.active .right { background-position: right -162px; }
+#page a.button:hover .arrow, #page a.button.active .arrow { background-position: 16px -108px; padding: 0px 12px 0px 30px; }
+#html5-header { position: relative; z-index: 11; }
+#html5-header .logo { position: absolute; z-index: 1; background: transparent url("sprite_layout_all.png") no-repeat scroll -123px -844px; width: 152px; height: 142px; margin: 45px 0px 0px -13px; }
+#html5-header .logo a.self { display: block; width: 139px; height: 110px; position: absolute; top: 0px; right: 0px; background: rgb(255, 255, 255) url("sprite_epreuves.png") no-repeat scroll 0px -1158px; }
+#html5-header .logo .under { position: absolute; bottom: 0px; right: 0px; display: block; width: 139px; height: 32px; line-height: 30px; text-align: center; font-family: "FFDIN Bold"; color: rgb(255, 255, 255); font-size: 18px; white-space: nowrap; }
+#html5-header .logo .under.tissot { color: rgb(0, 0, 0); }
+#html5-header .logo .under .dates { background: rgb(0, 0, 0) none repeat scroll 0% 0%; padding-top: 2px; display: none; }
+#html5-header .logo .under.tissot .dates { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#html5-header .logo .under .dates.visible { display: block; }
+#html5-header .logo .under .countdown { display: none; background: rgb(250, 187, 0) none repeat scroll 0% 0%; }
+#html5-header .logo .under .countdown a { text-decoration: none; }
+#html5-header .logo .under .countdown .inner { font-family: "DIGIT"; font-size: 21px; color: rgb(255, 255, 255); background: rgb(0, 0, 0) none repeat scroll 0% 0%; border-top: 1px solid rgb(235, 184, 0); display: block; }
+#html5-header .logo .under img { display: block; }
+#html5-header .focus { height: 440px; }
+#html5-header .focus .media .item { display: none; position: absolute; width: 960px; height: 440px; overflow: hidden; text-align: center; background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+#html5-header .focus .media .item[type="photo"] { cursor: pointer; }
+#html5-header .focus .media .item img { max-width: 960px; max-height: 440px; }
+#html5-header .focus .media .item[type="photo"] img { width: 960px; }
+#html5-header .focus .block { position: absolute; right: 0px; top: 20px; width: 302px; overflow: hidden; min-height: 33px; }
+#html5-header .focus .block .social { display: inline-block; float: left; height: 32px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-bottom: 1px solid rgb(215, 215, 215); position: absolute; z-index: 5; width: 230px; }
+#html5-header .focus .block .social ul { float: left; margin: 0px 10px; padding: 0px; }
+#html5-header .focus .block .social ul li { float: left; width: 25px; height: 25px; margin: 4px 6px 0px; }
+#html5-header .focus .block .social ul li:first-child { margin-left: 10px; }
+#html5-header .focus .block .social ul li a { display: block; float: left; padding-left: 25px; line-height: 25px; height: 25px; text-decoration: none; font-size: 12px; color: rgb(76, 76, 76); background: transparent url("sprite_sociaux_v2.png") no-repeat scroll 0% 0%; }
+#html5-header .focus .block .social ul li a.facebook { background-position: 0px -1px; }
+#html5-header .focus .block .social ul li a.twitter { background-position: 0px -35px; }
+#html5-header .focus .block .social ul li a.dailymotion { background-position: 0px -69px; }
+#html5-header .focus .block .social ul li a.instagram { background-position: 0px -239px; }
+#html5-header .focus .block .social ul li a.facebook:hover { background-position: -25px -1px; }
+#html5-header .focus .block .social ul li a.twitter:hover { background-position: -25px -35px; }
+#html5-header .focus .block .social ul li a.dailymotion:hover { background-position: -25px -69px; }
+#html5-header .focus .block .social ul li a.instagram:hover { background-position: -25px -239px; }
+#html5-header .focus .block .langs { display: inline-block; height: 32px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-bottom: 1px solid rgb(215, 215, 215); right: 0px; position: absolute; z-index: 6; border-left: 1px solid rgb(215, 215, 215); }
+#html5-header .focus .block .langs ul { float: right; margin: 0px 10px; padding: 0px; }
+#html5-header .focus .block .langs ul li { display: none; float: left; width: 40px; height: 28px; margin: 0px 6px; }
+#html5-header .focus .block .langs ul li.selected { display: inline; }
+#html5-header .focus .block .langs ul li a, #html5-header .focus .block .langs ul li span { display: block; float: left; padding-left: 25px; line-height: 28px; border-bottom: 4px solid rgb(255, 255, 255); text-decoration: none; font-size: 12px; color: rgb(76, 76, 76); }
+#html5-header .focus .block .langs ul li a:hover { border-color: rgb(250, 187, 0); }
+#html5-header .focus .block .langs ul li.selected a, #html5-header .focus .block .langs ul li.selected span { border-color: rgb(215, 215, 215); }
+#html5-header .focus .block .langs ul li.fr a, #html5-header .focus .block .langs ul li.fr span { background: transparent url("picto_flag_fr.png") no-repeat scroll left center; }
+#html5-header .focus .block .langs ul li.en a, #html5-header .focus .block .langs ul li.en span, #html5-header .focus .block .langs ul li.us a, #html5-header .focus .block .langs ul li.us span { background: transparent url("picto_flag_uk.png") no-repeat scroll left center; }
+#html5-header .focus .block .langs ul li.es a, #html5-header .focus .block .langs ul li.es span { background: transparent url("picto_flag_es.png") no-repeat scroll left center; }
+#html5-header .focus .block .news { background: transparent url("bg_header_overall.png") repeat scroll 0% 0%; padding: 20px; color: rgb(76, 76, 76); font-size: 12px; margin-top: 32px; }
+#html5-header .focus .block .news .item { display: none; }
+#html5-header .focus .block .news h3 { font-size: 26px; font-family: "FFDIN Light"; color: rgb(0, 0, 0); }
+#html5-header .focus .block .news span.date { font-weight: bold; }
+#html5-header .focus .block .news p { margin-top: 10px; margin-bottom: 22px; line-height: 17px; }
+#html5-header .focus .block .news p a { font-weight: bold; white-space: nowrap; }
+#html5-header .focus .block .news p a:hover { text-decoration: none; }
+#html5-header .focus .block .news ul.nav { display: none; margin: 5px 0px 0px; padding: 0px; height: 16px; float: left; }
+#html5-header .focus .block .news ul.nav li { display: inline; }
+#html5-header .focus .block .news ul.nav li a { display: block; float: left; width: 16px; height: 16px; margin-right: 9px; background: transparent url("sprite_layout_all.png") no-repeat scroll 0px 0px; }
+#html5-header .focus .block .news ul.nav li a:hover { background-position: -17px 0px; }
+#html5-header .focus .block .news ul.nav li.selected a { background-position: -34px 0px; }
+#html5-header #html5-nav { background: rgb(250, 187, 0) none repeat scroll 0% 0%; height: 48px; margin: 1px 0px 10px; width: 960px; overflow: hidden; white-space: nowrap; }
+#html5-header #html5-nav > div { position: relative; }
+#html5-header #html5-nav ul { margin: 0px; padding: 0px; }
+#html5-header #html5-nav > div > ul > li { display: block; float: left; height: 48px; background: transparent url("bg_header_nav_sep.png") no-repeat scroll left center; }
+#html5-header #html5-nav > div > ul > li:first-child { background: transparent none repeat scroll 0% 0%; }
+#html5-header #html5-nav > div > ul > li > a { display: block; line-height: 50px; padding: 0px 21px; font-size: 18px; font-family: "FFDIN Bold"; color: rgb(38, 38, 38); text-transform: uppercase; text-decoration: none; }
+html[lang="us"] #html5-header #html5-nav > div > ul > li > a { padding: 0px 24px; }
+#html5-header #html5-nav ul > li > a:hover { text-decoration: underline; }
+#html5-header #html5-nav ul li.cmenu .content { min-width: 220px; display: none; position: absolute; z-index: 3; background: rgb(255, 255, 255) url("bg_cmenu.png") repeat-x scroll center bottom; border-bottom: 3px solid rgb(241, 182, 22); border-left: 1px solid rgb(214, 214, 214); border-right: 1px solid rgb(214, 214, 214); }
+#html5-header #html5-nav ul li.cmenu .content ul li { margin: 10px 20px; display: block; }
+#html5-header #html5-nav ul li.cmenu .content ul li a { display: block; min-width: 220px; font-size: 11px; color: rgb(29, 29, 29); line-height: 22px; padding: 0px 10px 0px 20px; background: transparent url("sprite_layout_001.png") no-repeat scroll -126px -108px; text-decoration: none; }
+#html5-header #html5-nav ul li.cmenu .content ul li a:hover { background: rgb(232, 232, 232) none repeat scroll 0% 0%; text-decoration: none; }
+#html5-header #html5-nav ul li.cmenu.milesim .content { border-left: medium none; }
+#html5-header #html5-nav ul li.cmenu.stages .content { width: 960px; left: 0px; padding: 5px 0px; border-left: medium none; border-right: medium none; overflow: hidden; }
+#html5-header #html5-nav ul li.cmenu.stages .content ul.col { float: left; width: 480px; }
+#html5-header #html5-nav ul li.cmenu.stages .content ul li { margin: 3px 0px 3px 20px; }
+#html5-header #html5-nav ul li.cmenu.stages .content ul li a { width: 422px; line-height: 18px; background-position: -126px -110px; }
+#html5-header #html5-nav ul li.cmenu.stages .content ul li a:hover, #html5-header #html5-nav ul li.stages .content ul li.active a { background: rgb(232, 232, 232) none repeat scroll 0% 0%; text-decoration: none; }
+#html5-header #html5-nav ul li.cmenu.stages .content ul li a span.label { display: block; float: left; width: 77px; text-transform: capitalize; }
+#html5-header #html5-nav ul li.cmenu.stages .content ul li a span.km { display: block; float: left; width: 71px; }
+#html5-header #html5-nav ul li.cmenu.stages .content ul li a span.blank { display: block; float: left; width: 45px; margin: 10px 26px 0px 0px; height: 1px; border-bottom: 1px dotted rgb(250, 187, 0); }
+#html5-header #html5-nav ul li.cmenu.stages .content ul li a span.place { display: block; float: left; width: 270px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#html5-header #html5-nav ul li.cmenu.teams .content { width: 928px; left: 0px; padding: 10px 16px; border-left: medium none; border-right: medium none; overflow: hidden; }
+#html5-header #html5-nav ul li.cmenu.teams .content ul li { display: block; float: left; width: 84px; height: 125px; margin: 0px 0px 10px; text-align: center; border-bottom: 1px dotted rgb(176, 176, 176); }
+#html5-header #html5-nav ul li.cmenu.teams .content ul li a { display: block; width: auto; min-width: 0px; height: 120px; overflow: hidden; line-height: 12px; background: transparent none repeat scroll 0% 0%; padding: 0px; border-left: 1px dotted rgb(176, 176, 176); }
+#html5-header #html5-nav ul li.cmenu.teams .content ul li:first-child a { border-left: medium none; }
+#html5-header #html5-nav ul li.cmenu.teams .content ul li a:hover { background: rgb(232, 232, 232) none repeat scroll 0% 0%; }
+#html5-header #html5-nav ul li.cmenu.teams .content ul li a span.small-jersey { display: block; width: 60px; height: 64px; margin: 2px auto 0px; }
+#html5-header #html5-nav ul li.cmenu.teams .content ul li a span.label { display: block; padding: 6px 3px 0px; white-space: normal; color: rgb(76, 76, 76); font-size: 12px; font-family: "FFDIN Black"; text-transform: uppercase; }
+#html5-header #html5-nav .search { float: right; background: transparent url("bg_header_nav_search_001.png") no-repeat scroll 0% 0%; height: 40px; padding: 10px 18px 10px 10px; }
+#html5-header #html5-nav .search input[type="text"] { color: rgb(76, 76, 76); width: 100px; height: 27px; font-size: 12px; border: 0px none; display: block; float: left; margin: 0px 0px 0px 15px; }
+#html5-header #html5-nav .search input[type="text"]:focus { outline: medium none; }
+#html5-header #html5-nav .search a.submit { display: block; width: 22px; height: 29px; float: left; }
+#html5-header .promo { height: 90px; }
+#html5-header .promo .ads { width: 728px; height: 90px; float: left; }
+#html5-header .promo .autopromo { float: right; margin-left: 1px; }
+#html5-header .promo .autopromo a { display: none; width: 230px; height: 90px; background: transparent url("sprite_autopromo_fr.jpg") no-repeat scroll 0% 0%; }
+html[lang="us"] #html5-header .promo .autopromo a { background-image: url("sprite_autopromo_us_001.jpg"); }
+#html5-header .promo .autopromo a.showed { display: block; }
+#content { margin: 0px 0px 0px 20px; background: transparent none repeat scroll 0% 0% ! important; line-height: initial; }
+#content::after { display: block; content: ""; clear: both; }
+#content p { line-height: 17px; }
+#content #main { width: 620px; min-height: 500px; margin-right: 20px; float: left; overflow: hidden; background: transparent none repeat scroll 0% 0% ! important; }
+#content #main h2:not(.underline) { border-bottom: 1px dotted rgb(178, 178, 178); padding-bottom: 3px; margin: 45px 0px 10px; }
+#content #main p { text-align: justify; }
+#content #main .bottom-buttons { padding-top: 10px; border-top: 1px solid rgb(212, 212, 212); }
+#content #main .bottom-link { border-bottom: 1px solid rgb(229, 229, 229); }
+#content #main .bottom-link a { display: block; float: right; text-decoration: none; border-bottom: 8px solid rgb(250, 187, 0); padding-bottom: 3px; font-size: 11px; font-weight: bold; }
+#content #main .bottom-link a span.arrow { display: block; position: absolute; background: rgb(255, 255, 255) url("sprite_layout_all.png") no-repeat scroll -26px -415px; width: 11px; height: 22px; margin-left: -11px; margin-top: 1px; }
+#content #main .share-buttons { white-space: nowrap; overflow: hidden; }
+#content #main .share-buttons .label { display: block; font-family: "FFDIN Bold"; font-size: 15px; text-transform: uppercase; color: rgb(67, 67, 67); float: left; padding-top: 2px; }
+#content #main .share-buttons a { display: block; float: left; margin-left: 5px; width: 16px; height: 16px; background: transparent url("sprite_layout_all.png") no-repeat scroll 0% 0%; }
+#content #main .share-buttons a.facebook { background-position: -84px -48px; }
+#content #main .share-buttons a.twitter { background-position: -84px -90px; }
+#content #main .share-buttons a.google { background-position: -84px -132px; }
+#content #main .diapo { visibility: hidden; }
+#content #main .diapo h2 span { padding-left: 36px; background: transparent url("sprite_title_001.png") no-repeat scroll left -341px; display: inline-block; height: 40px; }
+#content #main .diapo .focus { width: 620px; margin-bottom: 10px; }
+#content #main .diapo .focus .media { height: 412px; overflow: hidden; background: rgb(0, 0, 0) none repeat scroll 0% 0%; text-align: center; }
+#content #main .diapo .focus .media a.play { display: block; width: 76px; height: 76px; position: absolute; z-index: 1; background: transparent url("sprite_layout_all.png") no-repeat scroll -59px -762px; margin: 165px 0px 0px 272px; }
+#content #main .diapo .focus .media a.zoom { display: block; visibility: hidden; width: 105px; height: 105px; position: absolute; z-index: 1; background: transparent url("sprite_layout_all.png") no-repeat scroll 0px -1152px; margin: 165px 0px 0px 272px; }
+#content #main .diapo .focus .media:hover a.zoom { visibility: visible; }
+#content #main .diapo .focus.video .media img { width: 620px; max-height: 412px; }
+#content #main .diapo .focus .description { margin-top: 15px; }
+#content #main .diapo .focus .description .left { float: left; width: 63px; margin-right: 15px; font-weight: bold; font-size: 10px; }
+#content #main .diapo .focus .description .right { float: left; width: 542px; }
+#content #main .diapo .focus .description .type { font-family: "FFDIN Bold"; font-size: 15px; display: block; padding: 0px 4px 10px 23px; color: rgb(29, 29, 29); border-bottom: 6px solid rgb(250, 187, 0); margin-bottom: 10px; text-transform: uppercase; }
+#content #main .diapo .focus .description .date { font-family: "FFDIN Light"; font-size: 16px; color: rgb(76, 76, 76); line-height: 19px; }
+#content #main .diapo .focus .description .share-buttons { float: right; margin-top: -10px; margin-left: 5px; }
+#content #main .diapo .focus.video .description .type { background: transparent url("sprite_layout_all.png") no-repeat scroll -122px -1076px; }
+#content #main .diapo .focus.video .description h3 { font-family: "FFDIN Black"; font-size: 24px; font-weight: normal; margin-bottom: 20px; }
+#content #main .diapo .focus.photo .description .type { background: transparent url("sprite_layout_all.png") no-repeat scroll -122px -1019px; }
+#content #main .diapo .focus.photo .description p { margin-top: 0px; text-align: left; }
+#content #main .diapo .paging { position: relative; margin-top: 5px; width: 56px; height: 38px; background: transparent url("sprite_layout_001.png") no-repeat scroll 0px -984px; font-family: "FFDIN Light"; font-size: 20px; }
+#content #main .diapo .paging .current { display: block; position: absolute; left: 0px; top: 0px; width: 25px; text-align: right; font-weight: bold; }
+#content #main .diapo .list { position: relative; height: 123px; margin: 1px 0px 10px; overflow: hidden; padding-left: 57px; }
+#content #main .diapo .list .nav { position: absolute; z-index: 2; background: rgb(255, 255, 255) none repeat scroll 0% 0%; left: 0px; width: 58px; height: 123px; }
+#content #main .diapo .list .nav a { display: block; width: 56px; height: 38px; margin-bottom: 1px; }
+#content #main .diapo .list .nav a:hover { display: block; width: 54px; height: 36px; margin-bottom: 1px; border: 1px solid rgb(247, 243, 243); }
+#content #main .diapo .list .nav a.arrow-left { background: rgb(76, 76, 76) url("sprite_layout_all.png") no-repeat scroll 0px -723px; }
+#content #main .diapo .list .nav a.arrow-left:hover { background: rgb(255, 255, 255) url("sprite_layout_all.png") no-repeat scroll -58px -724px; }
+#content #main .diapo .list .nav a.arrow-right { background: rgb(76, 76, 76) url("sprite_layout_all.png") no-repeat scroll 0px -684px; }
+#content #main .diapo .list .nav a.arrow-right:hover { background: rgb(255, 255, 255) url("sprite_layout_all.png") no-repeat scroll -58px -685px; }
+#content #main .diapo .list .nav a.disabled { width: 56px; height: 38px; border: medium none; cursor: default; opacity: 0.3; }
+#content #main .diapo .list .nav a.arrow-left.disabled { background: rgb(76, 76, 76) url("sprite_layout_all.png") no-repeat scroll 0px -723px; }
+#content #main .diapo .list .nav a.arrow-right.disabled { background: rgb(76, 76, 76) url("sprite_layout_all.png") no-repeat scroll 0px -684px; }
+#content #main .diapo .list ul.thumbs { margin: 0px; padding: 0px; width: 564px; height: 123px; }
+#content #main .diapo .list ul.thumbs li { position: relative; display: block; float: left; width: 186px; height: 123px; overflow: hidden; margin-left: 2px; margin-bottom: 2px; cursor: pointer; }
+#content #main .diapo .list ul.thumbs li img { width: 186px; }
+#content #main .diapo .list ul.thumbs li .title { position: absolute; z-index: 1; left: 0px; bottom: 0px; width: 186px; height: 38px; background: transparent url("bg_diapo_play.png") repeat scroll 0% 0%; color: rgb(255, 255, 255); font-weight: bold; font-size: 11px; }
+#content #main .diapo .list ul.thumbs li:hover .title { height: 33px; border-bottom: 5px solid rgb(250, 187, 0); }
+#content #main .diapo .list ul.thumbs li .title .icon { display: block; padding: 8px 8px 8px 35px; }
+#content #main .diapo .list ul.thumbs li.video .title .icon { background: transparent url("sprite_layout_001.png") no-repeat scroll -112px -1267px; }
+#content #main .diapo .list ul.thumbs li.current { cursor: default; }
+#content #main .diapo .list ul.thumbs li.current .title { height: 33px; border-bottom: 5px solid rgb(250, 187, 0); }
+#content #main .diapo .list ul.thumbs li.current .title .icon { text-shadow: 1px 1px 0px rgb(0, 0, 0); }
+#content #main .diapo.v2 { border-bottom: 1px solid rgb(212, 212, 212); padding-bottom: 5px; }
+#content #main .diapo.v2 .focus .media { position: relative; }
+#content #main .diapo.v2 .focus .media a.prev { display: block; width: 24px; height: 40px; position: absolute; z-index: 1; top: 50%; margin-top: -20px; left: 0px; background: transparent url("sprite_layout_001.png") no-repeat scroll 0px -762px; }
+#content #main .diapo.v2 .focus .media a.next { display: block; width: 24px; height: 40px; position: absolute; z-index: 1; top: 50%; margin-top: -20px; right: 0px; background: transparent url("sprite_layout_001.png") no-repeat scroll 0px -803px; }
+#content #main .diapo.v2 .focus .media a.prev:hover { background-position: -25px -762px; }
+#content #main .diapo.v2 .focus .media a.next:hover { background-position: -25px -803px; }
+#content #main .diapo.v2 .focus .description h3, #content #main .diapo.v2 .focus .description p { width: 400px; height: 26px; }
+#content #main .diapo.v2 .paging { float: right; font-size: 16px; width: 41px; height: 28px; margin-top: -34px; background-position: -9px -989px; }
+#content #main .diapo.v2 .paging .current { width: 15px; }
+#content #main .diapo.v2 .paging .nbitems { display: block; position: absolute; right: 0px; bottom: 0px; width: 15px; text-align: left; }
+#content #main .diapo.v2 .list { width: 572px; height: 172px; padding-left: 48px; box-sizing: content-box; }
+#content #main .diapo.v2 .list .nav { width: 48px; height: 172px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#content #main .diapo.v2 .list .nav.right { left: 570px; border-left: 2px solid rgb(255, 255, 255); }
+#content #main .diapo.v2 .list .nav a { height: 170px; width: 44px; margin-bottom: 0px; background: rgb(76, 76, 76) none repeat scroll 0% 0%; border: 1px solid rgb(76, 76, 76); }
+#content #main .diapo.v2 .list .nav a:hover { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(201, 201, 201); }
+#content #main .diapo.v2 .list .nav a.disabled { background: rgb(201, 201, 201) none repeat scroll 0% 0%; border: 1px solid rgb(201, 201, 201); opacity: 1; }
+#content #main .diapo.v2 .list .nav a.disabled span { cursor: default; }
+#content #main .diapo.v2 .list .nav a span { position: absolute; display: block; width: 44px; height: 38px; margin-top: 67px; margin-bottom: 0px; background-image: url("sprite_layout_all.png"); }
+#content #main .diapo.v2 .list .nav a.arrow-left span { background-position: -5px -723px; }
+#content #main .diapo.v2 .list .nav a.arrow-left:hover span { background-position: -63px -724px; }
+#content #main .diapo.v2 .list .nav a.arrow-right span { background-position: -5px -684px; }
+#content #main .diapo.v2 .list .nav a.arrow-right:hover span { background-position: -63px -685px; }
+#content #main .diapo.v2 .list .nav a.arrow-left.disabled span { background-position: -115px -723px; }
+#content #main .diapo.v2 .list .nav a.arrow-right.disabled span { background-position: -115px -684px; }
+#content #main .diapo.v2 .list ul.thumbs { float: left; }
+#content #main .diapo.v2 .list ul.thumbs dl { width: 129px; float: left; margin: 0px 2px 0px 0px; }
+#content #main .diapo.v2 .list ul.thumbs li { width: 129px; height: 85px; overflow: hidden; margin-left: 0px; }
+#content #main .diapo.v2 .list ul.thumbs li img { width: 129px; height: 85px; }
+#content #main .diapo.v2 .list ul.thumbs li .title { width: 100%; height: 32px; font-size: 10px; }
+#content #main .diapo.v2 .list ul.thumbs li:not(.current) .title { padding-bottom: 5px; }
+#content #main .diapo.v2 .list ul.thumbs li.current .title { padding-bottom: 0px; }
+#content #main .diapo.v2 .list ul.thumbs li .title:empty { background: transparent none repeat scroll 0% 0%; }
+#content #main .diapo.v2 .list ul.thumbs li:hover .title { display: none; }
+#content #main .diapo.v2 .list ul.thumbs li .title .icon { background: transparent none repeat scroll 0% 0%; padding: 5px; }
+#content #main .diapo.v2 .filters, #content #main .diapo.v2 .bottom-buttons { display: none; }
+#content #main .edito ul.tabs { padding: 0px; margin: 0px; }
+#content #main .edito ul.tabs li { display: block; float: left; margin-left: 2px; }
+#content #main .edito ul.tabs li:first-child { margin: 0px; }
+#content #main .edito ul.tabs li a { color: rgb(76, 76, 76); display: block; padding: 14px 0px 6px 20px; line-height: 20px; border-bottom: 10px solid rgb(239, 239, 239); text-decoration: none; text-transform: uppercase; font-family: "FFDIN Black"; font-size: 18px; background: transparent url("sprite_tab.png") no-repeat scroll 0px 0px; width: 273px; }
+#content #main .edito ul.tabs li.actus a { background-position: 0px -38px; }
+#content #main .edito[tab="avis"] ul.tabs li.avis a, #content #main .edito[tab="actus"] ul.tabs li.actus a, #content #main .edito ul.tabs li.selected a { border-bottom: 10px solid rgb(250, 187, 0); cursor: default; }
+#content #main .edito .content { border-top: 1px solid rgb(212, 212, 212); border-bottom: 1px solid rgb(212, 212, 212); padding-bottom: 1px; }
+#content #main .edito .content > div { display: none; padding: 20px; }
+#content #main .edito .content p { margin: 0px; padding: 0px; }
+#content #main .edito .content a { font-weight: bold; }
+#content #main .edito .content a:hover { text-decoration: none; }
+#content #main .edito .content h3 { font-family: "FFDIN Black"; font-size: 24px; color: rgb(29, 29, 29); }
+#content #main .edito .content h3 a { display: block; text-decoration: none; font-weight: normal; padding: 3px 0px 0px; white-space: normal; width: 580px; }
+#content #main .edito[tab="avis"] .content .tab-avis, #content #main .edito[tab="actus"] .content .tab-actus { display: block; background: rgb(249, 249, 249) none repeat scroll 0% 0%; }
+#content #main .edito .content .tab-actus img { float: right; margin-left: 20px; border-bottom: 5px solid rgb(250, 187, 0); }
+#content #main .edito .content a.button { margin-top: 15px; }
+#content #main .edito[tab="avis"] .content, #content #main .edito[tab="actus"] .content { border-bottom: medium none; padding-bottom: 0px; }
+#content #col { width: 300px; min-height: 500px; float: right; overflow: hidden; }
+#content #col h4 { margin-top: 30px; border-bottom: 1px solid rgb(188, 188, 188); padding-bottom: 8px; margin-bottom: 15px; font-size: 21px; }
+#content #col > div:first-child h4 { margin-top: 0px; }
+#content #col h4 span { font-family: "FFDIN Light"; }
+#content #col p { font-size: 12px; }
+#content #col .bottom-buttons { padding-top: 10px; border-top: 1px dotted rgb(182, 182, 182); }
+#content #col .distinctif ul { margin: 0px 1px 0px 0px; padding: 0px; width: 149px; float: left; overflow: hidden; }
+#content #col .distinctif ul li { display: block; margin-bottom: 1px; border: 1px solid rgb(214, 214, 214); }
+#content #col .distinctif ul li div { width: 147px; border: 1px solid rgb(255, 255, 255); display: table-cell; vertical-align: middle; white-space: nowrap; overflow: hidden; }
+#content #col .distinctif ul.maillots li div { height: 57px; background: rgb(246, 243, 243) none repeat scroll 0% 0%; }
+#content #col .distinctif ul.vainqueurs li div { height: 77px; background: rgb(228, 226, 226) none repeat scroll 0% 0%; }
+#content #col .distinctif ul.maillots li div:hover { height: 57px; background: rgb(228, 226, 226) none repeat scroll 0% 0%; }
+#content #col .distinctif ul.vainqueurs li div:hover { height: 77px; background: rgb(246, 243, 243) none repeat scroll 0% 0%; }
+#content #col .distinctif ul li div strong { display: block; padding-left: 28px; padding-top: 1px; margin-bottom: 6px; font-family: "FFDIN Bold"; font-size: 15px; color: rgb(76, 76, 76); text-transform: uppercase; font-weight: normal; }
+#content #col .distinctif ul li div .name { display: inline-block; padding: 0px 12px 0px 7px; text-decoration: none; }
+#content #col .distinctif ul li div .team { display: block; padding: 5px 12px 0px 28px; font-weight: bold; text-decoration: none; }
+#content #col .distinctif ul li strong { background: transparent url("sprite_smalldistinctifs.png") no-repeat scroll 0% 0%; }
+#content #col .distinctif ul li.itg strong { background-position: 7px 3px; }
+#content #col .distinctif ul li.ipg strong { background-position: 7px -123px; }
+#content #col .distinctif ul li.img strong { background-position: 7px -249px; }
+#content #col .distinctif ul li.ite strong { background-position: 7px -627px; }
+#content #col .distinctif ul li.ete strong { background-position: 7px -501px; }
+#content #col .ads, #col .pmu, #col .meteo, #col .autopromo { margin-top: 30px; }
+#content #col .abonnement .buttons a { display: block; float: left; margin-right: 6px; width: 68px; height: 40px; background: transparent url("sprite_layout_all.png") no-repeat scroll 0% 0%; }
+#content #col .abonnement .buttons a.facebook { background-position: 0px -174px; }
+#content #col .abonnement .buttons a.twitter { background-position: 0px -215px; }
+#content #col .abonnement .buttons a.instagram { background-position: 0px -1957px; }
+#content #col .abonnement .buttons a.facebook:hover { background-position: -69px -174px; }
+#content #col .abonnement .buttons a.twitter:hover { background-position: -69px -215px; }
+#content #col .abonnement .buttons a.instagram:hover { background-position: -69px -1957px; }
+#content #col .autopromo a { display: none; background: transparent url("sprite_autopromo_fr_001.jpg") no-repeat scroll 0% 0%; width: 300px; height: 210px; }
+#content #col .autopromo a.showed { display: block; }
+html[lang="us"] #content #col .autopromo a { background-image: url("sprite_autopromo_us_002.jpg"); }
+#content #col .equipes { position: relative; }
+#content #col .equipes ul { margin: 0px auto 15px; padding: 0px; height: 126px; width: 111px; overflow: hidden; }
+#content #col .equipes li { display: none; position: absolute; background-repeat: no-repeat; height: 126px; margin: auto; width: 111px; }
+#content #col .equipes li a { display: block; height: inherit; width: inherit; }
+#content #col .equipes a.liprev, #content #col .equipes a.linext { display: block; position: absolute; z-index: 2; width: 24px; height: 40px; top: 90px; }
+#content #col .equipes a.liprev { left: 20px; background: transparent url("sprite_layout_001.png") no-repeat scroll -25px -762px; }
+#content #col .equipes a.liprev:hover { background-position: 0px -762px; }
+#content #col .equipes a.linext { right: 20px; background: transparent url("sprite_layout_001.png") no-repeat scroll -25px -803px; }
+#content #col .equipes a.linext:hover { background-position: 0px -803px; }
+#content .partners { margin: 0px; overflow: hidden; width: 920px; }
+#content .partners h2 { width: 620px; border-bottom: 1px dotted rgb(178, 178, 178); padding-bottom: 8px; margin: 60px 0px 20px; }
+#content .partners ul { display: none; margin: 0px; padding: 0px; width: 1160px; height: 80px; overflow: hidden; }
+#content .partners ul li { display: block; float: left; padding-bottom: 15px; border-bottom: 5px solid rgb(255, 255, 255); }
+#content .partners ul li:hover { border-bottom: 5px solid rgb(250, 192, 18); }
+#html5-footer { position: relative; }
+#html5-footer a:active, #html5-footer a:focus { outline: medium none; }
+#html5-footer .menu { min-height: 199px; background: transparent url("bg_footer.png") repeat scroll 0% 0%; }
+#html5-footer .menu ul.col { width: 170px; margin: 28px 0px; padding: 0px; float: left; }
+#html5-footer .menu ul.col:first-child { margin-left: 105px; padding: 0px; float: left; }
+#html5-footer .menu ul.col a { display: block; color: rgb(255, 255, 255); text-decoration: none; background: transparent url("listyle_footer_links.png") no-repeat scroll 0px 5px; font-size: 12px; padding-left: 15px; margin-bottom: 10px; }
+#html5-footer .menu ul.col a:hover { text-decoration: underline; }
+#html5-footer .menu .col-right { float: right; width: 300px; height: 148px; background: transparent url("bg_footer_col_sep.png") repeat-y scroll left center; margin-top: 4px; }
+#html5-footer .menu .col-right a { display: block; color: rgb(255, 255, 255); font-family: "FFDIN Light"; font-size: 19px; text-decoration: none; }
+#html5-footer .menu .col-right a.toppage, #html5-footer .menu .col-right a.backsite, #html5-footer .menu .col-right a.partner { margin: 0px 4px; }
+#html5-footer .menu .col-right a.toppage:hover, #html5-footer .menu .col-right a.backsite:hover, #html5-footer .menu .col-right a.partner:hover { background: transparent url("bg_footer_hover.png") repeat scroll 0% 0%; }
+#html5-footer .menu .col-right a.toppage span { display: block; padding: 20px 0px 20px 120px; background: transparent url("bg_footer_btn_arrowup.png") no-repeat scroll 77px center; }
+#html5-footer #dock { position: fixed; z-index: 100; left: 0px; bottom: 0px; width: 100%; height: 41px; background: rgb(250, 187, 0) none repeat scroll 0% 0%; border-bottom: 1px solid rgb(244, 232, 194); border-top: 1px solid rgb(255, 226, 138); }
+#html5-footer #dock ul.toolbar { width: 960px; padding: 0px; margin: 0px auto; }
+#html5-footer #dock ul.toolbar li { display: block; float: left; height: 43px; border-right: 1px solid rgb(255, 226, 138); }
+#html5-footer #dock ul.toolbar li > a { display: block; line-height: 43px; padding: 0px 21px; border-right: 1px solid rgb(219, 169, 22); text-decoration: none; font-family: "FFDIN Light"; font-size: 18px; color: rgb(0, 0, 0); }
+#html5-footer #dock ul.toolbar li > a:hover { text-decoration: underline; }
+#html5-footer #dock ul.toolbar li:last-child { border: medium none; }
+#html5-footer #dock ul.toolbar li:last-child a { border: medium none; }
+#html5-footer #dock ul.toolbar li.epreuves { position: relative; width: 103px; }
+#html5-footer #dock ul.toolbar li div.content { display: none; position: absolute; z-index: 1; bottom: 0px; margin-bottom: 42px; border-bottom: 3px solid rgb(0, 0, 0); background: rgb(255, 255, 255) none repeat scroll 0% 0%; overflow: hidden; }
+#html5-footer #dock ul.toolbar li div.content .head { position: relative; height: 36px; background: rgb(35, 35, 35) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+#html5-footer #dock ul.toolbar li div.content .head .title { display: block; padding-left: 45px; line-height: 36px; color: rgb(255, 255, 255); font-family: "FFDIN Bold"; font-size: 15px; text-transform: uppercase; }
+#html5-footer #dock ul.toolbar li div.content .head a.reduce { display: block; position: absolute; top: 0px; right: 0px; width: 63px; height: 36px; border-left: 1px solid rgb(255, 255, 255); background: transparent url("sprite_layout_001.png") no-repeat scroll 0px -378px; }
+#html5-footer #dock ul.toolbar li div.content .head a.reduce:hover { background: transparent url("sprite_layout_001.png") no-repeat scroll -64px -378px; }
+#html5-footer #dock ul.toolbar li.epreuves { width: 103px; }
+#html5-footer #dock ul.toolbar li.epreuves > a { display: block; overflow: hidden; margin: 0px auto; padding: 0px; text-align: center; background: transparent url("bg_dock_btn_epreuves.png") no-repeat scroll center center; color: rgb(29, 29, 29); text-transform: uppercase; font-family: "FFDIN Black"; font-size: 11px; text-decoration: none; }
+#html5-footer #dock ul.toolbar li.epreuves div.content { margin-left: 103px; width: 857px; background: rgb(255, 255, 255) url("bg_dock_autreepreuves.png") repeat-x scroll center bottom; }
+#html5-footer #dock ul.toolbar li.epreuves div.content .head .title { background: transparent url("sprite_layout_001.png") no-repeat scroll -104px -453px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list { padding-bottom: 10px; padding-left: 30px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li { color: rgb(58, 58, 58); font-weight: bold; height: 87px; border: medium none; margin: 0px 22px 10px 0px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li a { display: block; width: 53px; height: 60px; margin-bottom: 5px; border: medium none; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.TOO a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -853px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.PRX a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -609px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.FWH a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -364px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.FWF a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -304px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.LBL a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -426px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.CDD a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -122px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.EDT a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -243px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.VUE a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -1036px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.TDA a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -670px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.PAT a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -487px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.TDF a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -731px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.PNC a { background: transparent url("sprite_epreuves.png") no-repeat scroll 0px -548px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.ARN a { background: transparent url("sprite_epreuves.png") no-repeat scroll -139px -1490px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.STC a { background: transparent url("sprite_epreuves.png") no-repeat scroll -140px -1711px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.TFF a { background: transparent url("sprite_epreuves.png") no-repeat scroll -140px -2932px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.TDY a { background: transparent url("sprite_epreuves.png") no-repeat scroll -139px -3055px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.MDC a { background: transparent url("sprite_epreuves.png") no-repeat scroll -140px -3268px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.LBF a { background: transparent url("sprite_epreuves.png") no-repeat scroll -140px -3389px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.REF a { background: transparent url("sprite_epreuves.png") no-repeat scroll -140px -3490px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.SHC a { background: transparent url("sprite_epreuves.png") no-repeat scroll -140px -3614px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li.DDT a { background: transparent url("sprite_epreuves.png") no-repeat scroll -140px -3720px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li .datestart { display: block; padding-left: 7px; }
+#html5-footer #dock ul.toolbar li.epreuves div.content ul.list li .dateend { display: block; padding-left: 7px; }
+body#home-epreuve #content { margin-top: 50px; }
+body#home-epreuve #content #main .paysage .sponsor, #content #main .carte .sponsor { position: relative; }
+body#home-epreuve #content #main .carte h2 span { padding-left: 36px; background: transparent url("sprite_title_001.png") no-repeat scroll left -581px; display: inline-block; height: 40px; }
+body#home-epreuve #content #main .carte .sponsor h2 { padding-top: 7px; }
+body#home-epreuve #content #main .carte .module { float: left; margin-top: 20px; }
+body#home-epreuve #content #main .carte .description { float: right; width: 243px; color: rgb(29, 29, 29); font-size: 11px; margin-top: 20px; }
+body#home-epreuve #content #main .carte .description h3 { color: rgb(76, 76, 76); text-transform: uppercase; font-family: "FFDIN Bold"; font-size: 19px; }
+body#home-epreuve #content #main .carte .description h4 { font-family: Tahoma; font-size: 11px; font-weight: bold; margin: 15px 0px; }
+body#home-epreuve #content #main .carte .description p, #content #main .carte .description ul li { line-height: 15px; }
+body#home-epreuve #content #main .carte .description ul { margin: 0px; padding: 0px; }
+body#home-epreuve #content #main .edito .content .tab-actus { background: rgb(249, 249, 249) none repeat scroll 0% 0%; }
+.jersey-alm { background-position: 0px 0px ! important; }
+.jersey-ast { background-position: 0px -253px ! important; }
+.jersey-bmc { background-position: 0px -380px ! important; }
+.jersey-cof { background-position: 0px -508px ! important; }
+.jersey-fdj { background-position: 0px -888px ! important; }
+.jersey-kat { background-position: 0px -1270px ! important; }
+.jersey-mov { background-position: 0px -1778px ! important; }
+.jersey-sky { background-position: 0px -2413px ! important; }
+.picto16 { display: inline-block; width: 16px; height: 11px; margin: 0px 5px 0px 0px; }
+.flag-col { background: transparent url("sprite_flags.jpg") no-repeat scroll 0px -36px; }
+.flag-den { background: transparent url("sprite_flags.jpg") no-repeat scroll -136px -36px; }
+.flag-esp { background: transparent url("sprite_flags.jpg") no-repeat scroll -17px -48px; }
+.flag-ita { background: transparent url("sprite_flags.jpg") no-repeat scroll -85px -72px; }
+.flag-usa { background: transparent url("sprite_flags.jpg") no-repeat scroll -153px -156px; }
+.confidentialite { display: none; position: absolute; top: 0px; left: 0px; width: 100%; padding: 6px 0px; z-index: 100; line-height: 1.5em; text-align: center; background-color: white; border-bottom: 1px solid rgb(238, 238, 238); }
+.confidentialite a.close { display: inline-block; position: inherit; right: auto; margin: -1px 4px; }
+.btn-diffuseurs { position: fixed; left: 0px; bottom: 38px; margin-top: 0px; display: block; background: rgb(87, 87, 87) none repeat scroll 0% 0%; text-transform: uppercase; color: rgb(255, 255, 255) ! important; font: 22px/1 "FFDIN Black" ! important; padding: 13px 52px 15px 56px ! important; text-decoration: none ! important; box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.3); transition: margin 0.467s cubic-bezier(0.1, 0.9, 0.2, 1) 34ms; border-radius: 0px 3px 0px 0px; border-right: medium none ! important; }
+.btn-diffuseurs:hover, .btn-diffuseurs.active { margin-bottom: 5px; }
+.btn-diffuseurs .icon { position: absolute; }
+.btn-diffuseurs .icon-before { top: 11px; left: 16px; }
+.btn-diffuseurs .icon-after { top: 11px; right: 16px; }
+@media not all {
+}

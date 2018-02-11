@@ -1,0 +1,22 @@
+/* Code tidied up by ScrapBook */
+@keyframes blinkLineNow {
+0% { opacity: 1; }
+40% { opacity: 1; }
+50% { opacity: 0; }
+60% { opacity: 1; }
+100% { opacity: 1; }
+}
+@keyframes blinkLineNow {
+0% { opacity: 1; }
+40% { opacity: 1; }
+50% { opacity: 0; }
+60% { opacity: 1; }
+100% { opacity: 1; }
+}
+@keyframes blinkLineNow {
+0% { opacity: 1; }
+40% { opacity: 1; }
+50% { opacity: 0; }
+60% { opacity: 1; }
+100% { opacity: 1; }
+}

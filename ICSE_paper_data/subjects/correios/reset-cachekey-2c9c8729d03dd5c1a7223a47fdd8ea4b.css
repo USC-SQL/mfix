@@ -1,0 +1,11 @@
+/* Code tidied up by ScrapBook */
+@media screen {
+  * { margin: 0px; padding: 0px; }
+  * :link, :visited { text-decoration: none; }
+  * ul, ol { list-style: outside none none; }
+  * li { display: inline; }
+  * a img, :link img, :visited img { border: medium none; }
+  a { outline: medium none; }
+  img { vertical-align: text-bottom; }
+  iframe { border-width: 0px; border-style: none; }
+}

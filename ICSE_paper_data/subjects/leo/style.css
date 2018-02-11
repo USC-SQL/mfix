@@ -1,0 +1,24 @@
+/* Code tidied up by ScrapBook */
+html {  }
+body { margin: 0px; letter-spacing: 1.1px; }
+#ad { position: absolute; display: block; border: 1px solid rgb(145, 153, 153); overflow: hidden; width: 298px; height: 598px; -moz-user-select: none; }
+#overButton { position: absolute; display: block; width: 300px; height: 600px; top: 0px; left: 0px; }
+#banner { position: absolute; display: block; width: 298px; height: 598px; overflow: hidden; opacity: 0; background-color: rgb(241, 237, 232); }
+#resolve { position: absolute; top: 236px; left: 31px; width: 247px; height: 102px; background-image: url("endTag.svg"); background-repeat: no-repeat; }
+#resolveLine { position: absolute; top: 400px; left: 132px; width: 36px; height: 2px; background-color: rgb(204, 9, 47); }
+#frame_1 { position: absolute; width: 300px; height: 600px; background-repeat: no-repeat; background-size: cover; overflow: hidden; }
+#frame_1__greyBox { position: absolute; top: 0px; width: 300px; height: 600px; background-color: rgb(54, 62, 72); opacity: 0.9; }
+#frame_1__gradientBox { position: absolute; top: 0px; width: 300px; height: 600px; opacity: 0.9; background: transparent linear-gradient(135deg, rgb(43, 52, 62) 0%, rgb(49, 47, 56) 16%, rgb(103, 2, 5) 98%, rgb(110, 0, 0) 100%) repeat scroll 0% 0%; }
+#frame_1__bgImage { position: absolute; background-image: url("bannerBg.jpg"); background-repeat: no-repeat; width: 300px; height: 600px; }
+#frame_1__backMove { position: absolute; background-image: url("bannerBgWatch.jpg"); background-repeat: no-repeat; width: 300px; height: 600px; }
+#frame_1__redLine { position: absolute; top: 0px; left: 0px; width: 300px; height: 4px; background-color: rgb(228, 36, 28); }
+#frame_1__logoLite { position: absolute; top: 50px; left: 35px; width: 190px; height: 48px; background-image: url("llLogoWhite.svg"); background-repeat: no-repeat; background-size: contain; }
+#frame_1__tagline { position: absolute; top: 135px; left: 35px; width: 250px; height: 142px; background-image: url("tag1.svg"); background-repeat: no-repeat; }
+#frame_1__tagline2 { position: absolute; top: 129px; left: 35px; width: 270px; height: 181px; background-image: url("tag2.svg"); background-repeat: no-repeat; }
+#glow { position: absolute; background-image: url("sweep.png"); background-repeat: no-repeat; background-size: contain; width: 100px; height: 200px; left: -84px; top: -29px; opacity: 0.4; }
+#frame_1__cta { position: absolute; overflow: hidden; top: 477px; left: 32px; width: 235px; height: 40px; background: transparent linear-gradient(-45deg, rgb(228, 36, 28) 0%, rgb(204, 9, 47) 100%) repeat scroll 0% 0%; }
+#frame_1__ctaDark { opacity: 0; position: absolute; width: 235px; height: 40px; background: transparent linear-gradient(to right, rgb(43, 52, 62) 0%, rgb(78, 87, 102) 100%) repeat scroll 0% 0%; }
+#frame_1__ctaTitle { position: absolute; width: 235px; height: 40px; background-image: url("get60.svg"); background-repeat: no-repeat; background-position: 50% center; }
+#resolveTerms { position: absolute; bottom: 52px; width: 300px; height: 19px; background-image: url("whiteTerms.svg"); background-position: 50% center; background-repeat: no-repeat; }
+#resolveTermsDark {  }
+#resolveOffer {  }

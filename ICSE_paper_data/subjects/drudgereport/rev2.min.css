@@ -1,0 +1,64 @@
+/* Code tidied up by ScrapBook */
+.rc-item .rc-headline, .rc-wc .row-item h3 { color: rgb(0, 0, 0); text-align: left; font-family: Roboto,sans-serif; }
+.rc-clearfix::after, .rc-row::after { clear: both; }
+.rc-branding, .rc-item .rc-headline, .rc-wc .row-item h3 { font-family: Roboto,sans-serif; }
+.rc-wc { overflow: hidden; position: relative; margin: 0px auto; padding: 0px; visibility: visible; display: block; }
+.rc-row { margin: 0px; }
+.rc-row::after, .rc-row::before { display: table; content: " "; }
+.rc-item, .rc-row > div { float: left; width: 100%; }
+.rc-item .rc-headline { font-size: 17px; line-height: normal; font-weight: 500; padding: 0px ! important; margin: 4px 1% 3px; overflow: hidden; width: 98%; height: auto; }
+.rc-wc .row-item h3 { margin: 3px 0px; min-height: 12px; cursor: default; font-size: 19px; font-weight: 600; }
+.rc-g-d .row-item h3, .rc-g-dl .row-item h3 { margin-left: 4px; }
+.rc-g-dl .rc-g-dl-1 > div { width: 100%; }
+.rc-g-dl .rc-g-dl-2 > div { width: 50%; }
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+@media not all {
+}
+.rc-branding, .rc-btn-link[disabled]:focus, .rc-btn-link[disabled]:hover, fieldset[disabled] .rc-btn-link:focus, fieldset[disabled] .rc-btn-link:hover { text-decoration: none; color: rgb(153, 153, 153); }
+.rc-clearfix::after, .rc-clearfix::before { display: table; content: " "; }
+.rc-text-right { text-align: right; }
+.rc-text-top { width: 100%; }
+.rc-text-top.rc-branding { top: 24px; }
+.rc-text-right.rc-branding { float: right; right: 10px; }
+.rc-branding { visibility: visible ! important; display: inline-block ! important; z-index: 99; width: 100%; line-height: 13px; position: relative; }
+.rc-bp-cta, .rc-modal-content, .rc-modal-content h1, .rc-modal-content h2 { font-family: Arial,Helvetica,sans-serif ! important; }
+.rc-branding div { font-size: 10px; cursor: pointer; display: inline-block; }
+.rc-branding .rc-adchoices, .rc-iab .rc-branding.rc-text-bottom.rc-text-center div, .rc-iab .rc-branding.rc-text-top.rc-text-center div { display: inline-block ! important; }
+.rc-branding .rc-branding-label { vertical-align: top ! important; }
+.rc-branding .rc-adchoices { position: relative ! important; max-width: 12px ! important; margin: 0px 0px 0px 4px ! important; }
+.rc-modal-shade { background-color: rgba(0, 0, 0, 0.5); position: fixed; z-index: 999999; top: 0px; left: 0px; width: 100%; height: 100%; display: none; }
+.rc-modal-panel { top: 100px; background: rgb(255, 255, 255) none repeat scroll 0% 0% ! important; width: 500px; min-height: 100px; height: auto; overflow: visible ! important; z-index: 999999; border-radius: 10px ! important; box-shadow: 2px 2px 32px rgb(85, 85, 85) ! important; left: -2000px; display: none; }
+.rc-bp-cta, .rc-modal-close { transition: all 0.2s ease-in-out 0s ! important; }
+.rc-modal-close { position: absolute ! important; top: -15px ! important; right: -15px ! important; cursor: pointer ! important; transform: scale(0.7) ! important; transition: all 0.2s ease-in-out 0s ! important; width: 35px ! important; }
+.hateit, .rc-chevron, .rc-p-pt, .rc-p-pt > div { cursor: pointer; }
+.rc-modal-close:hover { transform: scale(1) ! important; }
+.rc-bp-error, .rc-bp-success, .rc-loader { text-align: center ! important; }
+.rc-loader { background-color: rgba(0, 0, 0, 0.8) ! important; background-repeat: no-repeat ! important; background-position: center center ! important; position: fixed ! important; bottom: 0px ! important; left: 50% ! important; margin-left: -35px ! important; color: rgb(255, 255, 255) ! important; font-size: 14px ! important; width: 70px ! important; height: 30px ! important; line-height: 30px ! important; border-radius: 4px 4px 0px 0px ! important; display: none; }
+.rc-p-ll .rc-favicon, .rc-p-pt .rc-photo { background-position: center center; background-size: cover; }
+.rc-loader.text-mode { color: rgb(255, 255, 255); font-size: 11px ! important; text-transform: uppercase; letter-spacing: 2px; line-height: 31px ! important; width: 140px ! important; background-color: rgb(0, 0, 0) ! important; background-image: none ! important; opacity: 0.5; }
+.rc-bp-cta, .rc-ct-oo { width: 13px ! important; height: 13px ! important; position: absolute ! important; top: 0px; right: 0px; text-align: center ! important; line-height: 12px ! important; border-radius: 2px ! important; text-decoration: none ! important; }
+.rc-loader.text-mode::after { content: "loading..."; }
+.rc-bp-cta { font-size: 9px ! important; background-color: rgba(0, 0, 0, 0.2) ! important; color: rgb(255, 255, 255) ! important; font-weight: 400 ! important; display: none ! important; transform: scale(1) ! important; transition: all 0.2s ease-in-out 0s ! important; }
+.rc-item:hover .rc-bp-cta { display: block ! important; }
+.rc-bp-cta:hover { color: rgb(255, 255, 255) ! important; background-color: rgb(204, 0, 0) ! important; text-decoration: none ! important; font-weight: 700 ! important; box-shadow: 0px 1px 2px rgb(119, 119, 119) ! important; transform: scale(1.3) ! important; }
+.rc-provider { font-family: Roboto,sans-serif; font-size: 11px; font-weight: 400; white-space: nowrap; text-overflow: ellipsis; padding: 0px ! important; color: rgb(198, 198, 198); text-align: left; margin: 1px 1% 0px; overflow: hidden; width: 98%; }
+.rc-content { padding-bottom: 2px; }
+.rc-p-hb .rc-item:hover .rc-provider, .rc-p-ll li, .rc-p-pt .rc-cta { display: block; }
+.rc-photo-scale, .rc-photo-scale .rc-photo, .rc-photo-scale.scale-enabled { overflow: hidden; }
+.rc-p-pt .rc-provider { font-size: 11px; font-weight: 400; line-height: 17px; margin: 1px 1% 0px; overflow: hidden; width: 98%; }
+.rc-p-pt, .rc-p-pt > div { padding: 0px; margin: 0px; position: relative; }
+.rc-p-pt > div { list-style-type: none; }
+.rc-p-pt .rc-row > div { vertical-align: top; }
+.rc-p-pt .rc-item { overflow: visible ! important; position: relative; }
+.rc-p-pt .rc-cta, .rc-p-pt .rc-cta:hover { text-decoration: none; border: medium none; }
+.rc-p-pt .rc-photo { width: 98%; margin: 0px 1%; height: 0px; background-repeat: no-repeat; max-height: 315px; }
+.rc-p-pt .rc-item:hover .rc-content { bottom: 0px; }
+.rc-g-d .rc-provider, .rc-g-dl .rc-provider { margin-bottom: 10px; }
+.hateit { font-size: 10px; color: rgb(153, 153, 153); text-decoration: none; vertical-align: top ! important; }
+@media only screen and (max-device-width: 319px) {
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 384px) {
+}

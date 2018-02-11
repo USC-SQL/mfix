@@ -1,0 +1,24 @@
+/* Code tidied up by ScrapBook */
+body { font: 62.5%/1.3846 arial,helvetica,clean,sans-serif; background-color: rgb(204, 204, 204); margin: 0px; }
+.grid { font-size: 1.3em; }
+img { border: 0px none; }
+p, table, pre, fieldset, dl { margin: 0.6923em 0px; }
+ol, ul {  }
+button { cursor: pointer; }
+input, button, textarea { margin: 2px; }
+h1, .h1 { font-size: 1.3846em; line-height: 1.5; margin: 1em 0px 0.5em; }
+h2, .h2 { font-size: 1.2307em; line-height: 1.125; margin: 1.125em 0px 0.5625em; }
+h3, .h3 { font-size: 1.0769em; line-height: 1.2857; margin: 1.2856em 0px 0.6428em; }
+h3, .h3 { color: rgb(114, 65, 40); }
+h2, .h2 { color: rgb(152, 87, 53); }
+h1, .h1 { color: rgb(0, 0, 0); }
+.content a { color: rgb(47, 74, 139); }
+.content a:hover, .content a:active { color: rgb(152, 87, 53); }
+.content a:visited { color: rgb(100, 42, 143); }
+.inline_list, .inline_list_right { list-style-type: none; margin: 0px; padding: 0px; }
+.inline_list li { display: inline; margin-right: 0.3em; }
+.offscreen_noflow { float: left; text-indent: -9999em; margin: 0px; padding: 0px; height: 0px; }
+.nowrap { white-space: nowrap; }
+.shadow { box-shadow: 0.4em 0.4em 0.5em rgba(0, 0, 0, 0.3); }
+.icon-fallback-text { position: absolute ! important; clip: rect(1px, 1px, 1px, 1px); }
+.gray-light { opacity: 0.3; }

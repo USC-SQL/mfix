@@ -1,0 +1,21 @@
+<html><head><title>Apache Tomcat/7.0.40 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /aamc/fonts/glyphicons-halflings-regular.eot</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/aamc/fonts/glyphicons-halflings-regular.eot</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.40</h3></body><!-- Begin Analytics -->
+
+<!-- BEGIN COREMETRICS SUPPORT -->
+
+<script type="text/javascript">
+    var cmJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+	document.write(unescape("%3Cscript language='javascript1.1' type='text/javascript' src='" + cmJsHost + "static.aamc.org/analytics/coremetrics/eluminate-www-AAMC.js'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	cmSetClientID("90226781",true,"data.coremetrics.com","aamc.org");
+</script>
+
+<script type="text/javascript">
+	document.write(unescape("%3Cscript language='javascript1.1' type='text/javascript' src='" + cmJsHost + "static.aamc.org/analytics/coremetrics/cmtaggingservices-www-AAMC.js'%3E%3C/script%3E"));
+</script>
+
+<!-- End COREMETRICS SUPPORT -->
+
+<!-- End Analytics -->
+</html>

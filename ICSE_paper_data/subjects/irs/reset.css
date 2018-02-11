@@ -1,0 +1,13 @@
+/* Code tidied up by ScrapBook */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font: inherit; vertical-align: baseline; }
+input, select { vertical-align: middle; }
+body { font: 13px/1.231 sans-serif; }
+select, input, textarea, button { font: 99% sans-serif; }
+html { overflow-y: scroll; }
+a:hover, a:active { outline: medium none; }
+ul, ol { margin-left: 2em; }
+strong, th { font-weight: bold; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0px; }
+*::-moz-selection { background: rgb(204, 238, 255) none repeat scroll 0% 0%; color: rgb(0, 0, 0); text-shadow: none; }
+a:link {  }

@@ -1,0 +1,11 @@
+/* Code tidied up by ScrapBook */
+body { padding: 1px 3px 0px; }
+#smfheader { display: none; }
+.titlebg, tr.titlebg th, tr.titlebg td, .titlebg2, tr.titlebg2 th, tr.titlebg2 td { color: black; font-style: normal; background-image: inherit; background-repeat: inherit; background-attachment: inherit; background-clip: inherit; background-origin: inherit; background-position: inherit; background-size: inherit; background-color: rgb(195, 209, 220); border-bottom: medium none; border-top: medium none; padding-left: 0px; padding-right: 0px; }
+.maintab_back, .maintab_active_back { padding: 2px; }
+.maintab_first { background-image: inherit; background-repeat: inherit; background-attachment: inherit; background-clip: inherit; background-origin: inherit; background-position: inherit; background-size: inherit; background-color: rgb(115, 146, 176); }
+.maintab_back { background-image: inherit; background-repeat: inherit; background-attachment: inherit; background-clip: inherit; background-origin: inherit; background-position: inherit; background-size: inherit; background-color: rgb(115, 146, 176); }
+.maintab_last { background-image: inherit; background-repeat: inherit; background-attachment: inherit; background-clip: inherit; background-origin: inherit; background-position: inherit; background-size: inherit; background-color: rgb(115, 146, 176); }
+.maintab_active_first { background-image: inherit; background-repeat: inherit; background-attachment: inherit; background-clip: inherit; background-origin: inherit; background-position: inherit; background-size: inherit; background-color: rgb(115, 146, 176); }
+.maintab_active_back { background-image: inherit; background-repeat: inherit; background-attachment: inherit; background-clip: inherit; background-origin: inherit; background-position: inherit; background-size: inherit; background-color: rgb(115, 146, 176); }
+.maintab_active_last { background-image: inherit; background-repeat: inherit; background-attachment: inherit; background-clip: inherit; background-origin: inherit; background-position: inherit; background-size: inherit; background-color: rgb(115, 146, 176); }

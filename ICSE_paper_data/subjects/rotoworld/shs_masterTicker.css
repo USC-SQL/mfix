@@ -1,0 +1,44 @@
+/* Code tidied up by ScrapBook */
+.shs div, .shs span, .shs applet, .shs object, .shs iframe, .shs h1, .shs h2, .shs h3, .shs h4, .shs h5, .shs h6, .shs p, .shs blockquote, .shs pre, .shs a, .shs abbr, .shs acronym, .shs address, .shs big, .shs cite, .shs code, .shs del, .shs dfn, .shs em, .shs font, .shs img, .shs ins, .shs kbd, .shs q, .shs s, .shs samp, .shs small, .shs strike, .shs strong, .shs sub, .shs sup, .shs tt, .shs var, .shs dl, .shs dt, .shs dd, .shs ol, .shs ul, .shs li, .shs fieldset, .shs form, .shs label, .shs legend, .shs table, .shs caption, .shs tbody, .shs tfoot, .shs thead, .shs tr, .shs th, .shs td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+.shs:focus { outline: 0px none; }
+.shs { line-height: 1; }
+.shs ol, .shs ul { list-style: outside none none; }
+body { margin: 0px; font-family: "Arial Narrow","Helvetica Narrow",Arial,Helvetica,sans-serif; background: rgb(235, 235, 235) url("header-bg.jpg") repeat-x scroll left top; -moz-user-select: none; }
+.shs_customTicker { display: block; position: relative; width: 100%; height: 38px; margin-top: 5px; font-size: 14px; clear: both; overflow: hidden; background: transparent none repeat scroll 0% 0%; }
+.shs_customTicker #shs_leftBlock { position: relative; left: 0px; height: 35px; background: transparent url("leftBlock_tileX.gif") repeat-x scroll 0px 0px; float: left; width: auto; }
+.shs_customTicker #shs_leftBlock .shs_leftBlockCap { position: relative; height: 35px; width: auto; background: rgb(75, 67, 67) url("leftBlock_cap.png") no-repeat scroll right top; padding: 0px 24px 0px 0px; }
+.shs_customTicker #shs_leftBlock .shs_sportNav { position: relative; width: inherit; font-family: "Arial Narrow","Helvetica Narrow",Arial,Helvetica,sans-serif; text-transform: uppercase; }
+.shs_customTicker #shs_leftBlock .shs_sportNav ul { padding: 3px 0px 0px 7px; }
+.shs_customTicker #shs_leftBlock .shs_sportNav li { display: inline; margin: 0px 7px 0px 0px; vertical-align: bottom; }
+.shs_customTicker #shs_leftBlock .shs_sportNav li a { color: rgb(255, 255, 255); text-decoration: none; font-size: 13px; }
+.shs_customTicker #shs_leftBlock .shs_sportNav li a.shs_active { color: rgb(255, 0, 0); font-size: 13px; }
+.shs_customTicker #shs_leftBlock .shs_sportNav li a:hover { color: rgb(255, 0, 0); }
+.shs_customTicker #shs_leftBlock .shs_schedNav { position: relative; width: inherit; font-family: "Arial Narrow","Helvetica Narrow",Helvetica,Arial,sans-serif; }
+.shs_customTicker #shs_leftBlock .shs_schedNav ul { padding: 0px 0px 0px 7px; margin: -1px 0px 0px; }
+.shs_customTicker #shs_leftBlock .shs_schedNav li { display: inline; margin: 0px 5px 0px 0px; vertical-align: bottom; }
+.shs_customTicker #shs_leftBlock .shs_schedNav li a { color: rgb(255, 255, 255); text-decoration: none; font-size: 10px; text-transform: uppercase; }
+.shs_customTicker #shs_leftBlock .shs_schedNav li a.shs_active { color: rgb(204, 204, 204); }
+.shs_customTicker #shs_leftBlock .shs_schedNav li a:hover { color: rgb(255, 255, 255); }
+#shs_centerBlock { position: relative; height: 35px; background: transparent none repeat scroll 0% 0%; float: left; z-index: 5; overflow: hidden; }
+#shs_centerBlock .shs_overlay { height: 35px; background: transparent none repeat scroll 0% 0%; width: inherit; }
+#shs_centerBlock .shs_scrollWrapper { overflow: hidden; position: relative; }
+#shs_centerBlock .shs_scrollableArea { position: relative; }
+.scrollingHotSpotLeft { background: transparent url("arrowBtns.png") no-repeat scroll left top; cursor: pointer; height: 35px; min-width: 24px; position: absolute; left: 0px; top: 0px; width: 24px; z-index: 200; }
+.scrollingHotSpotRight { background: transparent url("arrowBtns.png") no-repeat scroll right top; cursor: pointer; height: 35px; min-width: 24px; position: absolute; right: 0px; top: 0px; width: 24px; z-index: 200; }
+.scrollingHotSpotLeft:hover { background-position: left bottom; }
+.scrollingHotSpotRight:hover { background-position: right bottom; }
+#shs_centerBlock .shs_board { display: block; float: left; height: 35px; border-right: 1px solid rgb(153, 153, 153); width: auto; margin: 0px 2px; padding: 0px; }
+#shs_centerBlock .shs_board a { background-color: rgb(75, 67, 67); display: block; position: relative; height: inherit; width: inherit; cursor: pointer; text-decoration: none; padding: 0px 65px 7px 6px; }
+#shs_centerBlock .shs_board a:hover { background-color: rgb(188, 187, 187); }
+#shs_centerBlock .shs_board span { display: block; position: absolute; color: rgb(255, 255, 255); }
+#shs_centerBlock .shs_board .shs_team1, #shs_centerBlock .shs_board .shs_team2 { font-family: "Arial Narrow","Helvetica Narrow",Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); font-size: 14px; text-transform: uppercase; }
+#shs_centerBlock .shs_board .shs_team1Score, #shs_centerBlock .shs_board .shs_team2Score { font-family: "Arial Narrow","Helvetica Narrow",Helvetica,Arial,sans-serif; font-size: 14px; font-weight: bold; color: rgb(255, 255, 255); letter-spacing: 0px; }
+#shs_centerBlock .shs_board .shs_status1, #shs_centerBlock .shs_board .shs_status2 { font-family: "Arial Narrow","Helvetica Narrow",Helvetica,Arial,sans-serif; text-transform: uppercase; font-size: 10px; }
+#shs_centerBlock .shs_board .shs_team1 { position: relative; top: 2px; }
+#shs_centerBlock .shs_board .shs_team2 { position: relative; top: 4px; }
+#shs_centerBlock .shs_board .shs_team1Score { top: 2px; right: 40px; }
+#shs_centerBlock .shs_board .shs_team2Score { top: 18px; right: 40px; }
+#shs_centerBlock .shs_board .shs_status1 { color: rgb(160, 160, 160); right: 6px; top: 8px; }
+#shs_centerBlock .shs_board .shs_status2 { color: rgb(255, 0, 0); right: 6px; top: 19px; }
+#shs_centerBlock .shs_board a.shs_preGame .shs_team1Score, #shs_centerBlock .shs_board a.shs_preGame .shs_team2Score { display: none; }
+#shs_centerBlock .shs_board a.shs_preGame .shs_team1, #shs_centerBlock .shs_board a.shs_preGame .shs_team2, #shs_centerBlock .shs_board a.shs_preGame .shs_status1, #shs_centerBlock .shs_board a.shs_preGame .shs_status2 { color: rgb(255, 255, 255); }

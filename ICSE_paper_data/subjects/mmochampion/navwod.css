@@ -1,0 +1,22 @@
+/* Code tidied up by ScrapBook */
+#navwod { max-width: 1380px; min-width: 900px; height: 60px; margin-top: 5px; }
+#navwod-bg { background-image: url("wodnav.jpg"); height: 47px; background-color: rgb(37, 37, 37); }
+.navwod-arrow { height: 0px; width: 0px; border: 5px solid transparent; vertical-align: middle; }
+.navwod-down { border-top-color: rgb(157, 223, 98); display: inline-block; vertical-align: middle; margin-bottom: -5px; margin-left: 1px; }
+.navwod-cap { width: 8px; background-color: rgb(9, 9, 9); background-image: none; border-right: 1px solid rgb(54, 54, 54); }
+#navwod-leftcap { border-right: 1px solid rgb(54, 54, 54); }
+#navwod-rightcap { border-left: 1px solid rgb(54, 54, 54); float: right; }
+#navwod-logo { width: 150px; text-align: center; }
+.navul { padding: 0px; margin: 0px; list-style: outside none none; position: relative; display: block; }
+.navul ul { padding: 0px; margin: 0px; list-style: outside none none; position: relative; display: block; }
+.navul li { float: left; display: list-item; list-style: outside none none; height: 47px; }
+.navul li a { display: block; padding: 15px; color: rgb(255, 255, 255); text-decoration: none; min-width: 65px; font: bold 13px Tahoma,Verdana,sans-serif; text-shadow: 0px 0px 3px rgb(0, 0, 0); border-left: 1px solid rgb(34, 33, 32); border-right: 1px solid rgb(57, 56, 56); }
+.top-nav { text-align: center; }
+#navwod li a:hover { background-color: rgb(48, 44, 42); text-decoration: none; }
+.navul ul { position: absolute; top: 47px; list-style: outside none none; visibility: hidden; opacity: 0; z-index: 1; transition: opacity 0s ease 0.3s, z-index 0s ease 0.3s, visibility 0s ease 0.3s; height: 0px; }
+.navul:hover ul { opacity: 0; z-index: 1; display: none; transition: none 0s ease 0s ; }
+.navul li:hover > ul { display: block; opacity: 1; z-index: 3; visibility: visible; transition: opacity 0s ease 0s, z-index 0s ease 0s, visibility 0s ease 0s; }
+.navul ul li { width: 190px; float: none; position: relative; list-style: outside none none; }
+.dropdown-menu li { background-color: rgb(41, 41, 41); background-image: none; height: 27px; padding: 0px; text-align: left; display: block; border-top: 1px solid rgb(34, 33, 32); border-bottom: 1px solid rgb(57, 56, 56); list-style: outside none none; }
+.dropdown-menu li a { padding: 5px; font-weight: normal; }
+.dropdown-menu li a:hover { background-color: rgb(59, 59, 59); }

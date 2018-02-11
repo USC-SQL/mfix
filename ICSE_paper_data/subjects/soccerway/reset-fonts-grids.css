@@ -1,0 +1,27 @@
+/* Code tidied up by ScrapBook */
+html { color: rgb(0, 0, 0); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin: 0px; padding: 0px; }
+table { border-collapse: collapse; border-spacing: 0px; }
+fieldset, img { border: 0px none; }
+address, caption, cite, code, dfn, em, strong, th, var, optgroup { font-style: inherit; font-weight: inherit; }
+li { list-style: outside none none; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+input, button, textarea, select {  }
+body { font: 13px/1.231 arial,helvetica,clean,sans-serif; }
+select, input, button, textarea, button { font: 99% arial,helvetica,clean,sans-serif; }
+table { font-size: inherit; }
+body { text-align: center; }
+#doc, #doc2, #doc3, #doc4, .yui-t1, .yui-t2, .yui-t3, .yui-t4, .yui-t5, .yui-t6, .yui-t7 { margin: auto; text-align: left; width: 57.69em; }
+#doc4 { width: 74.923em; }
+.yui-b { position: relative; }
+.yui-b {  }
+#yui-main .yui-b { position: static; }
+#yui-main, .yui-g .yui-u .yui-g { width: 100%; }
+.yui-t4 #yui-main, .yui-t5 #yui-main, .yui-t6 #yui-main { float: left; margin-right: -25em; }
+.yui-t6 .yui-b { float: right; width: 23.0769em; }
+.yui-t6 #yui-main .yui-b { margin-right: 24.0769em; }
+#yui-main .yui-b { float: none; width: auto; }
+#hd::after, #bd::after, #ft::after, .yui-g::after, .yui-gb::after, .yui-gc::after, .yui-gd::after, .yui-ge::after, .yui-gf::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+#hd, #bd, #ft, .yui-g, .yui-gb, .yui-gc, .yui-gd, .yui-ge, .yui-gf {  }

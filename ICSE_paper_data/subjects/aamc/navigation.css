@@ -1,0 +1,67 @@
+/* Code tidied up by ScrapBook */
+.pull-left { float: left ! important; }
+.pull-right { float: right ! important; }
+.global-nav .nav-item + .nav-item { border-right: medium none; }
+.nav { display: block; padding-left: 0px; margin-bottom: 0px; list-style: outside none none; }
+.main-nav.nav > li > a:hover { background: rgb(0, 94, 165) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.global-nav .nav > li > a:hover { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+.global-nav .nav > li > a:focus { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+.global-nav .nav .nav-item { border-top: 4px solid rgb(255, 255, 255); }
+.global-nav .nav .nav-item:hover { border-top: 4px solid rgb(0, 94, 165); }
+.nav-link { display: inline-block; }
+.nav-link:focus, .nav-link:hover { text-decoration: none; background: transparent none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.navbar { position: relative; padding: 0px; border-bottom: 1px solid rgb(238, 238, 238); border-top: 0px none; margin-bottom: 0px; }
+.navbar::after { display: table; clear: both; content: ""; }
+.navbar-full { z-index: 1000; min-width: 1300px; }
+@media (min-width: 544px) {
+  .navbar-full { border-radius: 0px; }
+}
+@media (min-width: 544px) {
+}
+@media (min-width: 544px) {
+}
+.navbar-nav .nav-item { float: left; }
+.navbar-nav .nav-link { display: block; padding-top: 5px; padding-bottom: 5px; }
+.navbar-nav > li > a { line-height: 30px; }
+.global-nav .nav-item + .nav-item { border-left: medium none; }
+.global-nav .nav-link { font-family: "proxima-nova",Helvetica,sans-serif; color: rgb(0, 0, 0); font-size: 14px; font-weight: normal; }
+.subnav { text-transform: none; font-family: "proxima-nova",Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: normal; font-size: 14px; border: 0px none; background: rgb(247, 247, 247) none repeat scroll 0% 0%; }
+.main-nav .nav-item { font-family: "proxima-nova-sc-osf",Helvetica,sans-serif; color: rgb(0, 94, 165); font-weight: bold; font-size: 15px; }
+.container::after { display: table; clear: both; content: ""; }
+.bg-faded { background-color: rgb(255, 255, 255); }
+body { text-rendering: optimizelegibility; }
+nav ul { text-align: left; }
+nav ul li { float: left; display: inline; text-align: center; }
+nav ul li:hover { background: transparent none repeat scroll 0% 0%; }
+nav ul li a { display: block; padding: 3px 25px; }
+nav ul li ul { position: absolute; width: 270px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; z-index: 100; }
+nav ul li ul li { margin: 0px; padding: 0px; width: 100%; text-align: left; z-index: 100; }
+nav ul li ul li a { display: block; padding: 7px 10px; color: rgb(0, 0, 0); }
+nav ul li ul li:hover a { background: rgb(0, 94, 165) none repeat scroll 0% 0%; }
+nav ul li ul li a:hover { text-decoration: none; color: rgb(255, 255, 255); }
+#logo { padding: 0px; position: static; top: 0px; margin-top: 8px; }
+.sb-search { position: absolute; margin-top: -4px; min-width: 95px; height: 40px; float: right; overflow: hidden; transition: width 0.3s ease 0s; backface-visibility: hidden; right: 0px; }
+.sb-search-input { position: absolute; top: 0px; right: 95px; border-width: medium medium 1px; border-style: none none solid; border-color: currentcolor currentcolor rgb(0, 94, 165); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; outline: medium none; background: rgb(255, 255, 255) none repeat scroll 0% 0%; width: 320px; height: 40px; margin: 0px; z-index: 10; padding: 5px 5px 5px 10px; font-family: inherit; font-size: 14px; color: rgb(0, 0, 0); }
+.sb-search-input:-moz-placeholder { color: rgb(0, 0, 0); font-style: italic; }
+.sb-search-input::-moz-placeholder { color: rgb(0, 0, 0); font-style: italic; }
+.sb-icon-search, .sb-search-submit { width: 95px; height: 40px; display: block; position: absolute; right: 0px; top: 0px; padding: 0px; margin: 0px; line-height: 38px; text-align: center; cursor: pointer; }
+.sb-search-submit { background: rgb(255, 255, 255) none repeat scroll 0% 0%; opacity: 0; color: transparent; border: medium none; outline: medium none; z-index: -1; }
+.sb-icon-search { background: transparent none repeat scroll 0% 0%; z-index: 90; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; }
+.sb-icon-search:hover { background: rgb(0, 94, 165) none repeat scroll 0% 0%; color: rgb(255, 255, 255); border-top: 0px none; }
+.addthis-smartlayers, .faq-container .question-answer-container-mobile .question-answer-back-to-topics, .player-captions, .player-captions span:empty { display: none; }
+.breadcrumb-wrapper { float: left; width: 100%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; opacity: 0.95; }
+.home .breadcrumb-wrapper { display: none; }
+.share-container { padding-top: 5px; }
+.share-container .addthis-container { float: right; }
+.share-container a, .share-container span { color: rgb(204, 204, 204); cursor: pointer; margin: 0px 5px; }
+.share-container a.addthis_button_email, .share-container span.addthis_button_email { margin-right: 0px; }
+.share-container a.at300b, .share-container span.at300b { float: none ! important; }
+.share-container .share-icon { margin-right: 5px; }
+.share-container { padding-top: 5px; }
+.share-container .addthis-container { float: right; padding-top: 3px; }
+.share-container a, .share-container span { color: rgb(255, 255, 255); cursor: pointer; margin: 0px 5px; }
+.share-container a.addthis_button_email, .share-container span.addthis_button_email { margin-right: 0px; }
+.share-container a.at300b, .share-container span.at300b { float: none ! important; }
+.share-container .share-icon { margin-right: 5px; }
+@media screen and (max-width: 992px) {
+}

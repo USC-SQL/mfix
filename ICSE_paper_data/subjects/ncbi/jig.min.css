@@ -1,0 +1,49 @@
+/* Code tidied up by ScrapBook */
+.ui-helper-reset { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; line-height: 1.3; text-decoration: none; list-style: outside none none; }
+.ui-helper-reset { font-size: 100% ! important; }
+div.ui-ncbiautocomplete-holder { position: absolute; top: 0px; left: 0px; border: 1px solid rgb(119, 119, 119); display: none; font-family: Arial,helvetica,sans-serif; font-size: inherit; }
+ul.ui-ncbiautocomplete-options { height: 218px; overflow-x: hidden; overflow-y: auto; width: 100%; margin: 0px; padding: 0px; list-style-type: none; font-weight: 400; cursor: pointer; background-color: rgb(255, 255, 255); }
+.ui-ncbiautocomplete-actions { background-color: rgb(206, 206, 206); line-height: inherit; padding: 5px; border: 1px solid rgb(119, 119, 119); margin: 1px -1px 0px; min-height: 15px; display: inline-block; }
+.ui-ncbiautocomplete-actions a { display: inline; float: left; color: rgb(0, 17, 85); text-decoration: none; }
+.ui-ncbiautocomplete-link-pref { text-indent: -9999px; background: transparent url("gear.png") no-repeat scroll 0% 0%; width: 15px; height: 16px; }
+.shadow { box-shadow: 0.4em 0.4em 0.5em rgba(153, 153, 153, 0.9); }
+.ui-ncbibasicmenu { list-style-type: none; min-width: 200px; }
+.ui-ncbibasicmenu, .ui-ncbibasicmenu > li { padding: 0px; margin: 0px; }
+.ui-ncbibasicmenu li ul li { background-color: rgb(255, 255, 255); }
+.ui-ncbibasicmenu li ul li a:hover, .ui-ncbibasicmenu li ul li.selected a:hover { background-color: rgb(76, 150, 223); color: rgb(255, 255, 255); }
+.oneLevel li a, .ui-ncbibasicmenu li a { display: block; background-color: rgb(252, 252, 252); border-style: solid; border-color: rgb(252, 252, 252); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 0px; color: rgb(20, 55, 108); font-size: 13px; font-weight: 400; margin: 0px; padding: 0.2em 0.9em; text-decoration: none; }
+.oneLevel li a:hover, .ui-ncbibasicmenu > li > a:hover { background-color: rgb(227, 248, 255); }
+.oneLevel li.ui-ncbimenu-item-no-hlt a:hover, .oneLevel li.ui-ncbimenu-item-skip a:hover, .ui-ncbibasicmenu > li.ui-ncbimenu-item-no-hlt > a:hover, .ui-ncbibasicmenu > li.ui-ncbimenu-item-skip > a:hover { background-color: rgb(252, 252, 252); }
+.oneLevel li a:focus, .ui-ncbibasicmenu > li > a:focus { outline: 1px dashed rgb(0, 0, 0); }
+#ncbi_share_inp:focus, .ui-ncbiclearbutton-wrap input, .ui-ncbimenu > li a:focus, .ui-ncbisetswitch-popper .ui-ncbibasicmenu > li > a:focus, a.ui-ncbitoggler-disabled { outline: 0px none; }
+.ui-ncbimenu li.selected.ui-ncbimenu-item-no-hlt > a, .ui-ncbimenu li.selected.ui-ncbimenu-item-skip > a, .ui-ncbimenu li.ui-ncbimenu-item-no-hlt a:hover, .ui-ncbimenu li.ui-ncbimenu-item-skip a:hover, html .ui-ncbimenu > li > a { color: rgb(255, 255, 255); }
+.orientation_hort > li { display: inline; float: left; }
+.jig-ncbimenu li.offscreen_noflow { position: absolute; left: -1000px; }
+.jig-ncbimenu { clear: both; }
+.jig-ncbimenu ul { display: none; }
+.jig-ncbimenu > li { display: inline; float: left; }
+ul.ui-ncbibasicmenu li { display: block; margin: 0px; }
+.ui-ncbimenu li > a { background-color: transparent; border: 0px none; }
+.ui-ncbimenu ul { border-radius: 6px; border: 1px solid rgb(204, 204, 204); box-shadow: 0.4em 0.4em 0.5em rgba(0, 0, 0, 0.3); position: absolute; display: none; }
+.ui-ncbimenu li a.expandDown { padding-right: 20px; background: rgb(255, 255, 255) url("arrow-sprite.png") no-repeat scroll 96% -6%; }
+.ui-ncbimenu li a.expandRight { background: rgb(255, 255, 255) url("arrow-sprite.png") no-repeat scroll 96% 106%; }
+.ui-ncbimenu > li > a.expandDown, .ui-ncbimenu > li > a.expandRight { background-color: transparent; }
+.ui-ncbimenu li > a.expandRight:hover { background: rgb(76, 150, 223) url("arrow-sprite.png") no-repeat scroll 96% 106%; }
+.ui-ncbimenu li ul { display: none; z-index: 200; }
+ul.ui-ncbimenu li ul li a { background-color: rgb(255, 255, 255); }
+.ui-ncbimenu li.selected > a, .ui-ncbimenu > li a:hover { background-color: rgb(76, 150, 223); color: rgb(255, 255, 255); }
+.ui-ncbimenu .oneLevel li.ui-ncbimenu-item-no-hlt a:hover, .ui-ncbimenu .oneLevel li.ui-ncbimenu-item-skip a:hover, .ui-ncbimenu .ui-ncbimenu-item-leaf > a:hover, .ui-ncbimenu.ui-ncbibasicmenu > li.ui-ncbimenu-item-no-hlt > a:hover, .ui-ncbimenu.ui-ncbibasicmenu > li.ui-ncbimenu-item-skip > a:hover { background-color: transparent; }
+.ui-ncbimenu .ui-ncbimenu-item-leaf { margin: 0px 0.75em 0px 0px; }
+.ui-ncbimenu::after, .ui-ncbimenu::before { content: ""; display: table; }
+.ui-ncbipopper-wrapper { position: fixed; top: 0px; left: 0px; z-index: 99999; display: none; }
+.ui-ncbipopper-basic { border: 3px solid rgb(62, 114, 166); background-color: rgb(255, 255, 255); color: rgb(48, 48, 48); padding: 1em; text-align: left; border-radius: 6px; }
+.ui-ncbiclearbutton-wrap { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(204, 204, 204); display: inline-block; padding: 2px 20px 2px 2px; position: relative; }
+.ui-ncbiclearbutton-wrap input { background: transparent none repeat scroll 0px 0px; border: 0px none; margin: 0px; padding: 0px; width: auto; z-index: 0; }
+.ui-ncbiclearbutton-wrap a.reset { position: absolute; top: 50%; height: 14px; margin-top: -7px; border: 0px none ! important; padding: 0px; margin-left: 2px; overflow: hidden ! important; visibility: hidden; width: 14px; z-index: 10; }
+.ui-ncbiclearbutton-wrap a.reset img { border: 0px none; }
+.ui-ncbiexpander { overflow: hidden; height: 55px; }
+.ui-expander-arrow-bar { width: 100%; }
+.ui-expander-arrow-bar div.bar { border-top: 1px solid rgb(204, 204, 204); border-bottom: 1px solid transparent; }
+.ui-expander-arrow-bar div.closed { border-top: 1px solid rgb(204, 204, 204); }
+.ui-expander-arrow-bar div.closed div { border-top: 5px solid rgb(204, 204, 204); border-bottom: 0px none; }
+.ui-expander-arrow-bar div.bar div { width: 0px; height: 0px; border-left: 5px solid transparent; border-right: 5px solid transparent; margin: 0px auto; }

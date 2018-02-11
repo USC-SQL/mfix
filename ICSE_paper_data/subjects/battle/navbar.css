@@ -1,0 +1,457 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "Blizzard";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Blizzard Light"), local("Blizzard-Light"), url("blizzard.light.woff") format("woff");
+}
+@font-face {
+  font-family: "Blizzard";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Blizzard"), local("Blizzard"), url("blizzard.regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Blizzard";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Blizzard Italic"), local("Blizzard-Italic"), url("blizzard.regular-italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Blizzard";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Blizzard Bold"), local("Blizzard-Bold"), url("blizzard.bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("open-sans.light.eot") format("embedded-opentype"), url("open-sans.light.woff") format("woff"), url("open-sans.light.ttf") format("truetype"), url("open-sans.light.svg") format("svg");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("open-sans.regular.eot") format("embedded-opentype"), url("open-sans.regular.woff") format("woff"), url("open-sans.regular.ttf") format("truetype"), url("open-sans.regular.svg") format("svg");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("open-sans.italic.eot") format("embedded-opentype"), url("open-sans.italic.woff") format("woff"), url("open-sans.italic.ttf") format("truetype"), url("open-sans.italic.svg") format("svg");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("open-sans.semibold.eot") format("embedded-opentype"), url("open-sans.semibold.woff") format("woff"), url("open-sans.semibold.ttf") format("truetype"), url("open-sans.semibold.svg") format("svg");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("open-sans.bold.eot") format("embedded-opentype"), url("open-sans.bold.woff") format("woff"), url("open-sans.bold.ttf") format("truetype"), url("open-sans.bold.svg") format("svg");
+}
+@media (max-width: 767px) {
+}
+.Navbar .is-center { text-align: center; }
+.Navbar .is-noSelect { -moz-user-select: none; }
+@keyframes Navbar-dropdown-fade-in {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes Navbar-dropdown-fade-in {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes Navbar-dropdown-drop-in {
+0% { opacity: 0; transform: translateY(-20px); }
+100% { opacity: 1; transform: translateY(0px); }
+}
+@keyframes Navbar-dropdown-drop-in {
+0% { opacity: 0; transform: translateY(-20px); }
+100% { opacity: 1; transform: translateY(0px); }
+}
+@keyframes Navbar-dropdown-drop-in-delayed {
+0% { opacity: 0; transform: translateY(-20px); }
+100% { opacity: 1; transform: translateY(0px); }
+}
+@keyframes Navbar-dropdown-drop-in-delayed {
+0% { opacity: 0; transform: translateY(-20px); }
+100% { opacity: 1; transform: translateY(0px); }
+}
+@keyframes Navbar-site-menu-in {
+0% { transform: translateX(-100%); }
+100% { transform: translateX(0px); }
+}
+@keyframes Navbar-site-menu-in {
+0% { transform: translateX(-100%); }
+100% { transform: translateX(0px); }
+}
+@keyframes Navbar-site-menu-out {
+0% { transform: translateX(0px); }
+100% { transform: translateX(-100%); }
+}
+@keyframes Navbar-site-menu-out {
+0% { transform: translateX(0px); }
+100% { transform: translateX(-100%); }
+}
+@keyframes Navbar-account-menu-in {
+0% { transform: translateX(100%); }
+100% { transform: translateX(0px); }
+}
+@keyframes Navbar-account-menu-in {
+0% { transform: translateX(100%); }
+100% { transform: translateX(0px); }
+}
+@keyframes Navbar-account-menu-out {
+0% { transform: translateX(0px); }
+100% { transform: translateX(100%); }
+}
+@keyframes Navbar-account-menu-out {
+0% { transform: translateX(0px); }
+100% { transform: translateX(100%); }
+}
+@keyframes Navbar-promotion-in {
+0% { transform: translateY(110%); }
+100% { transform: translateY(0px); }
+}
+@keyframes Navbar-promotion-in {
+0% { transform: translateY(110%); }
+100% { transform: translateY(0px); }
+}
+@keyframes Navbar-promotion-out {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+@keyframes Navbar-promotion-out {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+.Navbar { position: relative; box-sizing: border-box; font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.4; color: rgb(255, 255, 255); z-index: 1; }
+.Navbar a, .Navbar div, .Navbar img, .Navbar nav, .Navbar svg { box-sizing: border-box; vertical-align: baseline; }
+.Navbar button { border-radius: 0px; letter-spacing: normal; text-transform: none; }
+.Navbar .Navbar-embedded { display: none; }
+.Navbar .Navbar-container { position: relative; max-width: 1600px; margin: 0px auto; }
+.Navbar .Navbar-modals { position: absolute; top: 0px; left: 0px; right: 0px; }
+.Navbar .Navbar-modals .Navbar-constrained { position: relative; max-width: 1600px; margin: 0px auto; }
+.Navbar .Navbar-logo { position: relative; color: rgb(0, 154, 228); }
+.Navbar .Navbar-logo svg { position: absolute; top: 50%; left: 0px; width: 100%; transform: translateY(-50%); fill: currentcolor; pointer-events: none; }
+.Navbar .Navbar-icon { position: relative; height: 24px; width: 24px; }
+.Navbar .Navbar-icon svg { position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; fill: currentcolor; pointer-events: none; }
+.Navbar .Navbar-profileItems { position: absolute; top: 0px; right: 20px; bottom: 0px; }
+.Navbar .Navbar-link, .Navbar .Navbar-dropdownToggle { cursor: pointer; }
+.Navbar > .Navbar-overlay { display: none; position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: rgba(0, 0, 0, 0.5); }
+.Navbar .Navbar-modalClose { position: absolute; top: 0px; height: 48px; width: 48px; color: rgb(0, 174, 255); transition: color 200ms ease 0s, background-color 200ms ease 0s; cursor: pointer; }
+.Navbar .Navbar-modalClose svg { top: 12px; bottom: 12px; left: 12px; right: 12px; width: 24px; height: 24px; }
+.Navbar .Navbar-modalClose:hover { color: rgb(0, 198, 255); }
+.Navbar .Navbar-modalCloseGutter { position: absolute; top: 0px; width: 40px; height: 100%; }
+.Navbar .Navbar-modalLinkBase, .Navbar .Navbar-modalLink, .Navbar .Navbar-expandableToggle, .Navbar .Navbar-expandable .Navbar-expandableItem { display: flex; flex-direction: row; align-items: center; border-top: 1px solid rgba(255, 255, 255, 0.08); padding: 0px 20px; height: 44px; line-height: 44px; font-size: 16px; text-decoration: none; color: rgba(255, 255, 255, 0.7); background: transparent none repeat scroll 0% 0%; }
+.Navbar .Navbar-modalLinkBase:visited, .Navbar .Navbar-modalLink:visited, .Navbar .Navbar-expandableToggle:visited, .Navbar .Navbar-expandable .Navbar-expandableItem:visited { text-decoration: none; color: rgba(255, 255, 255, 0.7); background: transparent none repeat scroll 0% 0%; }
+.Navbar .Navbar-modalLinkBase:hover, .Navbar .Navbar-modalLink:hover, .Navbar .Navbar-expandableToggle:hover, .Navbar .Navbar-expandable .Navbar-expandableItem:hover, .Navbar .Navbar-modalLinkBase:focus, .Navbar .Navbar-modalLink:focus, .Navbar .Navbar-expandableToggle:focus, .Navbar .Navbar-expandable .Navbar-expandableItem:focus, .Navbar .Navbar-modalLinkBase:active, .Navbar .Navbar-modalLink:active, .Navbar .Navbar-expandableToggle:active, .Navbar .Navbar-expandable .Navbar-expandableItem:active { text-decoration: none; color: rgba(255, 255, 255, 0.7); background: transparent none repeat scroll 0% 0%; }
+.Navbar .Navbar-modalLinkIconBase, .Navbar .Navbar-modalLink .Navbar-modalLinkIcon, .Navbar .Navbar-expandable .Navbar-expandableItem .Navbar-expandableItemImage, .Navbar .Navbar-expandable .Navbar-expandableItem .Navbar-expandableItemIcon { display: inline-block; color: rgb(0, 174, 255); transition: color 200ms ease 0s, background-color 200ms ease 0s; width: 1.5em; height: 1.5em; }
+.Navbar .Navbar-modalLink .Navbar-modalLinkLabel { display: inline-block; text-transform: uppercase; font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.4; color: inherit; }
+.Navbar .Navbar-expandableToggle { cursor: pointer; }
+.Navbar .Navbar-expandableToggle .Navbar-expandableIcon { display: inline-block; color: rgba(255, 255, 255, 0.3); width: 16px; height: 16px; margin-left: 2px; transition: color 200ms ease 0s, background-color 200ms ease 0s, border-color 200ms ease 0s; }
+.Navbar .Navbar-expandableToggle .Navbar-expandableLabel { display: inline-block; font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.4; color: inherit; }
+.Navbar .Navbar-mobileModalLogo { display: none; height: 80px; color: rgb(0, 174, 255); transition: color 200ms ease 0s, background-color 200ms ease 0s; }
+.Navbar .Navbar-mobileModalLogo svg { left: 50%; width: auto; height: 40px; transform: translate(-50%, -50%); }
+.Navbar .Navbar-expandable { position: relative; }
+.Navbar .Navbar-expandable .Navbar-expandableToggle { position: relative; }
+.Navbar .Navbar-expandable .Navbar-expandableToggle::before { position: absolute; content: " "; top: 0px; bottom: 0px; left: 0px; width: 5px; background-color: rgba(0, 174, 255, 0); transition: color 200ms ease 0s, background-color 200ms ease 0s; pointer-events: none; }
+.Navbar .Navbar-expandable .Navbar-expandableLabel { text-transform: uppercase; }
+.Navbar .Navbar-expandable .Navbar-expandableContainer { display: none; position: relative; border-top: 1px solid rgba(255, 255, 255, 0.08); transition: height 200ms ease 0s; overflow: hidden; }
+.Navbar .Navbar-expandable .Navbar-expandableContainer::before { position: absolute; content: " "; top: 0px; bottom: 0px; left: 0px; width: 5px; background-color: rgba(0, 174, 255, 0); transition: color 200ms ease 0s, background-color 200ms ease 0s; pointer-events: none; }
+.Navbar .Navbar-expandable .Navbar-expandableContent { position: absolute; bottom: 0px; left: 0px; right: 0px; }
+.Navbar .Navbar-expandable .Navbar-expandableItem { border: 0px none; color: rgb(0, 174, 255); }
+.Navbar .Navbar-expandable .Navbar-expandableItem .Navbar-expandableItemImage, .Navbar .Navbar-expandable .Navbar-expandableItem .Navbar-expandableItemIcon { margin-right: 5px; }
+.Navbar .Navbar-expandable .Navbar-expandableItem .Navbar-expandableItemIcon { color: rgba(255, 255, 255, 0.7); }
+.Navbar .Navbar-expandable .Navbar-expandableItem .Navbar-expandableItemLabel { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.4; color: inherit; }
+.Navbar .Navbar-expandable .Navbar-expandableItem:hover { color: rgb(0, 174, 255); }
+.Navbar .Navbar-siteMenu { position: fixed; top: 0px; left: 0px; bottom: 0px; width: 100%; max-width: 360px; overflow: hidden; animation-name: Navbar-site-menu-out; animation-duration: 200ms; animation-fill-mode: forwards; }
+.Navbar .Navbar-siteMenu .Navbar-modalContent { margin-right: 40px; height: 100%; background-color: rgb(21, 26, 35); overflow-x: hidden; overflow-y: auto; }
+.Navbar .Navbar-siteMenu .Navbar-mobileModalLogo { display: block; }
+.Navbar .Navbar-siteMenu .Navbar-mobileModalLogo svg { height: 50px; }
+.Navbar .Navbar-siteMenu .Navbar-modalClose { left: 0px; }
+.Navbar .Navbar-siteMenu .Navbar-modalCloseGutter { right: 0px; }
+.Navbar .Navbar-corpLinks { border-top: 1px solid rgba(255, 255, 255, 0.08); padding-top: 20px; }
+.Navbar .Navbar-corpLinks .Navbar-corpLink { display: block; padding: 0px 20px; height: 44px; line-height: 44px; color: rgba(255, 255, 255, 0.3); text-decoration: none; }
+.Navbar .Navbar-desktop { position: relative; height: 60px; padding: 0px 30px; white-space: nowrap; }
+.Navbar .Navbar-desktop .Navbar-desktopOverlay { display: none; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+.Navbar .Navbar-desktop .Navbar-logo { position: relative; display: inline-block; height: 60px; width: 61.82px; margin-right: 20px; }
+.Navbar .Navbar-desktop .Navbar-logo svg { height: 28px; }
+.Navbar .Navbar-desktop .Navbar-logo:hover { color: rgb(0, 174, 255); }
+@media (min-width: 960px) {
+  .Navbar .Navbar-desktop .Navbar-logo { margin-right: 30px; }
+}
+.Navbar .Navbar-desktop .Navbar-item { position: relative; display: inline-block; height: 60px; padding: 0px; font-family: "Blizzard",Helvetica,Arial,sans-serif; font-size: 17px; line-height: 1.4; color: rgba(255, 255, 255, 0.7); background: transparent none repeat scroll 0% 0%; white-space: nowrap; transition: color 200ms ease 0s, background-color 200ms ease 0s, border-color 200ms ease 0s; }
+.Navbar .Navbar-desktop .Navbar-item .Navbar-label { display: inline-block; line-height: 60px; height: 60px; }
+.Navbar .Navbar-desktop .Navbar-item .Navbar-label.Navbar-accountUnauthenticated { display: inline-block; }
+.Navbar .Navbar-desktop .Navbar-item .Navbar-label.Navbar-accountAuthenticated { display: none; }
+.Navbar .Navbar-desktop .Navbar-item.Navbar-modalToggle { cursor: pointer; }
+.Navbar .Navbar-desktop .Navbar-item .Navbar-dropdownIcon { display: inline-block; width: 16px; height: 1px; margin-left: 2px; color: rgba(255, 255, 255, 0.3); transition: color 200ms ease 0s, background-color 200ms ease 0s, border-color 200ms ease 0s; }
+.Navbar .Navbar-desktop .Navbar-item .Navbar-dropdownIcon svg { height: 16px; top: auto; bottom: -0.05em; }
+.Navbar .Navbar-desktop .Navbar-item:visited { text-decoration: none; color: rgba(255, 255, 255, 0.7); background: transparent none repeat scroll 0% 0%; }
+.Navbar .Navbar-desktop .Navbar-item:hover, .Navbar .Navbar-desktop .Navbar-item:focus, .Navbar .Navbar-desktop .Navbar-item:active { color: rgb(255, 255, 255); background: transparent none repeat scroll 0% 0%; }
+.Navbar .Navbar-desktop .Navbar-item:hover .Navbar-dropdownIcon, .Navbar .Navbar-desktop .Navbar-item:focus .Navbar-dropdownIcon, .Navbar .Navbar-desktop .Navbar-item:active .Navbar-dropdownIcon { color: rgba(255, 255, 255, 0.5); }
+.Navbar .Navbar-desktop .Navbar-items { display: inline-block; vertical-align: top; }
+.Navbar .Navbar-desktop .Navbar-items .Navbar-item { text-transform: uppercase; margin-right: 20px; }
+.Navbar .Navbar-desktop .Navbar-items .Navbar-item.Navbar-simple { display: none; }
+.Navbar .Navbar-desktop .Navbar-items .Navbar-item:last-child { margin-right: 0px; }
+@media (min-width: 960px) {
+  .Navbar .Navbar-desktop .Navbar-items .Navbar-item { margin-right: 30px; }
+  .Navbar .Navbar-desktop .Navbar-items .Navbar-item:last-child { margin-right: 0px; }
+}
+.Navbar .Navbar-desktop .Navbar-profileItems { right: 30px; }
+.Navbar .Navbar-desktop .Navbar-profileItems .Navbar-item { margin-left: 20px; font-size: 15px; line-height: 1.4; }
+.Navbar .Navbar-desktop .Navbar-profileItems .Navbar-item:first-child { margin-left: 0px; }
+@media (min-width: 960px) {
+  .Navbar .Navbar-desktop .Navbar-profileItems .Navbar-item { margin-left: 30px; }
+  .Navbar .Navbar-desktop .Navbar-profileItems .Navbar-item:first-child { margin-left: 0px; }
+}
+.Navbar .Navbar-desktop .Navbar-profileItems .Navbar-dropdownIcon svg { bottom: -0.15em; }
+.Navbar .Navbar-desktop .Navbar-link { text-decoration: none; }
+@media (min-width: 960px) {
+}
+.Navbar .Navbar-desktop .Navbar-employeeIcon { display: none; width: 24px; height: 1px; margin-right: 5px; color: rgb(0, 174, 255); }
+.Navbar .Navbar-desktop .Navbar-employeeIcon svg { height: 24px; top: auto; bottom: -0.4em; }
+@media (min-width: 960px) {
+}
+.Navbar .Navbar-support .Navbar-supportCounter { display: none; background-color: rgb(255, 144, 0); width: 16px; height: 16px; border-radius: 50%; font-size: 11px; font-weight: bold; line-height: 16px; text-shadow: 0px 0px 3px rgb(0, 0, 0); text-align: center; color: rgb(255, 255, 255); margin-left: 5px; }
+.Navbar.is-desktop { background-color: rgba(255, 255, 255, 0.05); }
+.Navbar.is-desktop .Navbar-dropdown { top: 59px; }
+.Navbar.is-desktop .Navbar-accountDropdownLink { transition: color 200ms ease 0s, background-color 200ms ease 0s; }
+.Navbar.is-desktop .Navbar-accountDropdownLink:hover { color: rgb(255, 255, 255); }
+.Navbar.is-desktop .Navbar-accountDropdownLink:hover .Navbar-accountDropdownLinkIcon { color: rgb(0, 198, 255); }
+.Navbar.is-desktop::after { content: " "; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; border-bottom: 1px solid rgba(255, 255, 255, 0.15); pointer-events: none; }
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 960px) {
+  .Navbar:not(.is-compact) .Navbar-desktop .Navbar-item { font-size: 20px; }
+  .Navbar:not(.is-compact) .Navbar-desktop .Navbar-profileItems .Navbar-item { font-size: 17px; }
+  .Navbar:not(.is-compact) .Navbar-desktop .Navbar-logo { width: 75.0672px; }
+  .Navbar:not(.is-compact) .Navbar-desktop .Navbar-logo svg { height: 34px; }
+}
+@media (min-width: 960px) {
+  .Navbar:not(.is-compact):not(.is-simple) .Navbar-desktop { padding: 0px 40px; }
+  .Navbar:not(.is-compact):not(.is-simple) .Navbar-desktop .Navbar-profileItems { right: 40px; }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 960px) {
+}
+.Navbar .Navbar-button { display: inline-block; position: relative; background-color: rgb(14, 134, 202); border: 1px solid rgb(0, 174, 255); font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1; color: rgb(255, 255, 255); padding: 10px 50px; text-decoration: none; text-align: center; cursor: pointer; outline: 0px none; overflow: visible; max-width: 100%; transition: color 200ms ease 0s, background-color 200ms ease 0s, border-color 200ms ease 0s; }
+.Navbar .Navbar-button:hover, .Navbar .Navbar-button:focus { background-color: rgb(0, 174, 255); border: 1px solid rgb(0, 174, 255); text-decoration: none; color: rgb(255, 255, 255); }
+.Navbar .Navbar-button:active { background-color: rgb(9, 83, 134); border: 1px solid rgb(9, 83, 134); text-decoration: none; color: rgba(255, 255, 255, 0.8); }
+.Navbar .Navbar-button:disabled, .Navbar .Navbar-button.is-disabled { background-color: rgba(27, 30, 39, 0.8); border: 1px solid rgba(27, 30, 39, 0.8); text-decoration: none; color: rgba(0, 174, 255, 0.15); }
+.Navbar .Navbar-button.is-full { width: 100%; }
+.Navbar .Navbar-modal { display: none; z-index: 3; }
+.Navbar .Navbar-dropdown { position: absolute; top: 47px; background: transparent radial-gradient(ellipse farthest-side at center top , rgb(40, 50, 68) 0%, rgba(21, 26, 35, 0.95) 100%) repeat scroll 0% 0%; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.2); opacity: 0; }
+.Navbar .Navbar-dropdown.is-full { left: 0px; right: 0px; border-left: 0px none; border-right: 0px none; }
+.Navbar .Navbar-dropdown .Navbar-tick { position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; border-top: 1px solid rgba(255, 255, 255, 0.15); border-right: 1px solid rgba(255, 255, 255, 0.15); background-color: rgb(40, 50, 68); opacity: 0.95; transform: translate(-50%, -50%) rotate(-45deg); transform-origin: center center 0px; }
+.Navbar .Navbar-dropdown .Navbar-tick .Navbar-tickInner { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; border: 1px solid transparent; background-color: rgb(21, 26, 35); opacity: 0; }
+.Navbar .Navbar-modalContent { z-index: 1; position: relative; }
+.Navbar .Navbar-modalSection { border-top: 1px solid rgba(255, 255, 255, 0.08); padding: 20px; }
+.Navbar .Navbar-modalSection:first-child { border-top: 0px none; }
+.Navbar .Navbar-modalSection.is-full { padding: 0px; font-size: 0px; }
+.Navbar .Navbar-dropdownFooter { height: 50px; padding: 0px; }
+.Navbar .Navbar-dropdown .Navbar-gameLogos { display: inline-block; text-align: left; height: 16.145vw; max-height: 130px; min-height: 92.928px; }
+@media (min-width: 1200px) {
+  .Navbar .Navbar-dropdown .Navbar-gameLogos { display: none; }
+}
+.Navbar .Navbar-dropdown .Navbar-gameLogo { position: relative; display: inline-block; width: 12.1vw; height: 16.145vw; max-width: 130px; max-height: 130px; min-width: 92.928px; min-height: 123.994px; transform: translateZ(0px); }
+.Navbar .Navbar-dropdown .Navbar-gameLogo .Navbar-gameLogoImage { position: absolute; bottom: 37.5%; left: 50%; width: 64px; height: 64px; transform: translateX(-50%); filter: brightness(100%) contrast(100%); transition: filter 200ms ease 0s, -webkit-filter 200ms ease 0s; }
+.Navbar .Navbar-dropdown .Navbar-gameLogo .Navbar-gameLogoLabel { position: absolute; top: 62.5%; left: 15%; right: 15%; text-align: center; font-size: 11px; line-height: 1.4; color: rgba(255, 255, 255, 0.7); transition: color 200ms ease 0s; }
+.Navbar .Navbar-dropdown .Navbar-gameLogo:hover .Navbar-gameLogoImage { filter: brightness(115%) contrast(90%); }
+.Navbar .Navbar-dropdown .Navbar-gameLogo:hover .Navbar-gameLogoLabel { color: rgb(255, 255, 255); }
+.Navbar .Navbar-dropdown .Navbar-posters { display: none; }
+@media (min-width: 1200px) {
+  .Navbar .Navbar-dropdown .Navbar-posters { display: block; }
+}
+.Navbar .Navbar-dropdown .Navbar-poster { position: relative; display: inline-block; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.1); margin: 40px 15px; font-size: 0px; transition: border-color 200ms ease 0s; transform: translateZ(0px); }
+.Navbar .Navbar-dropdown .Navbar-poster .Navbar-posterImage { width: 9.6875vw; height: 16.5396vw; max-width: 164px; max-height: 280px; filter: brightness(100%) contrast(100%); transition: filter 200ms ease 0s, -webkit-filter 200ms ease 0s; }
+.Navbar .Navbar-dropdown .Navbar-poster .Navbar-posterOverlay { position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; filter: brightness(100%) contrast(100%); transition: filter 200ms ease 0s, -webkit-filter 200ms ease 0s; pointer-events: none; }
+.Navbar .Navbar-dropdown .Navbar-poster .Navbar-posterOverlay.is-anchorBottom { top: auto; height: 17.8392vw; max-height: 302px; }
+.Navbar .Navbar-dropdown .Navbar-poster .Navbar-posterOverlay.is-anchorBottomRight { top: auto; left: auto; height: 17.8392vw; width: 11.4596vw; max-height: 302px; max-width: 194px; }
+.Navbar .Navbar-dropdown .Navbar-poster:hover { border: 1px solid rgba(255, 255, 255, 0.3); box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.1); }
+.Navbar .Navbar-dropdown .Navbar-poster:hover .Navbar-posterImage, .Navbar .Navbar-dropdown .Navbar-poster:hover .Navbar-posterOverlay { filter: brightness(115%) contrast(90%); }
+.Navbar .Navbar-dropdown .Navbar-gameMenu .Navbar-gameMenuItem { margin: 0px 20px; height: 50px; line-height: 50px; font-size: 15px; text-decoration: none; display: inline-flex; flex-direction: row; align-items: center; color: rgba(255, 255, 255, 0.7); transition: color 200ms ease 0s, background-color 200ms ease 0s; }
+.Navbar .Navbar-dropdown .Navbar-gameMenu .Navbar-gameMenuItem .Navbar-gameMenuItemIcon { display: inline-block; color: rgb(0, 174, 255); transition: color 200ms ease 0s, background-color 200ms ease 0s; width: 1.5em; height: 1.5em; }
+.Navbar .Navbar-dropdown .Navbar-gameMenu .Navbar-gameMenuItem .Navbar-gameMenuItemLabel { display: inline-block; margin-left: 5px; font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 15px; font-weight: 400; line-height: 1.4; color: inherit; }
+@media (min-width: 1200px) {
+  .Navbar .Navbar-dropdown .Navbar-gameMenu .Navbar-gameMenuItem { font-size: 16px; }
+}
+.Navbar .Navbar-dropdown .Navbar-gameMenu .Navbar-gameMenuItem:hover { color: rgb(255, 255, 255); }
+.Navbar .Navbar-dropdown .Navbar-gameMenu .Navbar-gameMenuItem:hover .Navbar-gameMenuItemIcon { color: rgb(0, 198, 255); }
+.Navbar .Navbar-dropdown .Navbar-esportsLogos { display: table; position: relative; margin: 0px auto; }
+.Navbar .Navbar-dropdown .Navbar-esportsLogos .Navbar-esport { display: table-cell; position: relative; vertical-align: top; width: 16vw; max-width: 192px; font-size: 13px; line-height: 1.4; text-decoration: none; color: rgba(255, 255, 255, 0.7); transform: translateZ(0px); }
+.Navbar .Navbar-dropdown .Navbar-esportsLogos .Navbar-esport .Navbar-esportImage { width: 16vw; max-width: 192px; height: 16vw; max-height: 192px; filter: brightness(100%) contrast(100%); transition: filter 200ms ease 0s, -webkit-filter 200ms ease 0s; }
+.Navbar .Navbar-dropdown .Navbar-esportsLogos .Navbar-esport .Navbar-esportLabel { padding: 0px 5px; margin-bottom: 20px; font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 13px; font-weight: 400; line-height: 1.4; color: inherit; transition: color 200ms ease 0s; }
+@media (min-width: 1200px) {
+  .Navbar .Navbar-dropdown .Navbar-esportsLogos .Navbar-esport { padding: 20px 0px; font-size: 15px; }
+  .Navbar .Navbar-dropdown .Navbar-esportsLogos .Navbar-esport .Navbar-esportLabel { padding: 0px 20px; }
+}
+.Navbar .Navbar-dropdown .Navbar-esportsLogos .Navbar-esport:hover { color: rgb(255, 255, 255); }
+.Navbar .Navbar-dropdown .Navbar-esportsLogos .Navbar-esport:hover .Navbar-esportImage { filter: brightness(115%) contrast(90%); }
+.Navbar .Navbar-accountDropdown { right: 20px; width: 100%; max-width: 20em; border-top: 0px none; }
+.Navbar .Navbar-accountDropdownLoggedOut { border-top: 1px solid rgba(255, 255, 255, 0.08); }
+.Navbar .Navbar-accountDropdownLoggedIn { display: none; border-top: 1px solid rgba(255, 255, 255, 0.08); }
+.Navbar .Navbar-accountDropdownLoggedIn .Navbar-accountDropdownProfileInfo { font-size: 17px; line-height: 1.4; color: rgb(130, 197, 255); }
+.Navbar .Navbar-accountDropdownLoggedIn .Navbar-accountDropdownProfileInfo .Navbar-accountDropdownBattleTag { display: inline; font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 17px; font-weight: 400; line-height: 1.4; color: inherit; }
+.Navbar .Navbar-accountDropdownLoggedIn .Navbar-accountDropdownProfileInfo .Navbar-accountDropdownBattleTagNumber { display: inline; font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 17px; font-weight: 400; line-height: 1.4; color: rgba(255, 255, 255, 0.3); }
+.Navbar .Navbar-accountDropdownLoggedIn .Navbar-accountDropdownProfileInfo .Navbar-accountDropdownBattleTagNumber::before { content: " "; }
+.Navbar .Navbar-accountDropdownLoggedIn .Navbar-accountDropdownEmail { font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 13px; font-weight: 400; line-height: 1.4; overflow-x: hidden; text-overflow: ellipsis; color: rgba(255, 255, 255, 0.3); }
+.Navbar .Navbar-accountDropdownLink { display: flex; flex-direction: row; align-items: center; border-top: 1px solid rgba(255, 255, 255, 0.08); padding: 0px 20px; height: 44px; line-height: 44px; font-size: 16px; text-decoration: none; color: rgba(255, 255, 255, 0.7); }
+.Navbar .Navbar-accountDropdownLink .Navbar-accountDropdownLinkIcon { display: inline-block; color: rgb(0, 174, 255); transition: color 200ms ease 0s, background-color 200ms ease 0s; width: 1.5em; height: 1.5em; margin-right: 5px; }
+.Navbar .Navbar-accountDropdownLink .Navbar-accountDropdownLinkLabel { display: inline-block; font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.4; color: inherit; }
+.Navbar .Navbar-toast { display: none; position: fixed; bottom: 0px; right: 0px; left: 0px; padding: 20px 5px 5px; background: transparent linear-gradient(to top, rgb(0, 0, 0) 0%, transparent 100%) repeat scroll 0% 0%; opacity: 0; z-index: 3; }
+.Navbar .Navbar-toast .Navbar-toastContainer { position: relative; min-height: 88px; background: transparent linear-gradient(to bottom, rgb(40, 50, 68) 0%, rgba(21, 26, 35, 0.95) 100%) repeat scroll 0% 0%; box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.2); -moz-user-select: none; }
+.Navbar .Navbar-toast .Navbar-toastContainer::after { content: " "; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; border: 1px solid rgba(255, 255, 255, 0.15); pointer-events: none; }
+.Navbar .Navbar-toast .Navbar-toastImage { position: absolute; top: 20px; left: 20px; width: 48px; }
+.Navbar .Navbar-toast .Navbar-toastContent { position: relative; padding: 20px; }
+.Navbar .Navbar-toast .Navbar-toastLabel { font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 17px; font-weight: 400; line-height: 1; height: 17px; }
+.Navbar .Navbar-toast .Navbar-toastText { font-size: 13px; color: rgba(255, 255, 255, 0.5); font-family: "Open Sans",Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.4; margin: 10px 0px; }
+.Navbar .Navbar-toast .Navbar-toastLink { display: block; font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 17px; font-weight: 400; line-height: 1; height: 17px; text-decoration: none; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; color: rgb(0, 174, 255); background: transparent none repeat scroll 0% 0%; }
+.Navbar .Navbar-toast .Navbar-toastLink:visited { text-decoration: none; color: rgb(0, 174, 255); background: transparent none repeat scroll 0% 0%; }
+.Navbar .Navbar-toast .Navbar-toastLink:hover, .Navbar .Navbar-toast .Navbar-toastLink:focus, .Navbar .Navbar-toast .Navbar-toastLink:active { text-decoration: none; color: rgb(0, 198, 255); background: transparent none repeat scroll 0% 0%; }
+.Navbar .Navbar-toast .Navbar-toastClose { position: absolute; top: 0px; right: 0px; height: 44px; width: 44px; color: rgb(105, 112, 124); cursor: pointer; }
+.Navbar .Navbar-toast .Navbar-toastClose svg { top: 10px; left: 10px; right: auto; bottom: auto; height: 24px; width: 24px; }
+.Navbar .Navbar-toast .Navbar-toastClose:hover { color: rgb(255, 255, 255); }
+@media (min-width: 768px) {
+  .Navbar .Navbar-toast { padding: 10px; left: auto; width: 400px; background: transparent none repeat scroll 0% 0%; }
+}
+.Navbar .Navbar-promotion .Navbar-promotionContent { position: relative; padding: 20px 44px 20px 88px; }
+.Navbar .Navbar-promotion .Navbar-promotionLabel { font-size: 13px; height: 13px; text-transform: uppercase; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; color: rgba(255, 255, 255, 0.3); }
+.Navbar .Navbar-promotion .Navbar-promotionText { font-size: 17px; color: rgba(255, 255, 255, 0.7); margin: 5px 0px; }
+@media (min-width: 480px) {
+  .Navbar .Navbar-promotion { padding: 10px; left: auto; width: 420px; background: transparent none repeat scroll 0% 0%; }
+  .Navbar .Navbar-promotion .Navbar-promotionContainer { position: relative; min-height: 104px; }
+  .Navbar .Navbar-promotion .Navbar-promotionImage { position: absolute; top: 20px; left: 20px; width: 64px; }
+  .Navbar .Navbar-promotion .Navbar-promotionContent { padding-left: 104px; }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+.Navbar .Navbar-constrained .Navbar-dropdown .Navbar-modalContent { background: transparent linear-gradient(to bottom, rgb(40, 50, 68) 0%, rgba(21, 26, 35, 0.95) 100%) repeat scroll 0% 0%; }
+.Navbar .Navbar-registered { position: relative; font-size: 70%; line-height: inherit; bottom: 0.4em; }
+.Navbar .Navbar-svgLogoAlternate { fill-rule: evenodd; }
+.NavbarFooter { position: relative; box-sizing: border-box; font-family: "Open Sans",Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.4; text-align: center; color: rgb(255, 255, 255); margin-top: 20px; z-index: 0; }
+.NavbarFooter a, .NavbarFooter div, .NavbarFooter img, .NavbarFooter nav, .NavbarFooter svg { box-sizing: border-box; vertical-align: baseline; }
+.NavbarFooter .NavbarFooter-icon { display: inline-block; position: relative; width: 24px; height: 24px; }
+.NavbarFooter .NavbarFooter-icon svg { position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; fill: currentcolor; pointer-events: none; }
+.NavbarFooter .NavbarFooter-overlay { display: none; position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: rgba(0, 0, 0, 0.5); z-index: 2; }
+.NavbarFooter .NavbarFooter-selector { position: relative; text-align: center; }
+.NavbarFooter .NavbarFooter-selectorToggle { display: inline-block; cursor: pointer; -moz-user-select: none; }
+.NavbarFooter .NavbarFooter-selectorToggleIcon { vertical-align: middle; margin-right: 5px; color: rgb(0, 174, 255); transition: color 200ms ease 0s, background-color 200ms ease 0s; }
+.NavbarFooter .NavbarFooter-selectorToggleLabel { display: inline-block; vertical-align: middle; line-height: 24px; height: 24px; color: rgba(255, 255, 255, 0.7); transition: color 200ms ease 0s, background-color 200ms ease 0s; }
+.NavbarFooter .NavbarFooter-selectorToggleArrow { vertical-align: middle; margin-left: 2px; width: 16px; height: 16px; color: rgba(255, 255, 255, 0.5); transition: color 200ms ease 0s, background-color 200ms ease 0s; }
+.NavbarFooter .NavbarFooter-selectorToggle .is-active .NavbarFooter-selectorToggleIcon, .NavbarFooter .NavbarFooter-selectorToggle:hover .NavbarFooter-selectorToggleIcon { color: rgb(0, 198, 255); }
+.NavbarFooter .NavbarFooter-selectorToggle .is-active .NavbarFooter-selectorToggleLabel, .NavbarFooter .NavbarFooter-selectorToggle:hover .NavbarFooter-selectorToggleLabel { color: rgb(255, 255, 255); }
+.NavbarFooter .NavbarFooter-selectorToggle .is-active .NavbarFooter-selectorToggleArrow, .NavbarFooter .NavbarFooter-selectorToggle:hover .NavbarFooter-selectorToggleArrow { color: rgba(255, 255, 255, 0.7); }
+.NavbarFooter .NavbarFooter-selectorDropdown { display: none; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; background: transparent linear-gradient(to bottom, rgb(40, 50, 68) 0%, rgba(21, 26, 35, 0.95) 100%) repeat scroll 0% 0%; padding: 0px; font-size: 0px; text-align: left; overflow-y: auto; }
+@media (min-width: 480px) {
+  .NavbarFooter .NavbarFooter-selectorDropdown { position: absolute; top: auto; bottom: 100%; left: 50%; right: auto; width: 100%; max-width: 640px; transform: translateX(-50%); background: transparent none repeat scroll 0% 0%; padding: 0px 20px 5px; font-size: 16px; overflow-y: visible; }
+}
+.NavbarFooter .NavbarFooter-selectorDropdownContainer { position: relative; min-height: 100%; background: transparent linear-gradient(to bottom, rgb(40, 50, 68) 0%, rgba(21, 26, 35, 0.95) 100%) repeat scroll 0% 0%; box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.2); }
+@media (min-width: 480px) {
+  .NavbarFooter .NavbarFooter-selectorDropdownContainer { height: auto; }
+  .NavbarFooter .NavbarFooter-selectorDropdownContainer::after { content: " "; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; border: 1px solid rgba(255, 255, 255, 0.15); pointer-events: none; }
+}
+.NavbarFooter .NavbarFooter-selectorSection { position: relative; padding: 5px 30px 10px; white-space: nowrap; }
+@media (min-width: 768px) {
+  .NavbarFooter .NavbarFooter-selectorSection { padding: 10px 30px 15px; }
+}
+.NavbarFooter .NavbarFooter-selectorSectionPage { display: none; position: relative; white-space: nowrap; }
+.NavbarFooter .NavbarFooter-selectorSectionPage.is-active .NavbarFooter-selectorLocale { color: rgba(255, 255, 255, 0.5); }
+.NavbarFooter .NavbarFooter-selectorSectionPage.is-active .NavbarFooter-selectorLocale.is-selected, .NavbarFooter .NavbarFooter-selectorSectionPage.is-active .NavbarFooter-selectorLocale:hover { color: rgb(255, 255, 255); }
+.NavbarFooter .NavbarFooter-selectorSectionPage.is-open { display: block; }
+.NavbarFooter .NavbarFooter-selectorSectionBlock { white-space: normal; }
+.NavbarFooter .NavbarFooter-selectorLocale { color: rgba(255, 255, 255, 0.7); }
+.NavbarFooter .NavbarFooter-selectorLocale.is-selected, .NavbarFooter .NavbarFooter-selectorLocale:hover { color: rgb(255, 255, 255); }
+.NavbarFooter .NavbarFooter-selectorRegions { display: none; position: absolute; top: 49px; bottom: 1px; left: 1px; width: 50%; background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%; border-right: 1px solid rgba(255, 255, 255, 0.15); white-space: normal; }
+@media (min-width: 480px) {
+  .NavbarFooter .NavbarFooter-selectorRegions { top: 1px; }
+}
+.NavbarFooter .NavbarFooter-selectorRegionTick { display: none; position: absolute; right: 0px; top: 0px; width: 15px; height: 15px; border-bottom: 1px solid rgba(255, 255, 255, 0.15); border-right: 1px solid rgba(255, 255, 255, 0.15); background-color: rgb(32, 40, 54); opacity: 0.95; transform: translate(50%, 50%) rotate(-45deg); transform-origin: center center 0px; z-index: 1; }
+.NavbarFooter .NavbarFooter-selectorRegionTick .NavbarFooter-selectorRegionTickOverlay { position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; border-bottom: 1px solid rgba(255, 255, 255, 0.15); border-right: 1px solid rgba(255, 255, 255, 0.15); background-color: rgb(17, 21, 28); opacity: 0; }
+.NavbarFooter .NavbarFooter-selectorLocales { z-index: 1; }
+.NavbarFooter .NavbarFooter-selectorOption { display: block; position: relative; font-family: "Blizzard",Helvetica,Arial,sans-serif; font-size: 13px; line-height: 1.5; color: rgba(255, 255, 255, 0.5); text-decoration: none; transition: color 200ms ease 0s, background-color 200ms ease 0s; cursor: pointer; padding: 3px 0px; }
+@media (min-width: 480px) {
+  .NavbarFooter .NavbarFooter-selectorOption { font-size: 15px; }
+}
+.NavbarFooter .NavbarFooter-selectorOptionLabel { display: inline-block; }
+.NavbarFooter .NavbarFooter-selectorOptionCheck { display: none; position: absolute; top: 5px; right: 100%; transform: translateX(-2px); width: 18px; height: 18px; color: rgb(0, 174, 255); }
+.NavbarFooter .NavbarFooter-selectorOption.is-selected, .NavbarFooter .NavbarFooter-selectorOption:hover { color: rgb(255, 255, 255); text-decoration: none; }
+.NavbarFooter .NavbarFooter-selectorOption.is-active .NavbarFooter-selectorOptionCheck { display: block; }
+.NavbarFooter .NavbarFooter-selectorLabel { font-family: "Blizzard",Helvetica,Arial,sans-serif; font-size: 13px; line-height: 1.5; text-transform: uppercase; color: rgba(255, 255, 255, 0.3); margin: 10px 0px; }
+.NavbarFooter .NavbarFooter-selectorCloser { position: relative; height: 48px; border-bottom: 1px solid rgba(255, 255, 255, 0.15); text-align: right; }
+@media (min-width: 480px) {
+  .NavbarFooter .NavbarFooter-selectorCloser { display: none; }
+}
+.NavbarFooter .NavbarFooter-selectorCloser .NavbarFooter-icon { color: rgb(0, 174, 255); }
+.NavbarFooter .NavbarFooter-selectorCloser:hover .NavbarFooter-icon { color: rgb(0, 198, 255); }
+.NavbarFooter .NavbarFooter-selectorCloserAnchor { display: inline-block; padding: 12px; cursor: pointer; }
+.NavbarFooter .NavbarFooter-selectorTick { position: absolute; left: 0px; bottom: 0px; width: 10px; height: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.15); border-left: 1px solid rgba(255, 255, 255, 0.15); background-color: rgb(21, 26, 35); transform: translate(-50%, 50%) rotate(-45deg); transform-origin: center center 0px; z-index: 1; opacity: 0; }
+@media (min-width: 480px) {
+  .NavbarFooter .NavbarFooter-selectorTick { opacity: 0.95; }
+}
+.NavbarFooter .NavbarFooter-logoContainer { margin: 30px 0px; height: 66px; }
+.NavbarFooter .NavbarFooter-logo { display: block; position: relative; width: 124px; height: 66px; margin: 0px auto; }
+.NavbarFooter .NavbarFooter-logo svg { position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; fill: currentcolor; pointer-events: none; transition: color 200ms ease 0s, background-color 200ms ease 0s; }
+.NavbarFooter .NavbarFooter-logo .NavbarFooter-logoUpper { color: rgb(0, 174, 255); }
+.NavbarFooter .NavbarFooter-logo .NavbarFooter-logoLower { color: rgb(255, 255, 255); }
+.NavbarFooter .NavbarFooter-logo:hover .NavbarFooter-logoUpper { color: rgb(0, 198, 255); }
+@media (min-width: 768px) {
+  .NavbarFooter .NavbarFooter-linksLeft { display: inline-block; }
+}
+@media (min-width: 768px) {
+  .NavbarFooter .NavbarFooter-linksRight { display: inline-block; }
+  .NavbarFooter .NavbarFooter-linksRight::before { content: ""; display: inline-block; height: 10px; width: 1px; background-color: rgba(255, 255, 255, 0.3); margin: 0px 15px; pointer-events: none; }
+}
+.NavbarFooter .NavbarFooter-link { display: inline-block; font-size: 15px; white-space: nowrap; }
+.NavbarFooter .NavbarFooter-link:nth-child(n+2)::before { content: ""; display: inline-block; height: 10px; width: 1px; background-color: rgba(255, 255, 255, 0.3); margin: 0px 15px; pointer-events: none; }
+.NavbarFooter .NavbarFooter-mainLinks { margin: 15px 0px; }
+@media (min-width: 768px) {
+  .NavbarFooter .NavbarFooter-mainLink { font-size: 17px; }
+}
+.NavbarFooter .NavbarFooter-subLink { font-size: 13px; }
+.NavbarFooter .NavbarFooter-subLink:nth-child(n+2)::before { margin: 0px 10px; }
+.NavbarFooter .NavbarFooter-anchor { font-family: "Blizzard",Helvetica,Arial,sans-serif; font-size: inherit; line-height: 1.4; color: rgba(255, 255, 255, 0.7); text-decoration: none; background: transparent none repeat scroll 0% 0%; white-space: nowrap; transition: color 200ms ease 0s, background-color 200ms ease 0s, border-color 200ms ease 0s; text-transform: uppercase; }
+.NavbarFooter .NavbarFooter-anchor:visited { text-decoration: none; color: rgba(255, 255, 255, 0.7); background: transparent none repeat scroll 0% 0%; }
+.NavbarFooter .NavbarFooter-anchor:hover, .NavbarFooter .NavbarFooter-anchor:focus, .NavbarFooter .NavbarFooter-anchor:active { color: rgb(255, 255, 255); background: transparent none repeat scroll 0% 0%; }
+.NavbarFooter .NavbarFooter-copyright { font-family: "Blizzard",Helvetica,Arial,sans-serif; font-size: 11px; line-height: 1.4; text-transform: uppercase; color: rgba(255, 255, 255, 0.3); }
+@media (min-width: 480px) {
+  .NavbarFooter .NavbarFooter-copyright { font-size: 13px; }
+}
+.NavbarFooter .NavbarFooter-legalRatingDetailImage { width: inherit; margin: 0px; max-width: 100%; max-height: 97px; vertical-align: top; }
+.NavbarFooter .NavbarFooter-legal { padding: 30px 20px; font-size: 0px; white-space: nowrap; }
+.NavbarFooter .NavbarFooter-legalRatings { display: inline-block; text-align: center; width: inherit; color: rgba(255, 255, 255, 0.3); }
+.NavbarFooter .NavbarFooter-legalRatingWrapper { text-align: center; margin: 0px; white-space: normal; }
+.NavbarFooter .NavbarFooter-legalLink { margin-right: 5px; }
+.NavbarFooter .NavbarFooter-legalLink:last-child { margin-right: 0px; }
+@media (min-width: 480px) {
+}
+.NavbarFooter .NavbarFooter-additionalLegal { font-size: 0px; line-height: 1.4; color: rgba(255, 255, 255, 0.3); }
+.NavbarFooter .NavbarFooter-additionalLegal.is-inline { display: inline; }
+@media (min-width: 480px) {
+}
+.NavbarFooter .NavbarFooter-additionalLegalEsrb { height: 97px; margin-right: 10px; vertical-align: top; }
+.NavbarFooter.is-region-limited .NavbarFooter-selectorSection, .NavbarFooter.is-region-hybrid .NavbarFooter-selectorSection { min-height: 217.4px; }
+.NavbarFooter.is-region-limited .NavbarFooter-selectorRegions, .NavbarFooter.is-region-hybrid .NavbarFooter-selectorRegions { display: block; }
+.NavbarFooter.is-region-limited .NavbarFooter-selectorRegions .NavbarFooter-selectorRegionTick, .NavbarFooter.is-region-hybrid .NavbarFooter-selectorRegions .NavbarFooter-selectorRegionTick { display: block; }
+.NavbarFooter.is-region-limited .NavbarFooter-selectorLocales, .NavbarFooter.is-region-hybrid .NavbarFooter-selectorLocales { margin-left: 50%; }
+@media (min-width: 480px) {
+  .NavbarFooter.is-region-limited .NavbarFooter-selectorDropdown { max-width: 440px; }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 480px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 480px) {
+}

@@ -1,0 +1,7 @@
+/* Code tidied up by ScrapBook */
+.slidemedia, .photo-reel { margin: 5px 0px 0px 4px; overflow: hidden; position: relative; width: 1500px; z-index: 0; }
+.slidemedia .slideshow li { width: 150px; height: 140px; text-align: center; margin: 0px 3px 2px; float: left; }
+.slidemedia .slideshow li img { border: 2px solid rgb(46, 46, 46); }
+.RW_mediacenter .slidenav { width: 122px; float: right; }
+.RW_mediacenter .slidenav li { display: block; float: left; width: 18px; margin-left: 2px; }
+.RW_mediacenter .slidenav a { text-align: center; color: White; font-weight: bold; background-color: rgb(204, 0, 0); padding: 2px; border: 1px solid rgb(46, 46, 46); display: block; float: left; width: 14px; }

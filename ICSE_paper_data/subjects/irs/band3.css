@@ -1,0 +1,8 @@
+/* Code tidied up by ScrapBook */
+div {  }
+div.banner { border-top: 1px solid rgb(255, 255, 255); display: block; }
+div.banner a, div.banner img { display: block; }
+.banner_image_links, .banner_image_links_b { display: block; width: 980px; height: 142px; }
+.banner_image_links ul, .banner_image_links_b ul { margin: 0px ! important; }
+.banner_image_links ul li, .banner_image_links_b ul li { list-style: outside none none; margin: 0px; float: left; }
+.banner_image_links_b a { width: 245px; height: 142px; }

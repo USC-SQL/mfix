@@ -1,0 +1,52 @@
+/* Code tidied up by ScrapBook */
+body { margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: "Lucida Grande",helvetica,arial,verdana,sans-serif; }
+a:link, a:visited, a:active { text-decoration: none; }
+a:hover { text-decoration: underline; }
+hr, .hidden { display: none; }
+img { border: 0px none; }
+#cu-identity { font-family: verdana,arial,helvetica,sans-serif; font-size: 63.125%; color: rgb(34, 34, 34); height: 75px; background: rgb(104, 100, 91) none repeat scroll 0% 0%; position: relative; }
+#cu-logo { position: absolute; top: 0px; left: 20px; width: 303px; height: 75px; background: transparent url("cul_signature.gif") no-repeat scroll -8px -1px; }
+#cu-logo a { position: absolute; display: block; border: medium none; text-indent: -1000em; text-decoration: none; }
+#insignia-link { width: 68px; height: 75px; }
+#unit-signature-links a { left: 68px; width: 185px; }
+#cornell-link { height: 38px; }
+#unit-link { top: 38px; height: 37px; }
+#cu-logo img { display: none; }
+#support-ack { position: absolute; top: 12px; right: 0%; margin: 0px 12px 0px 0px; padding: 0px; text-align: right; font-size: 120%; font-weight: bold; font-family: "Lucida Grande",helvetica,arial,verdana,sans-serif; color: rgb(255, 255, 255); }
+#support-ack a { color: rgb(255, 255, 255); text-decoration: none; border: medium none; }
+#support-ack a:hover { background: rgb(68, 68, 68) none repeat scroll 0% 0%; }
+#header { background-color: rgb(179, 27, 27); color: rgb(255, 255, 255); margin: 0px; padding: 10px 0px; border-bottom: 2px solid rgb(204, 204, 204); position: relative; overflow: auto; }
+#header h1 { margin: 0px; font-size: 1em; padding: 10px 0px 0.2em 10px; font-weight: bold; font-style: normal; float: left; }
+body#front #header h1 { font-size: 2.5em; font-weight: normal; }
+#header a, #header a:visited { color: rgb(255, 255, 255); text-decoration: none; }
+#header a:hover { text-decoration: underline; }
+#header form { margin: 0px 12px 0px 0px; padding: 0px; text-align: right; font-size: 0.8em; line-height: 100%; }
+body#front #header form { top: 15px; }
+body.with-cu-identity #header form {  }
+body#front.with-cu-identity #header form {  }
+#header form input, #header form select { margin: 0px; padding: 0px; }
+#header .login { padding-bottom: 0.5em; padding-right: 20px; font-size: 84%; float: right; }
+#header .login a { text-decoration: underline; }
+#header form .links { padding-bottom: 0.4em; font-size: 84%; }
+#header form .links a { text-decoration: underline; }
+#footer { background-color: rgb(238, 238, 238); color: rgb(0, 0, 0); margin: 1em 0px 0px; padding: 0.7em; border-top: 1px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221); font-size: 80%; clear: both; overflow: hidden; }
+#footer .footer-text { width: 88%; float: left; }
+#footer .social { width: 10%; float: right; text-align: right; }
+#footer .social img { max-width: 100%; height: auto; }
+#footer a, #footer a:visited { text-decoration: none; }
+#footer a:hover { text-decoration: underline; }
+#footer address { margin: 5px; font-style: normal; }
+#footer p, #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 { margin: 5px; }
+#content { margin: 0.7em; font-size: 90%; }
+p.tagline { margin: 0px; padding: 0px 0px 0.3em; }
+#header #search { right: -10px; width: 350px; top: 30px; margin-right: 0px; float: right; clear: right; }
+#header #search-arxiv .wrapper-search-arxiv { width: 340px; float: left; }
+#header #search-arxiv .wrapper-search-arxiv .keyword-field { float: left; border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(149, 152, 154) currentcolor rgb(149, 152, 154) rgb(149, 152, 154); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; height: 28px; width: 200px; font-weight: bold; font-size: 12px; padding-left: 10px; color: rgb(34, 34, 34); }
+#header #search-arxiv .wrapper-search-arxiv *::-moz-placeholder { color: rgb(34, 34, 34); }
+#header #search-arxiv .wrapper-search-arxiv :-moz-placeholder { color: rgb(34, 34, 34); }
+#header #search-arxiv .wrapper-search-arxiv .filter-field select { background: transparent none repeat scroll 0% 0%; padding: 5px; line-height: 1; border: medium none; border-radius: 0px; height: 27px; font-size: 12px; width: 110px; }
+#header #search-arxiv .wrapper-search-arxiv .filter-field { float: left; padding-right: 2px; width: 88px; height: 28px; overflow: hidden; background: rgb(255, 255, 255) url("arrow-down-select.png") no-repeat scroll right 4px / 20px auto; border: 1px solid rgb(204, 204, 204); }
+#header #search-arxiv .wrapper-search-arxiv .btn-search-arxiv { float: left; height: 30px; width: 30px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(149, 152, 154) rgb(149, 152, 154) rgb(149, 152, 154) currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; color: rgb(117, 117, 117); padding-right: 5px; padding-top: 3px; background: rgb(255, 255, 255) url("search-icon.png") no-repeat scroll right 2px / 25px auto; cursor: pointer; }
+#header #search-arxiv .wrapper-search-arxiv .links { float: left; padding-top: 3px; }
+body.with-cu-identity #header #search { top: 5px; }
+body#front.with-cu-identity #header #search { top: 30px; }

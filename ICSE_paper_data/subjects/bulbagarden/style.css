@@ -1,0 +1,65 @@
+/* Code tidied up by ScrapBook */
+* { font-size: 1em; line-height: 1.35em; }
+h1, h2, h3, h4, h5, h6 { margin: 0.5em 0em 0.1em; font-family: "Trebuchet MS",Tahoma,sans-serif; font-weight: bold; font-variant: normal; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.78em; }
+h6 { font-size: 1.12em; }
+.maintitle { margin: 0.1em 0em; border-bottom: 1px solid rgb(153, 153, 153); }
+.subtitle { margin: 0em 0em 0.5em; font-size: 1em; font-weight: normal; color: rgb(153, 153, 153); }
+p { margin: 0.5em 0em 1em; }
+a img { border: medium none; }
+a { text-decoration: none; }
+a:link { color: rgb(68, 153, 17); }
+a:active, a:hover { color: rgb(68, 170, 17); }
+a:visited { color: rgb(85, 136, 34); }
+html { margin: 0px; padding: 0px; font-size: x-small; }
+body { margin: 0px; padding: 0px; background: rgb(238, 238, 238) none repeat scroll 0% 0%; position: relative; font-family: Tahoma,sans-serif; font-size: 127%; }
+#page { width: 100%; margin: 0px; padding: 0px; background: rgb(238, 255, 238) none repeat scroll 0% 0%; color: rgb(0, 34, 0); z-index: 0; }
+#header { background: transparent url("banner-background.jpg") no-repeat scroll center center; border-bottom: 1px solid rgb(153, 153, 153); z-index: 2; }
+#billboard { background: transparent url("billboard-background.jpg") no-repeat scroll center center; min-width: 780px; margin: 0px 0px -120px; z-index: 1; }
+#billboard-inner { position: relative; width: 780px; height: 480px; margin: 0px auto; }
+#body { min-width: 780px; z-index: 2; }
+#body-inner { width: 780px; margin: 0px auto; padding: 0px; }
+#maincol { margin-right: 33%; padding: 64px 10px 10px; }
+#sidecol { float: right; width: 33%; margin: 0px; padding: 10px 0px; }
+#footer { clear: both; background: white url("gradient-td.png") repeat-x scroll center top; border-top: 1px solid rgb(153, 153, 153); z-index: 1; }
+#footer-inner { width: 760px; margin: 0px auto; padding: 0px 10px 10px; font-size: smaller; }
+#legalnotices { color: rgb(153, 153, 153); }
+#banner { position: relative; margin: 0px 10px; height: 64px; min-width: 760px; }
+#banner-logo { position: absolute; top: 8px; left: 0px; }
+#banner-logotext { position: absolute; top: 4px; left: 64px; margin: 0px; padding: 56px 0px 0px; height: 0px; width: 257px; background: transparent url("logotext.png") no-repeat scroll 0% 0%; overflow: hidden; }
+#banner-slogan { position: absolute; top: 15px; left: 340px; margin: 0px; padding: 48px 0px 0px; height: 0px; width: 288px; background: transparent url("slogan.png") no-repeat scroll 0% 0%; overflow: hidden; }
+#banner-pikachu { position: absolute; top: 0px; right: 0px; }
+#bulbapedia-banner { position: absolute; top: 20px; left: 20px; width: 600px; height: 135px; }
+#bulbapedia-logoicon { position: absolute; top: 0px; left: 0px; }
+#bulbapedia-logotext { position: absolute; top: 32px; left: 140px; margin: 0px; padding: 0px; overflow: hidden; font-family: Georgia,serif; font-weight: normal; font-variant: small-caps; font-size: 36px; color: rgb(62, 118, 20); }
+#bulbapedia-slogan { position: absolute; top: 64px; left: 144px; font-family: Georgia,serif; font-weight: normal; font-size: 1.26em; color: rgb(62, 118, 20); }
+#bulbapedia-linkbar { position: absolute; top: 100px; left: 140px; padding: 0px 0.9em; border: 1px solid rgb(68, 153, 17); border-radius: 0.9em; font-family: "Trebuchet MS",sans-serif; font-size: 90%; }
+#billboard-blurb { display: none; position: absolute; top: 240px; left: 80px; width: 480px; font-family: Georgia,serif; font-size: 2em; color: rgb(51, 51, 51); }
+#bulbapedia-search { position: absolute; top: 160px; left: 72px; margin: 0px; width: 464px; border: 1px solid rgb(136, 170, 136); background: white url("gradient-bu.png") repeat-x scroll center bottom; color: rgb(51, 51, 51); }
+#bulbapedia-search .leftcol { padding: 8px; width: 32px; background: transparent none repeat scroll 0% 0%; }
+#bulbapedia-search .rightcol { margin-left: 48px; }
+#search-examples { margin-bottom: 0px; font-size: smaller; color: rgb(153, 153, 153); }
+#bulbagarden-linkbar { padding: 1px 0px; min-width: 780px; background: rgb(204, 255, 204) url("linkbar-gradient.png") repeat-x scroll center bottom; text-align: center; border-bottom: 1px solid rgb(136, 170, 136); z-index: 3; }
+.linkbar { display: block; margin: 0px; padding: 2px; }
+.linkbar li { display: inline; padding: 0em 0.2em; }
+.linkbar a { text-decoration: none; padding: 1px 2px; }
+.linkbar a:link { color: rgb(68, 153, 17); }
+.linkbar a:hover { background: rgb(238, 255, 238) none repeat scroll 0% 0%; outline: 1px solid rgb(102, 153, 51); }
+.linkbar a:active { background: rgb(170, 255, 170) none repeat scroll 0% 0%; outline: 1px solid rgb(102, 153, 51); }
+.sitebox, .sitebox2, .sidebar, .sidebar-sitebox { border: 1px solid rgb(153, 153, 153); border-radius: 8px; overflow: auto; margin: 1em auto; }
+.sitebox { background: white url("gradient-rl.png") repeat-y scroll 112px center; }
+.sidebar, .sidebar-sitebox { background: white url("gradient-lr.png") repeat-y scroll left center; }
+.sidebar-sitebox { text-align: center; }
+.sitebox .leftcol { float: left; text-align: center; width: 160px; border-right: 1px solid rgb(153, 153, 153); }
+.sitebox .rightcol { margin-left: 160px; border-left: 1px solid rgb(153, 153, 153); padding: 4px 8px; }
+.sitebox2 .rightcol, .sidebar-inner { padding: 4px 8px; }
+.sitebox .rightcol .maintitle, .sitebox2 .rightcol .maintitle, .sidebar-inner .maintitle { margin: -4px -8px 0.1em; padding: 0em 8px; }
+.sitebox .linkbar, .sitebox2 .linkbar, .sidebar-inner .linkbar { background: rgb(204, 255, 204) none repeat scroll 0% 0%; margin: 0.5em -8px -4px; text-align: center; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; }
+#searchform div { text-align: center; }
+#searchInput { width: 66.7%; }
+.feeditem-title { margin: 0.1em 0em; border-bottom: 1px solid rgb(136, 170, 136); }
+.feeditem-title a:link, .feeditem-title a:visited { color: inherit; text-decoration: none; }
+.feeditem-title a:hover, .feeditem-title a:active { color: rgb(68, 170, 17); }
+.feeditem-date { margin: 0.1em 0em; font-size: 0.9em; color: rgb(136, 170, 136); }
+.feeditem-summary { text-align: justify; }

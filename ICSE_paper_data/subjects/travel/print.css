@@ -1,0 +1,3 @@
+/* Code tidied up by ScrapBook */
+ul { list-style: outside none disc; }
+ul li, div#main li, div#country_detail li { padding-left: 0px; }

@@ -1,0 +1,93 @@
+/* Code tidied up by ScrapBook */
+* { margin: 0px; padding: 0px; font-family: "Roboto",Arial,"Trebuchet MS",Verdana; }
+a { text-decoration: none; font-weight: 500; }
+body { background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+.comment-tag, .tip-tag { padding: 5px; color: rgb(255, 255, 255); line-height: 20px; margin: 0px 10px 0px 0px; }
+.comment-tag { background: rgb(185, 74, 72) none repeat scroll 0% 0%; }
+.tip-tag { background: rgb(0, 143, 252) none repeat scroll 0% 0%; }
+.feedback-banner { background: rgb(182, 0, 0) none repeat scroll 0% 0%; color: rgb(255, 255, 255); height: 40px; line-height: 40px; padding: 0px 0px 0px 10px; border-radius: 4px; margin: 0px 0px 10px; font-size: 14px; }
+.tooltip { background: rgb(241, 241, 241) none repeat scroll 0% 0%; border: 1px solid rgb(203, 203, 203); padding: 5px 10px; border-radius: 4px; font-size: 12px; display: none; }
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.pos-rel { position: relative; }
+#home-search { position: absolute; right: 0px; top: 0px; cursor: pointer; background: rgb(247, 238, 189) none repeat scroll 0% 0%; padding: 6px 25px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(66, 66, 66) rgb(66, 66, 66) rgb(66, 66, 66) currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 0px 3px 3px 0px; }
+#master-block { width: 100%; }
+#sub-master { background: rgb(22, 22, 22) none repeat scroll 0% 0%; width: 980px; margin: auto; padding: 10px; }
+.btn { background: rgb(48, 48, 48) none repeat scroll 0% 0%; border: 1px solid rgb(66, 66, 66); padding: 5px 10px; float: left; font-weight: 300; color: rgb(247, 238, 189); font-size: 14px; cursor: pointer; }
+#header { width: 100%; background: rgb(24, 24, 24) none repeat scroll 0% 0%; position: relative; z-index: 100; }
+#header .sub-header { width: 980px; height: 70px; margin: auto; border-bottom: 1px solid rgb(51, 51, 51); }
+#header .sub-header .nav-item { float: left; font-weight: 500; color: rgb(255, 255, 255); margin: 30px 0px 0px; }
+#header .sub-header .nav-item a { color: inherit; text-decoration: none; }
+#header .sub-header .nav-item.link { width: 130px; margin: 38px 0px 0px; }
+#header .sub-header .logo { background: transparent url("logo2.png") repeat scroll 0% 0%; width: 317px; height: 99px; float: left; margin: 0px 5px 0px 0px; }
+#header .sub-header .nav-item.header { margin: 0px 30px 0px -45px; }
+#header .sub-header .nav-item.csearch { position: relative; float: right; margin: 34px 0px 0px; }
+#header .sub-header .nav-item.csearch .results { position: absolute; overflow: hidden; background: rgb(22, 22, 22) none repeat scroll 0% 0%; border: 1px solid rgb(51, 51, 51); display: none; z-index: 1000; }
+#header .sub-header .nav-item.csearch .results .display-name { font-weight: 500; margin: 5px 0px 0px; font-size: 20px; }
+#header .sub-header .nav-item.csearch .results .champ-img { margin: 5px; }
+#header .sub-header .nav-item.csearch .results .sub { overflow: auto; max-height: 420px; width: 280px; }
+#header .sub-header .nav-item.csearch .results div.col { display: none; width: 100%; float: left; }
+#header .sub-header .nav-item.csearch .results div.selected, #header .sub-header .nav-item.csearch .results div.col:hover { background: rgb(48, 48, 48) none repeat scroll 0% 0%; cursor: pointer; color: rgb(203, 203, 203); }
+#header .sub-header .nav-item.csearch input { width: 280px; border: 1px solid rgb(66, 66, 66); border-radius: 2px; height: 28px; font-size: 13px; text-indent: 10px; outline: medium none; background: rgb(45, 45, 45) none repeat scroll 0% 0%; color: rgb(203, 203, 203); }
+#sub-menu { width: 100%; background: rgb(31, 31, 31) none repeat scroll 0% 0%; height: 40px; }
+#sub-menu a { text-decoration: none; }
+.sub-menu-options { width: 980px; margin: auto; color: rgb(203, 203, 203); }
+.sub-menu-options a { color: rgb(247, 238, 189); }
+.sub-menu-options div { margin: 8px 0px 0px; font-weight: 300; font-size: 15px; }
+#champions-block { width: 980px; margin: 0px auto 40px; box-shadow: 0px 4px 0px rgb(46, 45, 42); padding: 0px 0px 40px; border-bottom: 3px solid rgb(98, 88, 74); }
+#champions-block .block-left { width: 630px; float: left; }
+#champions-block .block-right { float: right; margin: 20px 0px 0px; }
+#champions-block .block-right .ad1 { width: 300px; height: 250px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; float: right; }
+#champions-block .header { border-bottom: 3px solid rgb(98, 88, 74); box-shadow: 0px 4px 0px rgb(46, 45, 42); }
+#champions-block .header .title { font-size: 30px; font-weight: 500; margin: 25px 0px 0px; color: rgb(255, 255, 255); }
+#champions-block .header .info { font-size: 14px; font-weight: 300; margin: 0px 0px 25px; color: rgb(136, 136, 136); }
+#champions-block .info p { margin: 10px 0px; color: rgb(203, 203, 203); }
+#champions-block .champions { width: 630px; margin: 30px 0px 0px; color: rgb(203, 203, 203); }
+#champions-block .champ-img { width: 75px; height: 75px; }
+#champions-block .name { width: 75px; text-align: center; color: rgb(185, 185, 185); white-space: nowrap; }
+#champions-block .block { margin: 0px 30px 20px 0px; font-size: 13px; }
+#champions-block .popular-streams .mtitle { font-size: 20px; font-weight: 500; margin: 20px 0px 15px; float: left; color: rgb(203, 203, 203); }
+#champions-block .popular-streams { float: right; clear: both; }
+#champions-block .popular-streams .streams-header { height: 20px; }
+#champions-block .popular-streams .streams { float: left; clear: both; }
+#champions-block .streams .stream-block { width: 280px; background: rgb(48, 48, 48) none repeat scroll 0% 0%; border-radius: 2px; margin: 5px 0px 0px; padding: 12px 10px; font-size: 12px; color: rgb(203, 203, 203); overflow: auto; }
+#champions-block .streams .stream-block .title { color: rgb(247, 238, 189); float: left; max-width: 235px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#champions-block .streams .htitle { font-size: 15px; float: left; font-weight: 300; margin: 0px 0px 3px; color: rgb(136, 136, 136); }
+#champions-block .streams .hviewers { float: right; font-size: 15px; font-weight: 300; margin: 0px 10px 3px 0px; color: rgb(136, 136, 136); }
+#champions-block .streams .stream-block .viewers { float: right; }
+.popular-discussions { width: 980px; margin: auto; padding: 30px 0px 0px; color: rgb(203, 203, 203); }
+.popular-discussions .header { color: rgb(136, 136, 136); }
+.popular-discussions a { color: inherit; }
+.popular-discussions > .title { font-weight: 500; font-size: 20px; margin: 0px 0px 15px; }
+.popular-discussions .header div { float: left; font-size: 15px; }
+.popular-discussions .header { margin: 0px 0px 5px; float: left; }
+.popular-discussions .content { background: rgb(48, 48, 48) none repeat scroll 0% 0%; border-radius: 4px; float: left; padding: 10px; margin: 0px 0px 5px; width: 960px; color: rgb(247, 238, 189); }
+.popular-discussions .content div { float: left; font-size: 13px; line-height: 20px; }
+.popular-discussions .header .matchup { width: 90px; margin: 0px 10px 0px 0px; }
+.popular-discussions .content .matchup { width: 80px; margin: 0px 10px 0px 0px; }
+.popular-discussions .content .matchup .champ-img { width: 24px; height: 24px; margin: 0px 5px 0px 0px; }
+.popular-discussions .header .title, .popular-discussions .content .title { width: 545px; margin: 0px 10px 0px 0px; height: 20px; overflow: hidden; }
+.popular-discussions .header .author, .popular-discussions .content .author { width: 160px; margin: 0px 10px 0px 0px; overflow: hidden; }
+.popular-discussions .header .posted, .popular-discussions .content .posted { width: 130px; margin: 0px 10px 0px 0px; white-space: nowrap; }
+#footer { width: 980px; margin: 40px auto 20px; border-top: 1px solid rgb(98, 88, 74); padding: 10px 0px 0px; }
+#footer a { color: rgb(0, 0, 0); }
+#footer .m10 { margin: 0px 5px 0px 0px; }
+#footer .m5 { margin: 0px 5px; }
+#footer .big { font-size: 30px; font-weight: 500; color: rgb(203, 203, 203); }
+#footer .normal { font-size: 12px; font-weight: 300; line-height: 6px; margin: 0px 0px 35px; color: rgb(136, 136, 136); }
+#footer .policy { font-weight: 300; font-size: 12px; margin: 0px 0px 10px; float: left; color: rgb(136, 136, 136); }
+#footer .policy a { color: rgb(247, 238, 189); }
+#footer .policy div { float: left; }
+[find], [tab], .upvote, .downvote { cursor: pointer; }
+#loginForm { color: rgb(203, 203, 203); width: 460px; height: 400px; background: rgb(51, 51, 51) none repeat scroll 0% 0%; border-radius: 4px; box-shadow: 0px 0px 5px rgb(48, 48, 48); position: absolute; z-index: 100; display: none; top: 0px; left: 0px; }
+#loginForm .forgot { font-size: 14px; float: right; margin: 5px; }
+#loginForm form { padding: 20px 25px; border-radius: 4px; }
+#loginForm a { color: rgb(247, 238, 189); }
+#loginForm h3 { font-size: 24px; margin: 0px 0px 15px; }
+#loginForm h3 span { position: relative; bottom: 12px; left: 92px; cursor: pointer; }
+#loginForm div { float: left; clear: both; margin: 5px 0px; }
+#loginForm label { margin: 5px 0px; float: left; font-size: 14px; font-weight: 500; }
+#loginForm input { border: 1px solid rgb(203, 203, 203); border-radius: 2px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; outline: medium none; padding: 0px 0px 0px 5px; float: left; width: 405px; height: 50px; font-size: 16px; }
+#loginForm input[type="checkbox"] { margin: 1px 0px 0px 5px; float: left; width: 20px; height: 28px; }
+#loginForm input[type="submit"] { font-size: 16px; font-weight: 300; height: 50px; cursor: pointer; width: 200px; background: transparent linear-gradient(to bottom, rgb(247, 238, 189) 0%, rgb(186, 179, 143) 100%) repeat scroll 0% 0%; border-bottom: 3px solid rgb(145, 138, 111); border-right: 1px solid rgb(214, 205, 164); border-left: 1px solid rgb(214, 205, 164); border-radius: 4px; color: rgb(51, 51, 51); }

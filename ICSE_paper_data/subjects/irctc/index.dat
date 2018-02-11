@@ -1,0 +1,10 @@
+id	20170816142516
+create	20170816142516
+modify	20170816142642
+type	
+title	IRCTC Next Generation eTicketing System
+chars	UTF-8
+icon	resource://scrapbook/data/20170816142516/favicon.ico
+source	https://www.irctc.co.in/eticketing/loginHome.jsf
+comment	
+lock	

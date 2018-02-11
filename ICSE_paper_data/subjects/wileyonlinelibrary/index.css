@@ -1,0 +1,65 @@
+/* Code tidied up by ScrapBook */
+#homePage { padding: 1.7em 0px 1em; }
+#homePage #search { width: 23em; float: left; margin-right: 1.8em; }
+#homePage #subjectBrowse { float: left; margin: 0px 1.8em 1em 0px; width: 21em; }
+#homePage #resources { width: 24em; float: left; margin-right: 1.8em; }
+#homePage #adverts { width: 23em; float: right; }
+#homePage #adverts a { display: block; margin: 0px 0px 2em; }
+.banner-section { position: relative; min-height: 8.8em; }
+.banner-section > div { position: absolute; overflow: hidden; height: 82px; z-index: 99; }
+.banner-heading { position: absolute; top: 0.17em; left: 16px; max-width: 26.2em; font-family: "Open Sans",sans-serif; font-weight: 600; font-size: 2.4em; text-transform: uppercase; line-height: 1.4em; }
+.banner-heading-collaboration { color: rgb(146, 203, 156); }
+.banner-heading-boundary { color: rgb(180, 0, 67); }
+.banner-heading-discovery { color: rgb(232, 119, 0); }
+.banner-subheading { position: absolute; font-family: "Open Sans",sans-serif; font-size: 1.6em; font-weight: 600; left: 1em; bottom: 1.4em; line-height: 1.2em; animation: 3s ease 0s normal none 1 running subheading; }
+@keyframes subheading {
+0% { opacity: 0; bottom: 6px; }
+50% { opacity: 0; bottom: 6px; }
+75% { opacity: 1; }
+}
+.banner-subheading-collaboration { color: rgb(100, 143, 216); }
+.banner-subheading-boundary { color: rgb(133, 81, 153); }
+.banner-subheading-discovery { color: rgb(0, 163, 178); }
+.banner-globe { position: absolute; height: 79px; width: 232px; right: 13.6em; top: 0.2em; z-index: 999; }
+.banner-globe-discovery { background: transparent url("ring-discovery.png") no-repeat scroll 0% 0%; }
+.banner-globe-collaboration { background: transparent url("ring-collaboration.png") no-repeat scroll 0% 0%; }
+.banner-globe-boundary { background: transparent url("ring-boundary.png") no-repeat scroll 0% 0%; }
+.ring { display: none; position: absolute; bottom: -240px; right: 103px; height: 285px; width: 285px; background: transparent none repeat scroll 0% 0%; border-width: 6px; border-style: solid; border-top: 6px solid transparent; border-right: 6px solid transparent; border-radius: 100%; transform: rotate(135deg); animation: 2s ease-in-out 0s normal none 1 running ring-2-rotate; }
+@keyframes ring-2-rotate {
+0% { transform: rotate(-45deg); box-shadow: 0px 0px 7px 0px transparent; }
+40% { box-shadow: 0px 0px 7px 0px transparent; }
+}
+@supports (animation:ring-2-rotate 2s ease-in-out) {
+  .ring { display: block; }
+  .ring-discovery { border-bottom-color: rgb(232, 119, 0); border-left-color: rgb(232, 119, 0); }
+  .ring-boundary { border-bottom-color: rgb(180, 0, 67); border-left-color: rgb(180, 0, 67); }
+  .ring-collaboration { border-bottom-color: rgb(146, 203, 156); border-left-color: rgb(146, 203, 156); }
+  .banner-globe { height: 76px; width: 76px; top: 0.25em; right: 26.1em; }
+  .banner-globe-discovery { background: transparent url("globe-discovery.png") no-repeat scroll 0% 0%; }
+  .banner-globe-collaboration { background: transparent url("globe-collaboration.png") no-repeat scroll 0% 0%; }
+  .banner-globe-boundary { background: transparent url("globe-boundary.png") no-repeat scroll 0% 0%; }
+}
+.cssAnimation {  }
+#homePage #search #siteSearch, #homePage #search #publicationSearch { background: transparent url("wolSpriteBackgrounds.gif") no-repeat scroll -600px 0px; padding: 0px 0px 1em 0.2em; margin-bottom: 2em; overflow: hidden; }
+#homePage #search #siteSearch h2, #homePage #search #publicationSearch h2 { padding: 0.3em 0.5em; color: rgb(223, 233, 234); }
+#homePage #search #siteSearch form { margin-left: 0.5em; }
+#homePage #siteSearch label { display: none; }
+#homePage #siteSearch #searchText { border: 1px solid rgb(127, 157, 183); font-size: 1.2em; height: 1.4em; width: 15em; margin-bottom: 0.2em; color: rgb(0, 0, 0); }
+#homePage #siteSearch #searchSiteSubmit { vertical-align: middle; margin-bottom: 0.2em; }
+#homePage #siteSearch #searchOptions { margin-left: 0.3em; }
+#homePage #siteSearch #searchOptions li { display: inline; margin: 0px 1em 1em 0px; }
+#homePage #searchOptions li a { color: rgb(92, 92, 92); }
+#homePage #search #publicationSearch ul { margin: 0px 0px 0px 0.5em; overflow: hidden; }
+#homePage #search #publicationSearch ul li { margin-right: 0.5em; line-height: 1.4em; float: left; color: rgb(93, 93, 93); font-weight: bold; }
+#homePage #searchContent { overflow: hidden; margin: 0.3em 0px 0.9em; }
+#homePage #searchContent li { float: left; overflow: hidden; }
+#homePage #searchContent input { float: left; margin: 0.1em 0px 0px; }
+#homePage #searchContent label { float: left; display: block; margin: 0.2em 0.7em 0px 0.2em; }
+#homePage #search #publicationSearch ul li a:hover { color: rgb(178, 121, 0); }
+#homePage #search #publicationSearch ul li a { color: rgb(0, 126, 139); }
+#homePage #searchContent input#searchAllContent { margin-right: 0.4em; }
+#resources.menuGroup li { margin-bottom: 0.8em; font-size: 1.2em; }
+#resources.menuGroup h3 { font-size: 1em; }
+#resources.menuGroup h2, #subjectBrowse.menuGroup h2 { color: rgb(93, 93, 93); }
+#header h1, #header .header-logo { font-size: 1em; }
+#fullWidthContent { margin: 0px; }

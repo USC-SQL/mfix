@@ -1,0 +1,4 @@
+/* Code tidied up by ScrapBook */
+@media print {
+  .topnav, .header-doc, #forecast-lookup, #topnews, .current-conditions, #hourly, #ndfd, #additional_forecasts, .full-width-first.communication-links, .footer, .footer-legal { display: none; }
+}

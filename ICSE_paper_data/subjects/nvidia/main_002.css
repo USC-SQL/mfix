@@ -1,0 +1,25 @@
+/* Code tidied up by ScrapBook */
+.at-facebook { background: transparent url("facebook.jpg") repeat scroll 0% 0%; }
+.at-twitter { background: transparent url("twitter.jpg") repeat scroll 0% 0%; }
+.at-linkedin { background: transparent url("linkedin.jpg") repeat scroll 0% 0%; }
+.at-googlePlus { background: transparent url("google_plus.jpg") repeat scroll 0% 0%; }
+.at-reddit { background: transparent url("reddit.jpg") repeat scroll 0% 0%; }
+.at-feedback { background: transparent url("feedback.jpg") repeat scroll 0% 0%; cursor: pointer; }
+.at-newsletter { background: transparent url("newsletter.jpg") repeat scroll 0% 0%; cursor: pointer; }
+.addthis_toolbox { top: 160px; position: fixed; }
+.addthis_toolbox a { background-color: rgb(133, 130, 130); display: block; width: 42px; height: 42px; margin-bottom: 0px ! important; }
+.addthis_toolbox a span { width: 42px; height: 42px; display: block; border-top: 1px solid rgb(182, 180, 180); cursor: pointer; }
+@media screen and (min-width: 1080px) {
+  .addthis_toolbox { top: 160px; position: fixed; }
+  .addthis_toolbox a { background-color: rgb(133, 130, 130); display: block; width: 42px; height: 42px; }
+  .addthis_toolbox a span { width: 42px; height: 42px; display: block; opacity: 0.4; border-top: 1px solid rgb(182, 180, 180); cursor: pointer; }
+  .addthis_toolbox a span:hover { opacity: 1; }
+}
+@media screen and (max-width: 1079px) {
+  .addthis_toolbox { top: auto; bottom: 0px; position: fixed; width: 100%; height: 42px; background-color: rgb(133, 130, 130); }
+  .addthis_toolbox a { display: inline-block; width: 14.28%; height: 42px; opacity: 0.4; cursor: pointer; background-color: rgb(133, 130, 130); }
+  .addthis_toolbox a:hover { opacity: 1; }
+  .addthis_toolbox a span { width: 100%; height: 42px; display: block; margin: 0px auto; background-repeat: no-repeat; background-position: center center; border-left: 1px solid rgb(182, 180, 180); }
+  .addthis_toolbox a.at300b, .addthis_toolbox a.at300m { width: 14.28% ! important; }
+  a.at300b, a.at300m { display: inline-block ! important; width: 14.28% ! important; }
+}

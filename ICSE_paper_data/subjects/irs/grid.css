@@ -1,0 +1,9 @@
+/* Code tidied up by ScrapBook */
+.container_10 { margin-left: auto; margin-right: auto; width: 980px; }
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10 { display: inline; float: left; margin-left: 10px; margin-right: 10px; }
+.alpha { margin-left: 0px ! important; }
+.omega { margin-right: 0px ! important; }
+.container_10 .grid_1 { width: 80px; }
+.container_10 .grid_2 { width: 180px; }
+.container_10 .grid_3 { width: 280px; }
+.container_10 .grid_6 { width: 580px; overflow-wrap: break-word; }

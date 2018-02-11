@@ -1,0 +1,144 @@
+/* Code tidied up by ScrapBook */
+html[race="VUE"] h1.underline::after, html[race="VUE"] h2.underline::after, html[race="VUE"] h3.underline::after, html[race="VUE"] h4.underline::after, html[race="VUE"] h5.underline::after, html[race="VUE"] h6.underline::after { border-color: rgb(255, 0, 0) ! important; }
+@font-face {
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  src: url("icons.eot") format("embedded-opentype"), url("icons.ttf") format("truetype"), url("icons.woff") format("woff"), url("icons.svg") format("svg");
+}
+[class^="icon-"], [class*=" icon-"] { font-family: "icons" ! important; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; }
+.icon-screen::before { content: ""; }
+.icon-more::before { content: ""; }
+html[race="VUE"] #page a.button { background-image: url("sprite_button_001.png"); }
+html[race="VUE"] #page a.button .left { background-image: url("sprite_button_001.png"); }
+html[race="VUE"] #page a.button .right { background-image: url("sprite_button_001.png"); }
+html[race="VUE"] #page a.button .arrow { background-image: url("sprite_button_arrow_001.png"); }
+html[race="VUE"] #page a.button:hover { color: rgb(255, 255, 255); }
+html[race="VUE"] #html5-header .logo { background: transparent url("sprite_layout.png") no-repeat scroll -137px -1480px; }
+html[race="VUE"] #html5-header .logo a.self { background-position: -1px -3157px; }
+html[race="VUE"] #html5-header .logo .under .countdown { background-color: rgb(255, 0, 0); }
+html[race="VUE"] #html5-header .logo .under .countdown a { color: rgb(255, 255, 255); }
+html[race="VUE"] #html5-header .focus .block .langs ul li a:hover { border-color: rgb(255, 0, 0); }
+html[race="VUE"] #html5-header #html5-nav { background: rgb(255, 0, 0) none repeat scroll 0% 0%; }
+html[race="VUE"] #html5-header #html5-nav > div > ul > li > a { color: rgb(255, 255, 255); }
+html[race="VUE"] #html5-header #html5-nav ul li.cmenu .content { border-bottom-color: rgb(255, 0, 0); }
+html[race="VUE"] #html5-header #html5-nav ul li.cmenu .content ul li a { background-image: url("sprite_layout.png"); }
+html[race="VUE"] #html5-header #html5-nav ul li.cmenu .content ul li a:hover { background: rgb(232, 232, 232) none repeat scroll 0% 0%; }
+html[race="VUE"] #html5-header #html5-nav ul li.cmenu.stages .content ul li a span.blank { border-color: rgb(255, 0, 0); }
+html[race="VUE"] #html5-header #html5-nav ul li.cmenu.teams .content ul li a { background: transparent none repeat scroll 0% 0%; }
+html[race="VUE"][year="2017"] #html5-header #html5-nav ul li.cmenu.teams .content ul li a span.small-jersey { background-image: url("sprite_smalljerseys.png"); }
+html[race="VUE"] #html5-header #html5-nav .search { background: transparent url("bg_header_nav_search.png") no-repeat scroll 0% 0%; }
+html[race="VUE"] #content #main .bottom-link a { border-color: rgb(255, 0, 0); }
+html[race="VUE"] #content #main .diapo h2 span { background-image: url("sprite_title.png"); }
+html[race="VUE"] #content #main .diapo .focus .description .type { border-color: rgb(255, 0, 0); }
+html[race="VUE"] #content #main .diapo .paging { background-image: url("sprite_layout.png"); }
+html[race="VUE"] #content #main .diapo .list ul.thumbs li:hover .title { border-color: rgb(255, 0, 0); }
+html[race="VUE"] #content #main .diapo .list ul.thumbs li.current .title { border-color: rgb(255, 0, 0); }
+html[race="VUE"] #content #main .diapo.v2 .focus .media a.prev, html[race="VUE"] #content #main .diapo.v2 .focus .media a.next { background-image: url("sprite_layout.png"); }
+html[race="VUE"] #content #main .edito ul.tabs li.actus a { background-image: url("sprite_tab_001.png"); }
+html[race="VUE"] #content #main .edito ul.tabs li a { background-position: 0px -369px; padding: 2px 0px 6px 36px; }
+html[race="VUE"] #content #main .edito[tab="avis"] ul.tabs li.avis a, html[race="VUE"] #content #main .edito[tab="actus"] ul.tabs li.actus a, html[race="VUE"] #content #main .edito ul.tabs li.selected a { border-color: rgb(255, 0, 0); }
+html[race="VUE"] #content #col .distinctif ul li strong { background-image: url("sprite_smalldistinctifs_002.png"); }
+html[race="VUE"][year="2017"] #content #col .distinctif ul li strong { background-image: url("sprite_smalldistinctifs_001.png"); }
+html[race="VUE"][year="2017"] #content #col .equipes li { background-image: url("sprite_jerseys.png"); }
+html[race="VUE"] #content #col .equipes a.liprev, html[race="VUE"] #content #col .equipes a.linext { background-image: url("sprite_layout.png"); }
+html[race="VUE"] #content .partners ul li:hover { border-color: rgb(255, 0, 0); }
+html[race="VUE"] #content .partners ul li a, html[race="VUE"] #content .partners ul li span { display: block; width: 150px; height: 60px; margin-right: 19px; margin-left: 19px; background: transparent url("sprite_partners_2x.png") no-repeat scroll 0% 0%; }
+html[race="VUE"] #content .partners ul li .ambilamp { background-position: 0px 0px; }
+html[race="VUE"] #content .partners ul li .amstel { background-position: 0px -61px; }
+html[race="VUE"] #content .partners ul li .as { background-position: 0px -122px; }
+html[race="VUE"] #content .partners ul li .azkar { background-position: 0px -183px; }
+html[race="VUE"] #content .partners ul li .bic { background-position: 0px -244px; }
+html[race="VUE"] #content .partners ul li .carrefour { background-position: 0px -305px; }
+html[race="VUE"] #content .partners ul li .ciclismo_a_fondo { background-position: 0px -427px; }
+html[race="VUE"] #content .partners ul li .cofidis { background-position: 0px -488px; }
+html[race="VUE"] #content .partners ul li .cruzcampo { background-position: 0px -549px; }
+html[race="VUE"] #content .partners ul li .dimensiondata { background-position: 0px -610px; }
+html[race="VUE"] #content .partners ul li .eurovision { background-position: 0px -1830px; }
+html[race="VUE"] #content .partners ul li .ecopilas { background-position: 0px -732px; }
+html[race="VUE"] #content .partners ul li .europcar { background-position: 0px -793px; }
+html[race="VUE"] #content .partners ul li .fertiberia { background-position: 0px -854px; }
+html[race="VUE"] #content .partners ul li .fragata { background-position: 0px -976px; }
+html[race="VUE"] #content .partners ul li .gopro { background-position: 0px -1098px; }
+html[race="VUE"] #content .partners ul li .halconviajes { background-position: 0px -1159px; }
+html[race="VUE"] #content .partners ul li .loterias { background-position: 0px -1281px; }
+html[race="VUE"] #content .partners ul li .rga { background-position: 0px -1403px; }
+html[race="VUE"] #content .partners ul li .shimano { background-position: 0px -1464px; }
+html[race="VUE"] #content .partners ul li .skoda { background-position: 0px -1525px; }
+html[race="VUE"] #content .partners ul li .rtve { background-position: 0px -1647px; }
+html[race="VUE"] #content .partners ul li .carglass { background-position: 0px -1952px; }
+html[race="VUE"] #content .partners ul li .ecovidrio { background-position: 0px -2074px; }
+html[race="VUE"] #content .partners ul li .lanjaron { background-position: 0px -2196px; }
+html[race="VUE"] #content .partners ul li .suzuki { background-position: 0px -2318px; }
+html[race="VUE"] #content .partners ul li .tissot { background-position: 0px -2562px; }
+html[race="VUE"] #content .partners ul li .pozo { background-position: 0px -2623px; }
+html[race="VUE"] #content .partners ul li .renfe { background-position: 0px -2745px; }
+html[race="VUE"] #content .partners ul li .movistar { background-position: 0px -2796px; }
+html[race="VUE"] #content .partners ul li .husqvarna { background-position: 0px -2856px; }
+html[race="VUE"] #content .partners ul li .fenie-energia { background-position: 0px -2912px; }
+html[race="VUE"] #content .partners ul li .sms { background-position: 0px -2974px; }
+html[race="VUE"] #content .partners ul li .deporvillage { background-position: 0px -3036px; }
+html[race="VUE"] #content .partners ul li .serviall { background-position: 0px -3096px; }
+html[race="VUE"] #content .partners ul li .segafredo { background-position: 0px -3160px; }
+html[race="VUE"] #content .partners ul li .manzana { background-position: 0px -3216px; }
+html[race="VUE"] #content .partners ul li .lider { background-position: 0px -3276px; }
+html[race="VUE"] #content .partners ul li .named_sport { background-position: 0px -3330px; }
+html[race="VUE"] #html5-footer .menu { min-height: 175px; }
+html[race="VUE"] #html5-footer #dock { background: rgb(255, 0, 0) none repeat scroll 0% 0%; border-bottom-color: rgb(255, 0, 0); border-top-color: rgb(255, 0, 0); }
+html[race="VUE"] #html5-footer #dock ul.toolbar li { border-color: rgb(220, 0, 0); }
+html[race="VUE"] #html5-footer #dock ul.toolbar > li > a { border-color: rgb(140, 0, 0); color: rgb(255, 255, 255); }
+html[race="VUE"] #html5-footer #dock ul.toolbar li.epreuves a { color: rgb(0, 0, 0); }
+html[race="VUE"] #html5-footer #dock ul.toolbar li div.content .head a.reduce { background-image: url("sprite_layout.png"); }
+html[race="VUE"] #html5-footer #dock ul.toolbar li.epreuves div.content .head .title { background-image: url("sprite_layout.png"); }
+html[race="VUE"] body#home-epreuve #content #main .carte h2 span { background-image: url("sprite_title.png"); }
+html[race="VUE"] body#home-epreuve #content #main .edito .content .tab-actus img { border-color: rgb(255, 0, 0); }
+html[race="VUE"][year="2017"] .jersey-alm { background-position: 0px 0px ! important; }
+html[race="VUE"][year="2017"] .jersey-abs { background-position: 0px -127px ! important; }
+html[race="VUE"][year="2017"] .jersey-ast { background-position: 0px -254px ! important; }
+html[race="VUE"][year="2017"] .jersey-tbm { background-position: 0px -381px ! important; }
+html[race="VUE"][year="2017"] .jersey-bmc { background-position: 0px -508px ! important; }
+html[race="VUE"][year="2017"] .jersey-boh { background-position: 0px -635px ! important; }
+html[race="VUE"][year="2017"] .jersey-cjr { background-position: 0px -762px ! important; }
+html[race="VUE"][year="2017"] .jersey-cdt { background-position: 0px -889px ! important; }
+html[race="VUE"][year="2017"] .jersey-cof { background-position: 0px -1016px ! important; }
+html[race="VUE"][year="2017"] .jersey-fdj { background-position: 0px -1143px ! important; }
+html[race="VUE"][year="2017"] .jersey-lts { background-position: 0px -1270px ! important; }
+html[race="VUE"][year="2017"] .jersey-mzn { background-position: 0px -1397px ! important; }
+html[race="VUE"][year="2017"] .jersey-mov { background-position: 0px -1524px ! important; }
+html[race="VUE"][year="2017"] .jersey-ors { background-position: 0px -1651px ! important; }
+html[race="VUE"][year="2017"] .jersey-qst { background-position: 0px -1778px ! important; }
+html[race="VUE"][year="2017"] .jersey-ddd { background-position: 0px -1905px ! important; }
+html[race="VUE"][year="2017"] .jersey-kat { background-position: 0px -2032px ! important; }
+html[race="VUE"][year="2017"] .jersey-tlj { background-position: 0px -2159px ! important; }
+html[race="VUE"][year="2017"] .jersey-sky { background-position: 0px -2286px ! important; }
+html[race="VUE"][year="2017"] .jersey-sun { background-position: 0px -2413px ! important; }
+html[race="VUE"][year="2017"] .jersey-tfs { background-position: 0px -2540px ! important; }
+html[race="VUE"][year="2017"] .jersey-uad { background-position: 0px -2667px ! important; }
+#content #col .distinctif ul li.iccg strong { background-position: 7px -375px; }
+html[year="2017"] #html5-header .promo .autopromo a, html[year="2017"] #content #col .autopromo a { background: transparent url("sprite_autopromo_fr_002.jpg") no-repeat scroll -301px -211px; }
+html[lang="us"][year="2015"] #html5-header .promo .autopromo a, html[lang="us"][race="VUE"] #content #col .autopromo a { background: transparent url("sprite_autopromo_us_004.jpg") no-repeat scroll -301px -211px; }
+html[lang="us"][year="2016"] #html5-header .promo .autopromo a, html[lang="us"][race="VUE"] #content #col .autopromo a { background: transparent url("sprite_autopromo_us_003.jpg") no-repeat scroll -301px -211px; }
+html[lang="us"][year="2017"] #html5-header .promo .autopromo a, html[lang="us"][race="VUE"] #content #col .autopromo a { background: transparent url("sprite_autopromo_us.jpg") no-repeat scroll -301px -211px; }
+html #html5-header .promo .autopromo a.site-mdc { background: transparent url("sprite_autopromo_fr_003.jpg") repeat scroll -301px -90px; }
+html[lang="us"] #html5-header .promo .autopromo a.site-mdc { background: transparent url("sprite_autopromo_us.jpg") repeat scroll -301px -90px; }
+html #html5-header .promo .autopromo a.lordgun, html #content #col .autopromo a.lordgun { background-image: none; }
+html #content #col .autopromo a.lordgun { width: 300px; height: 90px; margin: 0px auto; }
+#html5-footer .menu a.unipublic { display: block; float: left; width: 98px; height: 37px; margin: 52px 51px 0px; padding: 0px; border: medium none; }
+html[race="VUE"] #html5-header .logo .under .countdown .inner { border-top: 1px solid rgb(255, 0, 0); }
+html[habillage="1"] .bg-left > .img { background: transparent url("bg-habillage_GAUCHE_VUE.jpg") no-repeat scroll right 474px top -5px ! important; display: block; left: 0px; z-index: 1; }
+html[habillage="1"] .bg-right > .img { background: transparent url("bg-habillage_DROITE_VUE.jpg") no-repeat scroll 478px -5px ! important; display: block; right: 0px; z-index: 0; }
+html[race="VUE"] #page a.button { background: rgb(78, 78, 78) none repeat scroll 0% 0%; border-radius: 3px; padding: 0px 25px 0px 12px; position: relative; }
+html[race="VUE"] #page a.button::after { content: ""; position: absolute; top: 9px; right: 10px; border-top: 4px solid transparent; border-left: 4px solid rgb(255, 255, 255); border-bottom: 4px solid transparent; border-color: transparent rgb(255, 255, 255); }
+html[race="VUE"] #page a.button .left, html[race="VUE"] #page a.button .right, html[race="VUE"] #page a.button .arrow { background: transparent none repeat scroll 0% 0%; padding: 0px ! important; }
+html[race="VUE"] #page a.button:focus, html[race="VUE"] #page a.button:hover { background: rgb(255, 0, 0) none repeat scroll 0% 0%; }
+html[race="VUE"] #html5-header #html5-nav { background: rgb(255, 0, 0) none repeat scroll 0% 0%; }
+#html5-header #html5-nav > div > ul > li { position: relative; background-image: none; background-color: rgb(255, 0, 0); }
+#html5-header #html5-nav > div > ul > li:first-child { background-color: rgb(255, 0, 0); }
+#html5-header #html5-nav > div > ul > li::after { content: ""; background: transparent url("bg-left-shadow.png") no-repeat scroll 0px -4px; position: absolute; right: -5px; top: 0px; width: 14px; height: 48px; }
+#html5-header #html5-nav > div > ul > li:nth-child(1) { z-index: 10; }
+#html5-header #html5-nav > div > ul > li:nth-child(2) { z-index: 9; }
+#html5-header #html5-nav > div > ul > li:nth-child(3) { z-index: 8; }
+#html5-header #html5-nav > div > ul > li:nth-child(4) { z-index: 7; }
+#html5-header #html5-nav > div > ul > li:nth-child(5) { z-index: 6; }
+#html5-header #html5-nav > div > ul > li:nth-child(6) { z-index: 5; }
+#html5-header #html5-nav .search input[type="text"] { height: 26px; }

@@ -1,0 +1,96 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: normal;
+  src: url("segoeui-webfont.eot") format("embedded-opentype"), url("segoeui-webfont.woff") format("woff"), url("segoeui-webfont.ttf") format("truetype"), url("segoeui-webfont.svg") format("svg");
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: 62.5%; }
+body { font-family: "Segoe UI",Tahoma,sans-serif ! important; font-size: 12px; line-height: 1.42857; color: rgb(56, 62, 73); background-image: url("bg_spruce.gif"); background-position: left top; background-repeat: repeat-x; }
+input, button, select, textarea { font-family: inherit; font-size: inherit; line-height: inherit; }
+a { color: rgb(0, 142, 184); text-decoration: none; }
+a:hover, a:focus { color: rgb(11, 82, 113); text-decoration: underline; }
+a:focus { outline: thin dotted rgb(56, 62, 73); outline-offset: -2px; }
+input { border-radius: 0px; }
+img { vertical-align: middle; }
+.sr-only, .ui-helper-hidden-accessible { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); border: 0px none; }
+ul, ol { margin-top: 0px; margin-bottom: 10px; }
+ul ul, ol ul, ul ol, ol ol { margin-bottom: 0px; }
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+.clearfix::after { clear: both; }
+.caret { content: " "; display: block; height: 0px; width: 0px; border-width: 5px; border-style: solid; border-color: transparent transparent transparent rgb(11, 82, 113); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; position: absolute; right: 5px; top: 50%; margin-top: -4px; }
+.site-header { background: rgb(0, 142, 184) none repeat scroll 0% 0%; }
+.site-header a, .site-header a:hover, .site-header a:focus { color: rgb(255, 255, 255); text-decoration: none; display: inline-block; }
+.site-header a:hover, .site-header a:focus { color: rgb(214, 236, 243); }
+.logo-wrapper, .site-nav { float: left; width: 659px; }
+.social, .user-tools { float: right; width: 300px; }
+.logo-wrapper, .user-tools { padding-bottom: 10px; }
+.logo { display: block; background: transparent url("icast-header-logo.png") no-repeat scroll 0px 10px; padding: 44px 0px 0px 150px; position: relative; left: -18px; }
+.logo:hover { color: rgb(255, 255, 255); }
+.logo .slogan { position: relative; bottom: -3px; font-size: 12px; }
+.nav { float: left; list-style: outside none none; margin: 0px; padding: 0px; position: relative; z-index: 3; }
+.nav li { list-style: outside none none; padding: 0px; margin: 0px; float: left; position: relative; z-index: 1; }
+.nav li a { font-size: 14px; }
+.nav > li > a { padding: 0.5em; }
+.nav > li:first-child > a { padding-left: 0px; }
+.nav > li > ul { position: absolute; padding: 0px; margin: -1px 0px 0px; list-style: outside none none; display: none; top: 100%; left: 0.5em; z-index: 3; }
+.nav > li:first-child > ul { left: 0px; }
+.nav ul { margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(0, 142, 184); }
+.nav ul a { color: rgb(56, 62, 73); display: block; padding: 6px; white-space: nowrap; width: 100%; margin-right: 20px; }
+.nav ul a:hover, .nav ul a:focus { color: rgb(0, 142, 184); background: rgb(227, 230, 234) none repeat scroll 0% 0%; }
+.nav ul li { float: none; }
+.nav ul ul { display: none; position: absolute; left: 100%; top: -1px; }
+.constants { padding-top: 6px; display: table; width: 100%; }
+.constants a { height: 25px; line-height: 25px; display: table-cell; vertical-align: middle; text-align: center; position: relative; }
+.constants a:hover { display: table-cell; }
+.constants .icon { display: inline-block; background: transparent url("constants-sprite.png") no-repeat scroll 0% 0%; height: 15px; width: 15px; }
+.constants .alerts .icon { background-position: 0px -11px; }
+.constants .hurricane .icon { background-position: 2px -26px; }
+.constants .help .icon { background-position: 5px -41px; }
+.user-tools { position: relative; z-index: 1; }
+.inav-flyout { display: none; position: absolute; top: 25px; right: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(0, 142, 184); color: rgb(56, 62, 73); margin-top: 6px; z-index: 3; }
+.inav-flyout a { color: rgb(56, 62, 73); display: block; padding: 5px 10px; width: 100%; }
+.inav-flyout a:hover, .inav-flyout a:active { color: rgb(0, 142, 184); background-color: rgb(227, 230, 234); }
+.location-search input { background-color: rgb(247, 247, 249); border: medium none; display: block; width: 100%; padding: 5px; margin: 0px; }
+.location-search .blurred { color: rgb(189, 189, 189); }
+.ui-autocomplete { background: rgb(247, 247, 249) none repeat scroll 0% 0%; position: absolute; list-style: outside none none; padding: 0px; margin: 0px; z-index: 3; max-height: 11.4em; overflow-x: hidden; overflow-y: auto; border-width: 0px 1px 1px; border-style: solid; border-color: rgb(0, 142, 184); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.fb { padding: 5px 0px; overflow: hidden; }
+.fb-btn { border: medium none; overflow: hidden; width: 79px; height: 20px; float: right; }
+.location-bar { background: rgb(56, 62, 73) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.location-bar a { color: rgb(255, 255, 255); }
+.location-bar a:hover, .location-bar a:focus { color: rgb(214, 236, 243); text-decoration: none; }
+.user-location { position: relative; z-index: 2; float: left; }
+.user-location a { display: block; padding: 5px; cursor: pointer; }
+.user-location .current-location { position: relative; padding: 3px 20px 3px 0px; font-size: 14px; display: block; }
+.uni-time { float: right; padding: 5px 0px; }
+.site-footer { padding-top: 10px; font-size: 14px; color: rgb(255, 255, 255); }
+.site-footer a { color: rgb(255, 255, 255); }
+.site-footer a:hover, .site-footer a:focus { color: rgb(214, 236, 243); }
+.site-footer a, .site-footer span { padding: 0px 10px 0px 0px; position: relative; }
+.site-footer a::before, .site-footer span::before { content: ""; display: block; height: 1px; width: 1px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: absolute; top: 50%; left: -7px; }
+.site-footer a:first-child::before, .site-footer span:first-child::before { display: none; }
+.site-footer > div { padding: 5px 0px; }
+.site-footer .help-links { background: rgb(56, 62, 73) none repeat scroll 0% 0%; }
+.site-footer .legal-links { background: rgb(40, 42, 47) none repeat scroll 0% 0%; padding-bottom: 20px; }
+.main { padding-top: 10px; }
+.referral-form { display: none; position: absolute; z-index: 10; top: 131px; left: 50%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(0, 142, 184); width: 172px; margin-left: -86px; }
+.referral-form div div { padding: 5px; }
+.referral-form strong { display: block; padding: 5px; }
+.referral-form img { cursor: pointer; }
+#leftColumn { float: left; width: 660px; padding-right: 10px; }
+#rightColumn { float: left; width: 300px; }
+#rightColumn > div { margin: 10px 0px; }
+.adHeader { height: 27px; background-color: rgb(227, 230, 234); border-bottom: 2px solid rgb(0, 142, 184); line-height: 25px; padding: 0px 10px; font-family: "Segoe UI",Tahoma,sans-serif; font-size: 12px; margin: 0px 0px 10px ! important; }
+.adHeader .title { float: left; }
+.adHeader .miniAd { float: right; }
+#promoAd { margin-bottom: 10px; width: 300px; height: 125px; position: relative; }
+#WX_PageCounter {  }
+#WX_Top300Variable, #WX_Mid300, #WX_Tile1, #WX_Tile2, #WX_PaidSearch { margin-bottom: 10px; }
+#winshade { width: 100%; display: table; background: rgb(227, 230, 234) none repeat scroll 0% 0%; }
+#WX_WindowShade { width: 100%; display: table-cell; text-align: center; }
+#WX_WindowShade::after { content: " "; display: block; width: 1091px; height: 10px; clear: both; background: rgb(255, 255, 255) none repeat scroll 0% 0%; margin-left: -121px; }
+#slideNumbers td { vertical-align: middle; }
+#slideNumbers a { display: block; height: 10px; width: 10px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-radius: 50%; margin: 3px 12px 0px 0px; overflow: hidden; }
+#slideNumbers a.active { background: rgb(56, 62, 73) none repeat scroll 0% 0%; }
+#slideNumbers a img { opacity: 0; }

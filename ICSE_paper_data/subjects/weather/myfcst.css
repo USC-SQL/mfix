@@ -1,0 +1,23 @@
+/* Code tidied up by ScrapBook */
+#myfcst-location-input { font: 8pt Tahoma,sans-serif; width: 100%; margin-bottom: 10px; }
+#myfcst-location-input:focus { box-sizing: initial; }
+label[for="myfcst-location-input"] { color: rgb(51, 85, 0); font-size: 9pt; }
+#myfcst-widget { min-height: 300px; margin-bottom: 15px; }
+#myfcst { padding: 0px; width: 140px; overflow: hidden; font-family: Arial,Helvetica,sans-serif; }
+#myfcst-form { height: 300px; border-top: 2px solid rgb(0, 104, 56); border-bottom: 2px solid rgb(0, 104, 56); padding: 0px; background: transparent url("myfcst-bg.png") repeat scroll 0% 0%; margin: 0px; width: 100%; display: none; }
+#myfcst-form #myfcst-title { text-shadow: 0px 0px 4px rgb(0, 102, 0); padding-top: 24px; color: rgb(255, 255, 255); font-size: 14pt; font-weight: bold; text-align: center; margin-bottom: 5px; }
+#myfcst-input-block { width: auto; margin: 10px 0px 5px; padding: 8px 12px 8px 8px; background: transparent url("myfcst-block-bg.png") repeat scroll 0% 0%; }
+#myfcst-form .myfcst-footer { padding-top: 10px; text-align: center; }
+#myfcst-form .myfcst-policy a:link { color: rgb(255, 255, 255); }
+#myfcst-form .myfcst-policy a:hover { text-decoration: underline; }
+#myfcst-remember { margin-top: 8px; }
+label[for="myfcst-remember"] { color: rgb(51, 85, 0); font-size: 8pt; }
+input#myfcst-submit { margin-bottom: 5px; }
+#myfcst-title { color: rgb(23, 99, 171); font-weight: bold; font-size: 9pt; display: block; }
+.myfcst-hr { clear: both; display: block; width: 100%; border-bottom: 1px solid rgb(148, 198, 239); margin: 5px 0px; }
+.myfcst-footer { white-space: nowrap; text-align: right; }
+.myfcst-footer a, .myfcst-footer label { text-decoration: none; font-size: 9px; }
+#myfcst-error { color: red; font-size: 10px; margin: 0px 4px; display: block; text-align: center; }
+#myfcst-loading { font-size: 16px; padding: 25px 0px; text-align: center; display: none; }
+#myfcst-fcst { display: none; }
+#myfcst-multi-result { display: none; }

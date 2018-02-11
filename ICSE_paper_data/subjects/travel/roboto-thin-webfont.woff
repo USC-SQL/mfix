@@ -1,0 +1,672 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>404 - Page Not Found</title> 
+    <meta http-equiv="keywords" content="" />
+    <meta http-equiv="description" content="null" />
+    <link rel="shortcut icon" href="/etc/designs/travel/images_global/favicon.ico" type="image/x-icon"/> 
+
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="/content/dam/travel/icons/tsg_link_img_display.jpg"/>
+    
+    <!-- START CQ init.jsp -->
+    
+
+    <!-- END CQ init.jsp -->
+    
+    <!-- START clientLib apps.travel -->
+    <link rel="stylesheet" href="/etc/clientlibs/granite/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="/etc/designs/travel/TSGglobal_libs.css" type="text/css">
+<link rel="stylesheet" href="/etc/designs/travel/Travel_libs.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/foundation/jquery-ui/themes/default.css" type="text/css">
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/utils.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/jquery.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery-ui.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/jquery-ui.js"></script>
+<script type="text/javascript" src="/etc/designs/travel/TSGglobal_libs.js"></script>
+<script type="text/javascript" src="/etc/designs/travel/Travel_libs.js"></script>
+
+    <link href="/etc/designs/tsg/headlibs/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+    <!-- END clientLib apps.travel -->
+        
+    <!-- START ForeSee -->
+    <!-- <script src="/foresee/foresee-trigger.js"></script> -->
+    <!-- END ForeSee -->
+    
+    
+        
+        <!-- START CAPTCHA -->
+        <script type="text/javascript" src="//www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+        <script>
+            ;(function (TSG, undefined) {
+                TSG.captchaPublicKey = "6Ldc__QSAAAAAEEeU_ia474-EWCr4LhazMLISoxW";
+            })(window.TSG = window.TSG || {});
+        </script>
+        <!-- END CAPTCHA -->
+    
+    
+    <!-- START DAP -->
+    
+        <script id="_fed_an_ua_tag" language="javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOS&amp;subagency=CA"></script> 
+     
+    <!-- END DAP -->
+    
+    <!--BEGIN QUALTRICS SITE INTERCEPT-->
+    <script type='text/javascript'>
+    (function(){var g=function(e,h,f,g){
+    this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+    this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+    this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+    this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&t=" + (new Date()).getTime();document.body&&document.body.appendChild(a)}};
+    this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()})}};
+    try{(new g(100,"r","QSI_S_ZN_50Cv7F9WVolDnoh","//zn50cv7f9wvoldnoh-travelstategov.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_50Cv7F9WVolDnoh&Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})();
+    </script><div id='ZN_50Cv7F9WVolDnoh'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+    <!--END SITE INTERCEPT-->
+    <!-- Do NOT insert scripts after Qualtrics -->
+</head>
+    
+
+<body id="travel" class="
+404 contentpage">
+
+
+
+   
+
+<!-- skip nav -->
+<div id="skipnav"><a tabindex="-1" href="#content">Skip Navigation</a></div>
+
+<!-- emergencyalert start -->
+ <div class="  EAB_Revised">
+
+<link rel="stylesheet" href="/apps/basic/components/content/EAB_Revised/clientlibs/css/EAB_Revised.css">
+<link rel="stylesheet" href="/apps/basic/components/content/EAB_Revised/clientlibs/css/font-awesome.min.css">
+
+
+<script type="text/javascript" src="/apps/basic/components/content/EAB_Revised/clientlibs/js/EAB_Revised.js"></script>
+
+
+<div id="" class="eab-alerts-mainframe" >
+
+
+
+</div>
+</div>
+
+<!--  emergencyalert end -->
+
+
+
+
+<div style="width: 100%; float: left;"><!--fix for revised EAB TRandler-->
+
+    <div id="html_bg_hook" > 
+
+        <div id="body_bg_hook"> 
+            <div id="wrapper">             
+
+                <!-- header external start  -->
+                
+
+
+
+<!--Internal Start of header-->
+<div id="header">
+    <div tabindex="1" id="top_link_bar">        
+        
+
+<ul class="sitelinks">
+
+
+<li class="portal_nav_travel">
+
+    <!--  /content/travel/en.html -->
+    <a tabindex="1" href="/content/travel/en.html" title="travel.state.gov">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>The official site for the Bureau of Consular Affairs.</p>
+            </div>
+        </div>
+        <span>travel.state.gov</span>
+    </a>
+</li>
+
+
+<li class="portal_nav_passports">
+
+    <!--  http://passports.state.gov/ -->
+    <a tabindex="1" href="http://passports.state.gov/" title="U.S. Passports & International Travel">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>Learn about international travel and getting your U.S. Passport.</p>
+            </div>
+        </div>
+        <span>U.S. Passports & International Travel</span>
+    </a>
+</li>
+
+
+<li class="portal_nav_studentsabroad">
+
+    <!--  /content/studentsabroad/en.html -->
+    <a tabindex="1" href="/content/studentsabroad/en.html" title="Students Abroad">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>Get information and resources for students traveling abroad.</p>
+            </div>
+        </div>
+        <span>Students Abroad</span>
+    </a>
+</li>
+
+
+<li class="portal_nav_visa">
+
+    <!--  /content/visas/en.html -->
+    <a tabindex="1" href="/content/visas/en.html" title="U.S. Visa">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>Learn about getting a U.S. Visa.</p>
+            </div>
+        </div>
+        <span>U.S. Visa</span>
+    </a>
+</li>
+
+
+<li class="portal_nav_adoptionsabroad">
+
+    <!--  /content/adoptionsabroad/en.html -->
+    <a tabindex="1" href="/content/adoptionsabroad/en.html" title="Intercountry Adoption">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>Learn about the process of adopting a child outside the U.S.</p>
+            </div>
+        </div>
+        <span>Intercountry Adoption</span>
+    </a>
+</li>
+
+
+<li class="portal_nav_abduction">
+
+    <!--  /content/childabduction/en.html -->
+    <a tabindex="1" href="/content/childabduction/en.html" title="International Parental Child Abduction">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>Learn how to respond to or prevent an abduction.</p>
+            </div>
+        </div>
+        <span>International Parental Child Abduction</span>
+    </a>
+</li></ul>
+ 
+        <span id="nav_break">|</span>       
+        
+
+<ul class="default">
+
+<li  class="first"><a tabindex="1" href="/content/travel/en/contact.html" title="Contact Us"><img alt="Contact Us" src="/content/dam/travel/icons/icon_contactus.gif"/>Contact Us</a></li>
+
+<li  class="last"><a tabindex="1" href="http://www.usembassy.gov/" title="U.S. Embassies & Consulates"><img alt="U.S. Embassies & Consulates" src="/content/dam/travel/icons/icon_flag.gif"/>Find U.S. Embassies & Consulates</a></li></ul>
+
+    </div>
+    
+        
+        
+            <a id="seal" href="/content/travel/en.html" title="Department of State Travel.State.Gov"></a>
+            <a id="banner" href="/content/travel/en.html" title="Travel Homepage"></a>
+        
+    
+    
+
+<div id="search_bar"> 
+    <form id="search_form" method="get" action="/content/travel/en/search.html"> 
+        <input tabindex="1" type="text" value="" title="search this site" name="search_input" id="search_input" /> 
+        <input tabindex="1" type="image"  src="/etc/designs/travel/images/btn_travel_search.png" value="search" name="search_btn" id="search_btn" alt="search button" /> 
+    </form> 
+</div>
+</div>
+<!--End of header--> 
+                <!-- header external end -->
+                
+                <!-- megamenu external start  -->
+                <div class="megamenu main">
+
+</div>
+
+                <!-- megamenu external end -->
+                
+                <!-- content external start -->
+                
+
+<div id="portal_header_nav">
+    <h1><a href="/content/travel/en/404.html">404 - Page Not Found</a></h1>
+    <div class="travel-nav travel_nav">
+<ul id="portal_main_nav">
+
+</ul>
+
+</div>
+
+</div>
+
+<div id="content">
+    <div id="main">
+        <div class="breadcrumbs breadcrumb"><a tabindex="1" alt="travel.state.gov" href="/content/travel/en.html">travel.state.gov</a> &gt; <span>404 - Page Not Found</span></div>
+
+        <div class="contentlinks parbase">
+
+    <ul class="print-email-ctrls">
+        <li class><a tabindex="1" class="printIcon trackDAP" data-category="TSG_Travel" data-action="Print_Page" alt="Print" href="#">Print</a></li>
+        <li><a tabindex="1" class="emailIcon email-link2 trackDAP" data-category="TSG_Travel" data-action="Email_Page" alt="Email" href="#">Email</a></li>
+    </ul> 
+
+<div class="email-window popup_block">
+    <div class="success-wrap">
+        <h2>Email sent successfully!</h2><br />
+        Thank you for sending a link to the travel.state.gov page
+        <span  class="windowurl">
+        <strong> </strong></span> to the following email(s):<br /><br />
+        <span class="email-list"> </span>
+    </div>
+    <div class="email-share-wrap">
+        <span class="email-title">Email a link to this page on travel.state.gov</span>
+        <strong id="windowtitle"></strong>
+        <p id="windowurl"></p>
+        <form name="EmailLink" id="email-link-form" method="post" action="">
+            <fieldset>
+                <div id="err_email"></div>
+                <label for="Email">To:</label>
+                
+                <fieldset>
+                    <input type="text" id="Email" name="Email" title="Email Address" class="form-input" size="40" />
+                    <span class="required">(required)</span><br>
+                    <span class="details">Separate multiple email addresses with commas.</span><br><br>
+                </fieldset>
+                
+                
+            </fieldset>
+            
+            <fieldset>
+                <div id="err_uemail"></div>
+                <label for="UEmail">From:</label>
+                
+                <fieldset>
+                    <input type="text" id="UEmail" name="UEmail" title="Your Email Address" class="form-input" size="40" />
+                    <span class="required">(required)</span><br>
+                    <span class="details"><input type="checkbox" id="Copy" name="Copy" class="noclass">Send me a copy</span><br><br>
+                </fieldset>
+                
+                
+            </fieldset>
+            
+            <fieldset>
+                <label for="Subject">Subject:</label>
+                <input type="text" id="Subject" name="Subject" size="60">
+            </fieldset>
+            
+            <span>Email addresses provided here will be used solely to email the link indicated. They will not be saved, shared, or used again in any manner whatsoever.</span>
+            
+            <fieldset class="captcha-wrap">
+                <div class="captcha-error">The CAPTCHA code you entered is not valid, please reenter the CAPTCHA code</div>
+                <div id="email-captcha-image"></div>            
+                <input type="button" name="close" class="close-email-window" value="Close" />
+                <input type="submit" name="button" class="submit-email-share" value="Send" />
+            </fieldset>
+        </form>
+    </div>
+</div></div>
+
+        
+
+<h1>404 - Page Not Found</h1>
+        
+
+
+        <div class="intro parsys">
+</div>
+
+        <div class="content parsys"><a name="content_simple_richtextarea" style="visibility:hidden"></a><div class="simple_richtextarea section">
+
+
+<p>Sorry, we couldn't find that page on travel.state.gov. Here are several suggestions to help you find what you’re looking for:</p>
+<ul>
+<li>Try our site search</li>
+<li>Check the website's homepage, <a href="/content/travel/en.html">travel.state.gov</a></li>
+<li>Browse our most visited sections:<ul>
+<li><a href="/content/passports/en.html">Passports and International Travel<br>
+ </a></li>
+<li><a href="/content/visas/en.html">Visas</a></li>
+<li><a href="/content/adoptionsabroad/en.html">Intercountry Adoption</a></li>
+<li><a href="/content/childabduction/en.html">International Parental Child Abduction</a></li>
+</ul>
+</li>
+</ul>
+<p>It is also possible that the page you tried to access is temporarily unavailable. If you think that’s the case, please try again later.</p>
+<p>If you still cannot find something, or to report a website problem, please <a href="/content/travel/en/contact/website-issues.html">contact us</a>.</p>
+<p></p>
+</div>
+
+</div>
+
+    </div>
+
+    <div id="right_rail">
+        
+        <div class="rightrail parsys">
+</div>
+
+    </div>
+</div> 
+                <!-- content external end -->
+                
+                <!-- footer external start -->
+                
+
+
+
+
+
+<!-- Start of Footer -->
+
+  <div id="footer_hook">      
+        <div id="footer"> 
+            <div id="upper_footer"> 
+    <div tabindex="1" id="main_footer_links">
+    
+
+<ul class="default">
+
+<li  class="first"><a tabindex="1" href="/content/travel/en/about.html" title="About Us">About Us</a></li>
+
+<li  class="item"><a tabindex="1" href="/content/travel/en/news.html" title="Newsroom">Newsroom</a></li>
+
+<li  class="item"><a tabindex="1" href="/content/travel/en/statistics.html" title="Reports and Statistics">Reports and Statistics</a></li>
+
+<li  class="last"><a tabindex="1" href="/content/travel/en/legal-considerations.html" title="Legal Considerations">Legal Considerations</a></li></ul>
+
+    
+
+<ul class="default">
+
+<li  class="first"><a tabindex="1" href="http://www.usembassy.gov/" title="Find a U.S. Embassy or Consulate">Find a U.S. Embassy or Consulate</a></li>
+
+<li  class="item"><a tabindex="1" href="/content/travel/en/contact.html" title="Contact Us">Contact Us</a></li>
+
+<li  class="item"><a tabindex="1" href="https://careers.state.gov/" title="Careers">Careers</a></li>
+
+<li  class="last"><a tabindex="1" href="/content/travel/en/consularnotification.html" title="Consular Notification and Access">Consular Notification and Access</a></li></ul>
+
+    </div>
+        <!--End of main_footer_links--> 
+    
+    
+
+
+
+<div id="stayconnected"> 
+    <h5>STAY CONNECTED</h5> 
+         
+
+<ul class="default">
+
+<li  class="first"><a tabindex="1" href="http://blogs.state.gov/" title="Dipnote Blog"><img alt="Dipnote Blog" src="/content/dam/travel/icons/icon_dipnote.png"/>Dipnote Blog</a></li>
+
+<li  class="item"><a class="ext_link" tabindex="1" href="http://www.facebook.com/pages/Bureau-of-Consular-Affairs/9229303148" title="Facebook"><img alt="Facebook" src="/content/dam/travel/icons/icon_facebook.png"/>Facebook</a></li>
+
+<li  class="last"><a class="ext_link" tabindex="1" href="http://www.flickr.com/photos/statephotos" title="Flickr"><img alt="Flickr" src="/content/dam/travel/icons/icon_flickr.png"/>Flickr</a></li></ul>
+
+        
+
+<ul class="default">
+
+<li  class="first"><a class="ext_link" tabindex="1" href="http://twitter.com/TravelGov" title="@travelgov"><img alt="@travelgov" src="/content/dam/travel/icons/icon_twitter.png"/>@travelgov</a></li>
+
+<li  class="item"><a class="ext_link" tabindex="1" href="http://www.youtube.com/user/statevideo" title="Youtube"><img alt="Youtube" src="/content/dam/travel/icons/icon_youtube.png"/>Youtube</a></li>
+
+<li  class="last"><a tabindex="1" href="/content/travel/en/rss.html" title="RSS feed"><img alt="RSS feed" src="/content/dam/travel/icons/rss_icon.jpg"/>RSS</a></li></ul>
+
+</div>
+<!--End of stayconnected-->
+
+
+</div><!--End of upper_footer-->   
+
+
+<div id="portal_navigation"> 
+    <h3><span class="CQ-error">&nbsp;</span></h3> 
+    
+
+<ul class="sitelinks">
+
+
+<li class="portal_nav_travel">
+
+    <!--  /content/travel/en.html -->
+    <a tabindex="1" href="/content/travel/en.html" title="travel.state.gov">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>The official site for the Bureau of Consular Affairs.</p>
+            </div>
+        </div>
+        <span>travel.state.gov</span>
+    </a>
+</li>
+
+
+<li class="portal_nav_passports">
+
+    <!--  http://passports.state.gov/ -->
+    <a tabindex="1" href="http://passports.state.gov/" title="U.S. Passports & International Travel">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>Learn about international travel and getting your U.S. Passport.</p>
+            </div>
+        </div>
+        <span>U.S. Passports & International Travel</span>
+    </a>
+</li>
+
+
+<li class="portal_nav_studentsabroad">
+
+    <!--  /content/studentsabroad/en.html -->
+    <a tabindex="1" href="/content/studentsabroad/en.html" title="Students Abroad">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>Get information and resources for students traveling abroad.</p>
+            </div>
+        </div>
+        <span>Students Abroad</span>
+    </a>
+</li>
+
+
+<li class="portal_nav_visa">
+
+    <!--  /content/visas/en.html -->
+    <a tabindex="1" href="/content/visas/en.html" title="U.S. Visa">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>Learn about getting a U.S. Visa.</p>
+            </div>
+        </div>
+        <span>U.S. Visa</span>
+    </a>
+</li>
+
+
+<li class="portal_nav_adoptionsabroad">
+
+    <!--  /content/adoptionsabroad/en.html -->
+    <a tabindex="1" href="/content/adoptionsabroad/en.html" title="Intercountry Adoption">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>Learn about the process of adopting a child outside the U.S.</p>
+            </div>
+        </div>
+        <span>Intercountry Adoption</span>
+    </a>
+</li>
+
+
+<li class="portal_nav_abduction">
+
+    <!--  /content/childabduction/en.html -->
+    <a tabindex="1" href="/content/childabduction/en.html" title="International Parental Child Abduction">
+        <div class="nav_tooltip">
+            <div class="nav_tooltip_gradient">
+                <p>Learn how to respond to or prevent an abduction.</p>
+            </div>
+        </div>
+        <span>International Parental Child Abduction</span>
+    </a>
+</li></ul>
+
+</div> 
+
+
+    
+<div id="lower_footer"> 
+    
+
+<ul class="default">
+
+<li  class="first"><a tabindex="1" href="http://www.state.gov/misc/415.htm" title="Privacy">Privacy</a></li>
+
+<li  class="item"><a tabindex="1" href="/content/travel/en/copyright-disclaimer.html" title="Copyright and Disclaimer">Copyright & Disclaimer</a></li>
+
+<li  class="item"><a tabindex="1" href="http://www.state.gov/m/a/ips/" title="FOIA ">FOIA </a></li>
+
+<li  class="item"><a tabindex="1" href="http://www.state.gov/s/ocr/c11528.htm" title="No FEAR Act Data">No FEAR Act Data</a></li>
+
+<li  class="item"><a tabindex="1" href="http://oig.state.gov/" title="Office of the Inspector General">Office of the Inspector General</a></li>
+
+<li  class="item"><a class="ext_link" tabindex="1" href="http://www.usa.gov/" title="USA.gov ">USA.gov </a></li>
+
+<li  class="last"><a class="ext_link" tabindex="1" href="http://www.usa.gov/gobiernousa/index.shtml" title="GobiernoUSA.gov ">GobiernoUSA.gov </a></li></ul>
+
+    <p>This site is managed by the Bureau of Consular Affairs, <a tabindex="1" href="http://www.state.gov" title="U.S. Department of State">U.S. Department of State</a>.</p> 
+</div><!--End of lower_footer--> 
+
+
+
+    </div><!--End of footer div--> 
+</div><!--End of footer hook-->
+                
+<!-- End of Footer --> 
+                <!-- footer external end -->  
+
+            </div><!--End of end of wrapper--> 
+        </div> 
+    </div>
+
+</div><!--fix for revised EAB TRandler-->
+
+    
+
+ 
+ <div id="ext_link_hook">
+    <div id="ext_link_dialog" class="ext_link_dialog_style">
+        <div class="header">
+            <h1>External Link</h1>
+        </div>
+        <p>You are about to leave travel.state.gov for an external website that is not maintained by the U.S. Department of State.</p> 
+        
+        <div class="disclaimer">
+            <p>Links to external websites are provided as a convenience and should not be construed as an endorsement by the U.S. Department of State of the views or products contained therein. If you wish to remain on travel.state.gov, click the "cancel" message.</p>
+            <p>You are about to visit:</p>
+            <p class="targetUrl"></p>
+        </div>
+        <form>
+            <fieldset>
+                <p>
+                    <input type="button" name="cancel_btn" class="cancel_btn" value="Cancel" />
+                    <input type="button" name="go_btn" class="go_btn" value="GO" />
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+    /* START Google Analytics */
+    var gaAccount = "UA-21044428-4"; // Production Account
+    
+    if(window.location.hostname !== "travel.state.gov") {
+        gaAccount = "UA-21044428-5"; // QA Author Account
+    } 
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    var trackURL = window.location.href;
+    
+    ga('create', gaAccount, 'auto');
+    ga('send', 'pageview');
+    
+    jQuery("a[href*='://step.state.gov/step'").on("click.stepPromo", function(e) {
+        e.preventDefault();
+        //var title = document.getElementsByTagName("title")[0].innerHTML;
+        ga("send", "event", "TSG_OCS", "STEP-Enroll", trackURL, 1, {
+            hitCallback: function() {
+                document.location = e.target.href;
+            }
+        });
+        if(window.location.hostname.indexOf("state.gov") > 0) {
+            gas("send", "event", "TSG_OCS", "STEP-Enroll", trackURL, 1, {
+                hitCallback: function() {
+                document.location = e.target.href;
+            }
+          });
+        };
+    });
+        
+    jQuery("#country_detail .expandos .expand_all").on("click.expandAll", function(){
+        var countryName = jQuery('#country_header_section h1').text();
+        ga("send", "event", "TSG_OCS", countryName + " Expand All", trackURL, 7);
+        if(window.location.hostname.indexOf("state.gov") > 0) {
+            gas("send", "event", "TSG_OCS", countryName + " Expand All", trackURL, 7);
+        };
+    });
+    jQuery("#country_detail .expandos dt").on("click.expand", function(){
+        var countryName = jQuery('#country_header_section h1').text();
+        var expandName = jQuery(this).find('span:eq(1)').text();
+        ga("send", "event", "TSG_OCS", countryName + " " + expandName, trackURL, 1);
+        if(window.location.hostname.indexOf("state.gov") > 0) {
+            gas("send", "event", "TSG_OCS", countryName + " " + expandName, trackURL, 1);
+        };
+    });
+    
+    /* END Google Analytics */
+</script>
+
+
+            
+</body> 
+    
+</html>

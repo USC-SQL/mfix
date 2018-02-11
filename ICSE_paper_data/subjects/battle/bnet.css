@@ -1,0 +1,21 @@
+/* Code tidied up by ScrapBook */
+html, body { font: 12px/1.5 "Trebuchet MS",Arial,sans-serif; }
+body { min-width: 990px; background: rgb(4, 4, 4) url("bg-top.jpg") no-repeat scroll 50% 0px; color: rgb(74, 74, 74); }
+h2 { color: rgb(57, 57, 57); font-weight: bold; font-size: 28px; letter-spacing: -1px; }
+a { color: rgb(0, 182, 255); }
+a:hover, a:focus { color: rgb(255, 255, 255); }
+*::-moz-selection { color: rgb(238, 238, 238); background: rgb(0, 106, 155) none repeat scroll 0% 0%; }
+.ui-tooltip { color: rgb(196, 210, 219); background: rgb(77, 96, 109) none repeat scroll 0% 0%; border-radius: 4px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); padding: 8px 12px; }
+.wrapper { width: 990px; margin: 0px auto; }
+#layout-top { background: transparent url("bg-sides.png") repeat-x scroll center bottom; }
+#layout-top .wrapper { position: relative; }
+#layout-middle { background: rgb(211, 209, 206) url("bg-middle.jpg") repeat-x scroll center top; border-bottom: 4px solid rgb(119, 118, 116); }
+#layout-bottom { background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+#header { padding-top: 50px; clear: both; }
+#logo { height: 92px; width: 402px; position: relative; z-index: 75; margin-bottom: 10px; }
+#logo a, #logo span { width: 402px; height: 92px; display: block; border: medium none; text-indent: -9999px; background: transparent url("bnet-default.png") no-repeat scroll 0% 0%; }
+#section { margin-top: 10px; background: transparent url("section-bg.png") no-repeat scroll 50% 0px; padding: 20px; }
+#section h2 { color: rgb(98, 115, 126); font-size: 26px; margin-bottom: 5px; font-weight: normal; }
+.homepage #section { padding: 0px 0px 120px; }
+#content { padding: 25px 0px; min-height: 350px; }
+.wrapper { width: 990px; margin: 0px auto; position: relative; }

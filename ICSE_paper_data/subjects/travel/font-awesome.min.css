@@ -1,0 +1,15 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "fontawesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("404_004.html") format("embedded-opentype"), url("fontawesome-webfont.woff2") format("woff2"), url("fontawesome-webfont.woff") format("woff"), url("fontawesome-webfont.ttf") format("truetype"), url("fontawesome-webfont.svg") format("svg");
+}
+@keyframes fa-spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(359deg); }
+}
+@keyframes fa-spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(359deg); }
+}

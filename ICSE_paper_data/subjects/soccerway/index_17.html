@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="ima-sdk-frame">
+<head>
+<meta charset="UTF-8">
+
+    <title></title>
+    <style type="text/css">
+/* Code tidied up by ScrapBook */
+.ima-sdk-frame body { background: transparent none repeat scroll 0% 0%; height: 100%; margin: 0px; overflow: hidden; }
+.ima-sdk-frame { height: 100%; }
+.videoAdUi { -moz-user-select: none; background-color: transparent; bottom: 0px; height: 100%; left: 0px; min-height: 100%; pointer-events: none; position: absolute; right: 0px; top: 0px; overflow: hidden; }
+.videoAdUiBottomBarText, .videoAdUiAuthorName, .videoAdUiLearnMore, .videoAdUiLearnMoreText, .videoAdUiTitle, .videoAdUiAttributionContainer, .videoAdUiShare, .videoAdUiTopButtons, .videoAdUiPreSkipText, .videoAdUiAction { font-family: arial,sans-serif; font-weight: normal; line-height: normal; }
+.videoAdUiTopBar { background: rgb(0, 0, 0) none repeat scroll 0% 0%; border-bottom: 1px solid rgb(68, 68, 68); cursor: default; left: 0px; opacity: 0.8; padding: 0px; pointer-events: auto; position: relative; top: 0px; right: 0px; z-index: 1000; }
+.videoAdUiTopBarWithGradients { background-image: -moz-linear-gradient(center top , rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) 40%, transparent 99%); background-color: transparent; border-bottom: medium none; height: 40px; }
+.videoAdUiTopBarTransitions { transition: opacity 0.5s ease-in 0s; opacity: 0; }
+.videoAdUi:hover .videoAdUiTopBarTransitions { transition: opacity 0.5s ease-out 0s; opacity: 0.8; }
+.videoAdUiBottomBar { background-image: -moz-linear-gradient(center bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) 60%, transparent 99%); bottom: 5px; left: 0px; padding: 0px; pointer-events: auto; position: absolute; width: 100%; z-index: 1000; }
+.videoAdUiProgressBar { background-color: rgb(255, 255, 255); bottom: 0px; cursor: default; left: 0px; pointer-events: auto; position: absolute; width: 100%; z-index: 1000; }
+.videoAdUiProgress { background-image: -moz-linear-gradient(center top , rgb(255, 236, 123), rgb(222, 164, 5)); border-right: 1px solid rgb(102, 102, 102); height: 4px; opacity: 0.9; width: 0%; }
+.videoAdUiBuffer { height: 4px; width: 0%; display: none; }
+.videoAdUiAuthorIcon { background: rgb(0, 0, 0) none repeat scroll 0% 0%; display: inline-block; height: 40px; margin: 0px 10px; position: absolute; }
+.videoAdUiAuthorName { color: rgb(204, 204, 204); cursor: pointer; display: inline-block; font-size: 12px; margin: 10px 5px 5px; text-decoration: none; }
+.videoAdUiLearnMore { color: rgb(255, 255, 255); cursor: pointer; display: inline-block; float: right; font-size: 16px; padding: 5px; }
+.videoAdUiLearnMoreText { color: rgb(229, 187, 0); cursor: pointer; font-size: 13px; margin-bottom: 5px; opacity: 0.9; text-align: center; }
+.videoAdUiLearnMoreText:hover { text-decoration: underline; }
+.videoAdUiLearnMoreIcon { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAIVBMVEUAAAD/0AD/0AD/0QD/0gD/zwD/0AD/0AD/1QD/zwD///+x1gNuAAAACnRSTlMAcuWrVY9HyCpk8FcvuAAAAAFiS0dECmjQ9FYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAA5SURBVAjXFcm5DQAgEMRA84oWyE5LQE4FiB7ovxUOB5MYCBpAlljiCIP7LftgdfqzoOS2HvnXlccDfz8EBUmGo6EAAAAASUVORK5CYII="); display: inline-block; height: 10px; margin-left: 3px; width: 10px; }
+.videoAdUiTitle { color: rgb(255, 255, 255); cursor: pointer; display: inline-block; font-size: 13px; margin: 10px 5px 5px; text-decoration: none; max-width: 50%; }
+.videoAdUiAuthorName:hover, .videoAdUiTitle:hover { text-decoration: underline; }
+.ellipsisText { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.videoAdUiAttributionContainer { bottom: 0px; color: rgb(255, 255, 255); display: inline-block; font-size: 11px; left: 0px; padding: 5px 10px 5px 5px; pointer-events: auto; position: absolute; text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8); }
+.videoAdUiAttribution { display: inline-block; opacity: 0.9; text-align: initial; }
+.videoAdUiAttributionIconContainer { display: inline-block; height: 20px; pointer-events: auto; position: relative; }
+.videoAdUiAttributionIcon { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA51BMVEUAAAH////////////////////////////////19fXJycnAwMDo6Ojz8/Pm5ub+/v6RkZEAAAEAAAEAAAGQkJD6+vrq6upVVVb///+QkJAAAAEAAAHAwMCkpKQAAAHz8/MAAAH29vbg4OAAAAH////IyMgAAAH////8/PwAAAG+vr4AAAH7+/sAAAHn5+f////r6+sAAAGPj4////+lpaX////z8/P////29vYODg/e3t7p6en29vb////////29vYyMjNNTU6np6fi4uL8/Pzt7e0MDA0AAAEAAAEAAAEAAAEAAAH///8wgzAnAAAATHRSTlMAAAVjs9sYu+bGrbXRxBvejnNgRY/hzRNijW8papgExijGzTLhrF+J4lq1RN9w0b7Dbo5PmQbF3cR2HM3FiL3DfBKZz9/Fdl4NAzNcPQMQyAAAAAFiS0dEAf8CLd4AAACiSURBVAjXVY7VFsJADERnKxCcBYq7O5Ti7lL+/3/IwhN5uyc3kwGg6YZpGroGQAAeL/n8gSCFwgo1byQqY/F4wkqmGNOUyeaIgDwVigJGSZZBJIFKtSZQbzQ5QzK22h3Gbg9QMlr9AcvDL/J2NLYFdJr80KEpy7O5lVe3zmK54iisN7Td7fZ0ODb5EXA6X6zr7Xx/PFVJ4OW+bfvtvlRJ8TcfEUIPwEoIHmcAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC"); height: 12px; margin: 10px 10px 0px; }
+.videoAdUiAdSettingsLongTooltip { width: 195px; }
+.videoAdUiAdInfoPopup { background: white none repeat scroll 0% 0%; border: 1px solid black; box-sizing: border-box; color: black; display: none; font-size: 12px; left: -14px; line-height: normal; padding: 7px; position: absolute; text-shadow: none; bottom: 20px; }
+.videoAdUiAttributionContainer:hover .videoAdUiAdInfoPopup { display: inline-block; }
+.videoAdUiAdInfoPopupCallout { border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid white; box-sizing: border-box; display: inline-block; height: 0px; left: 24px; overflow: visible; position: absolute; text-align: center; top: 100%; width: 0px; }
+.videoAdUiShare { color: rgb(255, 255, 255); display: inline-block; float: right; font-size: 13px; margin: 10px 10px 5px; }
+.videoAdUiShare:hover { text-decoration: underline; cursor: pointer; }
+@media all and (min-width: 800px) and (min-height: 400px) {
+  .videoAdUiTitle { font-size: 15px; }
+  .videoAdUiAttribution { font-size: 13px; }
+  .videoAdUiShare { font-size: 15px; }
+}
+</style><script type="text/javascript" id="www-widgetapi-script" src="about:blank" async=""></script><script src="about:blank"></script><script type="text/javascript">/* Code removed by ScrapBook */</script>
+  </head>
+  <body>
+    <script type="text/javascript">/* Code removed by ScrapBook */</script>
+  
+
+<div style="display: block;"><video style="background-color: rgb(0, 0, 0); position: absolute; width: 100%; height: 100%; display: block;" title="Advertisement" webkit-playsinline="true" playsinline="true" src="16_source_39149_124981.webm"></video><iframe id="ima-chromeless-video" style="display: none; position: absolute; width: 100%; height: 100%; background-color: rgb(0, 0, 0);" allowfullscreen="1" title="YouTube video player" src="index_18.html" height="360" frameborder="0" width="640"></iframe></div><div style="position: absolute; visibility: hidden; width: 100%; height: 100%; top: 0px; left: 0px;"></div><div class="videoAdUi videoAdUi-mobile" style=""><div class="videoAdUiTopBar videoAdUiTopBarWithGradients videoAdUiTopBarTransitions" style="display: none;"><div class="videoAdUiAuthorIcon" style="display: none;"></div><div class="videoAdUiTitle ellipsisText" style="display: none;"></div><div class="videoAdUiAuthorName ellipsisText" style="display: none;"></div><div class="videoAdUiLearnMore" style="display: none;">Learn More </div><div class="videoAdUiShare" style="display: none;"></div></div><div class="videoAdUiBottomBar" style="bottom: 0px;"><div class="videoAdUiLearnMoreText" style="display: none;">Learn More <div class="videoAdUiLearnMoreIcon"></div></div><div class="videoAdUiAttributionContainer" style="display: none;"><div class="videoAdUiAttribution">Ad </div><div class="videoAdUiAttributionIconContainer" style="display: none;"><div class="videoAdUiAttributionIcon" id="videoAdUiAttributionIcon"></div><div class="videoAdUiAdInfoPopup"><div class="videoAdUiAdInfoPopupCallout"></div><div class="videoAdUiAdInfoPopupText"><div class="videoAdUiAdSettingsLongTooltip">Visit Google's <a href="https://www.google.com/settings/ads/onweb" target="_blank">Ad Settings</a> to learn more about how ads are targeted or to opt out of personalized ads.</div></div></div></div></div></div><div class="videoAdUiProgressBar" dir="ltr"><div class="videoAdUiBuffer" style="width: 100%;"></div><div class="videoAdUiProgress" style="display: none; width: 28.9044%;"></div></div><div style="width: 100%; height: 100%; pointer-events: auto; cursor: pointer;"></div></div></body>
+</html>

@@ -1,0 +1,56 @@
+/* Code tidied up by ScrapBook */
+.container_16 { width: 99%; margin: auto; }
+.grid_x, .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 { display: inline; float: left; margin-left: 0.35%; margin-right: 0.35%; }
+.pull_push, .push_1, .pull_1, .push_2, .pull_2, .push_3, .pull_3, .push_4, .pull_4, .push_5, .pull_5, .push_6, .pull_6, .push_7, .pull_7, .push_8, .pull_8, .push_9, .pull_9, .push_10, .pull_10, .push_11, .pull_11, .push_12, .pull_12, .push_13, .pull_13, .push_14, .pull_14, .push_15, .pull_15 { position: relative; }
+.alpha { margin-left: 0px; }
+.omega { margin-right: 0px; }
+.grid_4 { width: 24.3%; }
+.grid_5 { width: 30.55%; }
+.grid_6 { width: 36.8%; }
+.grid_7 { width: 43.05%; }
+.grid_8 { width: 49.3%; }
+.grid_9 { width: 55.55%; }
+.grid_12 { width: 74.3%; }
+.grid_16 { width: 99.3%; }
+.container_16 .push_8 { left: 50%; }
+.container_16 .pull_4 { left: -25%; }
+.container_16 .pull_8 { left: -50%; }
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear { background: transparent none repeat scroll 0px center; border: 0px none; clear: both; display: block; float: none; font-size: 0px; list-style: outside none none; margin: 0px; padding: 0px; overflow: hidden; visibility: hidden; width: 0px; height: 0px; }
+.clearfix::after { clear: both; content: "."; display: block; visibility: hidden; height: 0px; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+body { margin: 4px 6px; border: 0px none; background: rgb(54, 101, 194) none repeat scroll 0% 0%; min-width: 950px; }
+.container { width: 100%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; float: left; overflow: hidden; }
+.labeltxt { font: 12px arial; color: rgb(102, 102, 102); }
+A:hover { cursor: pointer; }
+span.close { border-radius: 0.2em; color: rgb(153, 153, 153); font-size: 14px; font-weight: bold; padding: 0px 4px; text-decoration: none; }
+span.close:hover { background: rgb(153, 153, 153) none repeat scroll 0px 0px; color: rgb(51, 51, 51); cursor: pointer; }
+.close { text-decoration: none; color: rgb(153, 153, 153); font-weight: bold; font-size: 14px; padding: 0px 4px; border-radius: 0.2em; }
+.close:hover { background: rgb(153, 153, 153) none repeat scroll 0% 0%; color: rgb(51, 51, 51); }
+.irfooter { margin: 12px auto 0px; height: 60px; }
+.irfooterborder { width: 98%; margin-left: 15px; border-top: 1px solid rgb(206, 207, 206); margin-right: 16px; }
+#irfooterlogo { border-left: 0px solid rgb(0, 0, 0); margin-top: 7px; width: 60%; float: left; height: 47px; margin-left: 18px; border-top: 0px solid rgb(0, 0, 0); border-right: 1px solid rgb(206, 207, 206); }
+.irfooterlink { text-align: center; padding: 9px 20px 0px 0px; margin-top: 2px; margin-bottom: 2px; width: 35%; font: 11px arial; float: right; color: rgb(102, 102, 102); height: 47px; border: 0px solid transparent; }
+#irfooterlogo ul { margin: 0px; padding: 0px; }
+#irfooterlogo ul li { display: inline; float: left; margin: 0px; padding: 0px; }
+#irfooterlogo ul li a { background-image: url("footer_logo.png"); border: 0px solid rgb(0, 0, 0); height: 47px; }
+#irfooterlogo ul li a.visa { background-position: -64px 0px; border: 0px solid rgb(204, 204, 204); position: absolute; width: 38px; margin-left: 480px; }
+#irfooterlogo ul li a.verisign { background-position: 0px 0px; width: 61px; height: 46px; margin-left: 190px; position: absolute; }
+#irfooterlogo ul li a.masterc { background-position: -105px 0px; width: 58px; height: 46px; margin-left: 280px; position: absolute; }
+#irfooterlogo ul li a.safekey { background-position: -162px 0px; width: 78px; height: 46px; margin-left: 370px; position: absolute; }
+#irfooterlogo ul li a.rupay { background-position: -240px 0px; width: 75px; height: 46px; margin-left: 555px; position: absolute; }
+#irfooterlogo ul li a.maharaja { background-position: -322px 0px; width: 47px; height: 47px; margin-left: 650px; position: absolute; }
+#irfooterlogo ul li a.irctctourism { background-position: -380px 0px; width: 116px; height: 46px; margin-left: 710px; position: absolute; }
+@media screen and (max-width: 480px) {
+}
+.adds { border: 1px solid rgb(54, 101, 194); height: 250px; overflow: hidden; }
+a:link { text-decoration: none; }
+a { text-decoration: none; outline: 0px none; }
+a:hover { text-decoration: underline; }
+a:focus { outline: 0px none; }
+#NavContainer { z-index: 102; background-color: rgb(54, 101, 194); margin: 0px; width: 100%; position: relative; height: 19px; padding-top: 5px; }
+ul#topnav { padding: 0px; font-size: 11px; margin: 0px; width: 100%; font-family: "verdana"; list-style-type: none; clear: both; }
+ul#topnav li { padding: 0px; background-color: rgb(54, 101, 194); float: left; margin: 0px 0px 0px 1px; position: relative; }
+ul#topnav li a { padding: 0px 11px 0px 12px; float: left; font-weight: bold; color: rgb(255, 255, 255); line-height: 14px; height: 14px; }
+ul#topnav li:hover a { background-color: rgb(54, 101, 194); text-decoration: none; }
+ul#topnav li a:hover { background-color: rgb(54, 101, 194); text-decoration: none; }

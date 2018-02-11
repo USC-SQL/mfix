@@ -1,0 +1,6 @@
+/* Code tidied up by ScrapBook */
+#BAP-holder img { margin: 0px; padding: 0px; border: 0px none; font: inherit; vertical-align: baseline; max-width: 100%; box-shadow: 0px 0px ! important; background: transparent none repeat scroll 0% 0% ! important; }
+#BAP-holder { position: static ! important; }
+#BAP-holder .bap-trigger { z-index: 9990; }
+.bap-trigger { cursor: pointer; display: block; font-family: Arial; font-size: 8pt; white-space: nowrap; }
+.bap-trigger img { width: auto; height: auto; }

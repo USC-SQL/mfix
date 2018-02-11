@@ -1,0 +1,36 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Rubik Regular"), local("Rubik-Regular"), url("qANs1794lQtUn-lXxRCgzg.woff2") format("woff2");
+  unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Rubik Regular"), local("Rubik-Regular"), url("VKKpdi1QvieDs1ewFsxdAg.woff2") format("woff2");
+  unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Rubik Regular"), local("Rubik-Regular"), url("-fe1N1QeP0UtBmYG66PGsA.woff2") format("woff2");
+  unicode-range: U+590-5FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Rubik Regular"), local("Rubik-Regular"), url("9TMYrMQsWjH1a-MkCFFAmg.woff2") format("woff2");
+  unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Rubik Regular"), local("Rubik-Regular"), url("_mlO9_1N7oXYhEnEzC2l-g.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}

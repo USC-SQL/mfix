@@ -1,0 +1,136 @@
+/* Code tidied up by ScrapBook */
+html { background-color: rgb(250, 246, 240); }
+#html_bg_hook { background: transparent url("bg_portal.jpg") repeat-x scroll left top; height: 100%; }
+#body_bg_hook { padding: 0px; margin: 0px; background: transparent url("bg_header_portal_large.jpg") no-repeat scroll center top; width: 100%; display: table; }
+#wrapper { width: 960px; margin: 0px auto; font-family: Georgia,Times New Roman,Times,serif; }
+#header { position: relative; height: 148px; background: transparent url("banner_portal.png") no-repeat scroll left 20px; }
+#header a#banner { display: block; position: absolute; height: 115px; width: 510px; top: 25px; left: 0px; }
+#search_bar { width: 303px; height: 40px; background: transparent url("bg_search.jpg") no-repeat scroll left top; position: absolute; top: 57px; right: 0px; }
+#search_bar form { margin: 6px 0px 0px 3px; }
+#search_bar input { float: left; }
+#search_bar #search_input { width: 187px; height: 29px; border: medium none; background: transparent url("bg_search_input.png") no-repeat scroll left top; font-size: 14px; font-family: Tahoma,Geneva,sans-serif; color: rgb(59, 59, 59); padding: 0px 5px; margin: 0px 0px 0px 5px; }
+#content { background-color: rgb(255, 255, 255); padding: 10px 10px 90px; width: 940px; overflow: hidden; }
+body.homepage #content { overflow: visible; padding-bottom: 40px; }
+p.header_subtext_grey { color: rgb(191, 191, 191); font-style: italic; }
+#passport_info { background: transparent url("bg_passport_content.jpg") no-repeat scroll left top; width: 620px; float: left; font-family: Georgia,Times New Roman,serif; height: 548px; }
+#passport_info h1 { color: rgb(255, 255, 255); font-size: 30px; margin: 28px 20px 5px; font-weight: lighter; }
+#passport_info p { font-size: 13px; margin-left: 25px; }
+#passport_info a.highlight_url, #visa_info a.highlight_url { font-size: 16px; color: rgb(0, 174, 239); text-decoration: none; font-style: normal; }
+#passport_info a.highlight_url:hover, #visa_info a.highlight_url:hover { text-decoration: underline; color: rgb(51, 225, 255); }
+#visa_info { background: transparent url("bg_visa_content.jpg") no-repeat scroll left top; width: 310px; float: left; margin-left: 10px; height: 550px; }
+#visa_info h2 { color: rgb(77, 77, 77); font-size: 24px; margin: 32px 20px 5px; font-weight: lighter; }
+#visa_info p.header_subtext_blue { font-size: 13px; margin-left: 25px; line-height: 18px; }
+p.header_subtext_blue { color: rgb(64, 109, 128); font-style: italic; }
+#visa_info h3 { margin: 34px 0px 15px 45px; color: rgb(139, 176, 172); font-size: 18px; font-weight: lighter; }
+#visa_info ul { margin: 0px 0px 0px 44px; }
+#visa_info ul li { background: transparent url("bg_transparency_4.png") repeat scroll left top; width: 220px; border-radius: 4px; }
+#visa_info ul li a { display: block; padding: 5px 5px 5px 50px; margin: 0px 0px 5px; color: rgb(83, 71, 65); text-decoration: none; font-size: 14px; background: transparent url("bg_travel_info_arrow_green.png") no-repeat scroll 10px 50%; }
+#visa_info ul li a:hover { background-position: 13px 50%; color: rgb(51, 34, 34); }
+#visa_info .travel_rightPromo { margin: 20px 20px 20px 10px; position: relative; }
+#visa_info .travel_rightPromo .btn { float: right; }
+#visa_info .travel_rightPromo img { float: left; }
+#visa_info .travel_rightPromo h2 { color: rgb(83, 71, 65); font: bold 12px/1.5 Tahoma,Geneva,sans-serif; margin: 0px 0px 0px 140px; position: absolute; }
+#visa_info .travel_rightPromo p { color: rgb(83, 71, 65); font: 12px/1.5 Tahoma,Geneva,sans-serif; margin: 0px 0px 10px 140px; padding-top: 40px; }
+.travel-home-carousel-wrap { width: 324px; margin: 30px 0px 0px 8px; float: left; }
+.travel-home-carousel-wrap ul, .travel-home-carousel-wrap li, .travel-home-carousel-wrap a { margin: 0px; padding: 0px; }
+.travel-home-carousel-wrap li { list-style: outside none none; }
+#travel-home-carousel .image_slide .image_caption { width: 325px; height: 40px; background-color: black; opacity: 0.7; position: absolute; bottom: 7px; left: 6px; color: rgb(255, 255, 255); }
+#travel-home-carousel .image_slide .image_caption h3 { margin: 10px; font-family: Tahoma,Geneva,sans-serif; font-size: 15px; font-weight: lighter; }
+#travel-home-carousel .image_slide .image_caption p { display: none; margin: 10px; }
+.travel-home-carousel-wrap ul#travel-home-carousel { position: relative; z-index: 100; }
+.travel-home-carousel-wrap ul li.image_slide { position: absolute; display: none; z-index: 150; height: 215px; }
+.travel-home-carousel-wrap ul li.selected { display: block; }
+.travel-home-carousel-wrap ul li.image_slide img { position: absolute; left: 5px; bottom: 9px; }
+.travel-home-carousel-wrap ul#travel-home-carousel-controls { margin-left: -35px; margin-top: 4px; width: 50px; cursor: pointer; }
+.travel-home-carousel-wrap ul#travel-home-carousel-controls li { position: relative; background: transparent url("controls_rotator1.png") no-repeat scroll left top; z-index: 200; overflow: hidden; margin-bottom: 2px; }
+.travel-home-carousel-wrap ul#travel-home-carousel-controls li:focus { box-shadow: 0px 1px 1px 1px rgb(102, 102, 102); }
+.travel-home-carousel-wrap ul#travel-home-carousel-controls li.selected { background-position: 0px -48px; }
+.travel-home-carousel-wrap ul#travel-home-carousel-controls li a { text-decoration: none; color: rgb(255, 255, 255); display: block; padding: 15px 10px; }
+.travel-home-carousel-wrap #travel-home-carousel-controls li.selected a { color: rgb(106, 106, 106); }
+#yourpassport { float: left; background: transparent url("bg_yourpassport.png") no-repeat scroll left top; width: 264px; height: 210px; margin: 30px 0px 0px 15px; }
+#yourpassport h3 { margin: 20px 0px 0px 30px; font-size: 18px; font-weight: 200; background: transparent url("bg_blue_arrow.png") no-repeat scroll 190px 4px; }
+#yourpassport h3 a { color: rgb(233, 230, 226); text-decoration: none; }
+#yourpassport h3 a:hover { border-bottom: 1px solid rgb(68, 102, 136); }
+#yourpassport ul { margin: 45px 0px 0px 30px; }
+#yourpassport ul li { margin: 18px 0px; font-size: 14px; }
+#yourpassport ul li a { color: rgb(83, 71, 65); text-decoration: none; }
+#yourpassport ul li a:hover { border-bottom: 1px solid rgb(170, 170, 170); color: rgb(134, 122, 116); }
+#passport_info .country_selection { clear: both; float: left; margin: 65px 20px 0px; color: rgb(31, 31, 31); font-family: Georgia,Times New Roman,Times,serif; font-size: 15px; font-style: italic; position: relative; width: 200px; overflow: hidden; }
+#passport_info .country_selection form label { display: block; margin: 5px 0px 10px; }
+#passport_info .country_selection form { position: relative; }
+#emergency_contact, #step_promo { float: left; position: relative; width: 195px; margin: 0px; height: 75px; top: 65px; text-align: center; }
+#step_promo { float: right; top: -10px; margin-bottom: -15px; }
+#emergency_contact a, #step_promo a { position: absolute; width: 195px; height: 95px; left: 50%; margin: -10px 0px 0px -110px; }
+#step_promo a { background: transparent url("step-logo-sm.png") no-repeat scroll center top; height: 110px; margin-left: -98px; }
+#step_promo img { display: none; }
+#emergency_contact a:hover, #step_promo a:hover { color: rgb(196, 230, 255); }
+#emergency_contact p, #step_promo p { font: 14px/1 Tahoma,Geneva,sans-serif; color: rgb(255, 255, 255); width: 195px; padding: 18px 35px 15px 15px; display: table-cell; height: 75px; vertical-align: middle; }
+#step_promo p { font: italic 16px Georgia,"Times New Roman",Times,serif; padding: 25px 20px 15px 10px; }
+#emergency_contact:hover p, #step_promo:hover p { color: rgb(196, 230, 255); }
+#emergency_contact p span, #step_promo p span { display: block; margin-top: 5px; }
+#step_promo p span { font: 12px Verdana,Geneva,sans-serif; margin-top: 1px; }
+#travel_link_list { clear: both; float: left; margin: 50px 0px 0px 30px; }
+#travel_link_list li { float: left; padding: 0px 14px 0px 0px; margin: 0px 10px 0px 0px; background: transparent url("bg_blue_arrow.png") no-repeat scroll right 4px; }
+#travel_link_list li a { text-decoration: none; color: rgb(255, 255, 255); font-size: 15px; }
+#travel_link_list li a:hover { border-bottom: 1px solid rgb(119, 153, 187); color: rgb(196, 230, 255); }
+#subfeature { clear: both; padding: 20px 0px 0px; width: 940px; overflow: hidden; }
+.four_dot_divider { display: block; background: transparent url("bg_four_verticle_dots.png") repeat-x scroll left top; }
+.bottom_divide { margin: 20px 0px 0px; clear: both; }
+#subfeature a { color: rgb(0, 174, 239); text-decoration: none; }
+#subfeature .warnings_alerts a:hover { text-decoration: underline; color: rgb(51, 225, 255); }
+#subfeature .column_wrapper { float: left; margin: 20px 0px; background: transparent url("bg_four_dot_separator.png") repeat-y scroll left top; }
+#subfeature .list_column { float: left; width: 285px; margin: 0px 0px 0px 25px; }
+#subfeature .column_wrapper li h2 { color: rgb(77, 77, 77); margin: 0px 0px 10px; font: lighter 24px/1.4 Georgia,Times New Roman,times,serif; }
+#subfeature .column_wrapper li p { color: rgb(64, 109, 128); font-size: 16px; font-style: italic; line-height: 20px; }
+#subfeature .tw { font-family: Verdana,Geneva,sans-serif; font-size: 12px; }
+#subfeature .tw li { padding-left: 30px; background: transparent url("bg_warning_alert_sprite.png") no-repeat scroll 0px 0px; }
+#subfeature .tw li.warning { background-position: 0px 2px; }
+#subfeature .tw li.caution { background-position: 0px -234px; }
+#subfeature .tw .pubdate { display: block; color: rgb(171, 171, 171); font: 9px/1.4 "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif; padding-top: 5px; }
+#subfeature a.more { display: block; color: rgb(198, 156, 109); font-size: 10px; text-align: right; margin: 20px 40px 0px 0px; font-family: Verdana,Geneva,sans-serif; font-style: normal; }
+#subfeature a.more:visited { color: rgb(236, 184, 147); }
+#subfeature a.more:hover, #subfeature a.more:active #country_detail .tw .more:hover, #country_detail .tw .more:active { text-decoration: underline; color: rgb(249, 207, 160); }
+#footer { padding: 40px 0px 0px; background: transparent url("bg_travel_top_footer_shadow.jpg") no-repeat scroll left top; overflow: auto; }
+#upper_footer { float: left; width: 960px; background: transparent url("bg_travel_bottom_footer_shadow.png") no-repeat scroll left bottom; padding: 0px 0px 36px; min-height: 180px; }
+#main_footer_links ul li { background: transparent url("bullet_travel_four_dot_transparent.png") no-repeat scroll left 9px; border-top: 1px solid rgb(218, 214, 205); }
+#main_footer_links ul li a { color: rgb(48, 63, 87); }
+#main_footer_links ul li a:hover { color: rgb(119, 119, 119); text-decoration: underline; }
+#lower_footer { clear: both; background: transparent url("logo_ca_tan.gif") no-repeat scroll 20px bottom; height: 90px; padding: 30px 0px 0px 130px; margin-bottom: 40px; }
+#lower_footer a { font-family: Tahoma,Geneva,sans-serif; font-size: 11px; }
+#lower_footer ul li a { text-decoration: none; color: rgb(54, 72, 99); }
+#lower_footer a:visited { color: rgb(68, 54, 99); }
+#lower_footer a:hover, #lower_footer a:active { text-decoration: underline; color: rgb(92, 110, 137); }
+#lower_footer ul { overflow: hidden; margin: 24px 0px 0px; }
+#lower_footer ul li { float: left; margin: 0px 5px 0px 0px; padding-right: 14px; background: transparent url("bg_portal_dot_separator.png") no-repeat scroll right center; }
+#lower_footer p { font: 11px Tahoma,Geneva,sans-serif; clear: left; margin: 10px 0px 0px; width: 550px; color: rgb(99, 99, 99); }
+#lower_footer p a { color: rgb(54, 72, 99); text-decoration: none; }
+#portal_navigation { clear: both; float: left; width: 960px; font: 14px/1.4 georgia; margin: -25px 0px 0px; }
+#portal_navigation h3 { font: italic 12px georgia; color: rgb(99, 99, 99); margin: 0px 0px 10px 30px; }
+#portal_navigation li { float: left; position: relative; }
+#portal_navigation li a { display: block; float: left; text-decoration: none; text-align: center; border-right: 1px solid rgb(250, 246, 240); color: rgb(40, 86, 155); height: 50px; background: transparent url("bg_transparency_8.png") repeat scroll left top; }
+#portal_navigation li.portal_nav_abduction a { border-right: medium none; }
+#portal_navigation li a:hover { color: rgb(0, 34, 89); text-decoration: underline; }
+#portal_navigation li.portal_nav_travel a { width: 156px; }
+#portal_navigation li.portal_nav_passports a { width: 165px; }
+#portal_navigation li.portal_nav_students a, #portal_navigation li.portal_nav_studentsabroad a { width: 153px; }
+#portal_navigation li.portal_nav_visa a { width: 112px; }
+#portal_navigation li.portal_nav_adoption a, #portal_navigation li.portal_nav_adoptionsabroad a { width: 187px; }
+#portal_navigation li.portal_nav_abduction a { width: 182px; }
+#portal_navigation li a span { text-align: left; }
+#portal_navigation li.portal_nav_travel a span { display: block; margin-top: 15px; padding-left: 32px; }
+#portal_navigation li.portal_nav_passports a span { display: block; margin-top: 5px; padding-left: 21px; }
+#portal_navigation li.portal_nav_students a span, #portal_navigation li.portal_nav_studentsabroad a span { display: block; margin-top: 15px; padding-left: 25px; }
+#portal_navigation li.portal_nav_visa a span { display: block; margin-top: 15px; padding-left: 27px; }
+#portal_navigation li.portal_nav_adoption a span, #portal_navigation li.portal_nav_adoptionsabroad a span { display: block; margin-top: 15px; padding-left: 25px; }
+#portal_navigation li.portal_nav_abduction a span { display: block; margin-top: 5px; padding-left: 23px; }
+body#travel #portal_navigation li.portal_nav_travel a, body#passports #portal_navigation li.portal_nav_passports a, body#students #portal_navigation li.portal_nav_students a, body#visas #portal_navigation li.portal_nav_visa a, body#adoption #portal_navigation li.portal_nav_adoption a, body#abduction #portal_navigation li.portal_nav_abduction a { background: transparent url("bg_transparency_4.png") repeat scroll left top; }
+body#travel .megamenu { display: none; }
+body#travel #portal_navigation li.portal_nav_travel a { background: transparent url("bg_transparency_4.png") repeat scroll left top; color: rgb(99, 99, 99); }
+.warnings_alerts { margin-bottom: 15px; overflow: hidden; }
+.warnings_alerts li { width: 210px; float: left; margin: 0px 20px 5px 0px; }
+.tw li.alert span, .tw li.warning span, .tw li.notice span { display: block; color: rgb(171, 171, 171); font: 9px/1.4 "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif; padding-top: 2px; }
+.four_dot_divider { background: transparent url("bg_four_verticle_dots.png") repeat-x scroll left top; display: block; clear: both; }
+input, select { border: 1px solid rgb(136, 136, 136); background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 3px 4px; color: rgb(34, 34, 34); margin: 0px 5px 0px 0px; border-radius: 7px; }
+input:focus, select:focus { outline: medium none; }
+#search_bar input#search_btn { border: 0px none; margin: 0px 0px 0px -1px; padding: 0px; background: transparent none repeat scroll 0% 0%; }
+input[type="text"] { border: 1px solid rgb(183, 183, 183); float: left; font-size: 12px; margin: 1px 5px 0px 0px; padding: 7px 3px; border-radius: 3px; }

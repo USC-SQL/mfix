@@ -1,0 +1,33 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "DinPRO";
+  src: url("DINWebPro.woff") format("woff"), url("DINWebPro.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GeForceLight";
+  src: url("GeForceLight.woff") format("woff"), url("GeForceLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GeForceBold";
+  src: url("GeForceBold.woff") format("woff"), url("GeForceBold.ttf") format("truetype");
+}
+body { font-family: "Trebuchet MS",Arial,Helvetica,sans-serif; }
+a { color: rgb(118, 185, 0); }
+a:hover { color: rgb(51, 51, 51); }
+a:active { color: rgb(119, 119, 119); }
+#leftBar { padding-top: 20px; width: 50px; position: fixed; top: 0px; bottom: 0px; left: 0px; z-index: 200; }
+#leftBar .leftBar-item { margin-top: 10px; }
+@media screen and (min-width: 1200px) {
+  #leftBar { padding-top: 20px; width: 50px; position: fixed; top: 0px; bottom: 0px; left: 0px; }
+  #leftBar .leftBar-item { margin-top: 10px; }
+}
+html, body { height: 100%; width: 100%; }
+input, textarea { padding: 3px 5px; font-family: "Trebuchet MS",Arial,Helvetica,sans-serif; font-size: 13px; line-height: 14px; }
+input:focus, textarea:focus { box-shadow: 0px 0px 3px 0px rgb(117, 117, 117); z-index: 1; }
+@media print {
+  p { text-transform: uppercase; }
+}
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+}

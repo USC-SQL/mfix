@@ -1,0 +1,95 @@
+/* Code tidied up by ScrapBook */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-size: 100%; vertical-align: baseline; background: transparent none repeat scroll 0% 0%; }
+input, textarea { margin: 0px; padding: 0px; }
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+input, textarea, select {  }
+body { line-height: 1; }
+ol, ul { list-style: outside none none; }
+select:focus, input:focus { outline: 0px none; }
+body h1 *, body h2 *, body h3 *, body h4 *, body h5 *, body h6 *, body b * { font-weight: bold; }
+body { font-size: 62.5%; background-color: rgb(255, 255, 255); font-family: Arial,"Lucida Grande",Geneva,Verdana,Helvetica,Lucida Sans Unicode,sans-serif; color: rgb(0, 0, 0); }
+a img { vertical-align: bottom; }
+a { text-decoration: none; outline: 0px none; color: rgb(0, 126, 138); }
+a:hover { text-decoration: underline; }
+a:focus { outline: 0.1em dotted gray; }
+legend, dl, label, p, input, textarea, select, table, li { font-size: 1.2em; }
+li li, li p, table li, li h2, li h3, li h4, li h5, li h6, li label, td p, th p, table table, li input, li select, li dl, li table, table label, table input, dl dl { font-size: 1em; }
+label { cursor: pointer; }
+h1 { margin: 0px; font-size: 2em; color: rgb(93, 93, 93); }
+h2 { margin: 0px 0px 1em; }
+h2, h3, h4, h5, h6 { color: rgb(93, 93, 93); font-size: 1.2em; }
+.ribbon__quarter { display: block; float: left; height: 4px; width: 25%; clear: right; }
+.ribbon__first { background-color: rgb(46, 151, 222); }
+.ribbon__second { background-color: rgb(0, 161, 134); }
+.ribbon__third { background-color: rgb(221, 190, 0); }
+.ribbon__fourth { background-color: rgb(235, 113, 0); }
+#leftBorder { width: 97.9em; margin: 0px auto; position: relative; }
+#rightBorder { width: 97.9em; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 0px 1em; }
+#fullWidthContent { margin: 0px 0px 1em 0.8em; overflow: hidden; }
+#skip { position: absolute; left: 0px; top: -50em; }
+#skip a:active, #skip a:focus { position: static; }
+.l-header-container, .l-banner-container { width: 97.9em; margin: 0px auto; }
+.l-header { padding: 3.5em 0px 0.7em; position: relative; }
+.js_en .l-header { padding: 3.5em 0px 4.5em; }
+#header { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-bottom: 1px solid rgb(218, 218, 218); z-index: 101; position: relative; min-height: 80px; height: auto ! important; }
+.header-logo { color: rgb(0, 0, 0); display: block; float: left; font-size: 1em; font-weight: bold; padding-left: 26px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; margin: 0px 0px 0px 3px; }
+.header-user-access { display: none; visibility: hidden; }
+.js_en .header-user-access { display: block; visibility: visible; float: right; width: 140px; margin-top: 0.2em; padding-right: 1.3em; }
+.header-user-access a { color: rgb(35, 31, 32); text-decoration: none; font-weight: bold; font-size: 1.2em; float: left; width: 116px; }
+.header-user-access__arrow { display: block; float: right; height: 14px; width: 14px; }
+.header-user-access__user { display: block; height: 20px; float: left; margin: -6px 0.4em 0px 0px; width: 20px; }
+.icons-sprite, .icons-article-nav-arrow, .icons-article-support-info, .icons-article-support-pdf, .icons-article-support-references, .icons-article-tools-email, .icons-article-tools-favourite, .icons-article-tools-print, .icons-article-tools-share, .icons-article-tools-text-size, .icons-user-access-arrow, .icons-user-access-user { background: transparent url("icons-seecf0dbd82.png") no-repeat scroll 0% 0%; }
+.icons-user-access-arrow { background-position: 0px -222px; }
+.icons-user-access-user { background-position: 0px -150px; }
+#globalMenu { height: auto; margin: 1.9em 0px 2.2em; width: auto; text-align: left; }
+.js_en #globalMenu { height: 4.3em; }
+#globalMenu div { background: rgb(0, 164, 182) none repeat scroll 0% 0%; min-width: 36em; }
+#globalMenu ul { font-size: 1.05em; overflow: hidden; }
+#globalMenu ul li { font-size: 1em; float: left; margin-left: 11px; margin-right: 16px; padding: 1.4em 0px; }
+#globalMenu ul li a { text-decoration: none; padding: 0px 0.6em; font-weight: normal; font-size: 14px; color: rgb(255, 255, 255); }
+#globalMenu ul li a:hover { text-decoration: underline; }
+#globalMenu #resourcesMenu { display: none; }
+#header #coBranding { text-align: center; float: right; }
+#header #coBranding img { margin: -1.9em 0px 0px; max-height: 56px; }
+#footer { clear: both; position: relative; padding: 0px 0px 1.5em; }
+#footer li { display: inline; font-size: 0.9em; }
+.l-footer-container { overflow: hidden; width: 100%; }
+.footer-wol { background: rgb(225, 233, 235) none repeat scroll 0% 0%; border-left: 8px solid rgb(0, 164, 180); overflow: hidden; }
+.footer-wol__logo { float: left; padding: 1.2em 2.4em 0.8em 0.6em; }
+.footer-wol__primary-nav { line-height: 1em; margin-left: 190px; padding-top: 0.9em; }
+.footer-wol__primary-nav a { font-size: 1.2em; color: rgb(15, 81, 94); font-weight: bold; margin-right: 2.3em; text-decoration: none; }
+.footer-wol__primary-nav a:hover, .footer-wol__primary-nav a:focus { text-decoration: underline; }
+.footer-wol__secondary-nav { line-height: 0.8em; margin-left: 190px; padding-top: 0.5em; padding-bottom: 0.7em; }
+.footer-wol__secondary-nav a { font-size: 1.2em; color: rgb(15, 81, 94); font-weight: normal; margin-right: 2.5em; text-decoration: none; }
+.footer-wol__secondary-nav a:hover, .footer-wol__secondary-nav a:focus { text-decoration: underline; }
+.footer-global { clear: left; padding: 1em 0px 2em; margin: 1.2em 0px 1em; }
+.footer-global__copyright { font-size: 1.1em; color: rgb(37, 37, 37); float: left; font-weight: bold; }
+.footer-global__nav { float: right; margin-top: -5px; }
+.footer-global__nav a { font-size: 1.2em; color: rgb(82, 82, 82); font-weight: bold; margin-right: 1.2em; text-decoration: none; }
+.footer-global__nav .last a { margin-right: 0px; margin-left: 6px; }
+.footer-global__nav a:hover, .footer-global__nav a:focus { text-decoration: underline; }
+.menuGroup li a.openAccesscolumn { margin-left: 0px; text-indent: 0px; }
+.menuGroup { margin: 0px 0px 0.8em; }
+.menuGroup h2 { border-top-left-radius: 0.6em; background-color: rgb(225, 233, 235); color: rgb(0, 126, 139); margin: 0px; padding: 0.3em 0px 0.3em 0.6em; text-transform: uppercase; }
+.menuGroup h3 { border-left: 2px solid rgb(238, 238, 238); border-top: 2px solid rgb(238, 238, 238); border-top-left-radius: 0.6em; font-size: 1.1em; color: rgb(0, 126, 139); margin: 0px; padding: 0.35em 0px 0px 0.5em; }
+.menuGroup ul, .menuGroup ol { border-left: 2px solid rgb(238, 238, 238); padding: 0px 0.2em 0.2em 0.5em; }
+.menuGroup li { color: rgb(117, 115, 115); font-size: 1.1em; padding: 0.3em 0px 0px; line-height: 1.5em; }
+.menuGroup ul ul, .menuGroup ul ol, .menuGroup ol ul, .menuGroup ol ol { background-color: rgb(255, 255, 255); left: 17.4em; top: -1em; width: 15em; z-index: 10; border: 0px none; }
+.menuGroup li h3 { border: 0px none; border-radius: 0px; font-size: 1.1em; color: rgb(0, 126, 139); padding: 0px; }
+.menuGroup li a { color: rgb(61, 61, 61); display: block; line-height: 1.2em; margin-left: 1.2em; text-indent: -1.2em; }
+.header-user-access--nojs { display: block; visibility: visible; float: right; width: 140px; margin-top: 0.2em; padding-right: 1.3em; }
+.header-user-access--nojs a { color: rgb(35, 31, 32); text-decoration: none; font-weight: bold; font-size: 1.2em; float: left; width: 116px; }
+.js_en .header-user-access--nojs { display: none; visibility: hidden; }
+#coBranding img { max-width: 160px; }
+#browseBySubject { padding: 0.5em 0px 0px 0.5em; }
+#browseBySubject li { clear: left; font-size: 1.3em; padding: 0px; position: relative; width: auto; }
+#browseBySubject li a { padding: 0.4em 1em 0.4em 0.5em; display: block; position: relative; cursor: pointer; }
+.js_en #browseBySubject li div { display: none; left: 15.5em; top: 0px; position: absolute; z-index: 10; margin: -2em 0px 0px; border: 2px solid rgb(225, 234, 233); padding: 1em; float: left; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#browseBySubject li div ol { float: left; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; width: 15em; }
+#browseBySubject li li { font-size: 1em; margin: 0px; padding: 0.25em 1em; position: relative; z-index: 101; }
+#browseBySubject li li:hover, #browseBySubject li li.hover { background: rgb(225, 233, 235) none repeat scroll 0% 0%; color: rgb(194, 50, 15); }
+.js_en #globalMenu #resourcesMenu { position: absolute; top: 21px; left: 17em; background: transparent url("resourcesMenuPointer.gif") no-repeat scroll -4.5em 0px; padding-top: 1.3em; min-width: 0px; bottom: inherit; z-index: 105; }
+.js_en #globalMenu #resourcesMenu ul { padding: 1em; background-color: rgb(255, 255, 255); border-left: 3px solid rgb(233, 239, 240); border-right: 2px solid rgb(233, 239, 240); border-bottom: 2px solid rgb(233, 239, 240); background-image: none; margin-top: 0.1em; }
+.js_en #globalMenu #resourcesMenu li { line-height: 1.6em; float: none; background-color: rgb(255, 255, 255); margin-top: 0px; padding: 0px; }
+.js_en #globalMenu #resourcesMenu li a { width: 11em; display: block; border-left: medium none; color: rgb(0, 126, 138); font-weight: normal; padding: 0.4em 1em; background-color: rgb(255, 255, 255); font-size: 1.08em; }
+.js_en #globalMenu #resourcesMenu li a:hover { background-color: rgb(233, 239, 240); text-decoration: none; }

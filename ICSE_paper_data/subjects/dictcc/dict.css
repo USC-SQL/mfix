@@ -1,0 +1,40 @@
+/* Code tidied up by ScrapBook */
+body { margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); }
+body, table, tr, td, div, p { font-family: arial,helvetica,sans-serif; font-size: 13px; }
+a, a:visited { color: black; }
+#maincontent, .mc { background-color: white; width: 730px; padding: 15px 10px 5px; overflow: hidden; }
+td { padding-left: 6px; padding-right: 6px; }
+table.nopad td, td.nopad { padding: 0px; }
+em { color: rgb(51, 102, 204); font-style: normal; font-weight: bold; }
+#overDiv td { padding-left: 1px; padding-right: 1px; }
+a.nolibg, a.noline, .noline a, .nolibg a, .noli666 a, .noli666, .subnav a, .orangebar a, .rightli a, .searchh1 a { text-decoration: none; }
+.noli666 a, .noli666 { color: rgb(102, 102, 102); }
+a.nolibg:hover, .nolibg a:hover { background-color: white; }
+a.noline:hover, .noline a:hover, .noli666 a:hover, a.noli666:hover, .subnav a:hover, .orangebar a:hover, .rightli a:hover, .searchh1 a:hover { text-decoration: underline; }
+a.hometaba, a.hometabi:hover { background-color: darkorange; text-decoration: none; color: white; padding: 3px 6px 1px; }
+a.hometabi { text-decoration: none; color: darkorange; border: 1px solid darkorange; padding: 2px 6px 1px; }
+.td1 a, .td1nl a, .td2 a, .td2nl a { color: white; }
+.td1nl a, .td2nl a, .td3nl a, .td4nl a, .td7nl a { text-decoration: none; }
+.td1nl a:hover, .td2nl a:hover, .td3nl a:hover, .td4nl a:hover, .td7nl a:hover { text-decoration: underline; }
+.orangebar, .subnav, .bluebar, .subblue { border-bottom: 1px solid white; width: 716px; padding: 3px 6px; height: 16px; margin-left: 1px; }
+.orangebar { background-color: darkorange; background-image: url("bg_orangebar.gif"); }
+.subnav { background-color: rgb(255, 204, 102); background-image: url("bg_subnav.gif"); background-repeat: repeat-x; }
+.bluebar { background-color: rgb(51, 102, 204); color: white; }
+.bluebar a, .subblue a { color: white; }
+h1.mainheadline { font-size: 12px; margin: -6px 0px 0px 4px; color: darkorange; font-weight: normal; }
+.hl1, h1 { color: darkorange; font-size: 16px; font-weight: bold; margin: 25px 0px 3px; }
+.hl2, h2 { font-size: 12pt; font-weight: bold; margin: 13px 0px 0px; }
+.hl3, h3 { color: rgb(51, 102, 204); font-size: 14px; font-weight: bold; margin: 13px 0px 0px; }
+.td1, .td1nl { color: white; background-color: rgb(51, 102, 204); }
+.td2, .td2nl { color: white; padding: 3px 6px; background-color: rgb(102, 102, 102); }
+.td7, .td7nl, .td7cml, .td7cmr { background-color: rgb(234, 234, 234); border-bottom: 1px solid rgb(204, 204, 204); overflow-wrap: break-word; }
+.aftertable { margin: 2px 2px 4px 6px; font-size: 11px; color: rgb(153, 153, 153); font-style: italic; }
+.aftertable a, a.aftertable { color: rgb(153, 153, 153); }
+.news { border-left: 4px solid rgb(51, 102, 204); background-color: rgb(221, 230, 239); padding: 6px 6px 6px 9px; margin-bottom: 3px; border-bottom: 1px solid rgb(102, 102, 102); }
+.inp1 { border-width: 1px; background-color: darkorange; color: white; }
+.inp2 { border-width: 1px; background-color: rgb(221, 221, 221); width: 26px; }
+@media print {
+  .orangebar, .subnav { visibility: hidden; }
+  #adxtop, #adxtop2, #adrig, #langbar { display: none; }
+  div { overflow: visible ! important; }
+}

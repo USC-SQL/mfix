@@ -1,0 +1,5 @@
+/* Code tidied up by ScrapBook */
+@import url("search.css");
+#txtError { background-color: rgb(179, 224, 247); border-radius: 5px; display: none; font-size: 8pt; opacity: 0.95; padding: 4px; position: absolute; width: 320px; z-index: 1000; }
+#inputstring { font-size: 8pt; width: 93px; height: 23px; color: rgb(153, 153, 153); }
+#btnCloseError { margin-top: 3px; }

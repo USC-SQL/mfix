@@ -1,0 +1,17 @@
+/* Code tidied up by ScrapBook */
+#content #alerts { display: none; overflow-y: auto; overflow-x: hidden; height: 217px; width: 249px; margin-left: -9px; }
+#content #alerts div { padding-left: 5px; }
+#content #cities {  }
+#content #cities td { border-bottom: 1px solid rgb(227, 230, 234); white-space: nowrap; padding: 4px 0px; font-family: "Segoe UI",Tahoma,sans-serif; }
+#content #homeTop tr { vertical-align: top; }
+#content #sliders { width: 398px; }
+#content #sliders .Container { height: 247px; width: 396px; overflow: hidden; }
+#content #slideControlPanel { height: 30px; background-color: rgb(56, 62, 73); border-top: 1px solid rgb(255, 255, 255); padding-top: 5px; }
+#content #slideNumbers { padding-left: 10px; width: 100px; }
+#content #slideNumbers td { padding-right: 5px; }
+#content #rotatorDiv2, #content #rotatorDiv3, #content #rotatorDiv4, #content #rotatorDiv5 { visibility: hidden; display: none; }
+#content #search { float: left; }
+#content #focus { overflow: hidden; }
+#content .HomeColumns { float: left; width: 322px; }
+#content .HomeColumns .Container { height: 130px; }
+#content .HomeColumns ul { margin-top: 5px; margin-left: 15px; }

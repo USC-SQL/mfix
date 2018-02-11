@@ -1,0 +1,26 @@
+/* Code tidied up by ScrapBook */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, table, th, td, textarea { margin: 0px; padding: 0px; font-size: 12px; line-height: 1.5; }
+table { border-collapse: separate; border-spacing: 0px; }
+fieldset, img, abbr { border: 0px none; }
+html, body { font-size: 12px; color: rgb(204, 204, 204); text-align: center; font-family: "メイリオ",Meiryo,"Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","ＭＳ Ｐゴシック","Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; background-color: rgb(0, 0, 0); }
+#corp { text-align: left; height: 38px; background: rgb(0, 0, 0) url("bg.png") repeat-x scroll 0% 0%; }
+#corp a { display: block; width: 141px; height: 38px; background-image: url("logo.png"); }
+#content { background: rgb(0, 0, 0) url("bg.jpg") no-repeat scroll center top; }
+#xiv-logo { padding: 32px 0px 0px; }
+#text { padding: 10px 0px 0px; }
+#flag-container { margin: 14px auto 144px; }
+.flag { width: 100px; height: 64px; display: block; }
+.flag:hover { background-position: 0px bottom; }
+#ja { background-image: url("btJA.png"); }
+#na { background-image: url("btNA.png"); }
+#uk { background-image: url("btUK.png"); }
+#fr { background-image: url("btFR.png"); }
+#de { background-image: url("btDE.png"); }
+#anz { background-image: url("btANZ.png"); }
+#no { background-image: url("btNO.png"); }
+#se { background-image: url("btSE.png"); }
+#dk { background-image: url("btDK.png"); }
+#fi { background-image: url("btFI.png"); }
+#hk { background-image: url("btHK.png"); }
+#sg { background-image: url("btSG.png"); }
+.bound { width: 960px; margin: auto; }

@@ -1,0 +1,50 @@
+/* Code tidied up by ScrapBook */
+.cc_banner-wrapper { z-index: 9001; position: relative; }
+.cc_container .cc_btn { cursor: pointer; text-align: center; font-size: 0.6em; transition: font-size 200ms ease 0s; line-height: 1em; }
+.cc_container .cc_message { font-size: 0.6em; transition: font-size 200ms ease 0s; margin: 0px; padding: 0px; line-height: 1.5em; }
+.cc_container .cc_logo { display: none; text-indent: -1000px; overflow: hidden; width: 100px; height: 22px; background-size: cover; background-image: url("logo.png"); opacity: 0.9; transition: opacity 200ms ease 0s; }
+.cc_container .cc_logo:hover, .cc_container .cc_logo:active { opacity: 1; }
+@media screen and (min-width: 500px) {
+  .cc_container .cc_btn { font-size: 0.8em; }
+  .cc_container .cc_message { font-size: 0.8em; }
+}
+@media screen and (min-width: 768px) {
+  .cc_container .cc_btn { font-size: 1em; }
+  .cc_container .cc_message { font-size: 1em; line-height: 1em; }
+}
+@media screen and (min-width: 992px) {
+  .cc_container .cc_message { font-size: 1em; }
+}
+@media print {
+  .cc_banner-wrapper, .cc_container { display: none; }
+}
+.cc_container { position: fixed; left: 0px; right: 0px; bottom: 0px; overflow: hidden; padding: 10px; }
+.cc_container .cc_btn { padding: 8px 10px; background-color: rgb(241, 214, 0); cursor: pointer; transition: font-size 200ms ease 0s; text-align: center; font-size: 0.6em; display: block; width: 33%; margin-left: 10px; float: right; max-width: 120px; }
+.cc_container .cc_message { transition: font-size 200ms ease 0s; font-size: 0.6em; display: block; }
+@media screen and (min-width: 500px) {
+  .cc_container .cc_btn { font-size: 0.8em; }
+  .cc_container .cc_message { margin-top: 0.5em; font-size: 0.8em; }
+}
+@media screen and (min-width: 768px) {
+  .cc_container { padding: 15px 30px; }
+  .cc_container .cc_btn { font-size: 1em; padding: 8px 15px; }
+  .cc_container .cc_message { font-size: 1em; }
+}
+@media screen and (min-width: 992px) {
+  .cc_container .cc_message { font-size: 1em; }
+}
+.cc_container { background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(153, 153, 153); font-size: 17px; font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri,Helvetica,Arial; box-sizing: border-box; border: 1px solid rgb(204, 204, 204); }
+.cc_container *::-moz-selection { background: rgb(255, 94, 153) none repeat scroll 0% 0%; color: rgb(255, 255, 255); text-shadow: none; }
+.cc_container .cc_btn, .cc_container .cc_btn:visited { color: rgb(0, 0, 0); background-color: rgb(241, 214, 0); transition: background 200ms ease-in-out 0s, color 200ms ease-in-out 0s, box-shadow 200ms ease-in-out 0s; border-radius: 5px; }
+.cc_container .cc_btn:hover, .cc_container .cc_btn:active { background-color: rgb(215, 191, 0); color: rgb(0, 0, 0); }
+.cc_container a, .cc_container a:visited { text-decoration: none; color: rgb(49, 168, 240); transition: color 200ms ease 0s; }
+.cc_container a:hover, .cc_container a:active { color: rgb(85, 85, 85); }
+@keyframes slideUp {
+0% { transform: translateY(66px); }
+100% { transform: translateY(0px); }
+}
+@keyframes slideUp {
+0% { transform: translateY(66px); }
+100% { transform: translateY(0px); }
+}
+.cc_container, .cc_message, .cc_btn { animation-duration: 0.8s; animation-name: slideUp; }
