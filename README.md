@@ -25,4 +25,4 @@ In Proceedings of the 40th International Conference on Software Engineering (ICS
 The 38 real-world web pages used in the evaluation of MFix can be found [here](https://github.com/USC-SQL/mfix/tree/master/ICSE_paper_data/subjects).
 
 ## Questions
-In case of any questions you can email at spmahaja [at] usc {dot} edu
+In case of any questions you can email at halfond [at] usc {dot} edu
